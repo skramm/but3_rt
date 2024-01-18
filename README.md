@@ -1,2 +1,5 @@
 # but3_rt
-Diverses ressources pour étudiants BUT3 RT
+dépot public
+
+Diverses ressources (datasets) pour étudiants BUT3 RT
+
