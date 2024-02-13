@@ -41,5 +41,5 @@ Puis tester ceci:
 
 Vous devez otenir:
 ```
-Docker Compose version vXXX
+docker-compose version XXX
 ```
