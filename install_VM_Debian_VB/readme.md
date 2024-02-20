@@ -1,21 +1,22 @@
-# TITRE
+# Installation de VM Debian sous VirtualBox
 
 ## Procédure
 
-
 1. Créer une nouvelle MV dans VirtualBox de type "Debian 64bits", et la nommer {\btt debian11`.
-Lui assigner 4096~MB de RAM et un disque de 32~GB.
+Lui assigner 4096 MB de RAM et un disque de 32 GB.
 Laisser les autres options à leur valeur par défaut.
 
 **NE PAS LUI ASSIGNER d'ISO !**
 
 
 2. Télécharger l'ISO amd64 de la version 11 de Debian
-(codename "Bullseye"):<br>
+(codename "Bullseye"), en version **netinst** (ISO de taille minimale, et installation du reste via le réseau):<br>
 https://www.debian.org/releases/bullseye/debian-installer/
 
 Le fichier à télécharger doit s'appeler:
-`debian-11.8.0-amd64-netinst.iso`
+`debian-11.X.Y-amd64-netinst.iso`
+<br>
+(avec "X.Y" un numéro de version)
 
 3. Une fois la machine créée, la sélectionner dans VirtualBox et dans ses paramètres, dans la section "Storage", cliquer sur l'icone de disque optique et aller sélectionner l'ISO que vous venez de télécharger:
 
@@ -42,7 +43,8 @@ Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
 **ATTENTION**:
 lors de l'install de `grub`, bien valider l'installation sur le disque, mais à l'écran suivant {\bf ne pas` laisser le choix par défaut (install manuelle) mais sélectionner l'install automatique sur le disque!
 
-4. Une fois l'OS installé, se logger en "root", et après un `apt update/apt upgrade`, installer le bureau "xfce4" et l'utilitaire "sudo": 
+4. Une fois l'OS installé, se logger en "root", et après un `apt update/apt upgrade`, installer le bureau "xfce4" et l'utilitaire "sudo":
+
 `# apt install xfce4 sudo`
 
 5. Ajouter l'utilisateur courant au groupe des sudoers avec:
@@ -56,6 +58,7 @@ lors de l'install de `grub`, bien valider l'installation sur le disque, mais à 
 ```
 
 7. Via le terminal "xterm", installer les paquets suivant:
+
 `$ sudo apt install firefox-esr sudo xfce4-terminal mousepad unzip`
 
 8. Redémarrer la machine, puis une fois le bureau actif, se logger en "user".
@@ -69,6 +72,7 @@ $ xrandr --size 1280*960
 Se logger en "user, puis:
 
 1. Installer Docker avec le gestionnaire de paquet de l'OS:
+
 `$ sudo apt install docker docker.io`
 
 
@@ -78,7 +82,7 @@ $ sudo docker version
 ```
 
 3. En l'état, l'utilisation du client CLI Docker implique les droits "admin" et donc l'usage de "sudo" pour chaque commande, ce qui est un peu ennuyeux.
- 
+<br>
 Pour éviter ceci, il faut ajouter au groupe d'utilisateur docker (qui a normalement été crée lors de l'install de docker) le "user" actuel:
 ```
 $ sudo usermod -aG docker $USER
