@@ -2,7 +2,7 @@
 
 Note 1: suppose une install VirtualBox version 6 ou 7
 
-Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" ou en utiliseur standard.
+Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" ou en utilisateur standard.
 Vérifiez!
 
 ## Procédure
