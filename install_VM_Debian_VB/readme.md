@@ -1,11 +1,16 @@
-# Installation de VM Debian sous VirtualBox
+# Installation de VM Debian 11 sous VirtualBox
+
+Note 1: suppose une install VirtualBox version 6 ou 7
+
+Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" ou en utiliseur standard.
+Vérifiez!
 
 ## Procédure
 
-1. Créer une nouvelle MV dans VirtualBox de type "Debian 64bits", et la nommer `debian11`.
+1. Créer une nouvelle VM dans VirtualBox de type "Debian 64bits", et la nommer `debian11`.
 Lui assigner 4096 MB de RAM et un disque de 32 GB.
 Laisser les autres options à leur valeur par défaut.
-<br>
+
 **NE PAS LUI ASSIGNER d'ISO !**
 
 
@@ -41,7 +46,7 @@ Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
 
 
 **ATTENTION**:
-lors de l'install de `grub`, bien valider l'installation sur le disque, mais à l'écran suivant **ne pas** laisser le choix par défaut (install manuelle) mais sélectionner l'install automatique sur le disque!
+lors de l'install de `grub`, bien valider son installation sur le disque, mais à l'écran suivant **ne pas** laisser le choix par défaut (install "manuelle") mais sélectionner l'install automatique sur le disque!
 
 5. Une fois l'OS installé, se logger en "root", et après un `apt update/apt upgrade`, installer le bureau "xfce4" et l'utilitaire "sudo":
 
@@ -59,7 +64,7 @@ lors de l'install de `grub`, bien valider l'installation sur le disque, mais à 
 
 8. Se logger en "user" puis, via le terminal "xterm", installer les paquets suivant:
 
-`$ sudo apt install firefox-esr sudo xfce4-terminal mousepad unzip`
+`$ sudo apt install firefox-esr xfce4-terminal mousepad unzip`
 
 9. Redémarrer la machine, puis une fois le bureau actif, se logger en "user".
 Ouvrir un terminal et taper:
@@ -69,7 +74,7 @@ $ xrandr --size 1280*960
 
 ## Procédure pour install Docker (si demandé)
 
-Se logger en "user, puis:
+Se logger en "user", puis:
 
 1. Installer Docker avec le gestionnaire de paquet de l'OS:
 
@@ -77,26 +82,23 @@ Se logger en "user, puis:
 
 
 2. Vérifier la version installée et la noter:
-```
-$ sudo docker version
-```
+
+`$ sudo docker version`
 
 3. En l'état, l'utilisation du client CLI Docker implique les droits "admin" et donc l'usage de "sudo" pour chaque commande, ce qui est un peu ennuyeux.
 <br>
 Pour éviter ceci, il faut ajouter au groupe d'utilisateur "docker" (qui a normalement été crée lors de l'install de docker) le "user" actuel:
-```
-$ sudo usermod -aG docker $USER
-```
+
+`$ sudo usermod -aG docker $USER`
 
 4. Les assignations d'utilisateurs aux groupes ne se font que lors du "boot", il faut donc rebooter:
-```
-$ sudo /usr/sbin/shutdown -r now
-```
+
+`$ sudo /usr/sbin/shutdown -r now`
 
 5. Relogger vous en "user" et vérifier que vous pouvez utiliser Docker sans être "root" avec:
-```
-$ docker run hello-world
-```
-Vous pouvez voir avec la commande `$ id` que vous êtes bien dans le groupe "docker".
+
+`$ docker run hello-world`
+
+Vous pouvez aussi voir avec la commande `$ id` que vous êtes bien dans le groupe "docker".
 
 
