@@ -15,7 +15,14 @@ ici du texte
 1. etape 2
 <br>
 ici du texte
+ici encore lorem ipsum lorem ipsum lorem ipsum
+<br>
 1. etape 3
 
-ici encore
+ici encore lorem ipsum lorem ipsum lorem ipsum ici encore lorem ipsum lorem ipsum lorem ipsum
+ici encore lorem ipsum lorem ipsum lorem ipsum
+
+1. etape 3
+
+lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
 
