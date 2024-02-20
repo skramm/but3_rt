@@ -7,7 +7,7 @@
 Lui assigner 4096~MB de RAM et un disque de 32~GB.
 Laisser les autres options à leur valeur par défaut.
 
-** NE PAS LUI ASSIGNER d'ISO !**
+**NE PAS LUI ASSIGNER d'ISO !**
 
 
 2. Télécharger l'ISO amd64 de la version 11 de Debian
@@ -25,23 +25,24 @@ Le fichier à télécharger doit s'appeler:
 
 4. Démarrer la MV et installer l'OS en suivant les différents écrans.
 
-** Bien lire le texte affiché**, et répondre de façon adéquate.
+**Bien lire le texte affiché**, et répondre de façon adéquate.
 Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
 
 
-	 - au démarrage de la procédure d'install, choisir l'install {\bf non-graphique!!};
+	- au démarrage de la procédure d'install, choisir l'install **non-graphique**!!;
 	- laisser la langue en anglais mais bien indiquer dans les étapes après le clavier français;
-	- donner "root" comme mdp admin et créer un utilisateur {\btt user} avec le mdp: user;
+	- donner "root" comme mdp admin et créer un utilisateur `user` avec le mdp: `user`;
 	- laisser les options par défaut pour le partitionnement du disque (tous les fichiers dans la même partition);
 	- lors de la sélection du miroir pour les paquets, bien choisir la France;
-	- lors de la sélection des logiciels à installer, {\bf décocher} les bureaux mais laisser les utilitaires
-(voir ci-dessous).
+	- lors de la sélection des logiciels à installer, **décocher** les bureaux mais laisser les utilitaires (voir ci-dessous).
 
 ![selection_soft](img/debian_soft_select_2)
 
 
 %\begin{enumerate}
-\item {\bf ATTENTION}: lors de l'install de {\btt grub}, bien valider l'installation sur le disque, mais à l'écran suivant {\bf ne pas} laisser le choix par défaut (install manuelle) mais sélectionner l'install automatique sur le disque!
+\item {\bf
+**ATTENTION**:
+lors de l'install de `grub`, bien valider l'installation sur le disque, mais à l'écran suivant {\bf ne pas} laisser le choix par défaut (install manuelle) mais sélectionner l'install automatique sur le disque!
 %\end{enumerate}
 
 \item Une fois l'OS installé, se logger en "root", et après un {\btt apt update/apt upgrade}, installer le bureau "xfce4" et l'utilitaire "sudo": \\
