@@ -1,0 +1,14 @@
+<html>
+<body>
+<h2>Demo tableau 2 colonnes</h2>
+<table>
+<tr><th>Num</th><th></th></tr>
+{% for person in person_list %}
+<tr><td> {{person.name}} </td><td>
+{% if person.age > 17 %}{{ person.age }}
+	{% else %}MINOR{% endif %}
+</td></tr>
+{% endfor %}
+</table>
+</body>
+</html>

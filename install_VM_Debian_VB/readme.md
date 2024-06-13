@@ -2,8 +2,8 @@
 
 Note 1: suppose une install VirtualBox version 6 ou 7
 
-Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" ou en utilisateur standard.
-Vérifiez!
+Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" (`#`)  ou en utilisateur standard (`$`).
+Ceci a une importance, vérifiez!
 
 ## Procédure
 
@@ -15,7 +15,7 @@ Laisser les autres options à leur valeur par défaut.
 
 
 2. Télécharger l'ISO amd64 de la version 11 de Debian
-(codename "Bullseye"), en version **netinst** (ISO de taille minimale, et installation du reste via le réseau):<br>
+(codename "Bullseye") pour l'architecture `amd64`, en version **netinst** (ISO de taille minimale, et installation du reste via le réseau):<br>
 https://www.debian.org/releases/bullseye/debian-installer/
 
 Le fichier à télécharger doit s'appeler:
