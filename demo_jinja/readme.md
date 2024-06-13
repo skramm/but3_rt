@@ -42,7 +42,7 @@ le fichier `testX.html` que vous pouvez ensuite sur l'hote ouvrir dans un naviga
 
 ## 1 - demo Jinja 1
 
-Lancer (depuis le shell du conteneur) [test1.py](demo_jinja/test1.py):
+Lancer (depuis le shell du conteneur) [test1.py](test1.py):
 ```
 $ ./test1.py
 ```
@@ -83,13 +83,13 @@ Voir le fichier Python ainsi que le template pour comprendre comment ça marche.
 
 ## 2 - demo Jinja 2
 
-Lancer [test2.py](demo_jinja/test2.py):
+Lancer [test2.py](test2.py):
 ```
 $ ./test2.py
 ```
 
 Ceci va générer une unique page avec un tableau avec un nombre de lignes dynamique, pas de boucle dans le code Python.
-Dans cette démo, la "boucle" est dans le "template" [test2.html](demo_jinja/templates/test2.html).
+Dans cette démo, la "boucle" est dans le "template" [test2.html](templates/test2.html).
 ```
 <html>
     <head>
@@ -123,7 +123,7 @@ Lancer [test3.py](demo_jinja/test3.py):
 ```
 $ ./test3.py
 ```
-Voir le template [test3.html](demo_jinja/templates/test3.html).
+Voir le template [test3.html](templates/test3.html).
 ```
 <html>
 <body>
