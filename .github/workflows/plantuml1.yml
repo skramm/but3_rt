@@ -1,0 +1,19 @@
+# plantuml gantt demo
+
+name: plantuml_gantt_demo
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  job1:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install plantuml
+        run: sudo apt-get -y install plantuml
+      - name: Run makefile
+        run: cd plantuml_gantt;make
+        
+
