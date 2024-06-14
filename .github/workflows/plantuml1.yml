@@ -8,13 +8,13 @@ on:
 
 jobs:
   job1:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
       - name: Install plantuml
         run: sudo apt-get -y install plantuml
       - name: Show plantuml version
-        run: plantuml --version
+        run: lsb_release -a;pwd;plantuml --version
       - name: Run makefile
         run: cd plantuml_gantt;pwd;make all1
         
