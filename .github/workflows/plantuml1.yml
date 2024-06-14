@@ -11,12 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Install plantuml
-        run: sudo apt-get -y install plantuml
+# 20240614: ubuntu-latest install en fait Ubuntu22, et le
+# parque correspondant pour plantum est la version... 2020!
+# ... qui ne permet pas de compiler les fichiers
+#      - name: Install plantuml
+#        run: sudo apt-get -y install plantuml
+      - name: Install plantuml from release
+        run: wget https://github.com/plantuml/plantuml/releases/download/v1.2023.11/plantuml-1.2023.11.jar;cp plantuml-1.2023.11.jar /usr/local/bin/plantuml.jar
       - name: Show OS version
         run: lsb_release -a;pwd
-      - name: Show plantuml version
-        run: plantuml -version
+#      - name: Show plantuml version
+#        run: plantuml -version
+      - name: Show java version
+        run: java -version
       - name: Run makefile
         run: cd plantuml_gantt;pwd;make all1
         

@@ -12,6 +12,8 @@ all2: $(OUTFILES_2)
 	plantuml $<
 	
 %.svg: %.gantt
-	plantuml -tsvg $<
+	java -jar /usr/local/bin/plantuml.jar $<
+#	plantuml -tsvg $<
+	
 	
 	
