@@ -9,9 +9,13 @@ pour la génération de
 Ceci permet une approche scriptable/versionnable de vos diagrammes de Gantt.
 
 Pour les génerer, il faut:
-* avoir une install de plantuml fonctionnelle (testé avec 2023.11)
+* avoir une install de plantuml fonctionnelle
+(testé avec la verison [2023.11](https://github.com/plantuml/plantuml/releases/tag/v1.2023.11))
 * lancer `$ ./run.sh` depuis le dossier dans une console
 (la production via le makefile semble hasardeuse).
+<br>
+Ce script génère les images en deux formats: png (bitmap) et svg (vectoriel).
+Ce dernier format est préférable si on veut redimmensionner l'image.
 
 A noter qu'une intégration continue (CI) est mise en place, mais les fichiers générés ne sont pour l'instant pas uploadés
 (et gh ne les conserve de toutes façons que 90 jours), donc pour plus de facilités, ils sont présents ici de façon statique.
