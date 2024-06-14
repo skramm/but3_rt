@@ -1,11 +1,17 @@
 
 INFILES  :=$(wildcard *.gantt)
-OUTFILES :=$(patsubst %.gantt,%.png,$(INFILES))
+OUTFILES_1 :=$(patsubst %.gantt,%.png,$(INFILES))
+OUTFILES_2 :=$(patsubst %.gantt,%.svg,$(INFILES))
 
 
-all: $(OUTFILES) 
+all1: $(OUTFILES_1)
+
+all2: $(OUTFILES_2)  
 
 %.png: %.gantt
 	plantuml $<
+	
+%.svg: %.gantt
+	plantuml -tsvg $<
 	
 	

@@ -13,7 +13,9 @@ jobs:
       - uses: actions/checkout@v3
       - name: Install plantuml
         run: sudo apt-get -y install plantuml
+      - name: Show plantuml version
+        run: plantuml --version
       - name: Run makefile
-        run: cd plantuml_gantt;make
+        run: cd plantuml_gantt;pwd;make all1
         
 

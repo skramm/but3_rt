@@ -20,4 +20,5 @@ $ git pull
 | install_VM_Debian_VB |  Note sur l'installation de VM Debian |
 | regex |  Fichiers de test pour le TP sur les regex (BUT3) |
 | TP_ACL_SUID | Fichier source pour TP BUT3 |
+| plantuml_gantt | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 
