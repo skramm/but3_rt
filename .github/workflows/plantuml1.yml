@@ -16,7 +16,7 @@ jobs:
       - name: Show OS version
         run: lsb_release -a;pwd
       - name: Show plantuml version
-        run: plantuml --version
+        run: plantuml -version
       - name: Run makefile
         run: cd plantuml_gantt;pwd;make all1
         
