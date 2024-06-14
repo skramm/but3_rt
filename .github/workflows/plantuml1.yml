@@ -24,7 +24,7 @@ jobs:
 #        run: plantuml -version
       - name: Show java version
         run: java -version
-      - name: Run makefile
-        run: cd plantuml_gantt;pwd;make all1
+      - name: Run script
+        run: cd plantuml_gantt;./run.sh
         
 
