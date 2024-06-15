@@ -1,0 +1,34 @@
+@startgantt
+scale 800*300
+title Super Projet
+Project starts 2024-07-01
+[Brainstorming] as [T1] lasts 3 days
+[config DNS] as [T2] lasts 3 days
+[config DHCP] as [T3] lasts 2 days
+[Config Nginx] as [T4] lasts 5 days
+[Essais] as [T5] lasts 3 days
+
+
+[Correctifs] as [T6] lasts 5 days
+
+[T1] is colored in #C64
+[T2] is colored in #4B9
+[T3] is colored in yellow
+[T4] is colored in #58A
+[T5] is colored in red
+[T6] is colored in #ccc
+
+[T2] starts at [T1]'s end
+[T3] starts at [T1]'s end
+[T4] starts at [T1]'s end
+[T5] starts at [T4]'s end
+[Validation] happens at [T5]'s end
+[T6] starts at [T5]'s end
+
+
+
+@endgantt
+
+
+
+
