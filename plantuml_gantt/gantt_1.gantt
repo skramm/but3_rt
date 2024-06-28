@@ -1,0 +1,25 @@
+@startgantt
+<style>
+ganttDiagram {
+	task {
+		FontName Helvetica
+		FontColor red
+		FontSize 18
+		FontStyle bold
+		BackGroundColor GreenYellow
+		LineColor blue
+	}
+	milestone {
+		FontColor blue
+		FontSize 25
+		FontStyle italic
+		BackGroundColor yellow
+		LineColor red
+	}
+}
+</style>
+title Mon projet
+[Développement] as [T1] lasts 15 days
+[Release] happens at [T1]'s end
+@endgantt
+
