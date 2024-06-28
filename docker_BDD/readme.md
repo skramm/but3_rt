@@ -30,7 +30,12 @@ $ docker run \
 	mysql:5.7
 ```
 
-Ceci va créer le conteneur, qu'on peut voir avec la commande:
+Options:
+- `-d`: exécution en mode "detached"
+- `-p`: publication du port
+- `--rm`: suppression du conteneur après son arrêt
+
+Cette commande va créer le conteneur, qu'on peut voir avec la commande:
 ```
 $ docker ps
 CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS          PORTS                 NAMES
@@ -41,14 +46,16 @@ On peut maintenant accéder à ce serveur via le nom d'hôte (`monserveur` ici),
 
 On peut lancer ce dernier dans le shell de l'hote (s'il est installé) avec cette commande:
 ```
-$ mysql -u root --port=3306 -h 127.0.0.1 -p'secret'
+$ mysql -u root --port=3306 -h 127.0.0.1 -p'secretpw'
 ```
 ou
 ```
-$ mysql -u root --port=3306 --protocol=TCP -p'secret'
+$ mysql -u root --port=3306 --protocol=TCP -p'secretpw'
 ```
 
 Ceci ouvre un shell "sql", dans lequel on peut taper des commandes SQL ou des commandes de gestion.
+La doc donnant ces commandes est ici: https://dev.mysql.com/doc/refman/8.4/en/mysql.html
+
 Pour quitter, taper `exit;`.
 
 
