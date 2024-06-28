@@ -62,7 +62,8 @@ Il faut d'abord le créer:
 $ docker volume create mesdatas
 ```
 
-Puis le lancement du serveur, en spécifiant le dossier où MySql stocke les données:
+Puis le lancement du serveur, en associant au volume le dossier où MySql stocke ses données
+(`/var/lib/mysql`):
 ```
 $ docker run \
 	--name monserveur \
