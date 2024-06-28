@@ -1,11 +1,17 @@
 # Conteneurisation d'un SGBD avec Docker
 
+S. Kramm - 2024
+
+Cette page détaille l'utilisation d'un serveur MySql (ou MariaDB, voir plus bas) de façon conteneurisée avec Docker.
+
+Pour des détails, voir aussi: https://hub.docker.com/_/mysql
+
 
 ## Utilisation de MySql 5.7
 
-Cette méthode est la plus simple, mais cette version est en fin de vie, il n'y a plus de mises à jour depuis octobre 2023.
+L'utilisation de cette version est la plus simple, mais cette version est en fin de vie, il n'y a plus de mises à jour depuis octobre 2023.
 
-** Etapes **
+**Etapes**
 
 Il faut d'abord créer un réseau virtuel:
 ```
@@ -46,11 +52,35 @@ Ceci ouvre un shell "sql", dans lequel on peut taper des commandes SQL ou des co
 Pour quitter, taper `exit;`.
 
 
+### Stockage séparé
+
+En lancant le serveur de cette façon, les données sont stockées dans le conteneur!
+Conséquence: toutes les données qu'on pourrait y stocker sont perdues à l'arret du conteneur.
+Pour avoir un stockage séparé, il faut indiquer un **volume** lors du lancement du serveur.
+Il faut d'abord le créer:
+```
+$ docker volume create mesdatas
+```
+
+Puis le lancement du serveur, en spécifiant le dossier où MySql stocke les données:
+```
+$ docker run \
+	--name monserveur \
+	--network=mynetwork \
+	--rm
+	-e MYSQL_ROOT_PASSWORD=secretpw \
+	-v mesdatas:/var/lib/mysql \
+	-d \
+	-p 3306:3306
+	mysql:5.7
+```
+
+
 ## Utilisation de MySql 8
 
-**Note1**: pour une raison que personne ne comprends vraiment (et qui a fait sourire al communauté), MySql est passé directement de version 5 à version 8...
+**Note1**: pour une raison que personne ne comprends vraiment (et qui a fait sourire la communauté), MySql est passé directement de version 5 à version 8...
 
-**Note2**: Sous Debian et dérivés (Ubuntu, ...) l'installation de MySql installe en fait le fork MariaDB, mais c'est en fait quasi transparent à l'usage.
+**Note2**: Sous Debian et dérivés (Ubuntu, ...) l'installation de MySql installe en fait le fork MariaDB, mais c'est quasi transparent à l'usage.
 
 **Note3**: Les procédures d'authentification ont été renforcées dans cette version, ce qui amène des détails supplémentaires à gérer.
 
