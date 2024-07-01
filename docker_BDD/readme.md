@@ -7,7 +7,7 @@ Cette page détaille l'utilisation d'un serveur MySql (ou MariaDB, voir plus bas
 Pour des détails, voir aussi: https://hub.docker.com/_/mysql
 
 
-## Utilisation de MySql 5.7
+## 1 - Utilisation de MySql 5.7
 
 L'utilisation de cette version est la plus simple, mais cette version est en fin de vie, il n'y a plus de mises à jour depuis octobre 2023.
 
@@ -87,7 +87,7 @@ $ docker run \
 	mysql:5.7
 ```
 
-## Utilisation de MySql 8
+## 2 - Utilisation de MySql 8
 
 **Note1**: pour une raison que personne ne comprends vraiment (et qui a fait sourire la communauté), MySql est passé directement de version 5 à version 8...
 
@@ -101,7 +101,7 @@ En l'état, il est préférable d'utiliser MariaDB, logiciel libre et open sourc
 indépendant de toute entité commerciale.
 
 
-## Utilisation de MariaDB
+## 3 - Utilisation de MariaDB
 
 L'usage est très similaire à MySQL5.7.
 Il faut cependant prévoir un volume spécifique:
