@@ -61,6 +61,11 @@ La doc donnant ces commandes est ici: https://dev.mysql.com/doc/refman/8.4/en/my
 
 Pour quitter, taper `exit;`.
 
+On peut aussi utiliser ce client CLI pour automatiser des actions sur ce serveur, en lui "passant" un fichier contenant des commandes SQL
+(création d'une BDD, création d'une table dans une BDD, rempissage d'une table, etc.):
+```
+$ mysql -u root --port=3306 -h 127.0.0.1 -p'secretpw' < fichier.sql
+```
 
 ### Stockage séparé
 
