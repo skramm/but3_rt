@@ -42,7 +42,10 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS    
 6863de356300   mysql:5.7   "docker-entrypoint.s…"   1 minute ago   Up 1 minutes   3306/tcp, 33060/tcp   monserveur
 ```
 
-On peut maintenant accéder à ce serveur via le nom d'hôte (`monserveur` ici), soit via une appli (php, Python-Flask, ...), soit via le client CLI.
+Attention, en cas de plantage au démarrage, le conteneur sera supprimé (option `---rm`) et on ne pourra par analyser le problème.
+Il faudra relancer le conteneur sans cette option, attendre son arret, puis examiner le problème avec `$ docker logs monserveur`.
+
+Si le conteneur démarre, on peut y accéder à ce serveur via le nom d'hôte (`monserveur` ici), soit via une appli (php, Python-Flask, ...), soit via le client CLI.
 
 On peut lancer ce dernier dans le shell de l'hote (s'il est installé) avec cette commande:
 ```
@@ -61,8 +64,9 @@ Pour quitter, taper `exit;`.
 
 ### Stockage séparé
 
-En lancant le serveur de cette façon, les données sont stockées dans le conteneur!
-Conséquence: toutes les données qu'on pourrait y stocker sont perdues à l'arret du conteneur.
+En lancant le serveur de cette façon, les données sont stockées dans le conteneur.
+Conséquence: toutes les données qu'on pourrait y stocker sont perdues à l'arret du conteneur!
+
 Pour avoir un stockage séparé, il faut indiquer un **volume** lors du lancement du serveur.
 Il faut d'abord le créer:
 ```
@@ -83,19 +87,39 @@ $ docker run \
 	mysql:5.7
 ```
 
-
 ## Utilisation de MySql 8
 
 **Note1**: pour une raison que personne ne comprends vraiment (et qui a fait sourire la communauté), MySql est passé directement de version 5 à version 8...
 
-**Note2**: Sous Debian et dérivés (Ubuntu, ...) l'installation de MySql installe en fait le fork MariaDB, mais c'est quasi transparent à l'usage.
+**Note2**: Sous Debian et dérivés (Ubuntu, ...) l'installation de MySql installe en fait le fork
+[MariaDB](https://fr.wikipedia.org/wiki/MariaDB),
+mais c'est quasi transparent à l'usage.
 
 **Note3**: Les procédures d'authentification ont été renforcées dans cette version, ce qui amène des détails supplémentaires à gérer.
+En l'état, il est préférable d'utiliser MariaDB, logiciel libre et open source sous licence
+[GPLv2](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_GNU),
+indépendant de toute entité commerciale.
 
 
-** TODO **
+## Utilisation de MariaDB
 
+L'usage est très similaire à MySQL5.7.
+Il faut cependant prévoir un volume spécifique:
+```
+docker volume create data_mdb
 
+docker run \
+	--name maria \
+	--network=bddnet \
+	-e MARIADB_ROOT_PASSWORD=secret \
+	-v data_mdb:/var/lib/mysql \
+	--rm
+	-d \
+	-p 3309:3306 \
+	mariadb:11.2
+```
+
+Sous Linux/Ubuntu, le client MySql étant déjà issu de MariaDB, la connexion depuis l'hote se fait comme ci-dessus (en faidant attention au n° de port).
 
 
 
