@@ -69,7 +69,7 @@ lors de l'install de `grub`, bien valider son installation sur le disque, mais �
 9. Redémarrer la machine, puis une fois le bureau actif, se logger en "user".
 Ouvrir un terminal et taper:
 ```
-$ xrandr --size 1280*960
+$ xrandr --size 1280x960
 ```
 
 ## Procédure pour install Docker (si demandé)
