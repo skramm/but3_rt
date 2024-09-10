@@ -71,6 +71,11 @@ Ouvrir un terminal et taper:
 ```
 $ xrandr --size 1280x960
 ```
+Si cette résolution parait inadaptée, vous pouvez afficher la liste des résolutions d'écrans disponibles avec
+```
+$ xrandr
+```
+et en choisir une autre.
 
 ## Procédure pour install Docker (si demandé)
 

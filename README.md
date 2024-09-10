@@ -22,4 +22,5 @@ $ git pull
 | [TP_ACL_SUID](TP_ACL_SUID/)       | Fichier source pour TP BUT3 |
 | [plantuml_gantt](plantuml_gantt/) | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 | [docker_BDD](docker_BDD/)         | démo du lancement d'un serveur de BDD dans un conteneur docker |
+| [génération clés SSH](génération_clés_SSH/)          | génération de clés SSH pour clonage dépot Git |
 
