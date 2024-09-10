@@ -25,30 +25,34 @@ Ceci implique de créer préalablement une paire de clés, l'une privée, l'autr
 Les étapes ci-dessous décrive ce processus:
 
 1. Dans une console ouverte dans votre "home" de votre machine (`$ cd ~`), générer une paire de clés avec:
-<br>
-`$ ssh-keygen` 
-<br>
+```
+`$ ssh-keygen
+```
 Valider avec entrée en laissant toutes les questions avec les réponses par défaut.
 
 2. Visualiser la paire de clés générée avec:
-<br>
-`$ ls -l .ssh/`
-<br>
+```
+`$ ls -l .ssh/
+```
 Vous devez observer deux fichiers, dont le nom comprend l'algo utilisé pour la génération (rsa ou ed25519), l'un sans extension, l'autre se terminant par `.pub`.
 Ce dernier contient la clé **publique**, que vous pouvez transmettre à tout le monde, l'autre contient la clé **privée**, qui ne devra pas quitter la machine.
 
 3. Lancer l'agent ssh local sur la machine:
-`$ eval "\$(ssh-agent -s)"`
+```
+$ eval "\$(ssh-agent -s)"
+```
 
 4. Ajouter la clé privée à cet agent:
-<br>
-`$ ssh-add ~/.ssh/id_ed25519`
-<br>
+```
+$ ssh-add ~/.ssh/id_ed25519
+```
 (ou `$ ssh-add ~/.ssh/id_rsa` si l'algo utilisé est RSA)
 
 5. Ouvrir le fichier contenant la clé **publique** en tapant:
-<br>
-`$ pluma ~/.ssh/id\ed25519.pub` (ou `id_rsa.pub`)
+```
+$ pluma ~/.ssh/id\ed25519.pub
+```
+(ou `id_rsa.pub`)
 <br>
 __Note__: si pluma n'est pas installé sur votre machine, essayer mousepad ou tout autre éditeur GUI installé sur la machine.
 
