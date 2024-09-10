@@ -42,13 +42,13 @@ Ce dernier contient la clé **publique**, que vous pouvez transmettre à tout le
 
 4. Ajouter la clé privée à cet agent:
 <br>
-`$ ssh-add $\sim$/.ssh/id_ed25519`
+`$ ssh-add ~/.ssh/id_ed25519`
 <br>
-(ou `$ ssh-add $\sim$/.ssh/id_rsa` si l'algo utilisé est RSA)
+(ou `$ ssh-add ~/.ssh/id_rsa` si l'algo utilisé est RSA)
 
 5. Ouvrir le fichier contenant la clé **publique** en tapant:
 <br>
-`$ pluma $\sim$/.ssh/id\ed25519.pub` (ou `id\_rsa.pub`)
+`$ pluma ~/.ssh/id\ed25519.pub` (ou `id_rsa.pub`)
 <br>
 __Note__: si pluma n'est pas installé sur votre machine, essayer mousepad ou tout autre éditeur GUI installé sur la machine.
 
