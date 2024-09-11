@@ -27,13 +27,14 @@ Les étapes ci-dessous décrivent ce processus:
 ```
 $ ssh-keygen
 ```
-Valider avec entrée en laissant toutes les questions avec les réponses par défaut.
+Valider avec entrée en laissant toutes les questions avec **les réponses par défaut**
+(taper "Entrée" à chaque question).
 
 2. Visualiser la paire de clés générée avec:
 ```
 $ ls -l .ssh/
 ```
-Vous devez observer deux fichiers, `id_ALGO.pub` et `id_ALGO`, avec ALGO étant l'algorithme utilisé pour la génération de cette paire de clés.
+Vous devez observer deux fichiers, `id_ALGO.pub` et `id_ALGO`, avec `ALGO` étant l'algorithme utilisé pour la génération de cette paire de clés.
 Selon la version/distribution Linux, vous aurez `rsa` ou `ed25519`.
 Le premier (`.pub`) contient la clé **publique**, que vous pouvez transmettre à tout le monde, l'autre contient la clé **privée**, qui ne devra pas quitter la machine.  
 (Dans la suite, remplacer `ALGO` dans le nom de fichier par ce que vous avez.)
@@ -43,7 +44,7 @@ Le premier (`.pub`) contient la clé **publique**, que vous pouvez transmettre �
 $ eval "$(ssh-agent -s)"
 ```
 
-4. Ajouter la clé privée à cet agent:
+4. Ajouter la clé **privée** à cet agent:
 ```
 $ ssh-add ~/.ssh/id_ALGO
 ```
@@ -54,7 +55,7 @@ $ pluma ~/.ssh/id_ALGO.pub
 ```
 __Note__: si pluma n'est pas installé sur votre machine, essayer mousepad ou tout autre éditeur GUI installé sur la machine.
 
-6. Sélectionner tout le contenu (CTRL-A), le copier (CTRL-C), aller sur son profil Github (en haut à droite), sélectionner "__Settings__".
+6. Sélectionner tout le contenu (CTRL-A), le copier (CTRL-C), aller sur son profil Github (en haut à droite) et sélectionner "__Settings__".  
 Dans le panneau qui s'ouvre à gauche, sélectionner "__SSH and GPG keys__", puis cliquer sur le bouton vert "__New SSH key__" et copier la clé dans la zone de texte "__Key__" avec CTRL-V.
 
 7. Ajouter un identifiant à cette clé dans le champ "__Title__", pour pouvoir reconnaitre plus tard la machine sur laquelle vous l'avez crée.
@@ -65,7 +66,7 @@ Sur la page du dépot, cliquer sur le bouton vert "__Code__", puis cliquer sur "
 (__copy URL to clipboard__)
 
 9. Dans votre console, taper `git clone ` (avec l'espace!), puis SHIFT-CTRL-V, et entrée.  
-Note: vous pouvez ajouter un nom de dossier en argument, si vous souhaitez créer le dépot local avec un autre nom.
+__Note__: vous pouvez ajouter un nom de dossier en argument, si vous souhaitez créer le dépot local avec un autre nom.
 
 10. `$ cd nom-du-depot`
 
