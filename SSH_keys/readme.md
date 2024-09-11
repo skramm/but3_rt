@@ -33,8 +33,10 @@ Valider avec entrée en laissant toutes les questions avec les réponses par dé
 ```
 $ ls -l .ssh/
 ```
-Vous devez observer deux fichiers, dont le nom comprend l'algo utilisé pour la génération (par défaut, rsa ou ed25519, selon la distribution Linux), l'un sans extension, l'autre se terminant par `.pub`.
-Ce dernier contient la clé **publique**, que vous pouvez transmettre à tout le monde, l'autre contient la clé **privée**, qui ne devra pas quitter la machine.
+Vous devez observer deux fichiers, `id_ALGO.pub` et `id_ALGO`, avec ALGO étant l'algorithme utilisé pour la génération de cette paire de clés.
+Selon la version/distribution Linux, vous aurez `rsa` ou `ed25519`.
+Le premier (`.pub`) contient la clé **publique**, que vous pouvez transmettre à tout le monde, l'autre contient la clé **privée**, qui ne devra pas quitter la machine.  
+(Dans la suite, remplacer `ALGO` dans le nom de fichier par ce que vous avez.)
 
 3. Lancer l'agent ssh local sur la machine:
 ```
@@ -43,16 +45,13 @@ $ eval "$(ssh-agent -s)"
 
 4. Ajouter la clé privée à cet agent:
 ```
-$ ssh-add ~/.ssh/id_ed25519
+$ ssh-add ~/.ssh/id_ALGO
 ```
-(ou `id_rsa` si l'algo utilisé est RSA)
 
 5. Ouvrir le fichier contenant la clé **publique** en tapant:
 ```
-$ pluma ~/.ssh/id_ed25519.pub
+$ pluma ~/.ssh/id_ALGO.pub
 ```
-(ou `id_rsa.pub`)
-<br>
 __Note__: si pluma n'est pas installé sur votre machine, essayer mousepad ou tout autre éditeur GUI installé sur la machine.
 
 6. Sélectionner tout le contenu (CTRL-A), le copier (CTRL-C), aller sur son profil Github (en haut à droite), sélectionner "__Settings__".
@@ -69,7 +68,5 @@ Sur la page du dépot, cliquer sur le bouton vert "__Code__", puis cliquer sur "
 Note: vous pouvez ajouter un nom de dossier en argument, si vous souhaitez créer le dépot local avec un autre nom.
 
 10. `$ cd nom-du-depot`
-
-
 
 
