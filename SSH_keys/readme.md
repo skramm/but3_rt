@@ -7,10 +7,9 @@ La procédure complète est décrite dans ce lien, les items ci-dessous en sont 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 Il faut au préalable se créer un compte (gratuit) sur https://github.com.
-
-- Une fois connecté, vous pouvez créer un dépot (gros bouton vert).
+Une fois connecté, vous pouvez créer un dépot (gros bouton vert).
 Lui donner le nom demandé dans le sujet de TP.
-<br>
+
 **Attention** : valider la case à cocher pour avoir la création automatique du fichier `README.md`.
 Ce fichier texte permettra de donner des informations générales sur ce que contient ce dépot, au [format Markdown](https://fr.wikipedia.org/wiki/Markdown).
 
@@ -22,35 +21,35 @@ Pour pouvoir pousser sur le dépot, il faudra **à chaque fois** fournir un "tok
 
 Pour éviter cette problématique, il est préférable de cloner via le protocole "git", qui s'appuie sur SSH.
 Ceci implique de créer préalablement une paire de clés, l'une privée, l'autre publique, puis de configurer votre machine locale et votre compte Github pour pouvoir utiliser ces clés.
-Les étapes ci-dessous décrive ce processus:
+Les étapes ci-dessous décrivent ce processus:
 
 1. Dans une console ouverte dans votre "home" de votre machine (`$ cd ~`), générer une paire de clés avec:
 ```
-`$ ssh-keygen
+$ ssh-keygen
 ```
 Valider avec entrée en laissant toutes les questions avec les réponses par défaut.
 
 2. Visualiser la paire de clés générée avec:
 ```
-`$ ls -l .ssh/
+$ ls -l .ssh/
 ```
-Vous devez observer deux fichiers, dont le nom comprend l'algo utilisé pour la génération (rsa ou ed25519), l'un sans extension, l'autre se terminant par `.pub`.
+Vous devez observer deux fichiers, dont le nom comprend l'algo utilisé pour la génération (par défaut, rsa ou ed25519, selon la distribution Linux), l'un sans extension, l'autre se terminant par `.pub`.
 Ce dernier contient la clé **publique**, que vous pouvez transmettre à tout le monde, l'autre contient la clé **privée**, qui ne devra pas quitter la machine.
 
 3. Lancer l'agent ssh local sur la machine:
 ```
-$ eval "\$(ssh-agent -s)"
+$ eval "$(ssh-agent -s)"
 ```
 
 4. Ajouter la clé privée à cet agent:
 ```
 $ ssh-add ~/.ssh/id_ed25519
 ```
-(ou `$ ssh-add ~/.ssh/id_rsa` si l'algo utilisé est RSA)
+(ou `id_rsa` si l'algo utilisé est RSA)
 
 5. Ouvrir le fichier contenant la clé **publique** en tapant:
 ```
-$ pluma ~/.ssh/id\ed25519.pub
+$ pluma ~/.ssh/id_ed25519.pub
 ```
 (ou `id_rsa.pub`)
 <br>
@@ -66,8 +65,7 @@ En effet, il faudra faire cette manip sur chaque nouvelle machine où vous aurez
 Sur la page du dépot, cliquer sur le bouton vert "__Code__", puis cliquer sur "__SSH__" et enfin copier le lien avec le bouton en bout de ligne
 (__copy URL to clipboard__)
 
-9. Dans votre console, taper `git clone ` (avec l'espace!), puis SHIFT-CTRL-V, et entrée.
-<br>
+9. Dans votre console, taper `git clone ` (avec l'espace!), puis SHIFT-CTRL-V, et entrée.  
 Note: vous pouvez ajouter un nom de dossier en argument, si vous souhaitez créer le dépot local avec un autre nom.
 
 10. `$ cd nom-du-depot`
