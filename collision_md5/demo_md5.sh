@@ -2,6 +2,10 @@
 # source: Marc Stevens
 # https://twitter.com/realhashbreaker/status/1770161965006008570
 
+# Ces deux chaines semblent identiques, mais il y a une tout petite différence
+# (de 1 bit, en fait)
+# pouvez-vous la voir?
+
 str1='TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak'
 str2='TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak'
 

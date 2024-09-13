@@ -69,8 +69,13 @@ lors de l'install de `grub`, bien valider son installation sur le disque, mais �
 9. Redémarrer la machine, puis une fois le bureau actif, se logger en "user".
 Ouvrir un terminal et taper:
 ```
-$ xrandr --size 1280*960
+$ xrandr --size 1280x960
 ```
+Si cette résolution parait inadaptée, vous pouvez afficher la liste des résolutions d'écrans disponibles avec
+```
+$ xrandr
+```
+et en choisir une autre.
 
 ## Procédure pour install Docker (si demandé)
 
