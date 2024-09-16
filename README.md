@@ -23,4 +23,6 @@ $ git pull
 | [plantuml_gantt](plantuml_gantt/) | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 | [docker_BDD](docker_BDD/)         | démo du lancement d'un serveur de BDD dans un conteneur docker |
 | [génération clés SSH](SSH_keys/)  | génération de clés SSH pour clonage dépot Git |
+| [Trucs divers pout Git](git_TA)   | Trucs divers pour Git |
+
 

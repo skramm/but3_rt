@@ -20,10 +20,4 @@ Par exemple, si on veut ajouter la visualisation du dépot distant, on mettra:
 alias gits="git remote -v;git status"
 ```
 
-liste à puces
-
-- faire ceci
-- faire cela
-
-
 
