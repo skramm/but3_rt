@@ -44,7 +44,7 @@ Des outils très évolués existent, mais il peut être pertinent de commencer p
 La commande `htop` montre sur un écran unique les différents paramètres.
 Fonctionne en mode console, donc accessible même si le serveur n'a pas de bureau graphique.
 
-[![htop](htop_1000.jpg)](https://fr.wikipedia.org/wiki/Htop)
+[![htop](htop_800.jpg)](https://fr.wikipedia.org/wiki/Htop)
 
 
 ### Etat de la RAM
