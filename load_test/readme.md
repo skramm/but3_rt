@@ -53,7 +53,7 @@ Pour la RAM uniquement:
 - la commande `free` montre la quantité de RAM libre et utilisée sur une machine, de façon ponctuelle  
 (à utiliser avec l'option `-h` pour avoir des unités "humaines").  
 - la commande `watch` permet d'exécuter une commande de façon périodique, en mettant à jour sur la même console.
-- On peut donc associe les deux pour visualiser l'état de la RAM sur la machine concernée avec:
+- On peut associer les deux pour visualiser en temps réel l'état de la RAM sur la machine concernée avec:
 ```
 $ watch free -h
 ```
