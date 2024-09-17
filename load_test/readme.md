@@ -39,21 +39,50 @@ On parle ici de "Monitoring" de la machine (ou du conteneur)
 
 Des outils très évolués existent, mais il peut être pertinent de commencer par le "bas niveau", via des outils simples donnant accès aux paramètres essentiels de la machine.
 
+
+### Monitoring temps réel
+La commande `htop` montre sur un écran unique les différents paramètres.
+Fonctionne en mode console, donc accessible même si le serveur n'a pas de bureau graphique.
+
+[![htop](htop_1000.jpg)](https://fr.wikipedia.org/wiki/Htop)
+
+
+### Etat de la RAM
+
 Pour la RAM uniquement:
 - la commande `free` montre la quantité de RAM libre et utilisée sur une machine, de façon ponctuelle  
-(à utliser avec l'option `-h` pour avoir des unités "humaines").
+(à utiliser avec l'option `-h` pour avoir des unités "humaines").  
 - la commande `watch` permet d'exécuter une commande de façon périodique, en mettant à jour sur la même console.
 - On peut donc associe les deux pour visualiser l'état de la RAM sur la machine concernée avec:
 ```
 $ watch free -h
 ```
 
-La commande `htop` montre sur un écran unique les différents paramètres.
-Fonctionne en mode console, donc accessible même si le serveur n'a pas de bureau graphique.
+La commande free fait en fait une extraction des données fournies par le kernel, qui sont acessible dans le fichier virtuel
+`/proc/meminfo`.
+A tester:
+```
+$ cat /proc/meminfo
+```
 
+Si on souhaite réaliser un "logging" de certaines infos, par exemple de la RAM libre, on peut faire:
+```
+$ cat /proc/meminfo | grep MemFree >> fichierlog
+```
+
+Si on veut utiliser le "daemon" `journalctl`, ce sera:
+```
+$ cat /proc/meminfo | grep MemFree | systemd-cat
+```
+(voir les options permettant de préciser le degré de criticité.)
+
+
+
+### __Load Average__
 La commande `uptime` montre le temps depuis lequel la machine est allumée, mais aussi (et surtout) le **Load Average**, qui donne une indication de la charge CPU
 (voir https://www.digitalocean.com/community/tutorials/load-average-in-linux )
 
+Ceci peut être facilement loggé (voir ci-dessus).
 
 
 
