@@ -1,6 +1,6 @@
 # Outils de tests de charge
 
-Cette page référence de faon **non exhaustive** différents outils et technique pour:
+Cette page référence de façon **non exhaustive** différents outils et techniques pour:
 
 - générer du traffic artificiel sur une machine
 - générer des informations sur le comportement de la machine 
@@ -18,9 +18,12 @@ Quelques pistes:
 
 - Curl:
 ```
-$ curl -s "http://google.com?[1-1000]"
+$ curl -s "https://google.com?[1-1000]"
 ```
-voir https://serverfault.com/a/358464/178363
+(source: https://serverfault.com/a/358464/178363)  
+Ceci va générer 1000 requetes.
+On peut spécifier de nombreuses options et en particulier préciser les "__headers__" HTTP, voire envoyer du contenu avec un `POST`.
+Voir le manuel.
 - Apache fournit son propre testeur de charge, qui s'appelle "ApacheBench" (`ab`):  
 https://httpd.apache.org/docs/current/programs/ab.html  
 (peut s'utiliser pour tester un Nginx aussi)
