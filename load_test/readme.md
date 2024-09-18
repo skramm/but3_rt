@@ -22,7 +22,7 @@ $ curl -s "https://google.com?[1-1000]"
 ```
 (source: https://serverfault.com/a/358464/178363)  
 Ceci va générer 1000 requetes.
-On peut spécifier de nombreuses options et en particulier préciser les "__headers__" HTTP, voire envoyer du contenu avec un `POST`.
+On peut spécifier de nombreuses options et en particulier préciser les "__headers__" HTTP, ou envoyer du contenu avec un `POST`.
 Voir le manuel.
 - Apache fournit son propre testeur de charge, qui s'appelle "ApacheBench" (`ab`):  
 https://httpd.apache.org/docs/current/programs/ab.html  

@@ -43,9 +43,9 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS    
 ```
 
 Attention, en cas de plantage au démarrage, le conteneur sera supprimé (option `---rm`) et on ne pourra par analyser le problème.
-Il faudra relancer le conteneur sans cette option, attendre son arret, puis examiner le problème avec `$ docker logs monserveur`.
+Il faudra relancer le conteneur **sans** cette option, attendre son arret, puis examiner le problème avec `$ docker logs monserveur`.
 
-Si le conteneur démarre, on peut y accéder à ce serveur via le nom d'hôte (`monserveur` ici), soit via une appli (php, Python-Flask, ...), soit via le client CLI.
+Si le conteneur démarre, on peut accéder à ce serveur via le nom d'hôte (`monserveur` ici), soit via une appli (php, Python-Flask, ...), soit via le client CLI `mysql`.
 
 On peut lancer ce dernier dans le shell de l'hote (s'il est installé) avec cette commande:
 ```
@@ -56,7 +56,7 @@ ou
 $ mysql -u root --port=3306 --protocol=TCP -p'secretpw'
 ```
 
-Ceci ouvre un shell "sql", dans lequel on peut taper des commandes SQL ou des commandes de gestion.
+Ceci ouvre un shell "sql" dans lequel on peut taper des commandes SQL ou des commandes de gestion.
 La doc donnant ces commandes est ici: https://dev.mysql.com/doc/refman/8.4/en/mysql.html
 
 Pour quitter, taper `exit;`.
@@ -70,7 +70,7 @@ $ mysql -u root --port=3306 -h 127.0.0.1 -p'secretpw' < fichier.sql
 ### Stockage séparé
 
 En lancant le serveur de cette façon, les données sont stockées dans le conteneur.
-Conséquence: toutes les données qu'on pourrait y stocker sont perdues à l'arret du conteneur!
+Conséquence: toutes les données qu'on pourrait y stocker sont **perdues** à l'arret du conteneur!
 
 Pour avoir un stockage séparé, il faut indiquer un **volume** lors du lancement du serveur.
 Il faut d'abord le créer:
@@ -124,7 +124,8 @@ docker run \
 	mariadb:11.2
 ```
 
-Sous Linux/Ubuntu, le client MySql étant déjà issu de MariaDB, la connexion depuis l'hote se fait comme ci-dessus (en faidant attention au n° de port).
+Sous Linux/Ubuntu, le client MySql étant déjà issu de MariaDB, la connexion depuis l'hote se fait comme ci-dessus
+(en faisant attention au n° de port).
 
 
 

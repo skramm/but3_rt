@@ -1,25 +1,26 @@
-# Installation de VM Debian 11 sous VirtualBox
+# Installation de VM Debian sous VirtualBox
 
 Note 1: suppose une install VirtualBox version 6 ou 7
 
 Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" (`#`)  ou en utilisateur standard (`$`).
-Ceci a une importance, vérifiez!
+Ceci a une importance, **vérifiez!**
 
 ## Procédure
 
-1. Créer une nouvelle VM dans VirtualBox de type "Debian 64bits", et la nommer `debian11`.
+1. Créer une nouvelle VM dans VirtualBox de type "Debian 64bits", et la nommer `debian12`.
 Lui assigner 4096 MB de RAM et un disque de 32 GB.
 Laisser les autres options à leur valeur par défaut.
 
 **NE PAS LUI ASSIGNER d'ISO !**
 
 
-2. Télécharger l'ISO amd64 de la version 11 de Debian
-(codename "Bullseye") pour l'architecture `amd64`, en version **netinst** (ISO de taille minimale, et installation du reste via le réseau):<br>
+2. Télécharger l'ISO amd64 de la version 12 de Debian
+(codename "Bookworm") pour l'architecture `amd64`, en version **netinst**
+(ISO de taille minimale, et installation du reste via le réseau):  
 https://www.debian.org/releases/bullseye/debian-installer/
 
 Le fichier à télécharger doit s'appeler:
-`debian-11.X.Y-amd64-netinst.iso`
+`debian-12.X.Y-amd64-netinst.iso`
 <br>
 (avec "X.Y" un numéro de version)
 
@@ -29,7 +30,7 @@ Le fichier à télécharger doit s'appeler:
 
 
 
-4. Démarrer la MV et installer l'OS en suivant les différents écrans.
+4. Démarrer la VM et installer l'OS en suivant les différents écrans.
 
 **Bien lire le texte affiché**, et répondre de façon adéquate.
 Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
@@ -46,7 +47,7 @@ Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
 
 
 **ATTENTION**:
-lors de l'install de `grub`, bien valider son installation sur le disque, mais à l'écran suivant **ne pas** laisser le choix par défaut (install "manuelle") mais sélectionner l'install automatique sur le disque!
+lors de l'install de `grub`, bien valider son installation sur le disque, mais à l'écran suivant **ne pas** laisser le choix par défaut (qui est "install manuelle") mais sélectionner l'**install automatique** sur le disque!
 
 5. Une fois l'OS installé, se logger en "root", et après un `apt update/apt upgrade`, installer le bureau "xfce4" et l'utilitaire "sudo":
 
