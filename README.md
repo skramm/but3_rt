@@ -6,7 +6,7 @@ Sebastien Kramm - IUT RT Rouen
 Diverses ressources (datasets, code) pour mes étudiants BUT2 et/ou BUT3 RT
 
 
-**Attention**: ce dépot est susceptible d'évoluer, donc une fois que vous l'avez cloné, avant toute séance de travail:
+**Attention**: ce dépot est susceptible d'évoluer, donc si jamais vous l'avez cloné, avant toute séance de travail:
 ```
 $ git pull
 ```

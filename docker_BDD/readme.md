@@ -127,7 +127,21 @@ docker run \
 Sous Linux/Ubuntu, le client MySql étant déjà issu de MariaDB, la connexion depuis l'hote se fait comme ci-dessus
 (en faisant attention au n° de port).
 
+## 4 - En cas d'erreur
 
+Si votre conteneur s'arrete au bout de quelques secondes, il faut alors regarder ses **logs**:
+supprimer le (`docker rm <UUID>`), enlever l'option `--rm` du script de lancement, et le relancer.
 
+Vous pouvez maintenant acceder à ses logs avec:
+```
+$ docker logs <UUID>
+```
+Si vous avez des erreurs bizarres après de multiples essais et en ayant éventuellement modifié l'image, celà est très certainement du au **volume** de stockage.
+
+Ajouter dans le script avant la commande de lancement la ligne:
+ ```
+$ docker volume rm data_mdb
+ ```
+(ou le nom que vous avez mis dans la commande "run").
 
 
