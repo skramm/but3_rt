@@ -61,17 +61,39 @@ Pour la RAM uniquement:
 $ watch free -h
 ```
 
-La commande free fait en fait une extraction des données fournies par le kernel, qui sont acessible dans le fichier virtuel
+La commande free fait en fait une extraction des données fournies par le kernel, qui sont accessibles dans le fichier virtuel
 `/proc/meminfo`.
 A tester:
 ```
 $ cat /proc/meminfo
 ```
 
+Si on ne veut que les infos sur la RAM libre, on peut faire:
+```
+$ cat /proc/meminfo | grep MemFree
+```
+
+On peut voir l'évolution en temps réel avec:
+```
+$ watch 'cat /proc/meminfo | grep MemFree'
+```
+
+
 Si on souhaite réaliser un "logging" de certaines infos, par exemple de la RAM libre, on peut faire:
 ```
 $ cat /proc/meminfo | grep MemFree >> fichierlog
 ```
+Mais il faut la répeter "manuellement" (donc pas pratique).
+Pour logger ça toutes les secondes, on peut faire ceci:
+```
+while sleep 1; do cat /proc/meminfo | grep MemFree; done  >> fichierlog;
+```
+On peut même ajouter un "Timestamp" avec le format "%T" de la commande `date`:
+```
+while sleep 1; do echo -n "$(date +%T): "; cat /proc/meminfo | grep MemFree; done  >> fichierlog;
+```
+(N'hesitez pas à tester ça vous même!)
+
 
 Si on veut utiliser le "daemon" `journalctl`, ce sera:
 ```
