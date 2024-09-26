@@ -103,11 +103,42 @@ $ cat /proc/meminfo | grep MemFree | systemd-cat
 
 
 
-### __Load Average__
-La commande `uptime` montre le temps depuis lequel la machine est allumée, mais aussi (et surtout) le **Load Average**, qui donne une indication de la charge CPU
-(voir https://www.digitalocean.com/community/tutorials/load-average-in-linux )
+### Charge processeur
 
-Ceci peut être facilement loggé (voir ci-dessus).
+Selon le nombre de requetes, les CPU d'un serveur peuvent être surchargés, rendant la machine peu réactive.
+On peut monitorer cette charge via le concept de __Load Average__ (fr: moyenne du "Facteur de charge").
+
+Ceci est caractérisé par 3 valeurs, montrant sur 3 intervalles de temps différents
+(1 mn, 5mn, 15mn) la **moyenne du nombre de process en cours d’exécution**.
+
+#### Monitoring
+On y accède en temps réel via `htop` (voir ci-dessus).
+
+Pour logger cette valeur, deux solutions:
+- via le fichier (virtuel) `/proc/loadavg`:
+```
+$ cat /proc/loadavg
+0.14 0.05 0.06 1/122 13870
+```
+- via la commande `uptime`:
+```
+$ uptime
+ 09:49:36 up 21 days, 11:08,  1 user,  load average: 0,28, 0,28, 0,47
+```
+Ces deux commandes peuvent être loggées facilement via une redirection, comme ci-dessus.
+
+Plus de détails ici:
+https://www.digitalocean.com/community/tutorials/load-average-in-linux
+
+#### Génération de charge CPU
+
+On peut facilement générer une charge CPU artificielle avec la commande `stress`
+(l'installer si besoin avec le paquet du même nom).
+
+![stress example](tecmint_stress-test-Linux-System.png)
+
+voir https://www.tecmint.com/linux-cpu-load-stress-test-with-stress-ng-tool/
+
 
 
 
