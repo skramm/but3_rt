@@ -1,4 +1,4 @@
-# Outils de tests de charge
+# Outils de monitoring et de simulation de charge
 
 Cette page référence de façon **non exhaustive** différents outils et techniques pour:
 
@@ -12,7 +12,7 @@ Les principaux items auquels on s'intéresse sont:
 - le stockage disque
 - la charge CPU
 
-## Génération de charge réseau
+## 1 - Génération de charge réseau
 Différentes solutions existent, de la plus simple à la plus évoluée.
 Quelques pistes:
 
@@ -36,21 +36,21 @@ D'autres outils sont présentés ici:
 https://github.com/denji/awesome-http-benchmark
 
 
-## Charge de la machine
+## 2 - Charge de la machine
 
 On parle ici de "Monitoring" de la machine (ou du conteneur)
 
 Des outils très évolués existent, mais il peut être pertinent de commencer par le "bas niveau", via des outils simples donnant accès aux paramètres essentiels de la machine.
 
 
-### Monitoring temps réel
+### 2.1 - Monitoring temps réel
 La commande `htop` montre sur un écran unique les différents paramètres.
 Fonctionne en mode console, donc accessible même si le serveur n'a pas de bureau graphique.
 
 [![htop](htop_800.jpg)](https://fr.wikipedia.org/wiki/Htop)
 
 
-### Etat de la RAM
+### 2.2 - Etat de la RAM
 
 Pour la RAM uniquement:
 - la commande `free` montre la quantité de RAM libre et utilisée sur une machine, de façon ponctuelle  
@@ -103,7 +103,7 @@ $ cat /proc/meminfo | grep MemFree | systemd-cat
 
 
 
-### Charge processeur
+### 2.3 - Charge processeur
 
 Selon le nombre de requetes, les CPU d'un serveur peuvent être surchargés, rendant la machine peu réactive.
 On peut monitorer cette charge via le concept de __Load Average__ (fr: moyenne du "Facteur de charge").
@@ -111,7 +111,7 @@ On peut monitorer cette charge via le concept de __Load Average__ (fr: moyenne d
 Ceci est caractérisé par 3 valeurs, montrant sur 3 intervalles de temps différents
 (1 mn, 5mn, 15mn) la **moyenne du nombre de process en cours d’exécution**.
 
-#### Monitoring
+#### 2.3.1 - Monitoring
 On y accède en temps réel via `htop` (voir ci-dessus).
 
 Pour logger cette valeur, deux solutions:
@@ -130,7 +130,7 @@ Ces deux commandes peuvent être loggées facilement via une redirection, comme 
 Plus de détails ici:
 https://www.digitalocean.com/community/tutorials/load-average-in-linux
 
-#### Génération de charge CPU
+#### 2.3.2 - Génération de charge CPU
 
 On peut facilement générer une charge CPU artificielle avec la commande `stress`
 (l'installer si besoin avec le paquet du même nom).
