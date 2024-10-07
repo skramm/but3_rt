@@ -4,7 +4,7 @@ Ici des "datasets" pour le TP / Regex
 
 Utilisation:
 ```
-$ grep -OPTION_MOTEUR_REGEX fichier
+$ grep -OPTION_MOTEUR_REGEX "<REGEX>" fichier
 ```
 
 Par exemple:
