@@ -20,4 +20,6 @@ Par exemple, si on veut ajouter la visualisation du dépot distant, on mettra:
 alias gits="git remote -v;git status"
 ```
 
+On peut bien sur aller plus loin, par exemple en prévoyant `gitpl` pour `git pull`,
+`gitps` pour `git push`, `dops` pour `docker ps -a`, etc.
 
