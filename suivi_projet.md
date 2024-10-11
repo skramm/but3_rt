@@ -1,11 +1,41 @@
+# Journal de bord
 
-# Journal d'activités
+(remplacer les items en majuscule)
 
-## 
+* TITRE PROJET
+* NOM CHEF DE PROJET
+* NOMS AUTRE MEMBRES EQUIPE
+* DATE DEBUT
 
 
-| sem. | jour | heure <br> debut | durée | activités |
-|-----|-----|----|------|------|
-| 41  | ven |  13h  | 3h |  lecture sujet, <br> découverte Dolibarr... |
-| 42  | lun | 14h30 | 3h | |
+## Séance n° 1
+
+* date - heure
+* Travail effectué
+* A faire à la prochaine séance
+* Difficultés rencontrées
+* Remarques sur la séances (membre absent, pbe technique, ...)
+
+
+## Séance n° 2
+
+* date - heure
+* Travail effectué
+* A faire à la prochaine séance
+* Difficultés rencontrées
+* Remarques sur la séances (membre absent, pbe technique, ...)
+
+
+## Séance n° 3
+
+* date - heure
+* Travail effectué
+* A faire à la prochaine séance
+* Difficultés rencontrées
+* Remarques sur la séances (membre absent, pbe technique, ...)
+
+
+
+...
+
 
