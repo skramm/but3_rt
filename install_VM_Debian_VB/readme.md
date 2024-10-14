@@ -17,7 +17,7 @@ Laisser les autres options à leur valeur par défaut.
 2. Télécharger l'ISO amd64 de la version 12 de Debian
 (codename "Bookworm") pour l'architecture `amd64`, en version **netinst**
 (ISO de taille minimale, et installation du reste via le réseau):  
-https://www.debian.org/releases/bullseye/debian-installer/
+https://www.debian.org/releases/bookworm/debian-installer/
 
 Le fichier à télécharger doit s'appeler:
 `debian-12.X.Y-amd64-netinst.iso`
