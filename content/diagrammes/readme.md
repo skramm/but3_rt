@@ -6,7 +6,10 @@ On a parfois besoin d'illustrer de façon rapide un texte avec un petit diagramm
 
 Un bonne solution consiste à utiliser un logiciel de dessin **vectoriel**, c'est à dire qui produit du format [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics)
 plutot que du "bitmap" (formats png et/ou jpeg).
-Ceci permet de produire des dessins d'une grande qualité, qui seront intégrables en Web mais aussi redimmensionnable à volonté sans réduction de qualité (le fameux effet dit de "pixellisation").
+Ceci permet de produire des dessins d'une grande qualité, qui seront intégrables en Web mais aussi redimensionnable à volonté sans réduction de qualité (le fameux effet dit de "pixelisation").
+
+La meilleur logiciel pour produire du SVG est [**Inkscape**](https://fr.wikipedia.org/wiki/Inkscape) (Installable avec `$ sudo apt install inkscape`).
+Très performant mais peut paraitre intimidant au début, du à ses très nombreuses fonctionnalités.
 
 Mais dans un contexte "IaC" (ou volonté de faire + vite), il peut être pertinent d'utiliser un outil permettant de "scripter" son diagramme, c'est à dire avoir via un outil la génération d'un fichier image à partir d'une description textuelle.
 
