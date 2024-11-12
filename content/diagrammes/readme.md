@@ -65,6 +65,10 @@ On peut donc "dessiner" des diagrammes en ASCII-Art:
  +-------------+               +-------------+
 ```
 
+Il existe même des outils web permettant d'accélerer la génération de tels fichiers texte, par exemple
+https://textik.com/.
+Il peut en effet être assez laborieux de produire ces graphiques "à la main" dans un éditeur texte...
+
 On peut insérer ceci dans un fichier Markdown, mais le rendu reste assez basique.
 Il est possible de l'améliorer via l'outil [`ditaa`](https://ditaa.sourceforge.net/),
 qui va convertir un fichier Ascii en une image de qualité un peu supérieure.
