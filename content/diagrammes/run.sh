@@ -6,8 +6,10 @@
 #              ternative name is chosen.  If the overwrite option is  selected,
 #              the image file is instead overwriten.
 
+pushd exemples
 for fn in *.dit
 do
 
 	ditaa -E -o -b EEFFFF $fn
-done	
+done
+popd

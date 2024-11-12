@@ -12,7 +12,7 @@ Mais dans un contexte "IaC" (ou volonté de faire + vite), il peut être pertine
 
 ## 2 - Graphiques orientés "UML"
 
-L'outil [`plantuml`](https://plantuml.com/) permet de scripter la production de certains diagrammes, dans un contexte ["UML"](https://fr.wikipedia.org/wiki/UML_(informatique).
+L'outil [`plantuml`](https://plantuml.com/) permet de scripter la production de certains diagrammes, dans un contexte ["UML"](https://fr.wikipedia.org/wiki/UML_(informatique)).
 
 Par exemple, ceci:
 ```
@@ -26,16 +26,16 @@ Alice <-- Bob: Another authentication Response
 ```
 Va etre converti en ceci:
 
-![plantuml1](./plantuml_1.svg)
+![plantuml1](exemples/plantuml_1.svg)
 
 (tiré de [la doc](https://plantuml.com/sequence-diagram))
 
 ## 3 - Ascii-Art
 
 Mais parfois, on ne souhaite pas se lancer dans la production d'un dessin élaboré et y passer du temps, mais plutot adopter une approche
-"[__quick and dirty__](https://fr.wikipedia.org/wiki/Quick-and-dirty)".
+"[_quick and dirty_](https://fr.wikipedia.org/wiki/Quick-and-dirty)".
 
-Une solution est de faire du "[__ASCII-ART__](https://fr.wikipedia.org/wiki/Art_ASCII)" et dessiner vite fait dans un éditeur texte l'illustration désirée.
+Une solution est de faire du "[_ASCII-ART_](https://fr.wikipedia.org/wiki/Art_ASCII)" et dessiner vite fait dans un éditeur texte l'illustration désirée.
 
 Un exemple d'ASCII-Art est le programme `cowsay` qui, à partir de cette commande:
 ```
@@ -75,7 +75,7 @@ $ ditaa exemple1.ditaa
 ```
 va produire cette image:
 
-![test1](exemple1.png)
+![test1](exemples/exemple1.png)
 
 On peut faire des choses un tout petit peu plus élaboré en ajoutant quelques options (couleur des blocs, du fond, etc.).
 
@@ -97,7 +97,8 @@ Par exemple, un fichier `socket.ditaa` contenant ceci:
 ```
 
 va générer cette image:
-![socket1](socket_1.png)
+
+![socket1](exemples/socket_1.png)
 
 
 Un fichier `PKI1.ditaa` contenant ceci:
@@ -122,12 +123,13 @@ Un fichier `PKI1.ditaa` contenant ceci:
 ```
 
 va générer ceci:
-![pki](PKI_1.png)
+
+![pki](exemples/PKI_1.png)
 
 
 ## 4 - Demo
 
-Vous pouvez re-générer ces images en exécutant le script `run.sh` de ce dossier.
+Vous pouvez re-générer ces images en exécutant le script [`run.sh`](run.sh) de ce dossier.
 Il faudra au préalable avoir installé Ditaa avec:
 ```
 $ sudo apt install ditaa
