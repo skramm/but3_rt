@@ -24,6 +24,6 @@ $ git pull
 | [docker_BDD](docker_BDD/)         | démo du lancement d'un serveur de BDD dans un conteneur docker |
 | [génération clés SSH](SSH_keys/)  | génération de clés SSH pour clonage dépot Git |
 | [Trucs divers pour Git](git_TA)   | Trucs et Astuces pour Git |
-| [Tests de charge](load_test)      | Liste outils pour générer du traffic et monitorer |
-
+| [Tests de charge](content/load_test) | Liste outils pour générer du traffic et monitorer |
+| [Diagrammes](content/diagrammes)  | Génération de diagrammes |
 
