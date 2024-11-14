@@ -2,9 +2,6 @@
 
 S. Kramm - IUT Rouen - 2024/09
 
->Note: La procédure complète est décrite dans ce lien, les items ci-dessous en sont un résumé simplifié:
-> https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
 Pour pouvoir utiliser Github, il faut au au préalable se créer un compte (gratuit) sur https://github.com.
 Une fois connecté, vous pouvez créer un dépot (gros bouton vert)
 et lui donner le nom demandé (cf. sujet de TP).  
@@ -17,11 +14,14 @@ Github permet de cloner un dépot avec deux protocoles, HTTPS ou un protocole "g
 
 Le clonage via HTTPS est le plus simple, mais a un gros inconvénient:
 Pour pouvoir pousser sur le dépot, il faudra **à chaque fois** fournir un "token", qui doit préalablement être généré sur votre compte Github.
-Très pénible en pratique.
+Ca peut se faire, mais à l'usage ça devient très pénible assez rapidement.
 
 Pour éviter ceci, il est préférable de cloner via le protocole "git", qui s'appuie sur SSH.
 Ceci implique de créer préalablement une paire de clés, l'une **privée**, l'autre **publique**, puis de configurer votre machine locale et votre compte Github pour pouvoir utiliser ces clés.
 Les étapes ci-dessous décrivent ce processus.
+
+> Note: La procédure complète est décrite dans ce lien, les items ci-dessous en sont un résumé simplifié:
+> https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 ## Procédure
 
@@ -32,14 +32,15 @@ $ ssh-keygen
 - Si c'est la première fois que vous faites cette manipulation, vous pouvez valider avec entrée en laissant toutes les questions avec **les réponses par défaut**
 (taper "Entrée" à chaque question).
 - Si vous avez dejà fait cette opération de génération de clés pour d'autres utilisations (et que vous avez donc déjà une paire de clés), alors il faut indiquer un **autre nom** pour les fichiers contenant les clés.
-Faute de quoi, vous allez écraser les clés précédentes.
+Faute de quoi, vous allez écraser les clés précédentes (et les invalider si la publique est stockée quelque part).
 
 2. Visualiser la paire de clés générée avec:
 ```
 $ ls -l .ssh/
 ```
 Vous devez observer deux fichiers, `id_ALGO.pub` et `id_ALGO`, avec `ALGO` étant l'algorithme utilisé pour la génération de cette paire de clés.
-Selon la version/distribution Linux, vous aurez `rsa` ou `ed25519` (sauf si vous avez donné un autre nom à l'étape précédente, évidemment).  
+Selon la version/distribution Linux, vous aurez `rsa` ou `ed25519`
+(sauf si vous avez donné un autre nom à l'étape précédente, évidemment).  
 Le premier (`.pub`) contient la clé **publique**, que vous pouvez transmettre à tout le monde, l'autre contient la clé **privée**, qui ne devra pas quitter la machine.  
 (Dans la suite, remplacer `ALGO` dans le nom de fichier par ce que vous avez.)
 
@@ -57,7 +58,7 @@ $ ssh-add ~/.ssh/id_ALGO
 ```
 $ pluma ~/.ssh/id_ALGO.pub
 ```
-__Note__: si pluma n'est pas installé sur votre machine, essayer mousepad ou tout autre éditeur GUI installé sur la machine.
+__Note__: si pluma n'est pas installé sur votre machine, essayer mousepad ou tout autre éditeur GUI installé sur la machine. Possible aussi de faire un "`cat`", mais il faudra alors copier la clé depuis la console.
 
 6. Sélectionner tout le contenu (CTRL-A), le copier (CTRL-C), aller sur son profil Github (en haut à droite) et sélectionner "__Settings__".  
 Dans le panneau qui s'ouvre à gauche, sélectionner "__SSH and GPG keys__", puis cliquer sur le bouton vert "__New SSH key__" et copier la clé dans la zone de texte "__Key__" avec CTRL-V.
