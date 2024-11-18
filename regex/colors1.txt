@@ -1,0 +1,19 @@
+Quelques couleurs HTML:
+
+24 bits:
+AliceBlue #F0F8FF
+AntiqueWhite #FAEBD7
+Aqua #00FFFF
+Aquamarine #7FFFD4
+Azure #F0FFFF
+Crimson #DC143C
+DeepPink #FF1493
+
+12 bits:
+White #FFF
+Red #F00
+Green #0F0
+Blue #00F
+Black #000
+
+
