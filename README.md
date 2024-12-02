@@ -20,7 +20,7 @@ $ git pull
 | [install_VM_Debian_VB](install_VM_Debian_VB) |  Note sur l'installation de VM Debian |
 | [regex](regex/)                   |  Fichiers de test pour le TP sur les regex (BUT3) |
 | [TP_ACL_SUID](TP_ACL_SUID/)       | Fichier source pour TP BUT3 |
-| [plantuml_gantt](plantuml_gantt/) | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
+| [plantuml_gantt](content/plantuml_gantt/) | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 | [docker_BDD](docker_BDD/)         | démo du lancement d'un serveur de BDD dans un conteneur docker |
 | [génération clés SSH](content/SSH_keys) | génération de clés SSH pour clonage dépot Git |
 | [Trucs divers pour Git](git_TA)   | Trucs et Astuces pour Git |
