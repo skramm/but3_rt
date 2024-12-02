@@ -59,7 +59,7 @@ $ mysql -u root --port=3306 --protocol=TCP -p'secretpw'
 Ceci ouvre un shell "sql" dans lequel on peut taper des commandes SQL ou des commandes de gestion.
 La doc donnant ces commandes est ici: https://dev.mysql.com/doc/refman/8.4/en/mysql.html
 
-Pour quitter, taper `exit;`.
+Pour quitter, taper `exit;`
 
 On peut aussi utiliser ce client CLI pour automatiser des actions sur ce serveur, en lui "passant" un fichier contenant des commandes SQL
 (création d'une BDD, création d'une table dans une BDD, rempissage d'une table, etc.):
@@ -136,6 +136,8 @@ Vous pouvez maintenant acceder à ses logs avec:
 ```
 $ docker logs <UUID>
 ```
+(ou utiliser son nom si vous lui en avez donné un).
+
 Si vous avez des erreurs bizarres après de multiples essais et en ayant éventuellement modifié l'image, celà est très certainement du au **volume** de stockage.
 
 Ajouter dans le script avant la commande de lancement la ligne:
@@ -144,4 +146,40 @@ $ docker volume rm data_mdb
  ```
 (ou le nom que vous avez mis dans la commande "run").
 
+### 5 - Import/export de CSV
+
+Très souvent, on doit importer ou exporter le contenu de la base de données sous forme manipulable par un éditeur texte ou un tableur.
+Le plus adapté est le format dit "CSV" (mais qui n'a pas de normalisation, les champs pouvent être séparés par `,` ou `;`, voir par le caractère TAB ou SPC).
+
+Pour exporter, on peut le faire avec une requete SQL, en spécifiant explicitement les options.
+Par exemple:
+```
+SELECT * INTO OUTFILE '/path/to/myfile.csv'
+   FIELDS TERMINATED BY ','
+   ENCLOSED BY '"'
+   LINES TERMINATED BY '\n'
+   FROM nom-de-la-table;
+```
+Pour importer c'est très similaire:
+Par exemple:
+```
+LOAD DATA INFILE '/path/to/myfile.csv'
+    INTO TABLE nom-de-la-table
+    FIELDS TERMINATED BY ','
+    ENCLOSED BY '"'
+    LINES TERMINATED BY '\n'
+    IGNORE 1 LINES;
+```
+
+A noter que `IGNORE 1 LINES` permet de laisser dans le fichier csv la première ligne qui très souvent contient la description des champ.
+Elle sera donc ignorée ici lors de l'import.
+
+**Remarque**: la localisation du fichier d'entrée doit être considérée avec soin, particulièrement si la BDD est conteneurisée.
+Dans certaines situations, il faudra ajouter le mot clé `LOCAL`
+(`LOAD DATA LOCAL INFILE ...`), voir les détails ici:
+* https://dev.mysql.com/doc/refman/8.4/en/load-data.html
+* https://mariadb.com/kb/en/load-data-infile/
+
+**Attention**: Cette technique implique que l'ordre des colonnes dans le fichier CSV soit identique à l'ordre dans la table.
+Si ça n'est pas le cas, il faudra spécifier dans la commande SQL quelle colonne va dans quel champ de la table, voir les pages de doc ci-dessus pour la syntaxe exacte.
 
