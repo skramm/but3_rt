@@ -27,6 +27,7 @@ Voir le manuel.
 - Apache fournit son propre testeur de charge, qui s'appelle "ApacheBench" (`ab`):  
 https://httpd.apache.org/docs/current/programs/ab.html  
 (peut s'utiliser pour tester un Nginx aussi)
+- `hey`, très simple à utiliser (`apt install hey`)
 - Un outil assez évolué: `vegeta`  
 https://github.com/tsenart/vegeta
 - `wrk`:  
