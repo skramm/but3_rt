@@ -15,7 +15,7 @@ $ git pull
 |  Dossier                          |             |
 |-----------------------------------|-------------| 
 | [collision_md5](content/collision_md5/) | Demonstration d'une collision avec md5 |
-| [demo_jinja](demo_jinja/)         |  Une démo de Jinja (sans Flask) |
+| [demo_jinja](content/demo_jinja/)       |  Une démo de Jinja (sans Flask) |
 | [docker_compose](docker_compose)  | Note sur l'utilisation de docker-compose |
 | [install_VM_Debian_VB](install_VM_Debian_VB) |  Note sur l'installation de VM Debian |
 | [regex](regex/)                   |  Fichiers de test pour le TP sur les regex (BUT3) |

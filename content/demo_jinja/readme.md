@@ -1,11 +1,15 @@
 # Demo Jinja
 
-Le code ici fait une démonstration de l'utilisation des templates [Jinja](https://jinja.palletsprojects.com/) **en dehors** de l'utilisation de Flask:
-la génération du html se fait directement dans la console.
+[Jinja](https://jinja.palletsprojects.com/) est un **moteur de template** Python, destiné au web dynamique.
+Il permet de spécifier dans une page HTML des "templates" (gabarits) qui seront remplacés à l'exécution par d'autres chaines de caractères.
+
+Le code ici fait une démonstration de l'utilisation des templates Jinja **en dehors** de l'utilisation de Flask:
+la génération du HTML se fait directement dans la console.
+Cette démo est "dockerisée", et utilise une image [Alpine](https://fr.wikipedia.org/wiki/Alpine_Linux), qui est extrèmement légère.
 
 Prérequis:
 * une machine (VM) Debian ou équivalent (Ubuntu, ...)
-* une install Docker fonctionnelle (testé avec 24.0.5)
+* une install Docker fonctionnelle (testé avec 24.0.5), utilisable sans "sudo"
 
 Pour faire tourner les démos:
 ```
@@ -16,7 +20,9 @@ $ ./run.sh  # lance le Docker et démarre un shell (sh, pas de bash dans l'image
 Ceci doit ouvrir un shell dans le conteneur, dans un dossier `/srv`.
 On peut ensuite taper le nom d'une des démos pour l'exécuter (voir la liste avec `$ ls -l *.py`).
 
-Le conteneur a un lien statique avec le dossier dans la machine hote ( concept docker de "bind mount"), donc vous pouvez modifier le code et tester sans avoir besoin de "rebuilder" le conteneur.
+Le conteneur a un lien statique avec le dossier dans la machine hote
+(concept docker de "bind mount"),
+donc vous pouvez modifier le code et tester sans avoir besoin de "rebuilder" le conteneur.
 
 **ATTENTION**: si vous voulez expérimenter avec le code, mieux vaut faire une copie de tout le dossier ailleurs
 (dans lequel vous pourrez virer le dossier `.git`).
@@ -27,7 +33,7 @@ il y aura des conflits.
 Pour les machines Windows, il faudra (à confirmer?):
 * renommer les scripts `.sh` en `.bat`;
 * vérifier que le programme `docker` est dans le path;
-* au besoin les éditer en mettant toute la commande sur la même ligne (Le shell Windows ne reconnait pas le `\`);
+* au besoin les éditer en mettant toute la commande sur la même ligne (Le shell Windows ne reconnait pas le `\` qui permet de spécifier une commande s'étalant sur plusieurs lignes);
 * les lancer sans le `./` en tête.
 
 Chacune des demos ci-dessous va afficher le code produit dans la console.
