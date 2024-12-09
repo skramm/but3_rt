@@ -1,0 +1,11 @@
+img0912.jpg
+updated_img0912.png
+favicon.gif
+documentation.html
+.bash_profile
+img0912.jpg.tmp
+access.lock
+workspace.doc
+.a.b.jpg
+
+
