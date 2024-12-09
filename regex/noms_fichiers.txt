@@ -7,5 +7,5 @@ img0912.jpg.tmp
 access.lock
 workspace.doc
 .a.b.jpg
-
+azertyjpg
 
