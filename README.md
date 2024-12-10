@@ -3,7 +3,9 @@ dépot public
 
 Sebastien Kramm - IUT RT Rouen
 
-Diverses ressources (datasets, code) pour mes étudiants BUT2 et/ou BUT3 RT
+Diverses ressources (datasets, code, tutos) pour mes étudiants BUT2 et/ou BUT3 RT.
+
+**Remarque**: la majorité des outils et tutos évoqués ici présupposent un environnement Linux (Debian/Ubuntu/Mint/...).
 
 
 **Attention**: ce dépot est susceptible d'évoluer, donc si jamais vous l'avez cloné, avant toute séance de travail:
