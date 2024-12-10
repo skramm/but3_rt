@@ -25,7 +25,7 @@ $ git pull
 | [plantuml_gantt](content/plantuml_gantt/) | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 | [docker_BDD](docker_BDD/)         | démo du lancement d'un serveur de BDD dans un conteneur docker |
 | [génération clés SSH](content/SSH_keys) | génération de clés SSH pour clonage dépot Git |
-| [Trucs divers pour Git](git_TA)   | Trucs et Astuces pour Git |
-| [Tests de charge](content/load_test) | Liste outils pour générer du traffic et monitorer |
-| [Diagrammes](content/diagrammes)  | Génération de diagrammes |
+| [Trucs divers pour Git](content/git_TA) | Trucs et Astuces pour Git |
+| [Tests de charge](content/load_test)    | Liste outils pour générer du traffic et monitorer |
+| [Diagrammes](content/diagrammes)        | Génération de diagrammes |
 
