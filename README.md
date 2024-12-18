@@ -20,7 +20,7 @@ $ git pull
 | [demo_jinja](content/demo_jinja/)       |  Une démo de Jinja (sans Flask) |
 | [docker_compose](docker_compose)  | Note sur l'utilisation de docker-compose |
 | [install_VM_Debian_VB](install_VM_Debian_VB) |  Note sur l'installation de VM Debian |
-| [regex](regex/)                   |  Fichiers de test pour le TP sur les regex (BUT3) |
+| [regex](content/regex/)                   |  Fichiers de test pour le TP sur les regex (BUT3) |
 | [TP_ACL_SUID](TP_ACL_SUID/)       | Fichier source pour TP BUT3 |
 | [plantuml_gantt](content/plantuml_gantt/) | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 | [docker_BDD](docker_BDD/)         | démo du lancement d'un serveur de BDD dans un conteneur docker |
