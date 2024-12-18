@@ -28,4 +28,6 @@ $ git pull
 | [Trucs divers pour Git](content/git_TA) | Trucs et Astuces pour Git |
 | [Tests de charge](content/load_test)    | Liste outils pour générer du traffic et monitorer |
 | [Diagrammes](content/diagrammes)        | Génération de diagrammes |
+| [Regex Python](content/regex_python)    | Utilisation d'expressions regulières en Python |
+
 
