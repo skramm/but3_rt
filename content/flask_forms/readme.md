@@ -4,7 +4,7 @@ Il faut distinguer
 - le formulaire lui-même;
 - le "endpoint" qui sera appelé une fois le formulaire complété par l'utilisateur (appui sur bouton, ou sur "Entrée").
 
-## Formulaire HTML
+## 1 - Formulaire HTML
 
 Le formulaire reste en général classique.
 Il peut être sur une page dédiée, ou être intégré sur une page existante
@@ -21,7 +21,7 @@ Le formulaire va ressembler à ceci:
 
 Le point important ici est le "endpoint" a appeler lors de la validation, ici `/newuser`, et qui doit exister dans le code Python/Flask.
 
-# Code Python
+## 2 - Code Python
 
 Il faut importer des sous-packages de Flask:
 ```
@@ -44,7 +44,7 @@ def newuser():
 		return res.text()
 ```
 Le nom de la fonction est libre, mais le endpoint doit correspondre à celui indiqué dans le formulaire.
-De plus, le champ à récupérer est indiquer par l'argument passé à la fonction "get()" et doit donc correspondre à son nom dans le formulaire (ici `ch1`).
+De plus, le champ à récupérer est donné par l'argument passé à la fonction "get()" et doit donc correspondre à son nom dans le formulaire (ici `ch1`).
 
 On récupère dans `res.text()` la chaine de caractères issue du formulaire, qu'on peut ensuite traiter en fonction des besoins.
 
