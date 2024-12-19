@@ -77,7 +77,7 @@ def login():
 ## 3 - Flask et Jinja
 
 Jinja est un moteur de template, distinct de Flask, mais les deux sont concus pour fonctionner ensemble.
-Pour une introduction, voir [mes autres pages dessus](demo_jinja).
+Pour une introduction, voir [mes autres pages dessus](../demo_jinja).
 
 Il permet de définir des gabarits HTML dans lesquels certains éléments "variables" seront remplacés à l'exécution par une valeur.
 Par exemple, si on définit dans le sous-dossier `templates` un fichier `test1.html` contenant ceci:
