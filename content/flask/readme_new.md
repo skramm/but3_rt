@@ -1,26 +1,25 @@
 # Introduction au framework Flask
 
 Ce document donne quelques indications pour la mise en oeuvre rapide de Flask pour des projets.
-Il ne couvre pas de coté "lancement", qui peut être fait sur la machine hôte, ou dans un conteneur Docker.
+Il ne couvre pas le coté "lancement", qui peut être fait sur la machine hôte ou dans un conteneur Docker.
 
 Dans la suite, on supposera une installation en local, et accessible sur le port 5000.
 
 Pour quelque chose de plus complet, voir le [tuto officiel](https://flask.palletsprojects.com/en/stable/quickstart/), dont beaucoup d'éléments ici sont tirés.
 
-## Hello World et autres routes
+## 1 - Hello World et autres routes
 
 ```
 from flask import Flask
-
 app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
     return "<p>Hello, World!</p>"
 ```
-L'exécution de ce code va lancer un serveur web, qui va répondre sur la racine avec le code HTMl "Hello, World!".
+L'exécution de ce code va lancer un serveur web, qui va répondre sur la racine avec le code HTML "Hello, World!".
 
-On peut ajouter des "routes" (qu'on appelle aussi "endpoint") et qui vont définir l'action à effectuer lors de la connection en HTTP sur celle-ci.
+On peut ajouter des "routes" (qu'on appelle aussi "endpoint") qui vont définir l'action à effectuer lors de la connection en HTTP sur celle-ci.
 Par exemple, on peut ajouter ceci:
 
 ```
@@ -56,7 +55,7 @@ def hello(username):
     return f"Hello, {escape(username)}!"
 ```
 
-## Actions HTTP
+## 2 - Actions HTTP
 
 Les requetes HTTP les plus courantes des navigateurs sont `GET` et `POST`.
 On peut proposer une action différente selon la requete.
@@ -75,14 +74,43 @@ def login():
         return show_the_login_form()
 ```
 
+## 3 - Flask et Jinja
 
-## Utilisation de formulaires 
+Jinja est un moteur de template, distinct de Flask, mais les deux sont concus pour fonctionner ensemble.
+Pour une introduction, voir [mes autres pages dessus](demo_jinja).
+
+Il permet de définir des gabarits HTML dans lesquels certains éléments "variables" seront remplacés à l'exécution par une valeur.
+Par exemple, si on définit dans le sous-dossier `templates` un fichier `test1.html` contenant ceci:
+
+```
+<html>
+  <head>
+    <title>Variable {{fruit}}</title>
+  </head>
+  <body>
+    <h3>Hello {{fruit}}</h3>
+  </body>
+</html>
+```
+On pourra au moment de l'exécution d'un "endpoint" transmettre au navigateur cette page avec chaque occurence de `{{fruit}}` remplacé par une autre chaîne.
+Par exemple:
+
+```
+from flask import render_template
+
+@app.route('/hello/<name>')
+def hello(name=None):
+    return render_template('test1.html', fruit=name)
+```
+
+
+## 4 - Utilisation de formulaires 
 
 Il faut distinguer
 - le formulaire lui-même;
 - le "endpoint" qui sera appelé une fois le formulaire complété par l'utilisateur (appui sur bouton, ou sur "Entrée").
 
-### 1 - Formulaire HTML
+### 4.1 - Formulaire HTML
 
 Le formulaire reste en général classique.
 Il peut être sur une page dédiée, ou être intégré sur une page existante
@@ -99,7 +127,7 @@ Le formulaire va ressembler à ceci:
 
 Le point important ici est le "endpoint" a appeler lors de la validation, ici `/newuser`, et qui doit exister dans le code Python/Flask.
 
-### 2 - Code Python
+### 4.2 - Code Python
 
 Il faut importer des sous-packages de Flask:
 ```
@@ -108,7 +136,7 @@ from flask import Flask, request, render_template
 
 Si le formulaire est sur une page distincte (ici `form.html`), il faut prévoir un point d'entrée:
 ```
-@app.route("/monFormulaire",methods = ['POST', 'GET'])
+@app.route("/monFormulaire")
 def monForm():
 	return render_template("form.html")
 ```
