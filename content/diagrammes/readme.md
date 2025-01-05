@@ -8,12 +8,23 @@ Un bonne solution consiste à utiliser un logiciel de dessin **vectoriel**, c'es
 plutot que du "bitmap" (formats png et/ou jpeg).
 Ceci permet de produire des dessins d'une grande qualité, qui seront intégrables en Web mais aussi redimensionnable à volonté sans réduction de qualité (le fameux effet dit de "pixelisation").
 
-La meilleur logiciel pour produire du SVG est [**Inkscape**](https://fr.wikipedia.org/wiki/Inkscape) (Installable avec `$ sudo apt install inkscape`).
+La meilleur logiciel pour produire du SVG en local est [**Inkscape**](https://fr.wikipedia.org/wiki/Inkscape)
+(Installable avec `$ sudo apt install inkscape`).
 Très performant mais peut paraitre intimidant au début, du à ses très nombreuses fonctionnalités.
 
 Mais dans un contexte "IaC" (ou volonté de faire + vite), il peut être pertinent d'utiliser un outil permettant de "scripter" son diagramme, c'est à dire avoir via un outil la génération d'un fichier image à partir d'une description textuelle.
 
-## 2 - Graphiques orientés "UML"
+Il existe aussi une multitude d'applis "web" permettant d'avoir rapidement quelque chode de satisfaisant.
+On peut citer (parmi d'autres):  
+- https://excalidraw.com/
+- https://app.diagrams.net/
+
+## 2 - Outils de production via description textuelle
+
+Ces outils permettent la génération de graphiques via une description textuelle, avec une syntaxe bien documentée.
+Le gros intéret est qu'on peut alors versionner cette description, et la regénérer via une chaine "CI/CD".
+
+### 2.1 - PlantUML
 
 L'outil [`plantuml`](https://plantuml.com/) permet de scripter la production de certains diagrammes, dans un contexte ["UML"](https://fr.wikipedia.org/wiki/UML_(informatique)).
 
@@ -32,6 +43,14 @@ Va etre converti en ceci:
 ![plantuml1](exemples/plantuml_1.svg)
 
 (tiré de [la doc](https://plantuml.com/sequence-diagram))
+
+### 2.2 - kroki.io
+
+https://kroki.io/
+
+Outil assez généraliste, disposant à la fois d'une appli web mais installable en local également.
+
+
 
 ## 3 - Ascii-Art
 
