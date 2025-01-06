@@ -13,6 +13,7 @@ La meilleur logiciel pour produire du SVG en local est [**Inkscape**](https://fr
 Très performant mais peut paraitre intimidant au début, du à ses très nombreuses fonctionnalités.
 
 Mais dans un contexte "IaC" (ou volonté de faire + vite), il peut être pertinent d'utiliser un outil permettant de "scripter" son diagramme, c'est à dire avoir via un outil la génération d'un fichier image à partir d'une description textuelle.
+Différents outils sont disponibles, certains dédiés à un type de diagramme, d'autres généralistes.
 
 Il existe aussi une multitude d'applis "web" permettant d'avoir rapidement quelque chode de satisfaisant.
 On peut citer (parmi d'autres):  
@@ -44,11 +45,53 @@ Va etre converti en ceci:
 
 (tiré de [la doc](https://plantuml.com/sequence-diagram))
 
-### 2.2 - kroki.io
+### 2.2 - Graphviz
+
+Cet outil est dédié à la production de diagramme de type "graphes".
+Il est donc particulièrement adapté à un contexte "réseau", ou algorigramme, ou tout autre situation impliquant des connexions entre éléments.
+
+Par exemple, avec ce fichier source [graphiz2.txt](exemples/graphiz2.txt):
+```
+digraph finite_state_machine {
+	fontname="Helvetica,Arial,sans-serif"
+	node [style=filled fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	rankdir=LR;
+	node [shape = doublecircle] 0 3 4;
+	node [shape = circle fillcolor="aquamarine"];
+	0 -> 2 [label = "2 ans"];
+	2 -> 3 [label = "1 an"];
+	4 -> 2 [label = "1 an"];
+	4 -> 3 [label = "1 an"];
+	0 -> 4 [label = "2 ans"];
+	3 -> 5 [label = "2-3 ans"];
+	0 -> 8; 5 -> 6; 3 -> 7;
+	0 [label = "Bac" fillcolor="lightblue"];
+	2 [label = "BUT 2" fillcolor="lightgray"];
+	3 [label = "BUT RT" fillcolor="lightblue"];
+	5 [label = "Ecole ingé" fillcolor="lightblue"];
+	4 [label = "BTS" fillcolor="lightblue"];
+	6 [label = "emploi 3"];
+	7 [label = "emploi 2"];
+	8 [label = "emploi 1"];
+}
+```
+La commande
+```
+$ dot -Tsvg graphiz2.txt > graphiz2.svg
+```
+Va produire ce fichier `graphiz2.svg`:
+
+![graphiz2](exemples/graphiz2.svg)
+
+La page https://graphviz.org/gallery/ montre des exemples beaucou plus élaborés.
+
+### 2.3 - Kroki.io
 
 https://kroki.io/
 
 Outil assez généraliste, disposant à la fois d'une appli web mais installable en local également.
+Son intéret principal réside dans le fait qu'il peut servir de "front-end" pour appeler derrière d'autre outils (et en particulier PlantUML, Excalidraw, Grahpviz).
 
 
 
