@@ -13,10 +13,12 @@ L'utilisation de cette version est la plus simple, mais cette version est en fin
 
 **Etapes**
 
-Il faut d'abord créer un réseau virtuel:
+Il faut d'abord créer un réseau virtuel, nécessaire pour pouvoir accéder à la BDD depuis un autre conteneur:
 ```
 $ docker network create mynetwork
 ```
+
+### 1.1 - Démarrage du conteneur
 
 On peut ensuite lancer un serveur MySql dans un conteneur, connecté à ce réseau:
 ```
@@ -57,17 +59,26 @@ $ mysql -u root --port=3306 --protocol=TCP -p'secretpw'
 ```
 
 Ceci ouvre un shell "sql" dans lequel on peut taper des commandes SQL ou des commandes de gestion.
-La doc donnant ces commandes est ici: https://dev.mysql.com/doc/refman/8.4/en/mysql.html
+La doc donnant ces commandes est ici: https://dev.mysql.com/doc/refman/5.7/en/mysql.html
 
 Pour quitter, taper `exit;`
 
 On peut aussi utiliser ce client CLI pour automatiser des actions sur ce serveur, en lui "passant" un fichier contenant des commandes SQL
-(création d'une BDD, création d'une table dans une BDD, rempissage d'une table, etc.):
+(création d'une BDD, création d'une table dans une BDD, remplissage d'une table, etc.):
 ```
 $ mysql -u root --port=3306 -h 127.0.0.1 -p'secretpw' < fichier.sql
 ```
+Avec un fichier `fichier.sql` contenant du SQL, par exemple:
+```
+CREATE DATABASE databasename;
+USE DATABASE databasename;
+CREATE TABLE matable (
+	id INT (11) AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR (25) DEFAULT NULL
+);
+```
 
-### Stockage séparé
+### 1.2 - Stockage séparé
 
 En lancant le serveur de cette façon, les données sont stockées dans le conteneur.
 Conséquence: toutes les données qu'on pourrait y stocker sont **perdues** à l'arret du conteneur!
@@ -88,11 +99,24 @@ $ docker run \
 	-e MYSQL_ROOT_PASSWORD=secretpw \
 	-v mesdatas:/var/lib/mysql \
 	-d \
-	-p 3306:3306
+	-p 3306:3306 \
 	mysql:5.7
 ```
 
+De façon alternative, on peu aussi réaliser un "bind-mount", qui permet de "lier" un dossier du conteneur avec un dossier de la machine hôte:
+```
+$ docker run \
+	... autre options \
+	--mount type=bind,source=$(pwd)/bdd,target=/var/lib/mysql \
+	mysql:5.7
+```
+Avec `bdd` le dossier de l'hôte à lier avec le conteneur, et dans lequel on retrouvera les fichiers gérés par MySql (à ne surtout pas manipuler directement!).
+
+**Attention**: ceci n'est pas portable et est donc à éviter.
+
 ## 2 - Utilisation de MySql 8
+
+La doc: https://dev.mysql.com/doc/refman/8.4/en/mysql.html
 
 **Note1**: pour une raison que personne ne comprends vraiment (et qui a fait sourire la communauté), MySql est passé directement de version 5 à version 8...
 
@@ -138,7 +162,7 @@ $ docker logs <UUID>
 ```
 (ou utiliser son nom si vous lui en avez donné un).
 
-Si vous avez des erreurs bizarres après de multiples essais et en ayant éventuellement modifié l'image, celà est très certainement du au **volume** de stockage.
+Si vous avez des erreurs bizarres après de multiples essais et en ayant éventuellement modifié l'image, celà est très certainement du au **volume** de stockage, qui est donc persistant et peut avoir "enregistré" des informations issues d'un lancement précédent.
 
 Ajouter dans le script avant la commande de lancement la ligne:
  ```
