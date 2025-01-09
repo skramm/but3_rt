@@ -19,7 +19,7 @@ $ git pull
 | [collision_md5](content/collision_md5/) | Demonstration d'une collision avec md5 |
 | [demo_jinja](content/demo_jinja/)       |  Une démo de Jinja (sans Flask) |
 | [docker_compose](docker_compose)  | Note sur l'utilisation de docker-compose |
-| [install_VM_Debian_VB](install_VM_Debian_VB) |  Note sur l'installation de VM Debian |
+| [install_VM_Debian_VB](install_VM_Debian_VB) |  Note sur l'installation de VM Debian (et la config Docker) |
 | [regex](content/regex/)                   |  Fichiers de test pour le TP sur les regex (BUT3) |
 | [TP_ACL_SUID](TP_ACL_SUID/)       | Fichier source pour TP BUT3 |
 | [plantuml_gantt](content/plantuml_gantt/) | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
