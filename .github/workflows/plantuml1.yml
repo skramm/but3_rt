@@ -25,6 +25,6 @@ jobs:
       - name: Show java version
         run: java -version
       - name: Run script
-        run: cd plantuml_gantt;./run.sh
+        run: cd content/plantuml_gantt;./run.sh
         
 
