@@ -31,8 +31,6 @@ jobs:
         with:
           name: gant2
           path: content/plantuml_gantt/out2/gant_2.svg
-          name: gant3
-          path: content/plantuml_gantt/out2/gant_3.svg
 
 #      - name: DL  
 #        uses: actions/download-artifact@v4
