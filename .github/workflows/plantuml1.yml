@@ -29,8 +29,8 @@ jobs:
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: gant2
-          path: content/plantuml_gantt/out2/gant_2.svg
+          name: gant_2
+          path: gant_2.svg
 
 
 #      - name: DL  
