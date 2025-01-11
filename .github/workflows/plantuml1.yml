@@ -34,7 +34,7 @@ jobs:
       - name: DL  
         uses: actions/download-artifact@v4
         with:
-          name: gantt_3.svg
+          name: content/plantuml_gantt/out2/gantt_3.svg
           path: /tmp
       - name: Display structure of downloaded files
         run: ls -R /tmp
