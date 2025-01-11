@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gant_2
-          path: gant_2.svg
+          path: content/plantuml_gantt/gant_2.svg
 
 
 #      - name: DL  
