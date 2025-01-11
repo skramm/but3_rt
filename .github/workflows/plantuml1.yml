@@ -26,10 +26,16 @@ jobs:
         run: java -version
       - name: Run script
         run: cd content/plantuml_gantt;./run.sh
-      - name: Archive code coverage results
+      - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: upload artifact
           path: content/plantuml_gantt/out
-        
+      - name: DL  
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact
+          path: /tmp
+      - name: Display structure of downloaded files
+        run: ls -R /tmp
 
