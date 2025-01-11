@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: upload artifact
-          path: content/plantuml_gantt/out
+          path: content/plantuml_gantt/out2
       - name: DL  
         uses: actions/download-artifact@v4
         with:
