@@ -27,9 +27,13 @@ Le gros intéret est qu'on peut alors versionner cette description, et la regén
 
 ### 2.1 - PlantUML
 
-L'outil [`plantuml`](https://plantuml.com/) permet de scripter la production de certains diagrammes, dans un contexte ["UML"](https://fr.wikipedia.org/wiki/UML_(informatique)).
+L'outil **Plantuml** (https://plantuml.com/) permet de scripter la production de certains diagrammes, dans un contexte "UML".
+Il peut servir par exemple pour des **diagrammes de séquence**, très fréquents dans un contexte de communication entre machines.
+Voir:  
+* https://fr.wikipedia.org/wiki/Diagramme_de_s%C3%A9quence
+* https://fr.wikipedia.org/wiki/UML_(informatique)
 
-Par exemple, ceci:
+Par exemple, à partir d'un fichier contenant ceci:
 ```
 @startuml
 Alice -> Bob: Authentication Request
@@ -39,11 +43,14 @@ Alice -> Bob: Another authentication Request
 Alice <-- Bob: Another authentication Response
 @enduml
 ```
-Va etre converti en ceci:
+On pourra générer ceci:
 
 ![plantuml1](exemples/plantuml_1.svg)
 
 (tiré de [la doc](https://plantuml.com/sequence-diagram))
+
+De nombreux autres types de graphiques sont possibles, entre autre des
+**diagrammes de Gantt**, voir https://github.com/skramm/but3_rt/blob/main/content/plantuml_gantt.
 
 ### 2.2 - Graphviz
 
@@ -135,7 +142,7 @@ https://textik.com/.
 Il peut en effet être assez laborieux de produire ces graphiques "à la main" dans un éditeur texte...
 
 On peut insérer ceci dans un fichier Markdown, mais le rendu reste assez basique.
-Il est possible de l'améliorer via l'outil [`ditaa`](https://ditaa.sourceforge.net/),
+Il est possible de l'améliorer via l'outil **Ditaa** (https://ditaa.sourceforge.net/),
 qui va convertir un fichier Ascii en une image de qualité un peu supérieure.
 
 Avec le texte ci-dessus dans un fichier `exemple1.ditaa`, la commande
@@ -146,7 +153,7 @@ va produire cette image:
 
 ![test1](exemples/exemple1.png)
 
-On peut faire des choses un tout petit peu plus élaboré en ajoutant quelques options (couleur des blocs, du fond, etc.).
+On peut faire des choses dans un style un tout petit peu plus élaboré en ajoutant quelques options (couleur des blocs, du fond, etc.).
 
 
 Par exemple, un fichier `socket.ditaa` contenant ceci:
