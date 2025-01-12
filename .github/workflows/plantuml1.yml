@@ -26,12 +26,12 @@ jobs:
         run: java -version
       - name: Run script
         run: cd content/plantuml_gantt;./run.sh
-      - run: echo "pwd:";pwd; echo "ls -R"; ls -R
+      - run: echo "pwd:";pwd; echo "ls -R content/plantuml_gantt"; ls -R
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: gant_2
-          path: content/plantuml_gantt/out2/gant_2.svg
+          path: content/plantuml_gantt/out2/gantt_2.svg
 
 
 #      - name: DL  
