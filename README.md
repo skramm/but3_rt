@@ -31,7 +31,9 @@ $ git pull
 | [Intro Flask](content/flask)            | Introduction à Flask |
 
 
-## 2 - Fichiers ressources pour TPs
+## 2 - Fichiers ressources pour TPs BUT3
+
+Voir dossier [ressources_TP](ressources_TP/)
 
 - TP "graphes": [Icone "routeur](ressources_TP/graphes/icon_router.png)
 - [TP BUT3 Linux - ACL](ressources_TP/TP_ACL_SUID/)
