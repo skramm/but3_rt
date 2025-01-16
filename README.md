@@ -20,7 +20,6 @@ $ git pull
 | [demo_jinja](content/demo_jinja/)            |  Une démo de Jinja (sans Flask) |
 | [docker_compose](content/docker_compose)     | Note sur l'utilisation de docker-compose |
 | [install_VM_Debian_VB](install_VM_Debian_VB) |  Note sur l'installation de VM Debian (et la config Docker) |
-| [regex](content/regex/)                      |  Fichiers de test pour le TP sur les regex (BUT3) |
 | [plantuml_gantt](content/plantuml_gantt/)    | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 | [docker_BDD](docker_BDD/)               | démo du lancement d'un serveur de BDD dans un conteneur docker |
 | [génération clés SSH](content/SSH_keys) | génération de clés SSH pour clonage dépot Git |
@@ -37,6 +36,6 @@ Voir dossier [ressources_TP](ressources_TP/)
 
 - TP "graphes": [Icone "routeur](ressources_TP/graphes/icon_router.png)
 - [TP BUT3 Linux - ACL](ressources_TP/TP_ACL_SUID/)
-
-
+- [Fichiers de test ](ressources_TP/regex/) pour le TP sur les regex (BUT3)
+- [Fichiers pour TP Flask/Python](ressources_TP/TP_Flask_1)
 
