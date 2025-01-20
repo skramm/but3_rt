@@ -48,7 +48,7 @@
 ### 1.3 - ASCII [table](https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.svg)
 
 | Sigle | Valeur Hexa | dec. | Nom |
-|-------|-------|------|
+|-------|-------------|------|-----|
 | CR    | 0x0d  | 13 | Carriage Return (retour chariot) | 
 | LF    | 0x0a  | 10 | Line Feed  (saut de ligne) |
 | SPC   | 0x20  | 32 | Space (espace) |
