@@ -2,7 +2,7 @@
 
 ## 1 - Sigles généraux
 
-### 1.1 - Protocoles
+### 1.1 - Protocoles & Standards
 
 | Sigle |       |
 |-------|-------|
@@ -10,9 +10,9 @@
 | TLS   | Transport Layer Security |
 | UDP   | User Datagram Protocol |
 | TCP   | Transmission Control Protocol |
-| SFTP  | Secure File Transfer Protocol |
-| HTTP  | Hypertext Transfer Protocol | 
+| HTTP  | HyperText Transfer Protocol | 
 | FTP   | File Transfer Protocol | 
+| SFTP  | Secure File Transfer Protocol |
 | SMTP  | Simple Mail Transfer Protocol | 
 | ICMP  | Internet Control Message Protocol |
 | MIME  | Multipurpose Internet Mail Extensions |
@@ -20,6 +20,7 @@
 | IMAP  | Internet Message Access Protocol |
 | HTML  | Hypertext Markup Language |
 | CSS   |  Cascading Style Sheets |
+
 
 ### 1.2 - Divers
 
@@ -34,6 +35,14 @@
 | BSD   | Berkeley Software Distribution |
 | RPC   | Remote Procedure Call |
 | OS    | Operating System |
+| PCRE  | Perl-Compatible Regular Expressions |
+| POSIX | Portable Operating System Interface |
+| GNU   | GNU's Not Unix! |
+| GPL   | GNU General Public License |
+| URL   | Uniform Resource Locator |
+| URI   | Uniform Resource Identifier |
+| VM    | Virtual Machine |
+| CI/CD | Continuous Integration/Continuous Deployment |
 
 
 ### 1.3 - ASCII
@@ -45,6 +54,7 @@
 | SPC | 0x20 | Space (espace) |
 | ESC | 0x1B | Escape |
  
+ 
 ## 2 - Organisations
 
 | Sigle |       |
@@ -55,6 +65,8 @@
 | UIT   | Union Internationale des Télécommunications |
 | ICANN | Internet Corporation for Assigned Names and Numbers |
 | IANA  | Internet Assigned Numbers Authority |
+| ISO   | International Organization for Standardization |
+| NSA   | National Security Agency |
 
 
 ## 3 - Contexte Cryptographie/VPN
@@ -74,5 +86,7 @@
 | PEM   | Privacy-Enhanced Mail |
 | OSCP  | Online Certificate Status Protocol |
 | EE    | End Entity (Détenteur d’un certificat) |
+| RSA   | Rivest–Shamir–Adleman (algo de chiffrement **asymétrique** |
+| AES   | Advanced Encryption Standard (algo de chiffrement **symétrique** |
 
 
