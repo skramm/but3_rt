@@ -5,6 +5,8 @@ Sebastien Kramm - IUT RT Rouen
 
 Diverses ressources (datasets, code, tutos) pour mes étudiants BUT2 et/ou BUT3 RT.
 
+A voir: [Glossaire de sigles usuels](content/glossaire.md)
+
 **Remarque**: la majorité des outils et tutos évoqués ici présupposent un environnement Linux (Debian/Ubuntu/Mint/...).
 
 
