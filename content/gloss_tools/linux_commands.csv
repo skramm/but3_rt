@@ -1,0 +1,85 @@
+# WIP !!!
+# linux cli commands;category;description
+# categories:
+# 0: undefined at present
+
+lscpu;1;
+lsusb;1;
+lsblk;1;
+fmt;3;text formatter
+fdisk;2;
+df;2;disk free
+du;2;disk usage
+ls;4;
+make;5
+find;4;search for files, folders, ...
+convert;6
+fc-list;7;list available fonts
+git;5;
+pango-view;6;convert text to image file
+history;4;
+lsof;1;
+lspci;1;
+lstopo;1;
+lsb_release;4;
+uname;4;
+lsdev;1;
+lsof;1;list open files
+ss;1;list sockets
+ip;1;
+cp;4;
+mv;4;
+mkdir;4;
+rm;4;
+rmdir;4;
+cd;4;change directory
+whoami;4;
+who;4;
+pwd;4;
+locate;4;
+touch;4;
+man;4;
+ps;1;
+grep;4;
+wc;4;word count
+file;0;
+touch;4;
+zip;4;
+unzip;4;
+tar;4;
+cat;7;
+more;4;
+less;4;
+stat;0;
+head;7;
+tail;7;
+sort;0;
+cut;8;
+sudo;0;
+su;0;
+chmod;4;
+chown;4;
+top;1;
+ps;1;
+htop;1;
+time;0;
+jobs;0;
+watch;0;
+kill;0;
+killall;0;
+shutdown;0;
+reboot;0;
+ping;0;
+wget;0;
+curl;0;
+dig;0;
+echo;4;
+ln;1;création de lien, symbolique ou "hardlink"
+alias;4;
+apt;0;
+nano;0;
+xargs;0;
+tee;0;
+
+
+
