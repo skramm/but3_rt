@@ -1,9 +1,13 @@
 # Installation de VM Debian sous VirtualBox
 
-Note 1: suppose une install VirtualBox version 6 ou 7
+Note 1: suppose une install VirtualBox version 6 ou 7 (l'interface graphique change légèrement entre ces deux versions).
 
 Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" (`#`)  ou en utilisateur standard (`$`).
 Ceci a une importance, **vérifiez!**
+
+**Note 3**: en cas de doute sur l'une des étapes ci-dessous, ou si ça ne vous parait pas clair, **demander des précisions** à l'enseignant:
+toute manip hasardeuse risque de vous obliger tout recommencer et vous faire perdre du temps.
+
 
 ## Procédure
 

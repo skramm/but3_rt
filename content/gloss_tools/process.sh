@@ -8,8 +8,13 @@ do
 	catego[${tab[0]}]=${tab[1]}
 done < cat.csv
 
-echo "Catégories"
-for value in "${catego[*]}"; do echo "$value"; done
+echo "Catégories:"
+for key in "${!catego[@]}"
+do
+	echo "key=$key";
+	echo "=> ${key} ${catego[${key}]}"
+done
+
 
 # 2 - lecture fichier et construction fichiers .md
 
