@@ -45,6 +45,10 @@ Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
   - donner "root" comme mdp admin et créer un utilisateur `user` avec le mdp: `user`;
   - laisser les options par défaut pour le partitionnement du disque (tous les fichiers dans la même partition);
   - lors de la sélection du miroir pour les paquets, bien choisir la France, puis laisser le choix par défaut;
+  - **POINT CLÉ: install grub**: Lors cette étape, il faut **modifier** le choix par défaut (install manuelle) et choisir l'installation de Grub sur la partition:
+
+![grub](img/install_grub.png)
+  
   - lors de la sélection des logiciels à installer, **décocher** (avec la touche SPC) les bureaux mais laisser les utilitaires (voir ci-dessous).
 
 ![selection_soft](img/debian_soft_select_2.png)
