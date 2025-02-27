@@ -10,7 +10,16 @@ des fonctionnalités au binaire `docker`, via la sous-commande:
 
 ![](./docker-compose_warning.jpg "warning")
 
-Si votre installation de docker n'en dispose pas, il faut alors installer et utiliser le binaire séparé `docker-compose`.
+Pour savoir si votre installation de Docker intègre la commande compose, tapez:
+```
+$ docker compose
+```
+Si vous obtenez ceci:
+```
+docker: 'compose' is not a docker command.
+```
+C'est que votre version de docker n'en dispose pas, il faut alors installer et utiliser le binaire séparé `docker-compose`.
+
 
 ## 2 - Installation du binaire `docker-compose`  
 
@@ -19,7 +28,7 @@ Vérifier d'abord la dernière version disponible ici et la noter:
 https://github.com/docker/compose/releases/
 
 Puis exécuter les commandes suivantes dans votre VM, en remplacant `XXX` par la dernière version
-(par exemple `2.17.2`):
+(par exemple `2.30.3`):
 ```
 # téléchargement du binaire
 wget https://github.com/docker/compose/releases/download/vXXX/docker-compose-linux-x86_64
@@ -39,7 +48,7 @@ cd ~
 Puis tester ceci:
 `$ docker-compose --version`
 
-Vous devez otenir:
+Vous devez obtenir:
 ```
 docker-compose version XXX
 ```
