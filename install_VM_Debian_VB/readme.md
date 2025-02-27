@@ -1,9 +1,13 @@
 # Installation de VM Debian sous VirtualBox
 
-Note 1: suppose une install VirtualBox version 6 ou 7
+Note 1: suppose une install VirtualBox version 6 ou 7 (l'interface graphique change légèrement entre ces deux versions).
 
 Note 2: le 1er caractère des commandes ci-dessous (`#` ou `$`) indique respectivement si vous etes loggé en "root" (`#`)  ou en utilisateur standard (`$`).
 Ceci a une importance, **vérifiez!**
+
+**Note 3**: en cas de doute sur l'une des étapes ci-dessous, ou si ça ne vous parait pas clair, **demander des précisions** à l'enseignant:
+toute manip hasardeuse risque de vous obliger tout recommencer et vous faire perdre du temps.
+
 
 ## Procédure
 
@@ -41,7 +45,11 @@ Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
   - donner "root" comme mdp admin et créer un utilisateur `user` avec le mdp: `user`;
   - laisser les options par défaut pour le partitionnement du disque (tous les fichiers dans la même partition);
   - lors de la sélection du miroir pour les paquets, bien choisir la France, puis laisser le choix par défaut;
-  - lors de la sélection des logiciels à installer, **décocher** (avec la touche SPC) les bureaux mais laisser les utilitaires (voir ci-dessous).
+  - **POINT CLÉ: install grub**: Lors cette étape, il faut **modifier** le choix par défaut (install manuelle) et choisir l'installation de Grub sur la partition, comme ci-dessous:
+
+![grub](img/install_grub.png)
+  
+  - lors de la sélection des logiciels à installer, **décocher** avec la touche SPC ("Espace") les bureaux mais laisser les utilitaires (voir ci-dessous).
 
 ![selection_soft](img/debian_soft_select_2.png)
 

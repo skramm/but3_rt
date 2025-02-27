@@ -28,7 +28,7 @@ $ docker run \
 	--rm
 	-e MYSQL_ROOT_PASSWORD=secretpw \
 	-d \
-	-p 3306:3306
+	-p 3306:3306 \
 	mysql:5.7
 ```
 
@@ -110,7 +110,8 @@ $ docker run \
 	--mount type=bind,source=$(pwd)/bdd,target=/var/lib/mysql \
 	mysql:5.7
 ```
-Avec `bdd` le dossier de l'hôte à lier avec le conteneur, et dans lequel on retrouvera les fichiers gérés par MySql (à ne surtout pas manipuler directement!).
+Avec `bdd` le dossier de l'hôte à lier avec le conteneur (et qui se trouve dans le dossier courant),
+et dans lequel on retrouvera les fichiers gérés par MySql (à ne surtout pas manipuler directement!).
 
 **Attention**: ceci n'est pas portable et est donc à éviter.
 
@@ -205,5 +206,6 @@ Dans certaines situations, il faudra ajouter le mot clé `LOCAL`
 * https://mariadb.com/kb/en/load-data-infile/
 
 **Attention**: Cette technique implique que l'ordre des colonnes dans le fichier CSV soit identique à l'ordre dans la table.
-Si ça n'est pas le cas, il faudra spécifier dans la commande SQL quelle colonne va dans quel champ de la table, voir les pages de doc ci-dessus pour la syntaxe exacte.
+Si ça n'est pas le cas, il faudra spécifier dans la commande SQL quelle colonne va dans quel champ de la table,
+voir les pages de doc ci-dessus pour la syntaxe exacte.
 

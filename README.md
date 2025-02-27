@@ -19,11 +19,11 @@ $ git pull
 |  Dossier                          |             |
 |-----------------------------------|-------------| 
 | [collision_md5](content/collision_md5/)      | Demonstration d'une collision avec md5 |
-| [demo_jinja](content/demo_jinja/)            |  Une démo de Jinja (sans Flask) |
+| [demo_jinja](content/demo_jinja/)            | Une démo de Jinja (sans Flask) |
 | [docker_compose](content/docker_compose)     | Note sur l'utilisation de docker-compose |
-| [install_VM_Debian_VB](install_VM_Debian_VB) |  Note sur l'installation de VM Debian (et la config Docker) |
+| [install_VM_Debian_VB](install_VM_Debian_VB) | Note sur l'installation de VM Debian (et la config Docker) |
 | [plantuml_gantt](content/plantuml_gantt/)    | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
-| [docker_BDD](docker_BDD/)               | démo du lancement d'un serveur de BDD dans un conteneur docker |
+| [docker_BDD](content/docker_BDD/)       | démo du lancement d'un serveur de BDD dans un conteneur docker |
 | [génération clés SSH](content/SSH_keys) | génération de clés SSH pour clonage dépot Git |
 | [Trucs divers pour Git](content/git_TA) | Trucs et Astuces pour Git |
 | [Tests de charge](content/load_test)    | Liste outils pour générer du traffic et monitorer |
