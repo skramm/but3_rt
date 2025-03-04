@@ -86,7 +86,7 @@ et en choisir une autre.
 Pour éviter ça, et pour être sur qu'à chaque reboot on ait la bonne définition, vous pouvez ajouter la ligne ci-dessus à la fin de votre fichier `~/.bashrc`.
 Si la définition change en cours de travail, vous pouvez simplement taper:
 ```
-$ source ~/.bashrc`
+$ source ~/.bashrc
 ```
 (ou `$ source .bashrc` si vous êtes déjà dans le dossier personnel de `user`).
 
