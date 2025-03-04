@@ -53,15 +53,11 @@ Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
 
 ![selection_soft](img/debian_soft_select_2.png)
 
-
-**ATTENTION**:
-lors de l'install de `grub`, bien valider son installation sur le disque, mais à l'écran suivant **ne pas** laisser le choix par défaut (qui est "install manuelle") mais sélectionner l'**install automatique** sur le disque!
-
 5. Une fois l'OS installé, se logger en "root", et après un `apt update/apt upgrade`, installer le bureau "xfce4" et l'utilitaire "sudo":
 
 `# apt install xfce4 sudo`
 
-6. Ajouter l'utilisateur courant au groupe des sudoers avec:
+6. Ajouter l'utilisateur `user` au groupe des "sudoers" avec:
 ```
 # /sbin/usermod -aG sudo user
 ```
@@ -80,11 +76,20 @@ Ouvrir un terminal et taper:
 ```
 $ xrandr --size 1280x960
 ```
-Si cette résolution parait inadaptée, vous pouvez afficher la liste des résolutions d'écrans disponibles avec
+Si cette résolution parait inadaptée (ou si la commande échoue), vous pouvez afficher la liste des définitions d'écrans disponibles avec
 ```
 $ xrandr
 ```
 et en choisir une autre.
+
+**Note**: les VM VirtualBox ont une tendance à rebasculer sur une définition d'écran minimale de temps en temps.
+Pour éviter ça, et pour être sur qu'à chaque reboot on ait la bonne définition, vous pouvez ajouter la ligne ci-dessus à la fin de votre fichier `~/.bashrc`.
+Si la définition change en cours de travail, vous pouvez simplement taper:
+```
+$ source ~/.bashrc`
+```
+(ou `$ source .bashrc` si vous êtes déjà dans le dossier personnel de `user`).
+
 
 ## Procédure pour install Docker (si demandé)
 
