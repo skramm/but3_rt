@@ -10,7 +10,7 @@ On déclare une variable qui contient une chaine:
 $ var=ABCDEF
 ```
 
-## Longueur de la chaine
+## 1 - Longueur de la chaine
 
 Ceci:
 ```
@@ -22,7 +22,7 @@ taille=6
 ```
 
 
-## Extraction d'une sous-chaine
+## 2 - Extraction d'une sous-chaine
 
 Pour avoir la fin d'une chaine à partir d'une certaine position:
 ```
@@ -44,12 +44,12 @@ $ echo s1=${var:3}
 
 affiche:
 ```
-"s1=DEF"
+s1=DEF
 ```
 
 Ceci:
 ```
-$ echo "s2=${var:2:3}"
+$ echo s2=${var:2:3}
 ```
 affiche
 ```
@@ -58,7 +58,7 @@ s2=CDE
 
 
 
-## Recherche et remplacement:
+## 3 - Recherche et remplacement:
 
 Remplacement de la 1ère occurence de `pattern`:
 ```
@@ -70,7 +70,7 @@ Remplacement **toutes** les occurences de `pattern`
 ${string//pattern/replacement}:
 ```
  
- Exemples:
+### Exemples:
  
 ```
 $ f=a,b,c
