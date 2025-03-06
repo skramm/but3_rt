@@ -30,7 +30,7 @@ $ git pull
 | [Diagrammes](content/diagrammes)        | Génération de diagrammes |
 | [Regex Python](content/regex_python)    | Utilisation d'expressions regulières en Python |
 | [Intro Flask](content/flask)            | Introduction à Flask |
-| [chaines/Bash](trait_chaines_bash)      | Traitement de chaines de caractères en Bash |
+| [chaines/Bash](content/trait_chaines_bash)      | Traitement de chaines de caractères en Bash |
 
 
 ## 2 - Fichiers ressources pour TPs BUT3
