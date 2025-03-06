@@ -72,11 +72,36 @@ ${string//pattern/replacement}:
 ```
  
 ### Exemples:
- 
+
+Remplacement de `,` par `;`:
 ```
-$ f=a,b,c
-$ echo "${f/,/;}"  # affiche "a;b,c"
-$ echo "${f//,/;}"  # affiche "a;b;c"
+$ var=a,b,c
+$ echo "${var/,/;}"  # affiche "a;b,c"
+$ echo "${var//,/;}"  # affiche "a;b;c"
 ```
+Fonctionne aussi pour des chaînes longues:
+
+```
+$ var="bonjour Madame"
+$ echo "${var/Madame/Monsieur}"  # affiche "bonjour Monsieur"
+```
+
+### Utilisation de `tr`
+
+Pour un seul caractère, on peut aussi utiliser `tr`:
+```
+$ var="aaa;bbb;ccc"
+$ echo $var | tr ';' ' '
+```
+
+affiche:
+```
+aaa bbb ccc
+```
+
+Note: cette commande permet d'autres choses bien plus élaborées
+(exemple: remplacer majuscules par minuscules, etc), voir
+https://en.wikipedia.org/wiki/Tr_(Unix)
+
 
 
