@@ -1,8 +1,8 @@
 # Traitement de chaines de caractères en Bash
 
-(présentés sous forme d'exemple concret)
+(présentés sous forme d'exemples concret)
 
-Note: ici, on omet les guillemets pas souci de clarté mais il faudra les ajouter si la chaine à traiter contient des espaces.
+Note: ici, on omet les guillemets par souci de clarté mais il faudra les ajouter si la chaîne à traiter contient des espaces.
 
 
 On déclare une variable qui contient une chaine:
@@ -24,7 +24,7 @@ taille=6
 
 ## 2 - Extraction d'une sous-chaine
 
-Pour avoir la fin d'une chaine à partir d'une certaine position:
+Pour avoir la fin d'une chaine `$var` à partir d'une certaine position:
 ```
 ${var:position}
 ```
@@ -34,6 +34,7 @@ Pour avoir une partie d'une longueur définie:
 ${var:position:longueur} 
 ```
 
+(Note: le 1er caractère est en position 0)
 
 ### Exemples
 
