@@ -58,7 +58,6 @@ s2=CDE
 ```
 
 
-
 ## 3 - Recherche et remplacement:
 
 Remplacement de la 1ère occurence de `pattern`:
@@ -102,6 +101,58 @@ aaa bbb ccc
 Note: cette commande permet d'autres choses bien plus élaborées
 (exemple: remplacer majuscules par minuscules, etc), voir
 https://en.wikipedia.org/wiki/Tr_(Unix)
+
+
+## 4 - "Parsing" de fichier texte
+
+On a souvent besoin de récuperer le contenu d'un fichier généré par une autre commande et de le traiter "ligne par ligne", pour en extraire les infos dont on a besoin.
+
+### 4.1 - Cas simple
+Exemple:
+Soit un fichier ` f1.txt` contenant ceci:
+```
+:1234
+:5678
+:90
+```
+
+On souhaite récupérer les nombres, mais **sans** le 1er caractère.
+
+Le script suivant extrait les nombres dans un deuxième fichier `f2.txt`:
+
+```
+while read VAR
+do
+	echo "${VAR:1}">f2.txt
+done<f1.txt
+```
+
+### 4.2 - Fichier contenant des champs
+
+La commande `read` dispose d'options permettant de s'adapter à d'autres situations,
+voir `$ help read`.
+
+En particulier dans le cas de lecture d'un fichier d'entrée `f1.txt` contenant des champs séparés par des espaces:
+```
+a63 Paul
+b56 Joe
+f87 Bill
+```
+L'option '-r' va placer les différents champs dans les élements d'un tableau, qu'on peut ensuite récupérer par leur indice:
+```
+while read -*r VAR
+do
+	echo "${VAR[0]} -- ${VAR[1]}">f2.txt
+done<f1.txt
+```
+
+Il est possible de spécifier un autre séparateur de champ que celui par défaut (SPC) en le précisant dans la variable d'environnement `IFS`
+(_Internal Field Separator_):
+```
+IFS=","; while read -r VAR
+...
+```
+
 
 
 
