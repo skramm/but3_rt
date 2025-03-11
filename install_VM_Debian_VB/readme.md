@@ -17,6 +17,7 @@ Laisser les autres options à leur valeur par défaut.
 
 **NE PAS LUI ASSIGNER d'ISO !**
 
+![img_vb7](img/VB7_new_1.jpg)
 
 2. Télécharger l'ISO amd64 de la version 12 de Debian
 (codename "Bookworm") pour l'architecture `amd64`, en version **netinst**
