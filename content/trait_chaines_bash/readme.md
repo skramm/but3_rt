@@ -138,12 +138,25 @@ a63 Paul
 b56 Joe
 f87 Bill
 ```
-L'option '-r' va placer les différents champs dans les élements d'un tableau, qu'on peut ensuite récupérer par leur indice:
+L'option `-r` va placer les différents champs dans les élements d'un tableau, qu'on peut ensuite récupérer par leur indice:
 ```
-while read -*r VAR
+while read -r VAR
 do
-	echo "${VAR[0]} -- ${VAR[1]}">f2.txt
+	echo "${VAR[1]}">f2.txt # on récupère le 2è champ de texte
 done<f1.txt
+```
+Ceci va générer le fichier `f2.txt`, contenant:
+```
+Paul
+Joe
+Bill
+```
+
+Dans certain cas, on a besoin de savoir **combien** de champs ont été lus
+(et donc placés dans le tableau Bash `VAR`).
+On accède à cette information avec:
+```
+nbelem=${#VAR[@]}
 ```
 
 Il est possible de spécifier un autre séparateur de champ que celui par défaut (SPC) en le précisant dans la variable d'environnement `IFS`
