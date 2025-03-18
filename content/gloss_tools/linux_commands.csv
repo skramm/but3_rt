@@ -17,9 +17,8 @@ convert;6
 fc-list;7;list available fonts
 git;5;
 pango-view;6;convert text to image file
-history;4;
-lsof;1;
-lspci;1;
+history;4;Affiche l'historique des commandes
+lspci;1;list all PCI devices
 lstopo;1;
 lsb_release;4;
 uname;4;
@@ -80,6 +79,6 @@ apt;0;
 nano;0;
 xargs;0;
 tee;0;
-
+clear;0;Effacement terminal
 
 
