@@ -160,8 +160,9 @@ va logger des lignes comme celles-ci:
 ```
 /dev/nvme0n1p3 290492440 212144724  63518460  77% /
 ```
-En insérant ceci dans une boucle comme  dans la
-[section 2.2](#22--etat-de-la-rAM), on peut logger ces infos de façon périodique
+En insérant ceci dans une boucle comme dans la
+[section 2.2](#22---etat-de-la-rAM),
+on peut logger ces infos de façon périodique
 (même si pour les disques, il sera plus pertinent de prendre une périodicité plus élevée, par exemple 1 mn, ou plus).
 
 La visualisation pourra se faire ensuite à partir du fichier log avec des outils comme
