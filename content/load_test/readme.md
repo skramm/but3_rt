@@ -150,18 +150,18 @@ voir https://www.tecmint.com/linux-cpu-load-stress-test-with-stress-ng-tool/
 
 ### 2.4 - Occupation disque
 
-La commande `df` (avec éventuellement l'option `-h`) montre pour les différents systèmes de fichiers qui sont montés le volume utilisé et le volume disponible.
-Pour le logger, il faut "grepper" sur celui qui est pertinent (cette commande montre aussi les systèmes de fichiers virtuels).
-Par exemple
+La commande `df` (avec éventuellement l'option `-h`) montre pour les différents systèmes de fichiers qui sont montés l'espace utilisé et disponible.
+Pour le logger, il faut "grepper" sur celui qui est pertinent (car cette commande montre aussi les systèmes de fichiers virtuels).
+Par exemple:
 ```
-$ free | grep /dev/nvme0n1p3 >> fichier log
+$ df | grep /dev/nvme0n1p3 >> fichier log
 ```
 va logger des lignes comme celles-ci:
 ```
 /dev/nvme0n1p3 290492440 212144724  63518460  77% /
 ```
 En insérant ceci dans une boucle comme  dans la
-[section 2.2](#2.2-Etat-de-la-RAM), on peut logger ces infos de façon périodique
+[section 2.2](#22--Etat-de-la-RAM), on peut logger ces infos de façon périodique
 (même si pour les disques, il sera plus pertinent de prendre une périodicité plus élevée, par exemple 1 mn, ou plus).
 
 La visualisation pourra se faire ensuite à partir du fichier log avec des outils comme
