@@ -39,13 +39,14 @@ https://github.com/denji/awesome-http-benchmark
 
 ## 2 - Charge de la machine
 
-On parle ici de "Monitoring" de la machine (ou du conteneur)
+On parle ici de "Monitoring" de la machine (ou du conteneur).
+Les points principaux à surveiller sont la charge de la RAM, la charge CPU, et l'occupation disque.
 
 Des outils très évolués existent, mais il peut être pertinent de commencer par le "bas niveau", via des outils simples donnant accès aux paramètres essentiels de la machine.
 
 
 ### 2.1 - Monitoring temps réel
-La commande `htop` montre sur un écran unique les différents paramètres.
+La commande `htop` montre sur un écran unique les paramètres les plus importants.
 Fonctionne en mode console, donc accessible même si le serveur n'a pas de bureau graphique.
 
 [![htop](htop_800.jpg)](https://fr.wikipedia.org/wiki/Htop)
@@ -84,23 +85,29 @@ Si on souhaite réaliser un "logging" de certaines infos, par exemple de la RAM 
 ```
 $ cat /proc/meminfo | grep MemFree >> fichierlog
 ```
-Mais il faut la répeter "manuellement" (donc pas pratique).
+Mais il faut la répeter manuellement, donc pas pratique.
 Pour logger ça toutes les secondes, on peut faire ceci:
 ```
-while sleep 1; do cat /proc/meminfo | grep MemFree; done  >> fichierlog;
+$ while sleep 1; do cat /proc/meminfo | grep MemFree; done  >> fichierlog
 ```
 On peut même ajouter un "Timestamp" avec le format "%T" de la commande `date`:
 ```
-while sleep 1; do echo -n "$(date +%T): "; cat /proc/meminfo | grep MemFree; done  >> fichierlog;
+$ while sleep 1; do echo -n "$(date +%T): "; cat /proc/meminfo | grep MemFree; done  >> fichierlog
 ```
-(N'hesitez pas à tester ça vous même!)
+N'hesitez pas à tester ça vous même!
+
+Pour vérifier que ça marche, on ouvre une autre console et on fait:
+```
+$ tail -f fichierlog
+```
 
 
-Si on veut utiliser le "daemon" `journalctl`, ce sera:
+
+Si on veut utiliser le "daemon" `journalctl`, la ligne suivante va envoyer ces informations (via `systemd-cat`) dans les logs de systemd:
 ```
 $ cat /proc/meminfo | grep MemFree | systemd-cat
 ```
-(voir les options permettant de préciser le degré de criticité.)
+(voir dans `man systemd-cat` les options permettant de préciser le degré de criticité.)
 
 
 
@@ -140,6 +147,27 @@ On peut facilement générer une charge CPU artificielle avec la commande `stres
 
 voir https://www.tecmint.com/linux-cpu-load-stress-test-with-stress-ng-tool/
 
+
+### 2.4 - Occupation disque
+
+La commande `df` (avec éventuellement l'option `-h`) montre pour les différents systèmes de fichiers qui sont montés le volume utilisé et le volume disponible.
+Pour le logger, il faut "grepper" sur celui qui est pertinent (cette commande montre aussi les systèmes de fichiers virtuels).
+Par exemple
+```
+$ free | grep /dev/nvme0n1p3 >> fichier log
+```
+va logger des lignes comme celles-ci:
+```
+/dev/nvme0n1p3 290492440 212144724  63518460  77% /
+```
+En insérant ceci dans une boucle comme  dans la
+[section 2.2](#2.2-Etat-de-la-RAM), on peut logger ces infos de façon périodique
+(même si pour les disques, il sera plus pertinent de prendre une périodicité plus élevée, par exemple 1 mn, ou plus).
+
+La visualisation pourra se faire ensuite à partir du fichier log avec des outils comme
+[matplotlib](https://matplotlib.org/)
+ou
+[gnuplot](http://www.gnuplot.info/).
 
 
 
