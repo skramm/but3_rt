@@ -1,5 +1,8 @@
 # Linux Shell: liste commande par catégorie
 
+<a href='linux_cmds_list_global.md'>Liste par catégorie</a>
+
+
 ## catégorie: Système
 <a name='cat1'></a>
 
@@ -23,7 +26,7 @@
 | shutdown |  |
 | reboot |  |
 | ln | création de lien, symbolique ou "hardlink" |
-| apt |  |
+| apt | Gestion paquets Debian |
 
 ## catégorie: Disque & stockage
 <a name='cat2'></a>
@@ -126,4 +129,13 @@
 | awk |  |
 | tr |  |
 
-timestamp: 2025-03-19T10:41:30+0100
+## catégorie: Gestion utilisateurs
+<a name='cat9'></a>
+
+| Nom | Description|
+|-----|-----|
+| passwd |  |
+| adduser |  Création utilisateur |
+| useradd |  Création utilisateur (bas niveau!) |
+
+timestamp: 2025-03-19T10:52:50+0100

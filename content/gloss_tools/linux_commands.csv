@@ -78,11 +78,17 @@ dig;3;requete DNS
 echo;4;
 ln;1;création de lien, symbolique ou "hardlink"
 alias;4;
-apt;1;
+apt;1;Gestion paquets Debian
 nano;7;
 xargs;7;
 tee;7;
 clear;7;Effacement terminal
 awk;8;
 tr;8;
+passwd;9;
+usermod;9
+adduser;9; Création utilisateur
+useradd;9; Création utilisateur (bas niveau!)
+
+
 

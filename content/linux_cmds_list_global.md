@@ -1,12 +1,15 @@
-# Linux Shell: liste globale des commandes
+# Linux Shell: liste alphabétique des commandes
+
+<a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
 
 
 ## A
 
 | Nom | Description | catégorie |
 |-----|-----|-----|
+| adduser |  Création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 | alias |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
-| apt |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
+| apt | Gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | awk |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |
 
 ## C
@@ -120,6 +123,7 @@
 | Nom | Description | catégorie |
 |-----|-----|-----|
 | pango-view | convert text to image file | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
+| passwd |  | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 | ping |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | ps | Liste des process | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | pwd | Print Working directory | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
@@ -161,6 +165,7 @@
 |-----|-----|-----|
 | uname |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | unzip |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| useradd |  Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 
 ## W
 
@@ -184,4 +189,4 @@
 |-----|-----|-----|
 | zip |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 
-timestamp: 2025-03-19T10:44:23+0100
+timestamp: 2025-03-19T10:52:50+0100

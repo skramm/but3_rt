@@ -129,7 +129,8 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 {
 	std::ofstream f( fn );
 	assert( f.is_open() );
-	f << "# Linux Shell: liste globale des commandes\n\n";
+	f << "# Linux Shell: liste alphabétique des commandes\n\n"
+		<< "<a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n";
 	std::sort( cmds.begin(), cmds.end() );
 	auto first_letter = cmds[0].name.at(0);
 	bool start = true;
@@ -170,7 +171,8 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 {
 	std::ofstream f( fn );
 	assert( f.is_open() );
-	f << "# Linux Shell: liste commande par catégorie\n";
+	f << "# Linux Shell: liste commande par catégorie\n\n"
+		<< "<a href='linux_cmds_list_global.md'>Liste par catégorie</a>\n\n";
 
 	for(int idx=1; idx<vcats.size(); idx++ )
 		genCat( f, idx, vcats[idx], cmds );
@@ -182,7 +184,7 @@ int main()
 {
 	auto cat = readCSV_cat( "linux_cat.csv" );
 	auto cmds = readCSV_cmd( "linux_commands.csv" );
-	genGlobalList( "linux_cmds_list_global.md", cmds, cat );
-	genCatList( "linux_cmds_list_cat.md", cmds, cat );
+	genGlobalList( "../linux_cmds_list_global.md", cmds, cat );
+	genCatList( "../linux_cmds_list_cat.md", cmds, cat );
 }
 
