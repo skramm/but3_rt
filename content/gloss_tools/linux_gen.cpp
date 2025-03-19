@@ -172,7 +172,7 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 	std::ofstream f( fn );
 	assert( f.is_open() );
 	f << "# Linux Shell: liste commande par catégorie\n\n"
-		<< "<a href='linux_cmds_list_global.md'>Liste par catégorie</a>\n\n";
+		<< "<a href='linux_cmds_list_global.md'>Liste alphabétique</a>\n\n";
 
 	for(int idx=1; idx<vcats.size(); idx++ )
 		genCat( f, idx, vcats[idx], cmds );
