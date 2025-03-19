@@ -130,10 +130,11 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 	std::ofstream f( fn );
 	assert( f.is_open() );
 	f << "# Linux Shell: liste alphabétique de commandes\n\n"
-		<< "<a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n";
+		<< "<a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n"
+		<< "<a name='#top'></a>\n\n";
 		
 	for( uint8_t i=0;i<26;i++ )
-		f << "[" << (char)(i+'a') << "](#)-";
+		f << "[" << (char)(i+'A') << "](#" << (char)(i+'a') << ")-";
 	f << "\n\n";
 	
 	std::sort( cmds.begin(), cmds.end() );
@@ -145,8 +146,9 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 		if( first != first_letter || start )
 		{
 			f << "\n## " << (char)std::toupper(first)
-				<< "\n<a name='" << first << "'></a>"
-				<< "\n\n| Nom | Description | catégorie |\n"
+				<< "\n<a name='" << first << "'></a>\n\n"
+				<< "<a href='#top'>Haut de page</a>\n\n"
+				<< "| Nom | Description | catégorie |\n"
 				<< "|-----|-----|-----|\n";
 			first_letter = first;
 			start = false;
@@ -163,9 +165,16 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 void
 genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Command>& vcmd )
 {
-	f << "\n## catégorie: " << catname
-		<< "\n<a name='cat" << cat << "'></a>\n"
-		<< "\n| Nom | Description|"
+	int c=0;
+	for( const auto& cmd: vcmd )
+		if( cmd.cat == cat )
+			c++;
+
+	f << "\n## " << cat << " - catégorie: " << catname
+		<< " (" << c << " commandes)\n"
+		<< "<a name='cat" << cat << "'></a>\n\n"
+		<< "<a href='#top'>Haut de page</a>\n\n"
+		<< "| Nom | Description|"
 		<< "\n|-----|-----|\n";
 	for( const auto& cmd: vcmd )
 		if( cmd.cat == cat )
@@ -180,10 +189,11 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 	assert( f.is_open() );
 	f << "# Linux Shell: liste de commandes par catégorie\n\n"
 		<< "<a href='linux_cmds_list_global.md'>Liste alphabétique</a>\n\n"
+		<< "<a name='top'></a>\n\n"
 		<< "Catégories:  \n";
 
 	for(int idx=1; idx<vcats.size(); idx++ )
-		f << "* [" << vcats[idx] << "](#cat" << idx << ")\n";
+		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ")\n";
 	f << '\n';
 	
 	for(int idx=1; idx<vcats.size(); idx++ )

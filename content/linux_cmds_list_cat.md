@@ -2,21 +2,26 @@
 
 <a href='linux_cmds_list_global.md'>Liste alphabétique</a>
 
+<a name='top'></a>
+
 Catégories:  
-* [Système](#cat1)
-* [Disque & stockage](#cat2)
-* [Réseau](#cat3)
-* [Général](#cat4)
-* [Fichiers & permissions](#cat5)
-* [Dev](#cat6)
-* [Divers](#cat7)
-* [Traitement données texte](#cat8)
-* [Gestion utilisateurs](#cat9)
-* [Installation logiciels](#cat10)
+* 1 - [Système](#cat1)
+* 2 - [Disque & stockage](#cat2)
+* 3 - [Réseau](#cat3)
+* 4 - [Général](#cat4)
+* 5 - [Fichiers & permissions](#cat5)
+* 6 - [Dev](#cat6)
+* 7 - [Divers](#cat7)
+* 8 - [Traitement données texte](#cat8)
+* 9 - [Gestion utilisateurs](#cat9)
+* 10 - [Installation logiciels](#cat10)
+* 11 - [Manipulation fichiers](#cat11)
 
 
-## catégorie: Système
+## 1 - catégorie: Système (17 commandes)
 <a name='cat1'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -27,7 +32,7 @@ Catégories:
 | lsof | list open files |
 | ss | list sockets |
 | ps | Liste des process |
-| lspci | list all PCI devices |
+| lspci | _list all PCI devices_ |
 | lstopo |  |
 | sudo |  |
 | su |  |
@@ -37,19 +42,22 @@ Catégories:
 | killall |  |
 | shutdown |  |
 | reboot |  |
-| ln | création de lien, symbolique ou "hardlink" |
 
-## catégorie: Disque & stockage
+## 2 - catégorie: Disque & stockage (3 commandes)
 <a name='cat2'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | fdisk |  |
-| df | disk free |
-| du | disk usage |
+| df | _disk free_ |
+| du | _disk usage_ |
 
-## catégorie: Réseau
+## 3 - catégorie: Réseau (9 commandes)
 <a name='cat3'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -63,20 +71,16 @@ Catégories:
 | ssh |  |
 | ufw |  pilote CLI de Firewall  |
 
-## catégorie: Général
+## 4 - catégorie: Général (15 commandes)
 <a name='cat4'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
-| history | Affiche l'historique des commandes |
+| history | historique des commandes |
 | lsb_release |  |
 | uname |  |
-| cp |  |
-| mv |  |
-| mkdir |  |
-| rm |  |
-| rmdir |  |
-| cd | change directory |
 | whoami | qui suis-je? |
 | who | qui est loggé? |
 | pwd | Print Working directory |
@@ -90,12 +94,13 @@ Catégories:
 | echo |  |
 | alias |  |
 
-## catégorie: Fichiers & permissions
+## 5 - catégorie: Fichiers & permissions (12 commandes)
 <a name='cat5'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
-| ls |  |
 | find | search for files, folders, ... |
 | file |  |
 | touch |  |
@@ -109,8 +114,10 @@ Catégories:
 | chmod |  |
 | chown |  |
 
-## catégorie: Dev
+## 6 - catégorie: Dev (4 commandes)
 <a name='cat6'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -119,13 +126,16 @@ Catégories:
 | gcc | compilation |
 | g++ | compilation |
 
-## catégorie: Divers
+## 7 - catégorie: Divers (11 commandes)
 <a name='cat7'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | fmt | text formatter |
-| fc-list | list available fonts |
+| convert | conversion format d'image |
+| fc-list | _list available fonts_ |
 | pango-view | convert text to image file |
 | time |  |
 | jobs |  |
@@ -135,28 +145,35 @@ Catégories:
 | tee |  |
 | clear | Effacement terminal |
 
-## catégorie: Traitement données texte
+## 8 - catégorie: Traitement données texte (4 commandes)
 <a name='cat8'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
-| cut |  |
 | awk |  |
 | tr |  |
 | sed |  _Stream Editor_ |
+| cut |  |
 
-## catégorie: Gestion utilisateurs
+## 9 - catégorie: Gestion utilisateurs (5 commandes)
 <a name='cat9'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | passwd |  |
-| adduser |  Création utilisateur |
-| useradd |  Création utilisateur (bas niveau!) |
-| id |  Affiche les infos sur un utilisateur |
+| adduser | Création utilisateur |
+| useradd | Création utilisateur (bas niveau!) |
+| id | Affiche les infos sur un utilisateur |
+| groups | Affiche les groupes existants |
 
-## catégorie: Installation logiciels
+## 10 - catégorie: Installation logiciels (5 commandes)
 <a name='cat10'></a>
+
+<a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -166,4 +183,20 @@ Catégories:
 | rpm | Gestion paquets Fedora |
 | dpkg | Utilitaire paquets .deb |
 
-_timestamp: 2025-03-19T15:39:46+0100_
+## 11 - catégorie: Manipulation fichiers (8 commandes)
+<a name='cat11'></a>
+
+<a href='#top'>Haut de page</a>
+
+| Nom | Description|
+|-----|-----|
+| cp |  |
+| mv |  |
+| mkdir |  |
+| rm |  |
+| rmdir |  |
+| ln | création de lien, symbolique ou _hardlink_ |
+| ls |  |
+| cd | _Change Directory_ |
+
+_timestamp: 2025-03-19T15:59:22+0100_

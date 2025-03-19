@@ -12,13 +12,14 @@ ss;1;list sockets
 ps;1;Liste des process
 
 fmt;7;text formatter
+
 fdisk;2;
-df;2;disk free
-du;2;disk usage
-ls;5;
+df;2;_disk free_
+du;2;_disk usage_
+
 find;5;search for files, folders, ...
-convert;7
-fc-list;7;list available fonts
+convert;7;conversion format d'image
+fc-list;7;_list available fonts_
 
 git;6;
 make;6;compilation
@@ -26,18 +27,21 @@ gcc;6;compilation
 g++;6;compilation
 
 pango-view;7;convert text to image file
-history;4;Affiche l'historique des commandes
-lspci;1;list all PCI devices
+history;4;historique des commandes
+lspci;1;_list all PCI devices_
 lstopo;1;
 lsb_release;4;
 uname;4;
-ip;3;
-cp;4;
-mv;4;
-mkdir;4;
-rm;4;
-rmdir;4;
-cd;4;change directory
+
+cp;11;
+mv;11;
+mkdir;11;
+rm;11;
+rmdir;11;
+ln;11;création de lien, symbolique ou _hardlink_
+ls;11;
+cd;11;_Change Directory_
+
 whoami;4;qui suis-je?
 who;4;qui est loggé?
 pwd;4;Print Working directory
@@ -59,11 +63,12 @@ stat;5;
 head;5;
 tail;5;
 sort;5;
-cut;8;
-sudo;1;
-su;1;
 chmod;5;
 chown;5;
+
+sudo;1;
+su;1;
+
 top;1;
 htop;1;
 time;7;
@@ -74,6 +79,7 @@ killall;1;
 shutdown;1;
 reboot;1;
 
+ip;3;
 ping;3;
 wget;3;
 curl;3;
@@ -84,7 +90,6 @@ ssh;3;
 ufw;3; pilote CLI de Firewall 
 
 echo;4;
-ln;1;création de lien, symbolique ou "hardlink"
 alias;4;
 
 apt;10;Gestion paquets Debian
@@ -97,14 +102,17 @@ nano;7;éditeur "console"
 xargs;7;
 tee;7;
 clear;7;Effacement terminal
+
 awk;8;
 tr;8;
 sed;8; _Stream Editor_
+cut;8;
 
 passwd;9;
 usermod;9
-adduser;9; Création utilisateur
-useradd;9; Création utilisateur (bas niveau!)
-id;9; Affiche les infos sur un utilisateur
+adduser;9;Création utilisateur
+useradd;9;Création utilisateur (bas niveau!)
+id;9;Affiche les infos sur un utilisateur
+groups;9;Affiche les groupes existants
 
 
