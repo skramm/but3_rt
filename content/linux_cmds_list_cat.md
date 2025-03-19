@@ -7,17 +7,17 @@
 Catégories:  
 * 1 - [Système](#cat1) #:17
 * 2 - [Disque & stockage](#cat2) #:3
-* 3 - [Réseau](#cat3) #:9
+* 3 - [Réseau](#cat3) #:10
 * 4 - [Général](#cat4) #:15
 * 5 - [Fichiers & permissions](#cat5) #:13
 * 6 - [Dev](#cat6) #:4
-* 7 - [Divers](#cat7) #:11
+* 7 - [Divers](#cat7) #:15
 * 8 - [Traitement données texte](#cat8) #:4
 * 9 - [Gestion utilisateurs](#cat9) #:5
 * 10 - [Installation logiciels](#cat10) #:5
 * 11 - [Manipulation fichiers](#cat11) #:8
 
-Total: 94 commandes
+Total: 99 commandes
 
 ## 1 - catégorie: Système (17 commandes)
 <a name='cat1'></a>
@@ -32,15 +32,15 @@ Total: 94 commandes
 | lsdev |  |
 | lsof | list open files |
 | ss | list sockets |
-| ps | Liste des process |
+| ps | snapshot des process |
 | lspci | _list all PCI devices_ |
 | lstopo |  |
 | sudo |  |
 | su |  |
 | top |  |
 | htop |  |
-| kill |  |
-| killall |  |
+| kill | stoppe un process par PID |
+| killall | stoppe tous les process par nom |
 | shutdown |  |
 | reboot |  |
 
@@ -55,13 +55,14 @@ Total: 94 commandes
 | df | _disk free_ |
 | du | _disk usage_ |
 
-## 3 - catégorie: Réseau (9 commandes)
+## 3 - catégorie: Réseau (10 commandes)
 <a name='cat3'></a>
 
 <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
+| hostname | nom de la machine |
 | ip |  |
 | ping |  |
 | wget |  |
@@ -89,11 +90,11 @@ Total: 94 commandes
 | man |  Manuel |
 | grep |  |
 | wc | _word count_ |
-| cat |  |
+| cat | affiche et/ou concatene un/des fichiers |
 | more | filtre d'affichage |
 | less | filtre d'affichage |
-| echo |  |
-| alias |  |
+| echo | affichage de texte/variable |
+| alias | composition de commandes |
 
 ## 5 - catégorie: Fichiers & permissions (13 commandes)
 <a name='cat5'></a>
@@ -128,7 +129,7 @@ Total: 94 commandes
 | gcc | compilation |
 | g++ | compilation |
 
-## 7 - catégorie: Divers (11 commandes)
+## 7 - catégorie: Divers (15 commandes)
 <a name='cat7'></a>
 
 <a href='#top'>Haut de page</a>
@@ -139,13 +140,17 @@ Total: 94 commandes
 | convert | conversion format d'image |
 | fc-list | _list available fonts_ |
 | pango-view | convert text to image file |
-| time |  |
+| time | chronométrage de tache |
 | jobs |  |
 | watch |  |
+| env | liste var. environnement |
 | nano | éditeur "console" |
 | xargs |  |
 | tee |  |
 | clear | Effacement terminal |
+| uptime |  |
+| which | localisation (chemin) d'un programme |
+| type | indique si une commande est interne (_builtin_) ou externe |
 
 ## 8 - catégorie: Traitement données texte (4 commandes)
 <a name='cat8'></a>
@@ -201,4 +206,4 @@ Total: 94 commandes
 | ls |  |
 | cd | _Change Directory_ |
 
-_MAJ: 2025-03-19T16:30:21+0100_
+_MAJ: 2025-03-19T19:21:42+0100_

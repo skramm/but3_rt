@@ -15,7 +15,7 @@
 | Nom | Description | Catégorie |
 |-----|-----|-----|
 | adduser | Création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
-| alias |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| alias | composition de commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | apt | Gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
 | apt-get | Gestion paquets Debian (bas niveau) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
 | awk |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |
@@ -27,7 +27,7 @@
 
 | Nom | Description | Catégorie |
 |-----|-----|-----|
-| cat |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| cat | affiche et/ou concatene un/des fichiers | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | cd | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
 | chgrp |  chgt groupe propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | chmod |  chgt permissions fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
@@ -57,7 +57,8 @@
 
 | Nom | Description | Catégorie |
 |-----|-----|-----|
-| echo |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| echo | affichage de texte/variable | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| env | liste var. environnement | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 
 ## F
 <a name='f'></a>
@@ -94,6 +95,7 @@
 |-----|-----|-----|
 | head |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | history | historique des commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| hostname | nom de la machine | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | htop |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 
 ## I
@@ -122,8 +124,8 @@
 
 | Nom | Description | Catégorie |
 |-----|-----|-----|
-| kill |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
-| killall |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
+| kill | stoppe un process par PID | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
+| killall | stoppe tous les process par nom | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 
 ## L
 <a name='l'></a>
@@ -179,7 +181,7 @@
 | pango-view | convert text to image file | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | passwd |  | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 | ping |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
-| ps | Liste des process | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
+| ps | snapshot des process | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | pwd | Print Working directory | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 
 ## R
@@ -220,10 +222,11 @@
 | tail |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | tar |  utilitaire archivage | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | tee |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
-| time |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
+| time | chronométrage de tache | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | top |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | touch |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | tr |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |
+| type | indique si une commande est interne (_builtin_) ou externe | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 
 ## U
 <a name='u'></a>
@@ -235,6 +238,7 @@
 | ufw |  pilote CLI de Firewall  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | uname |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | unzip |  décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| uptime |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | useradd | Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 
 ## W
@@ -247,6 +251,7 @@
 | watch |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | wc | _word count_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | wget |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
+| which | localisation (chemin) d'un programme | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | who | qui est loggé? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | whoami | qui suis-je? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 
@@ -277,4 +282,4 @@
 |-----|-----|-----|
 | zip |  compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 
-_MAJ: 2025-03-19T16:30:21+0100_
+_MAJ: 2025-03-19T19:21:42+0100_

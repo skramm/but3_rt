@@ -8,15 +8,16 @@ lsblk;1;
 lsdev;1;
 lsof;1;list open files
 ss;1;list sockets
-ps;1;Liste des process
+ps;1;snapshot des process
 lspci;1;_list all PCI devices_
 lstopo;1;
 sudo;1;
 su;1;
 top;1;
 htop;1;
-kill;1;
-killall;1;
+kill;1;stoppe un process par PID
+pkill;1;;stoppe un process par nom
+killall;1;stoppe tous les process par nom
 shutdown;1;
 reboot;1;
 
@@ -56,7 +57,7 @@ locate;4; localise un programme dans le système
 man;4; Manuel
 grep;4;
 wc;4;_word count_
-cat;4;
+cat;4;affiche et/ou concatene un/des fichiers
 more;4;filtre d'affichage
 less;4;filtre d'affichage
 
@@ -75,10 +76,12 @@ chown;5; chgt propriétaire fichier
 chgrp;5; chgt groupe propriétaire fichier
 
 
-time;7;
+time;7;chronométrage de tache
 jobs;7;
 watch;7;
+env;7;liste var. environnement
 
+hostname;3;nom de la machine
 ip;3;
 ping;3;
 wget;3;
@@ -89,8 +92,8 @@ nc;3;alias pour netcat
 ssh;3;
 ufw;3; pilote CLI de Firewall 
 
-echo;4;
-alias;4;
+echo;4;affichage de texte/variable
+alias;4;composition de commandes
 
 apt;10;Gestion paquets Debian
 apt-get;10;Gestion paquets Debian (bas niveau)
@@ -102,6 +105,7 @@ nano;7;éditeur "console"
 xargs;7;
 tee;7;
 clear;7;Effacement terminal
+uptime;7;
 
 awk;8;
 tr;8;
@@ -115,4 +119,5 @@ useradd;9;Création utilisateur (bas niveau!)
 id;9;Affiche les infos sur un utilisateur
 groups;9;Affiche les groupes existants
 
-
+which;7;localisation (chemin) d'un programme
+type;7;indique si une commande est interne (_builtin_) ou externe
