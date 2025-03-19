@@ -14,9 +14,9 @@
 | lsdev |  |
 | lsof | list open files |
 | ss | list sockets |
+| ps | Liste des process |
 | lspci | list all PCI devices |
 | lstopo |  |
-| ps | Liste des process |
 | sudo |  |
 | su |  |
 | top |  |
@@ -26,7 +26,6 @@
 | shutdown |  |
 | reboot |  |
 | ln | création de lien, symbolique ou "hardlink" |
-| apt | Gestion paquets Debian |
 
 ## catégorie: Disque & stockage
 <a name='cat2'></a>
@@ -47,6 +46,10 @@
 | wget |  |
 | curl |  |
 | dig | requete DNS |
+| netcat | utilitaire TCP/UDP |
+| nc | alias pour netcat |
+| ssh |  |
+| ufw |  pilote CLI de Firewall  |
 
 ## catégorie: Général
 <a name='cat4'></a>
@@ -115,7 +118,7 @@
 | time |  |
 | jobs |  |
 | watch |  |
-| nano |  |
+| nano | éditeur "console" |
 | xargs |  |
 | tee |  |
 | clear | Effacement terminal |
@@ -128,6 +131,7 @@
 | cut |  |
 | awk |  |
 | tr |  |
+| sed |  __Stream Editor__ |
 
 ## catégorie: Gestion utilisateurs
 <a name='cat9'></a>
@@ -137,5 +141,17 @@
 | passwd |  |
 | adduser |  Création utilisateur |
 | useradd |  Création utilisateur (bas niveau!) |
+| id |  Affiche les infos sur un utilisateur |
 
-timestamp: 2025-03-19T10:52:50+0100
+## catégorie: Installation logiciels
+<a name='cat10'></a>
+
+| Nom | Description|
+|-----|-----|
+| apt | Gestion paquets Debian |
+| apt-get | Gestion paquets Debian (bas niveau) |
+| yum | Gestion paquets RedHat |
+| rpm | Gestion paquets Fedora |
+| dpkg | Utilitaire paquets .deb |
+
+timestamp: 2025-03-19T15:20:32+0100

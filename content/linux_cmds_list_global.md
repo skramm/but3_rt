@@ -9,7 +9,8 @@
 |-----|-----|-----|
 | adduser |  Création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 | alias |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
-| apt | Gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
+| apt | Gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
+| apt-get | Gestion paquets Debian (bas niveau) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
 | awk |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |
 
 ## C
@@ -31,6 +32,7 @@
 |-----|-----|-----|
 | df | disk free | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |
 | dig | requete DNS | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
+| dpkg | Utilitaire paquets .deb | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
 | du | disk usage | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |
 
 ## E
@@ -70,6 +72,7 @@
 
 | Nom | Description | catégorie |
 |-----|-----|-----|
+| id |  Affiche les infos sur un utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 | ip |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 
 ## J
@@ -116,7 +119,9 @@
 
 | Nom | Description | catégorie |
 |-----|-----|-----|
-| nano |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
+| nano | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
+| nc | alias pour netcat | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
+| netcat | utilitaire TCP/UDP | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 
 ## P
 
@@ -135,14 +140,17 @@
 | reboot |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | rm |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | rmdir |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| rpm | Gestion paquets Fedora | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
 
 ## S
 
 | Nom | Description | catégorie |
 |-----|-----|-----|
+| sed |  __Stream Editor__ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |
 | shutdown |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | sort |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | ss | list sockets | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
+| ssh |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | stat |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | su |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | sudo |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
@@ -163,6 +171,7 @@
 
 | Nom | Description | catégorie |
 |-----|-----|-----|
+| ufw |  pilote CLI de Firewall  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | uname |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | unzip |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | useradd |  Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
@@ -183,10 +192,16 @@
 |-----|-----|-----|
 | xargs |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 
+## Y
+
+| Nom | Description | catégorie |
+|-----|-----|-----|
+| yum | Gestion paquets RedHat | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
+
 ## Z
 
 | Nom | Description | catégorie |
 |-----|-----|-----|
 | zip |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 
-timestamp: 2025-03-19T10:52:50+0100
+timestamp: 2025-03-19T15:20:32+0100

@@ -5,12 +5,13 @@ Sebastien Kramm - IUT RT Rouen
 
 Diverses ressources (datasets, code, tutos) pour mes étudiants BUT2 et/ou BUT3 RT.
 
-A voir aussi:
-- [Glossaire de sigles usuels](content/glossaire.md)
-- Linux: liste de commandes courantes:
+A voir aussi:  
+* [Glossaire de sigles usuels](content/glossaire.md)
+* Linux: liste de commandes courantes:
 [liste alphabétique](content/linux_cmds_list_global.md)
 -
-[par catégorie](content/linux_cmds_list_cat.md)
+[par catégorie](content/linux_cmds_list_cat.md)  
+(voir [aussi ici](https://www.google.com/search?q=linux+cheat+sheet))
 
 
 **Remarque**: la majorité des outils et tutos évoqués ici présupposent un environnement Linux (Debian/Ubuntu/Mint/...).

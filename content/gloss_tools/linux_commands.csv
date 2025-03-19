@@ -9,6 +9,7 @@ lsblk;1;
 lsdev;1;
 lsof;1;list open files
 ss;1;list sockets
+ps;1;Liste des process
 
 fmt;7;text formatter
 fdisk;2;
@@ -42,17 +43,18 @@ who;4;qui est loggé?
 pwd;4;Print Working directory
 locate;4; Localise un programme dans le système
 man;4; Manuel
-ps;1;Liste des process
 grep;4;
 wc;4;word count
+cat;4;
+more;4;filtre d'affichage
+less;4;
+
 file;5;
 touch;5;
 zip;5;
 unzip;5;
 tar;5;
-cat;4;
-more;4;filtre d'affichage
-less;4;
+
 stat;5;
 head;5;
 tail;5;
@@ -71,27 +73,38 @@ kill;1;
 killall;1;
 shutdown;1;
 reboot;1;
+
 ping;3;
 wget;3;
 curl;3;
 dig;3;requete DNS
+netcat;3;utilitaire TCP/UDP
+nc;3;alias pour netcat
+ssh;3;
+ufw;3; pilote CLI de Firewall 
+
 echo;4;
 ln;1;création de lien, symbolique ou "hardlink"
 alias;4;
+
 apt;10;Gestion paquets Debian
 apt-get;10;Gestion paquets Debian (bas niveau)
 yum;10;Gestion paquets RedHat
 rpm;10;Gestion paquets Fedora
-nano;7;
+dpkg;10;Utilitaire paquets .deb
+
+nano;7;éditeur "console"
 xargs;7;
 tee;7;
 clear;7;Effacement terminal
 awk;8;
 tr;8;
+sed;8; __Stream Editor__
+
 passwd;9;
 usermod;9
 adduser;9; Création utilisateur
 useradd;9; Création utilisateur (bas niveau!)
-
+id;9; Affiche les infos sur un utilisateur
 
 
