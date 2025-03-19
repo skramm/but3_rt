@@ -5,18 +5,19 @@
 <a name='top'></a>
 
 Catégories:  
-* 1 - [Système](#cat1)
-* 2 - [Disque & stockage](#cat2)
-* 3 - [Réseau](#cat3)
-* 4 - [Général](#cat4)
-* 5 - [Fichiers & permissions](#cat5)
-* 6 - [Dev](#cat6)
-* 7 - [Divers](#cat7)
-* 8 - [Traitement données texte](#cat8)
-* 9 - [Gestion utilisateurs](#cat9)
-* 10 - [Installation logiciels](#cat10)
-* 11 - [Manipulation fichiers](#cat11)
+* 1 - [Système](#cat1) #:17
+* 2 - [Disque & stockage](#cat2) #:3
+* 3 - [Réseau](#cat3) #:9
+* 4 - [Général](#cat4) #:15
+* 5 - [Fichiers & permissions](#cat5) #:13
+* 6 - [Dev](#cat6) #:4
+* 7 - [Divers](#cat7) #:11
+* 8 - [Traitement données texte](#cat8) #:4
+* 9 - [Gestion utilisateurs](#cat9) #:5
+* 10 - [Installation logiciels](#cat10) #:5
+* 11 - [Manipulation fichiers](#cat11) #:8
 
+Total: 94 commandes
 
 ## 1 - catégorie: Système (17 commandes)
 <a name='cat1'></a>
@@ -200,4 +201,4 @@ Catégories:
 | ls |  |
 | cd | _Change Directory_ |
 
-_MAJ: 2025-03-19T16:22:25+0100_
+_MAJ: 2025-03-19T16:30:21+0100_

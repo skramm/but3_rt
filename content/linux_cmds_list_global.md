@@ -277,4 +277,4 @@
 |-----|-----|-----|
 | zip |  compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 
-_MAJ: 2025-03-19T16:22:25+0100_
+_MAJ: 2025-03-19T16:30:21+0100_

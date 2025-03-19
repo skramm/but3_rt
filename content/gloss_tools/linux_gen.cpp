@@ -162,13 +162,19 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 }
 
 //--------------------------------------------------
-void
-genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Command>& vcmd )
+int countCateg( int cat, const std::vector<Command>& vcmd )
 {
 	int c=0;
 	for( const auto& cmd: vcmd )
 		if( cmd.cat == cat )
 			c++;
+	return c;
+}
+//--------------------------------------------------
+void
+genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Command>& vcmd )
+{
+	auto c = countCateg( cat, vcmd );
 
 	f << "\n## " << cat << " - catégorie: " << catname
 		<< " (" << c << " commandes)\n"
@@ -192,9 +198,15 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 		<< "<a name='top'></a>\n\n"
 		<< "Catégories:  \n";
 
+// list of links
+	int tot = 0;
 	for(int idx=1; idx<vcats.size(); idx++ )
-		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ")\n";
-	f << '\n';
+	{
+		auto nb = countCateg(idx,cmds);
+		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ") #:" << nb << "\n";
+		tot += nb;
+	}
+	f << "\nTotal: " << tot << " commandes\n";
 	
 	for(int idx=1; idx<vcats.size(); idx++ )
 		genCat( f, idx, vcats[idx], cmds );
