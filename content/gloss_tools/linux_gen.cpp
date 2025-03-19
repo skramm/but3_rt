@@ -143,7 +143,7 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 			first_letter = first;
 			start = false;
 		}
-		f << "| " << cmd.name << " | " << cmd.comment  << " | <a href='catlist.md#cat"
+		f << "| " << cmd.name << " | " << cmd.comment  << " | <a href='linux_cmds_list_cat.md#cat"
 			<< cmd.cat << "'>"
 			<< cats.at(cmd.cat)
 			<< "</a> |\n";
