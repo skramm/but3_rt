@@ -78,7 +78,10 @@ dig;3;requete DNS
 echo;4;
 ln;1;création de lien, symbolique ou "hardlink"
 alias;4;
-apt;1;Gestion paquets Debian
+apt;10;Gestion paquets Debian
+apt-get;10;Gestion paquets Debian (bas niveau)
+yum;10;Gestion paquets RedHat
+rpm;10;Gestion paquets Fedora
 nano;7;
 xargs;7;
 tee;7;

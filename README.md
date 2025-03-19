@@ -5,15 +5,16 @@ Sebastien Kramm - IUT RT Rouen
 
 Diverses ressources (datasets, code, tutos) pour mes étudiants BUT2 et/ou BUT3 RT.
 
-A voir: [Glossaire de sigles usuels](content/glossaire.md)
+A voir aussi:
+- [Glossaire de sigles usuels](content/glossaire.md)
+- Linux: liste de commandes courantes:
+[liste alphabétique](content/linux_cmds_list_global.md)
+-
+[par catégorie](content/linux_cmds_list_cat.md)
+
 
 **Remarque**: la majorité des outils et tutos évoqués ici présupposent un environnement Linux (Debian/Ubuntu/Mint/...).
 
-
-**Attention**: ce dépot est susceptible d'évoluer, donc si jamais vous l'avez cloné, avant toute séance de travail:
-```
-$ git pull
-```
 
 ## 1 - Demos et tutos
 |  Dossier                          |             |
@@ -30,7 +31,7 @@ $ git pull
 | [Diagrammes](content/diagrammes)        | Génération de diagrammes |
 | [Regex Python](content/regex_python)    | Utilisation d'expressions regulières en Python |
 | [Intro Flask](content/flask)            | Introduction à Flask |
-| [chaines/Bash](content/trait_chaines_bash)      | Traitement de chaines de caractères en Bash |
+| [chaines/Bash](content/trait_chaines_bash)      | Traitement de chaines de caractères et <br>lecture de fichiers en Bash |
 
 
 ## 2 - Fichiers ressources pour TPs BUT3
