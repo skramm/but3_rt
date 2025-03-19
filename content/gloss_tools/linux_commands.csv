@@ -1,84 +1,88 @@
 # WIP !!!
-# linux cli commands;category;description
+# linux cli commands,category,description
 # categories:
 # 0: undefined at present
 
 lscpu;1;
 lsusb;1;
 lsblk;1;
-fmt;3;text formatter
+lsdev;1;
+lsof;1;list open files
+ss;1;list sockets
+
+fmt;7;text formatter
 fdisk;2;
 df;2;disk free
 du;2;disk usage
-ls;4;
-make;5
-find;4;search for files, folders, ...
-convert;6
+ls;5;
+find;5;search for files, folders, ...
+convert;7
 fc-list;7;list available fonts
-git;5;
-pango-view;6;convert text to image file
+
+git;6;
+make;6;compilation
+gcc;6;compilation
+g++;6;compilation
+
+pango-view;7;convert text to image file
 history;4;Affiche l'historique des commandes
 lspci;1;list all PCI devices
 lstopo;1;
 lsb_release;4;
 uname;4;
-lsdev;1;
-lsof;1;list open files
-ss;1;list sockets
-ip;1;
+ip;3;
 cp;4;
 mv;4;
 mkdir;4;
 rm;4;
 rmdir;4;
 cd;4;change directory
-whoami;4;
-who;4;
-pwd;4;
-locate;4;
-touch;4;
-man;4;
-ps;1;
+whoami;4;qui suis-je?
+who;4;qui est loggé?
+pwd;4;Print Working directory
+locate;4; Localise un programme dans le système
+man;4; Manuel
+ps;1;Liste des process
 grep;4;
 wc;4;word count
-file;0;
-touch;4;
-zip;4;
-unzip;4;
-tar;4;
-cat;7;
-more;4;
+file;5;
+touch;5;
+zip;5;
+unzip;5;
+tar;5;
+cat;4;
+more;4;filtre d'affichage
 less;4;
-stat;0;
-head;7;
-tail;7;
-sort;0;
+stat;5;
+head;5;
+tail;5;
+sort;5;
 cut;8;
-sudo;0;
-su;0;
-chmod;4;
-chown;4;
+sudo;1;
+su;1;
+chmod;5;
+chown;5;
 top;1;
-ps;1;
 htop;1;
-time;0;
-jobs;0;
-watch;0;
-kill;0;
-killall;0;
-shutdown;0;
-reboot;0;
-ping;0;
-wget;0;
-curl;0;
-dig;0;
+time;7;
+jobs;7;
+watch;7;
+kill;1;
+killall;1;
+shutdown;1;
+reboot;1;
+ping;3;
+wget;3;
+curl;3;
+dig;3;requete DNS
 echo;4;
 ln;1;création de lien, symbolique ou "hardlink"
 alias;4;
-apt;0;
-nano;0;
-xargs;0;
-tee;0;
-clear;0;Effacement terminal
-
+apt;1;
+nano;7;
+xargs;7;
+tee;7;
+clear;7;Effacement terminal
+awk;8;
+tr;8;
 
