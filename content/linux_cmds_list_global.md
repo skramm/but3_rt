@@ -12,7 +12,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | adduser | Création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 | alias |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
@@ -25,15 +25,16 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | cat |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | cd | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
-| chmod |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
-| chown |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| chgrp |  chgt groupe propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| chmod |  chgt permissions fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| chown |  chgt propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | clear | Effacement terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | convert | conversion format d'image | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
-| cp |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
+| cp | copie fichier(s) | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
 | curl |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | cut |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |
 
@@ -42,7 +43,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | df | _disk free_ | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |
 | dig | requete DNS | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
@@ -54,7 +55,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | echo |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 
@@ -63,7 +64,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | fc-list | _list available fonts_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | fdisk |  | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |
@@ -76,7 +77,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | g++ | compilation | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |
 | gcc | compilation | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |
@@ -89,7 +90,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | head |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | history | historique des commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
@@ -100,7 +101,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | id | Affiche les infos sur un utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 | ip |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
@@ -110,7 +111,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | jobs |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 
@@ -119,7 +120,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | kill |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | killall |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
@@ -129,11 +130,11 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
-| less |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| less | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | ln | création de lien, symbolique ou _hardlink_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
-| locate |  Localise un programme dans le système | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| locate |  localise un programme dans le système | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | ls |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
 | lsb_release |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | lsblk |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
@@ -149,20 +150,20 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | make | compilation | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |
 | man |  Manuel | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
-| mkdir |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
+| mkdir |  _make directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
 | more | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
-| mv |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
+| mv |  déplacement/renommage | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
 
 ## N
 <a name='n'></a>
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | nano | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | nc | alias pour netcat | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
@@ -173,7 +174,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | pango-view | convert text to image file | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | passwd |  | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
@@ -186,11 +187,11 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | reboot |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
-| rm |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
-| rmdir |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
+| rm |  suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
+| rmdir |  supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |
 | rpm | Gestion paquets Fedora | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
 
 ## S
@@ -198,11 +199,11 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | sed |  _Stream Editor_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |
 | shutdown |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
-| sort |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| sort |  tri de texte | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | ss | list sockets | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
 | ssh |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | stat |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
@@ -214,10 +215,10 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | tail |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
-| tar |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| tar |  utilitaire archivage | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | tee |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | time |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 | top |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |
@@ -229,11 +230,11 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | ufw |  pilote CLI de Firewall  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | uname |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
-| unzip |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| unzip |  décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 | useradd | Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |
 
 ## W
@@ -241,10 +242,10 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | watch |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
-| wc | word count | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
+| wc | _word count_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | wget |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |
 | who | qui est loggé? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
 | whoami | qui suis-je? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |
@@ -254,7 +255,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | xargs |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |
 
@@ -263,7 +264,7 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
 | yum | Gestion paquets RedHat | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |
 
@@ -272,8 +273,8 @@
 
 <a href='#top'>Haut de page</a>
 
-| Nom | Description | catégorie |
+| Nom | Description | Catégorie |
 |-----|-----|-----|
-| zip |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
+| zip |  compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |
 
-_timestamp: 2025-03-19T15:59:22+0100_
+_MAJ: 2025-03-19T16:22:25+0100_

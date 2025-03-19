@@ -1,4 +1,3 @@
-# WIP !!!
 # linux cli commands,category,description
 # categories:
 # 0: undefined at present
@@ -10,6 +9,16 @@ lsdev;1;
 lsof;1;list open files
 ss;1;list sockets
 ps;1;Liste des process
+lspci;1;_list all PCI devices_
+lstopo;1;
+sudo;1;
+su;1;
+top;1;
+htop;1;
+kill;1;
+killall;1;
+shutdown;1;
+reboot;1;
 
 fmt;7;text formatter
 
@@ -28,16 +37,14 @@ g++;6;compilation
 
 pango-view;7;convert text to image file
 history;4;historique des commandes
-lspci;1;_list all PCI devices_
-lstopo;1;
 lsb_release;4;
 uname;4;
 
-cp;11;
-mv;11;
-mkdir;11;
-rm;11;
-rmdir;11;
+cp;11;copie fichier(s)
+mv;11; déplacement/renommage
+mkdir;11; _make directory_
+rm;11; suppression fichier
+rmdir;11; supression dossier
 ln;11;création de lien, symbolique ou _hardlink_
 ls;11;
 cd;11;_Change Directory_
@@ -45,39 +52,32 @@ cd;11;_Change Directory_
 whoami;4;qui suis-je?
 who;4;qui est loggé?
 pwd;4;Print Working directory
-locate;4; Localise un programme dans le système
+locate;4; localise un programme dans le système
 man;4; Manuel
 grep;4;
-wc;4;word count
+wc;4;_word count_
 cat;4;
 more;4;filtre d'affichage
-less;4;
+less;4;filtre d'affichage
 
 file;5;
 touch;5;
-zip;5;
-unzip;5;
-tar;5;
+zip;5; compression zip
+unzip;5; décompression zip
+tar;5; utilitaire archivage
 
 stat;5;
 head;5;
 tail;5;
-sort;5;
-chmod;5;
-chown;5;
+sort;5; tri de texte
+chmod;5; chgt permissions fichier
+chown;5; chgt propriétaire fichier
+chgrp;5; chgt groupe propriétaire fichier
 
-sudo;1;
-su;1;
 
-top;1;
-htop;1;
 time;7;
 jobs;7;
 watch;7;
-kill;1;
-killall;1;
-shutdown;1;
-reboot;1;
 
 ip;3;
 ping;3;

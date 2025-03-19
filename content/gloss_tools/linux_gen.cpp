@@ -120,7 +120,7 @@ void
 printfooter( std::ofstream& f )
 {
 	auto t = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-	f << "\n_timestamp: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << "_\n";
+	f << "\n_MAJ: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << "_\n";
 }
 
 //--------------------------------------------------
@@ -148,7 +148,7 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 			f << "\n## " << (char)std::toupper(first)
 				<< "\n<a name='" << first << "'></a>\n\n"
 				<< "<a href='#top'>Haut de page</a>\n\n"
-				<< "| Nom | Description | catégorie |\n"
+				<< "| Nom | Description | Catégorie |\n"
 				<< "|-----|-----|-----|\n";
 			first_letter = first;
 			start = false;
