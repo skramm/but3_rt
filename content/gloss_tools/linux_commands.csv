@@ -99,7 +99,7 @@ tee;7;
 clear;7;Effacement terminal
 awk;8;
 tr;8;
-sed;8; __Stream Editor__
+sed;8; _Stream Editor_
 
 passwd;9;
 usermod;9

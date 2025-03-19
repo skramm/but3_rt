@@ -86,7 +86,7 @@
 | PEM   | Privacy-Enhanced Mail |
 | OSCP  | Online Certificate Status Protocol |
 | EE    | End Entity (Détenteur d’un certificat) |
-| RSA   | Rivest–Shamir–Adleman (algo de chiffrement **asymétrique** |
-| AES   | Advanced Encryption Standard (algo de chiffrement **symétrique** |
+| RSA   | Rivest–Shamir–Adleman (algo de chiffrement **asymétrique**) |
+| AES   | Advanced Encryption Standard (algo de chiffrement **symétrique**) |
 
 

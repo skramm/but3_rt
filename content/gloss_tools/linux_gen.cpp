@@ -100,7 +100,7 @@ struct Command
 };
 
 //--------------------------------------------------
-/// Read commands
+/// Read commands in input CSV file
 std::vector<Command>
 readCSV_cmd( std::string filename )
 {
@@ -120,7 +120,7 @@ void
 printfooter( std::ofstream& f )
 {
 	auto t = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-	f << "\ntimestamp: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << '\n';
+	f << "\n_timestamp: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << "_\n";
 }
 
 //--------------------------------------------------
@@ -129,8 +129,13 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 {
 	std::ofstream f( fn );
 	assert( f.is_open() );
-	f << "# Linux Shell: liste alphabétique des commandes\n\n"
+	f << "# Linux Shell: liste alphabétique de commandes\n\n"
 		<< "<a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n";
+		
+	for( uint8_t i=0;i<26;i++ )
+		f << "[" << (char)(i+'a') << "](#)-";
+	f << "\n\n";
+	
 	std::sort( cmds.begin(), cmds.end() );
 	auto first_letter = cmds[0].name.at(0);
 	bool start = true;
@@ -139,8 +144,10 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 		auto first = cmd.name.at(0);
 		if( first != first_letter || start )
 		{
-			f << "\n## " << (char)std::toupper(first) << "\n\n| Nom | Description | catégorie |\n";
-			f << "|-----|-----|-----|\n";
+			f << "\n## " << (char)std::toupper(first)
+				<< "\n<a name='" << first << "'></a>"
+				<< "\n\n| Nom | Description | catégorie |\n"
+				<< "|-----|-----|-----|\n";
 			first_letter = first;
 			start = false;
 		}
@@ -171,9 +178,14 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 {
 	std::ofstream f( fn );
 	assert( f.is_open() );
-	f << "# Linux Shell: liste commande par catégorie\n\n"
-		<< "<a href='linux_cmds_list_global.md'>Liste alphabétique</a>\n\n";
+	f << "# Linux Shell: liste de commandes par catégorie\n\n"
+		<< "<a href='linux_cmds_list_global.md'>Liste alphabétique</a>\n\n"
+		<< "Catégories:  \n";
 
+	for(int idx=1; idx<vcats.size(); idx++ )
+		f << "* [" << vcats[idx] << "](#cat" << idx << ")\n";
+	f << '\n';
+	
 	for(int idx=1; idx<vcats.size(); idx++ )
 		genCat( f, idx, vcats[idx], cmds );
 	printfooter(f);

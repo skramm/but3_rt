@@ -1,6 +1,18 @@
-# Linux Shell: liste commande par catégorie
+# Linux Shell: liste de commandes par catégorie
 
-<a href='linux_cmds_list_global.md'>Liste par catégorie</a>
+<a href='linux_cmds_list_global.md'>Liste alphabétique</a>
+
+Catégories:  
+* [Système](#cat1)
+* [Disque & stockage](#cat2)
+* [Réseau](#cat3)
+* [Général](#cat4)
+* [Fichiers & permissions](#cat5)
+* [Dev](#cat6)
+* [Divers](#cat7)
+* [Traitement données texte](#cat8)
+* [Gestion utilisateurs](#cat9)
+* [Installation logiciels](#cat10)
 
 
 ## catégorie: Système
@@ -131,7 +143,7 @@
 | cut |  |
 | awk |  |
 | tr |  |
-| sed |  __Stream Editor__ |
+| sed |  _Stream Editor_ |
 
 ## catégorie: Gestion utilisateurs
 <a name='cat9'></a>
@@ -154,4 +166,4 @@
 | rpm | Gestion paquets Fedora |
 | dpkg | Utilitaire paquets .deb |
 
-timestamp: 2025-03-19T15:20:32+0100
+_timestamp: 2025-03-19T15:39:46+0100_
