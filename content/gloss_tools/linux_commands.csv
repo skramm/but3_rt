@@ -16,7 +16,7 @@ su;1;
 top;1;
 htop;1;
 kill;1;stoppe un process par PID
-pkill;1;;stoppe un process par nom
+pkill;1;stoppe un process par nom
 killall;1;stoppe tous les process par nom
 shutdown;1;
 reboot;1;
@@ -33,10 +33,10 @@ fc-list;7;_list available fonts_
 
 git;6;
 make;6;compilation
-gcc;6;compilation
-g++;6;compilation
+gcc;6;compilation C
+g++;6;compilation C++
 
-pango-view;7;convert text to image file
+pango-view;7;_convert text to image_
 history;4;historique des commandes
 lsb_release;4;
 uname;4;
