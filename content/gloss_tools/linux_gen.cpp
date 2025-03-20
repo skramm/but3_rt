@@ -41,7 +41,7 @@ split_string( const std::string &s, char delim )
 
 
 //--------------------------------------------------
-/// read CSV fine \c filename
+/// read CSV file \c filename
 std::vector<std::vector<std::string>>
 readCSV( std::string filename )
 {
@@ -109,7 +109,7 @@ readCSV_cmd( std::string filename )
 	for( const auto elems: vcmd )
 	{
 //		std::cout << "elems size=" << elems.size() << '\n';
-		if( elems.size()  == 3 )
+		if( elems.size() == 3 )
 			vout.emplace_back( Command( elems ) );
 	}
 	return vout;
@@ -153,7 +153,11 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 			first_letter = first;
 			start = false;
 		}
-		f << "| " << cmd.name << " | " << cmd.comment  << " | <a href='linux_cmds_list_cat.md#cat"
+		
+		f << "| <a href='https://www.google.fr/search?q=linux+"
+			<< cmd.name << "' target='_blank'>" 
+			<< cmd.name << "</a> | " << cmd.comment 
+			<< " | <a href='linux_cmds_list_cat.md#cat"
 			<< cmd.cat << "'>"
 			<< cats.at(cmd.cat)
 			<< "</a> |\n";
@@ -174,17 +178,18 @@ int countCateg( int cat, const std::vector<Command>& vcmd )
 void
 genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Command>& vcmd )
 {
-	auto c = countCateg( cat, vcmd );
+	auto nbc = countCateg( cat, vcmd );
 
 	f << "\n## " << cat << " - catégorie: " << catname
-		<< " (" << c << " commandes)\n"
-		<< "<a name='cat" << cat << "'></a>\n\n"
-		<< "<a href='#top'>Haut de page</a>\n\n"
+		<< "\n<a name='cat" << cat << "'></a>\n\n" 
+		<< nbc << " commandes - <a href='#top'>Haut de page</a>\n\n"
 		<< "| Nom | Description|"
 		<< "\n|-----|-----|\n";
 	for( const auto& cmd: vcmd )
 		if( cmd.cat == cat )
-			f << "| " << cmd.name << " | " << cmd.comment  << " |\n";
+			f << "| <a href='https://www.google.fr/search?q=linux+"
+			<< cmd.name << "' target='_blank'>" 
+			<< cmd.name << "</a> | " << cmd.comment << " |\n";
 }
 
 //--------------------------------------------------
@@ -203,7 +208,7 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 	for(int idx=1; idx<vcats.size(); idx++ )
 	{
 		auto nb = countCateg(idx,cmds);
-		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ") #:" << nb << "\n";
+		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ")\n";
 		tot += nb;
 	}
 	f << "\nTotal: " << tot << " commandes\n";

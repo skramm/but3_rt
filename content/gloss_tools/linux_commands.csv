@@ -49,10 +49,12 @@ rmdir;11; supression dossier
 ln;11;création de lien, symbolique ou _hardlink_
 ls;11;
 cd;11;_Change Directory_
+pushd;11;chgt dossier courant avec sauvegarde;popd
+popd;11;récupération dossier courant;popd
 
 whoami;4;qui suis-je?
 who;4;qui est loggé?
-pwd;4;Print Working directory
+pwd;4;_print working directory_
 locate;4; localise un programme dans le système
 man;4; Manuel
 grep;4;
@@ -61,19 +63,19 @@ cat;4;affiche et/ou concatene un/des fichiers
 more;4;filtre d'affichage
 less;4;filtre d'affichage
 
-file;5;
-touch;5;
-zip;5; compression zip
-unzip;5; décompression zip
-tar;5; utilitaire archivage
+file;5;nature d'un fichier
+touch;5;création ou MAJ date d'un fichier
+zip;5;compression zip
+unzip;5;décompression zip
+tar;5;utilitaire archivage
 
 stat;5;
-head;5;
-tail;5;
-sort;5; tri de texte
-chmod;5; chgt permissions fichier
-chown;5; chgt propriétaire fichier
-chgrp;5; chgt groupe propriétaire fichier
+head;5;premières lignes texte;tail
+tail;5;dernières lignes texte;head
+sort;5;tri de texte
+chmod;5;chgt permissions fichier
+chown;5;chgt propriétaire fichier
+chgrp;5;chgt groupe propriétaire fichier
 
 
 time;7;chronométrage de tache
@@ -107,15 +109,16 @@ tee;7;
 clear;7;Effacement terminal
 uptime;7;
 
-awk;8;
-tr;8;
-sed;8; _Stream Editor_
-cut;8;
+awk;8;_pattern scanning and processing language_
+tr;8;_translate or delete characters_
+sed;8; _stream Editor_
+cut;8;suppression de texte dans des lignes
+paste;8;fusion de lignes de texte de plusieurs fichiers
 
 passwd;9;
-usermod;9
+usermod;9;modification compte utilisateur
 adduser;9;Création utilisateur
-useradd;9;Création utilisateur (bas niveau!)
+useradd;9;Création utilisateur (bas niveau!);adduser
 id;9;Affiche les infos sur un utilisateur
 groups;9;Affiche les groupes existants
 
