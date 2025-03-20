@@ -28,14 +28,14 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
-| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | pushd |
 | <a href='https://www.google.fr/search?q=linux+chgrp'>chgrp</a> | chgt groupe propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+chmod'>chmod</a> | chgt permissions fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+chown'>chown</a> | chgt propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | Effacement terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+curl'>curl</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | mv |
+| <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 
 ## D
@@ -96,7 +96,7 @@
 | <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | tail |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
-| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux | <a href='linux_cmds_list_cat.md#cat1'>Système</a> | top |
 
 ## I
 <a name='i'></a>
@@ -124,7 +124,7 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID | <a href='linux_cmds_list_cat.md#cat1'>Système</a> | pkill |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 
 ## L
@@ -134,18 +134,18 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
+| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | more  |
 | <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> |  localise un programme dans le système | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ls'>ls</a> |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | list open files | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | uname | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | _list open files_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> | liste périphs USB | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 
 ## M
 <a name='m'></a>
@@ -157,8 +157,8 @@
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> |  Manuel | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> |  _make directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
-| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> |  déplacement/renommage | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | less |
+| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> |  déplacement/renommage | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | cp |
 
 ## N
 <a name='n'></a>
@@ -170,6 +170,7 @@
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 
 ## P
 <a name='p'></a>
@@ -182,9 +183,9 @@
 | <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> |  | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
-| <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | <a href='linux_cmds_list_cat.md#cat1'>Système</a> | kill |
 | <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | popd |
-| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat1'>Système</a> | top |
 | <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | popd |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 
@@ -195,9 +196,9 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
-| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> |  suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> |  supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> | shutdown | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> |  suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | rmdir |
+| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> |  supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | rm |
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | Gestion paquets Fedora | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 
 ## S
@@ -208,9 +209,9 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _stream Editor_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
-| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> | reboot | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
-| <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | list sockets | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
@@ -227,7 +228,7 @@
 | <a href='https://www.google.fr/search?q=linux+tar'>tar</a> | utilitaire archivage | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tache | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+top'>top</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+top'>top</a> | liste process en temps réel | <a href='linux_cmds_list_cat.md#cat1'>Système</a> | ps |
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
@@ -240,8 +241,8 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
-| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
-| <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
+| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | lsb_release | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
+| <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | zip |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | adduser |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
@@ -255,7 +256,7 @@
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+watch'>watch</a> |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
-| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | curl |
 | <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
@@ -285,7 +286,7 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
+| <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-03-20T14:40:02+0100_
+_MAJ: 2025-03-20T14:50:35+0100_

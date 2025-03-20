@@ -17,7 +17,7 @@ Catégories:
 * 10 - [Installation logiciels](#cat10)
 * 11 - [Manipulation fichiers](#cat11)
 
-Total: 104 commandes
+Total: 105 commandes
 
 ## 1 - catégorie: Système
 <a name='cat1'></a>
@@ -26,24 +26,24 @@ Total: 104 commandes
 
 | Nom | Description|
 |-----|-----|
-| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> |  |
+| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
 | <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |
-| <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | list open files |
+| <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |
+| <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |
+| <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ |
+| <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | _list open files_ |
 | <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ |
 | <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> | liste périphs USB |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
-| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  |
-| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  |
-| <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | list sockets |
+| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> | shutdown |
+| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> | reboot |
+| <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> |  |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> |  |
-| <a href='https://www.google.fr/search?q=linux+top'>top</a> |  |
+| <a href='https://www.google.fr/search?q=linux+top'>top</a> | liste process en temps réel |
 
 ## 2 - catégorie: Disque & stockage
 <a name='cat2'></a>
@@ -59,20 +59,21 @@ Total: 104 commandes
 ## 3 - catégorie: Réseau
 <a name='cat3'></a>
 
-10 commandes - <a href='#top'>Haut de page</a>
+11 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
-| <a href='https://www.google.fr/search?q=linux+curl'>curl</a> |  |
+| <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) |
 | <a href='https://www.google.fr/search?q=linux+dig'>dig</a> | requete DNS |
 | <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine |
 | <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat |
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP |
+| <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  |
-| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> |  |
+| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http |
 
 ## 4 - catégorie: Général
 <a name='cat4'></a>
@@ -88,11 +89,11 @@ Total: 104 commandes
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |
 | <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> |  localise un programme dans le système |
-| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | uname |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> |  Manuel |
 | <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |
-| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> |  |
+| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | lsb_release |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |
@@ -212,4 +213,4 @@ Total: 104 commandes
 | <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> |  supression dossier |
 
 
-_MAJ: 2025-03-20T14:40:02+0100_
+_MAJ: 2025-03-20T14:50:35+0100_

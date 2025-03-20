@@ -2,24 +2,24 @@
 # categories:
 # 0: undefined at present
 
-lscpu;1;
-lsusb;1;
-lsblk;1;
-lsdev;1;
-lsof;1;list open files
-ss;1;list sockets
-ps;1;snapshot des process
+lscpu;1;détails sur archi CPU
+lsusb;1;liste périphs USB
+lsblk;1;liste périphs stockage "bloc"
+lsdev;1;infos générales sur _hardware_
+lsof;1;_list open files_
+ss;1;_list sockets_
+ps;1;snapshot des process;top
 lspci;1;_list all PCI devices_
 lstopo;1;
 sudo;1;
 su;1;
-top;1;
-htop;1;
-kill;1;stoppe un process par PID
-pkill;1;stoppe un process par nom
+top;1;liste process en temps réel;ps
+htop;1;top en mieux;top
+kill;1;stoppe un process par PID;pkill
+pkill;1;stoppe un process par nom;kill
 killall;1;stoppe tous les process par nom
-shutdown;1;
-reboot;1;
+shutdown;1;reboot
+reboot;1;shutdown
 
 fmt;7;text formatter
 
@@ -38,17 +38,17 @@ g++;6;compilation C++
 
 pango-view;7;_convert text to image_
 history;4;historique des commandes
-lsb_release;4;
-uname;4;
+lsb_release;4;uname
+uname;4;lsb_release
 
-cp;11;copie fichier(s)
-mv;11; déplacement/renommage
+cp;11;copie fichier(s);mv
+mv;11; déplacement/renommage;cp
 mkdir;11; _make directory_
-rm;11; suppression fichier
-rmdir;11; supression dossier
+rm;11; suppression fichier;rmdir
+rmdir;11; supression dossier;rm
 ln;11;création de lien, symbolique ou _hardlink_
 ls;11;
-cd;11;_Change Directory_
+cd;11;_Change Directory_;pushd
 pushd;11;chgt dossier courant avec sauvegarde;popd
 popd;11;récupération dossier courant;popd
 
@@ -60,13 +60,13 @@ man;4; Manuel
 grep;4;
 wc;4;_word count_
 cat;4;affiche et/ou concatene un/des fichiers
-more;4;filtre d'affichage
-less;4;filtre d'affichage
+more;4;filtre d'affichage;less
+less;4;filtre d'affichage;more 
 
 file;5;nature d'un fichier
 touch;5;création ou MAJ date d'un fichier
-zip;5;compression zip
-unzip;5;décompression zip
+zip;5;compression zip;unzip
+unzip;5;décompression zip;zip
 tar;5;utilitaire archivage
 
 stat;5;
@@ -82,17 +82,18 @@ time;7;chronométrage de tache
 jobs;7;
 watch;7;
 env;7;liste var. environnement
-
+last;historique des logins & boots
 hostname;3;nom de la machine
 ip;3;
 ping;3;
-wget;3;
-curl;3;
+wget;3;client http;curl
+curl;3;client multiprotocoles (wget en mieux)
 dig;3;requete DNS
 netcat;3;utilitaire TCP/UDP
 nc;3;alias pour netcat
 ssh;3;
 ufw;3; pilote CLI de Firewall 
+nmap;3;exploration réseau
 
 echo;4;affichage de texte/variable
 alias;4;composition de commandes
