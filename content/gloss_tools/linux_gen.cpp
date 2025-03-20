@@ -155,7 +155,7 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 		}
 		
 		f << "| <a href='https://www.google.fr/search?q=linux+"
-			<< cmd.name << "' target='_blank'>" 
+			<< cmd.name << "'>" 
 			<< cmd.name << "</a> | " << cmd.comment 
 			<< " | <a href='linux_cmds_list_cat.md#cat"
 			<< cmd.cat << "'>"
@@ -188,7 +188,7 @@ genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Comman
 	for( const auto& cmd: vcmd )
 		if( cmd.cat == cat )
 			f << "| <a href='https://www.google.fr/search?q=linux+"
-			<< cmd.name << "' target='_blank'>" 
+			<< cmd.name << "'>" 
 			<< cmd.name << "</a> | " << cmd.comment << " |\n";
 }
 
