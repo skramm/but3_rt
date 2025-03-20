@@ -18,8 +18,8 @@ htop;1;top en mieux;top
 kill;1;stoppe un process par PID;pkill
 pkill;1;stoppe un process par nom;kill
 killall;1;stoppe tous les process par nom
-shutdown;1;reboot
-reboot;1;shutdown
+shutdown;1;;reboot
+reboot;1;;shutdown
 
 fmt;7;text formatter
 
