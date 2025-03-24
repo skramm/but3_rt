@@ -8,18 +8,20 @@ lsblk;1;liste périphs stockage "bloc"
 lsdev;1;infos générales sur _hardware_
 lsof;1;_list open files_
 ss;1;_list sockets_
-ps;1;snapshot des process;top
 lspci;1;_list all PCI devices_
 lstopo;1;
 sudo;1;exécution d'une commande admin
 su;1;changement temp. d'utilisateur
-top;1;liste process en temps réel;ps
+top;1;_dashboard_ système général;htop
 htop;1;top en mieux;top
-kill;1;stoppe un process par PID;pkill
-pkill;1;stoppe un process par nom;kill
-killall;1;stoppe tous les process par nom
 shutdown;1;;reboot
 reboot;1;;shutdown
+
+ps;12;snapshot des process;top
+pidof;12; donne le PID d'un process;ps
+kill;12;stoppe un process par PID;pkill
+pkill;12;stoppe un process par nom;kill
+killall;12;stoppe tous les process par nom
 
 fmt;7;text formatter
 
