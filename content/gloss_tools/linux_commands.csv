@@ -11,8 +11,8 @@ ss;1;_list sockets_
 ps;1;snapshot des process;top
 lspci;1;_list all PCI devices_
 lstopo;1;
-sudo;1;
-su;1;
+sudo;1;exécution d'une commande admin
+su;1;changement temp. d'utilisateur
 top;1;liste process en temps réel;ps
 htop;1;top en mieux;top
 kill;1;stoppe un process par PID;pkill
@@ -55,7 +55,7 @@ popd;11;récupération dossier courant;popd
 whoami;4;qui suis-je?
 who;4;qui est loggé?
 pwd;4;_print working directory_
-locate;4; localise un programme dans le système
+locate;4;localise un programme dans le système;which
 man;4; Manuel
 grep;4;
 wc;4;_word count_
@@ -77,8 +77,7 @@ chmod;5;chgt permissions fichier
 chown;5;chgt propriétaire fichier
 chgrp;5;chgt groupe propriétaire fichier
 
-
-time;7;chronométrage de tache
+time;7;chronométrage de tâche
 jobs;7;
 watch;7;
 env;7;liste var. environnement
@@ -94,6 +93,9 @@ nc;3;alias pour netcat
 ssh;3;
 ufw;3; pilote CLI de Firewall 
 nmap;3;exploration réseau
+whois;3;infos/domaine
+nslookup;3;outil DNS
+traceroute;3;
 
 echo;4;affichage de texte/variable
 alias;4;composition de commandes
