@@ -78,6 +78,7 @@ sort;5;tri de texte
 chmod;5;chgt permissions fichier
 chown;5;chgt propriétaire fichier
 chgrp;5;chgt groupe propriétaire fichier
+umask;5;permissions par défaut;chmod
 
 time;7;chronométrage de tâche
 jobs;7;
