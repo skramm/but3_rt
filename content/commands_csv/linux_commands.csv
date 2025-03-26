@@ -101,6 +101,7 @@ nmap;3;exploration réseau
 whois;3;infos/domaine
 nslookup (_deprecated_);3;outil DNS;dig
 traceroute;3;
+netstat;3;infos/reseau, routage, etc.
 
 echo;4;affichage de texte/variable
 alias;4;composition de commandes
