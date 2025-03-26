@@ -65,7 +65,7 @@ cat;4;affiche et/ou concatene un/des fichiers
 tac;4;affiche ordre inversé;cat
 more;4;filtre d'affichage;less
 less;4;filtre d'affichage;more
-bat;4;cat en mieux;cat
+bat;4;cat en mieux;cat,tail
 
 file;5;nature d'un fichier
 touch;5;création ou MAJ date d'un fichier
@@ -122,6 +122,7 @@ tr;8;_translate or delete characters_
 sed;8; _Stream EDitor_
 cut;8;suppression de texte dans des lignes
 paste;8;fusion de lignes de texte de plusieurs fichiers
+uniq;8;suppression lignes identiques
 
 passwd;9;
 usermod;9;modification compte utilisateur

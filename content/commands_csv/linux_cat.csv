@@ -1,13 +1,13 @@
 0;undefined
-1;Système
-2;Disque & stockage
-3;Réseau
 4;Général
+2;Disque & stockage
+11;Manipulation fichiers
+3;Réseau
 5;Fichiers & permissions
+1;Système
 6;Dev
-7;Divers
 8;Traitement données texte
 9;Gestion utilisateurs
 10;Installation logiciels
-11;Manipulation fichiers
+7;Divers
 12;Gestion des process

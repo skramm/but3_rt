@@ -68,13 +68,18 @@ readCSV( std::string filename )
 
 //--------------------------------------------------
 /// Read categories
-std::vector<std::string>
+auto
 readCSV_cat( std::string filename )
 {
 	auto vcat = readCSV( filename );
-	std::vector<std::string> vout( vcat.size() );
+	std::vector<std::pair<int,std::string>> vout;
 	for( const auto& elems: vcat )
-		vout.at(std::stoi(elems[0])) = elems[1];
+		vout.push_back(
+			std::make_pair(
+				std::stoi(elems[0]),
+				elems[1]
+			)
+		);
 	return vout;
 }
 
@@ -128,7 +133,11 @@ printfooter( std::ofstream& f )
 
 //--------------------------------------------------
 void
-genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std::string>& cats )
+genGlobalList(
+	std::string                                    fn,
+	std::vector<Command>                           cmds,
+	const std::vector<std::pair<int,std::string>>& cats
+)
 {
 	std::ofstream f( fn );
 	assert( f.is_open() );
@@ -156,13 +165,17 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 			first_letter = first;
 			start = false;
 		}
-		
+		auto cat = std::find_if(
+			cats.begin(),
+			cats.end(), 
+			[cmd](const auto& elem){ return elem.first == cmd.cat; }
+		);
 		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd.name << "'>" 
 			<< cmd.name << "</a> | " << cmd.comment 
 			<< " | <a href='linux_cmds_list_cat.md#cat"
 			<< cmd.cat << "'>"
-			<< cats.at(cmd.cat)
+			<< cat->second
 			<< "</a> | ";
 		if( !cmd.seealso.empty() )
 			f << cmd.seealso;
@@ -182,11 +195,17 @@ int countCateg( int cat, const std::vector<Command>& vcmd )
 }
 //--------------------------------------------------
 void
-genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Command>& vcmd )
+genCat(
+	std::ofstream&              f,
+	int                         idx,
+	std::pair<int,std::string>  pcat,
+	const std::vector<Command>& vcmd
+)
 {
+	auto cat = pcat.first;
 	auto nbc = countCateg( cat, vcmd );
 
-	f << "\n## " << cat << " - catégorie: " << catname
+	f << "\n## " << idx << " - catégorie: " << pcat.second
 		<< "\n<a name='cat" << cat << "'></a>\n\n" 
 		<< nbc << " commandes - <a href='#top'>Haut de page</a>\n\n"
 		<< "| Nom | Description|"
@@ -199,15 +218,18 @@ genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Comman
 	std::sort( newvec.begin(), newvec.end() );
 	
 	for( const auto& cmd: newvec )
-//		if( cmd.cat == cat )
-			f << "| <a href='https://www.google.fr/search?q=linux+"
+		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd.name << "'>" 
 			<< cmd.name << "</a> | " << cmd.comment << " |\n";
 }
 
 //--------------------------------------------------
 void
-genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<std::string>& vcats )
+genCatList(
+	std::string                                    fn,
+	const std::vector<Command>&                    cmds,
+	const std::vector<std::pair<int,std::string>>& vcats
+)
 {
 	std::ofstream f( fn );
 	assert( f.is_open() );
@@ -218,10 +240,10 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 
 // list of links
 	int tot = 0;
-	for(int idx=1; idx<vcats.size(); idx++ )
+	for( int idx=1; idx<vcats.size(); idx++ )
 	{
 		auto nb = countCateg(idx,cmds);
-		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ")\n";
+		f << "* " << idx << " - [" << vcats[idx].second << "](#cat" << vcats[idx].first << ")\n";
 		tot += nb;
 	}
 	f << "\nTotal: " << tot << " commandes\n";
