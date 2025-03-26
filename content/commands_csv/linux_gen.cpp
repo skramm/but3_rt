@@ -41,7 +41,7 @@ split_string( const std::string &s, char delim )
 
 
 //--------------------------------------------------
-/// read CSV fine \c filename
+/// read CSV file \c filename
 std::vector<std::vector<std::string>>
 readCSV( std::string filename )
 {
@@ -84,14 +84,17 @@ struct Command
 	int cat;
 	std::string name;
 	std::string comment;
+	std::string seealso;
 	Command() = default;
 	Command( const std::vector<std::string>& vin )
 	{
-		assert( vin.size() == 3 );
+		assert( vin.size() == 3 || vin.size() == 4 );
 //		std::cout << "0:" << vin[0] << " 1:" << vin[1]<< " 2:" << vin[2] << '\n';
 		name = vin[0];
 		cat = stoi( vin[1] );
 		comment = vin[2];
+		if( vin.size() == 4 )
+			seealso = vin[3];
 	}
 	bool operator < ( const Command& other )
 	{
@@ -109,7 +112,7 @@ readCSV_cmd( std::string filename )
 	for( const auto elems: vcmd )
 	{
 //		std::cout << "elems size=" << elems.size() << '\n';
-		if( elems.size()  == 3 )
+		if( elems.size() > 2 )
 			vout.emplace_back( Command( elems ) );
 	}
 	return vout;
@@ -120,7 +123,7 @@ void
 printfooter( std::ofstream& f )
 {
 	auto t = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-	f << "\n_MAJ: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << "_\n";
+	f << "\n\n_MAJ: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << "_\n";
 }
 
 //--------------------------------------------------
@@ -148,15 +151,22 @@ genGlobalList( std::string fn, std::vector<Command> cmds, const std::vector<std:
 			f << "\n## " << (char)std::toupper(first)
 				<< "\n<a name='" << first << "'></a>\n\n"
 				<< "<a href='#top'>Haut de page</a>\n\n"
-				<< "| Nom | Description | Catégorie |\n"
-				<< "|-----|-----|-----|\n";
+				<< "| Nom | Description | Catégorie | Voir aussi |\n"
+				<< "|-----|-----|-----|-----|\n";
 			first_letter = first;
 			start = false;
 		}
-		f << "| " << cmd.name << " | " << cmd.comment  << " | <a href='linux_cmds_list_cat.md#cat"
+		
+		f << "| <a href='https://www.google.fr/search?q=linux+"
+			<< cmd.name << "'>" 
+			<< cmd.name << "</a> | " << cmd.comment 
+			<< " | <a href='linux_cmds_list_cat.md#cat"
 			<< cmd.cat << "'>"
 			<< cats.at(cmd.cat)
-			<< "</a> |\n";
+			<< "</a> | ";
+		if( !cmd.seealso.empty() )
+			f << cmd.seealso;
+		f << " |\n";
 	}
 	printfooter(f);
 }
@@ -174,17 +184,25 @@ int countCateg( int cat, const std::vector<Command>& vcmd )
 void
 genCat( std::ofstream& f, int cat, std::string catname, const std::vector<Command>& vcmd )
 {
-	auto c = countCateg( cat, vcmd );
+	auto nbc = countCateg( cat, vcmd );
 
 	f << "\n## " << cat << " - catégorie: " << catname
-		<< " (" << c << " commandes)\n"
-		<< "<a name='cat" << cat << "'></a>\n\n"
-		<< "<a href='#top'>Haut de page</a>\n\n"
+		<< "\n<a name='cat" << cat << "'></a>\n\n" 
+		<< nbc << " commandes - <a href='#top'>Haut de page</a>\n\n"
 		<< "| Nom | Description|"
 		<< "\n|-----|-----|\n";
+
+	std::vector<Command> newvec;
 	for( const auto& cmd: vcmd )
 		if( cmd.cat == cat )
-			f << "| " << cmd.name << " | " << cmd.comment  << " |\n";
+			newvec.push_back( cmd );
+	std::sort( newvec.begin(), newvec.end() );
+	
+	for( const auto& cmd: newvec )
+//		if( cmd.cat == cat )
+			f << "| <a href='https://www.google.fr/search?q=linux+"
+			<< cmd.name << "'>" 
+			<< cmd.name << "</a> | " << cmd.comment << " |\n";
 }
 
 //--------------------------------------------------
@@ -203,7 +221,7 @@ genCatList( std::string fn, const std::vector<Command>& cmds, const std::vector<
 	for(int idx=1; idx<vcats.size(); idx++ )
 	{
 		auto nb = countCateg(idx,cmds);
-		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ") #:" << nb << "\n";
+		f << "* " << idx << " - [" << vcats[idx] << "](#cat" << idx << ")\n";
 		tot += nb;
 	}
 	f << "\nTotal: " << tot << " commandes\n";

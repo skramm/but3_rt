@@ -72,12 +72,14 @@ Si rien n'est précisé ci-dessous, laisser la valeur par défaut.
 
 `$ sudo apt install firefox-esr xfce4-terminal mousepad unzip`
 
+(Note: `firefox-esr` est la version "_Extended Support Release_")
+
 9. Redémarrer la machine, puis une fois le bureau actif, se logger en "user".
 Ouvrir un terminal et taper:
 ```
 $ xrandr --size 1280x960
 ```
-Si cette résolution parait inadaptée (ou si la commande échoue), vous pouvez afficher la liste des définitions d'écrans disponibles avec
+Si cette définition parait inadaptée (ou si la commande échoue), vous pouvez afficher la liste des définitions d'écrans disponibles avec
 ```
 $ xrandr
 ```
