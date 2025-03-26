@@ -27,7 +27,7 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | cat |
+| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | cat,tail |
 
 ## C
 <a name='c'></a>
@@ -256,6 +256,7 @@
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+umask'>umask</a> | permissions par défaut | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | chmod |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | lsb_release |
+| <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | zip |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | adduser |
@@ -304,4 +305,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-03-26T14:56:32+0100_
+_MAJ: 2025-03-26T16:23:49+0100_

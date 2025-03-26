@@ -5,77 +5,22 @@
 <a name='top'></a>
 
 Catégories:  
-* 1 - [Système](#cat1)
+* 1 - [Général](#cat4)
 * 2 - [Disque & stockage](#cat2)
-* 3 - [Réseau](#cat3)
-* 4 - [Général](#cat4)
+* 3 - [Manipulation fichiers](#cat11)
+* 4 - [Réseau](#cat3)
 * 5 - [Fichiers & permissions](#cat5)
-* 6 - [Dev](#cat6)
-* 7 - [Divers](#cat7)
+* 6 - [Système](#cat1)
+* 7 - [Dev](#cat6)
 * 8 - [Traitement données texte](#cat8)
 * 9 - [Gestion utilisateurs](#cat9)
 * 10 - [Installation logiciels](#cat10)
-* 11 - [Manipulation fichiers](#cat11)
+* 11 - [Divers](#cat7)
 * 12 - [Gestion des process](#cat12)
 
-Total: 112 commandes
+Total: 113 commandes
 
-## 1 - catégorie: Système
-<a name='cat1'></a>
-
-14 commandes - <a href='#top'>Haut de page</a>
-
-| Nom | Description|
-|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
-| <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |
-| <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |
-| <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ |
-| <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | _list open files_ |
-| <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ |
-| <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> | liste périphs USB |
-| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  |
-| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  |
-| <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |
-| <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur |
-| <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin |
-| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système général |
-
-## 2 - catégorie: Disque & stockage
-<a name='cat2'></a>
-
-3 commandes - <a href='#top'>Haut de page</a>
-
-| Nom | Description|
-|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ |
-| <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ |
-| <a href='https://www.google.fr/search?q=linux+fdisk'>fdisk</a> |  |
-
-## 3 - catégorie: Réseau
-<a name='cat3'></a>
-
-14 commandes - <a href='#top'>Haut de page</a>
-
-| Nom | Description|
-|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) |
-| <a href='https://www.google.fr/search?q=linux+dig'>dig</a> | requete DNS |
-| <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine |
-| <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  |
-| <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat |
-| <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP |
-| <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau |
-| <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS |
-| <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  |
-| <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  |
-| <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  |
-| <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  |
-| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http |
-| <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine |
-
-## 4 - catégorie: Général
+## 1 - catégorie: Général
 <a name='cat4'></a>
 
 17 commandes - <a href='#top'>Haut de page</a>
@@ -100,6 +45,57 @@ Total: 112 commandes
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |
 
+## 2 - catégorie: Disque & stockage
+<a name='cat2'></a>
+
+3 commandes - <a href='#top'>Haut de page</a>
+
+| Nom | Description|
+|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ |
+| <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ |
+| <a href='https://www.google.fr/search?q=linux+fdisk'>fdisk</a> |  |
+
+## 3 - catégorie: Manipulation fichiers
+<a name='cat11'></a>
+
+10 commandes - <a href='#top'>Haut de page</a>
+
+| Nom | Description|
+|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ |
+| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) |
+| <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ |
+| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> |  |
+| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |
+| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage |
+| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant |
+| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde |
+| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier |
+| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier |
+
+## 4 - catégorie: Réseau
+<a name='cat3'></a>
+
+14 commandes - <a href='#top'>Haut de page</a>
+
+| Nom | Description|
+|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) |
+| <a href='https://www.google.fr/search?q=linux+dig'>dig</a> | requete DNS |
+| <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine |
+| <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  |
+| <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat |
+| <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP |
+| <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau |
+| <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS |
+| <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  |
+| <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  |
+| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http |
+| <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine |
+
 ## 5 - catégorie: Fichiers & permissions
 <a name='cat5'></a>
 
@@ -122,7 +118,29 @@ Total: 112 commandes
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip |
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip |
 
-## 6 - catégorie: Dev
+## 6 - catégorie: Système
+<a name='cat1'></a>
+
+14 commandes - <a href='#top'>Haut de page</a>
+
+| Nom | Description|
+|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
+| <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |
+| <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |
+| <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ |
+| <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | _list open files_ |
+| <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ |
+| <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> | liste périphs USB |
+| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  |
+| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |
+| <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur |
+| <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin |
+| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système général |
+
+## 7 - catégorie: Dev
 <a name='cat6'></a>
 
 4 commandes - <a href='#top'>Haut de page</a>
@@ -134,33 +152,10 @@ Total: 112 commandes
 | <a href='https://www.google.fr/search?q=linux+git'>git</a> |  |
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation |
 
-## 7 - catégorie: Divers
-<a name='cat7'></a>
-
-15 commandes - <a href='#top'>Haut de page</a>
-
-| Nom | Description|
-|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | Effacement terminal |
-| <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image |
-| <a href='https://www.google.fr/search?q=linux+env'>env</a> | liste var. environnement |
-| <a href='https://www.google.fr/search?q=linux+fc-list'>fc-list</a> | _list available fonts_ |
-| <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter |
-| <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
-| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
-| <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
-| <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |
-| <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |
-| <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |
-| <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |
-| <a href='https://www.google.fr/search?q=linux+watch'>watch</a> |  |
-| <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme |
-| <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |
-
 ## 8 - catégorie: Traitement données texte
 <a name='cat8'></a>
 
-5 commandes - <a href='#top'>Haut de page</a>
+6 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -169,6 +164,7 @@ Total: 112 commandes
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers |
 | <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _Stream EDitor_ |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ |
+| <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques |
 
 ## 9 - catégorie: Gestion utilisateurs
 <a name='cat9'></a>
@@ -197,23 +193,28 @@ Total: 112 commandes
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | Gestion paquets Fedora |
 | <a href='https://www.google.fr/search?q=linux+yum'>yum</a> | Gestion paquets RedHat |
 
-## 11 - catégorie: Manipulation fichiers
-<a name='cat11'></a>
+## 11 - catégorie: Divers
+<a name='cat7'></a>
 
-10 commandes - <a href='#top'>Haut de page</a>
+15 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
-| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ |
-| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) |
-| <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ |
-| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> |  |
-| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |
-| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage |
-| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant |
-| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde |
-| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier |
-| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier |
+| <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | Effacement terminal |
+| <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image |
+| <a href='https://www.google.fr/search?q=linux+env'>env</a> | liste var. environnement |
+| <a href='https://www.google.fr/search?q=linux+fc-list'>fc-list</a> | _list available fonts_ |
+| <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter |
+| <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
+| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
+| <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
+| <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |
+| <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |
+| <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |
+| <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |
+| <a href='https://www.google.fr/search?q=linux+watch'>watch</a> |  |
+| <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme |
+| <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |
 
 ## 12 - catégorie: Gestion des process
 <a name='cat12'></a>
@@ -229,4 +230,4 @@ Total: 112 commandes
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
 
 
-_MAJ: 2025-03-26T14:56:32+0100_
+_MAJ: 2025-03-26T16:23:49+0100_
