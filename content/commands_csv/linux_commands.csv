@@ -40,14 +40,14 @@ g++;6;compilation C++
 
 pango-view;7;_convert text to image_
 history;4;historique des commandes
-lsb_release;4;uname
-uname;4;lsb_release
+lsb_release;4;version distrib.;uname
+uname;4;version noyau;lsb_release
 
 cp;11;copie fichier(s);mv
-mv;11; déplacement/renommage;cp
-mkdir;11; _make directory_
-rm;11; suppression fichier;rmdir
-rmdir;11; supression dossier;rm
+mv;11;déplacement/renommage;cp
+mkdir;11;_make directory_
+rm;11;suppression fichier;rmdir
+rmdir;11;supression dossier;rm
 ln;11;création de lien, symbolique ou _hardlink_
 ls;11;
 cd;11;_Change Directory_;pushd
@@ -58,12 +58,14 @@ whoami;4;qui suis-je?
 who;4;qui est loggé?
 pwd;4;_print working directory_
 locate;4;localise un programme dans le système;which
-man;4; Manuel
+man;4;Manuel
 grep;4;
 wc;4;_word count_
 cat;4;affiche et/ou concatene un/des fichiers
+tac;4;affiche ordre inversé;cat
 more;4;filtre d'affichage;less
-less;4;filtre d'affichage;more 
+less;4;filtre d'affichage;more
+bat;4;cat en mieux;cat
 
 file;5;nature d'un fichier
 touch;5;création ou MAJ date d'un fichier
@@ -113,11 +115,11 @@ nano;7;éditeur "console"
 xargs;7;
 tee;7;
 clear;7;Effacement terminal
-uptime;7;
+uptime;7;durée fonctionnement système
 
 awk;8;_pattern scanning and processing language_
 tr;8;_translate or delete characters_
-sed;8; _stream Editor_
+sed;8; _Stream EDitor_
 cut;8;suppression de texte dans des lignes
 paste;8;fusion de lignes de texte de plusieurs fichiers
 

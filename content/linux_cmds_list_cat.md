@@ -18,7 +18,7 @@ Catégories:
 * 11 - [Manipulation fichiers](#cat11)
 * 12 - [Gestion des process](#cat12)
 
-Total: 110 commandes
+Total: 112 commandes
 
 ## 1 - catégorie: Système
 <a name='cat1'></a>
@@ -78,22 +78,24 @@ Total: 110 commandes
 ## 4 - catégorie: Général
 <a name='cat4'></a>
 
-15 commandes - <a href='#top'>Haut de page</a>
+17 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes |
+| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux |
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable |
 | <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |
 | <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système |
-| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | uname |
-| <a href='https://www.google.fr/search?q=linux+man'>man</a> |  Manuel |
+| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distrib. |
+| <a href='https://www.google.fr/search?q=linux+man'>man</a> | Manuel |
 | <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |
-| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | lsb_release |
+| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé |
+| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |
@@ -150,7 +152,7 @@ Total: 110 commandes
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |
-| <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> |  |
+| <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |
 | <a href='https://www.google.fr/search?q=linux+watch'>watch</a> |  |
 | <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme |
 | <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |
@@ -165,7 +167,7 @@ Total: 110 commandes
 | <a href='https://www.google.fr/search?q=linux+awk'>awk</a> | _pattern scanning and processing language_ |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes |
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers |
-| <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _stream Editor_ |
+| <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _Stream EDitor_ |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ |
 
 ## 9 - catégorie: Gestion utilisateurs
@@ -206,12 +208,12 @@ Total: 110 commandes
 | <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) |
 | <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ |
 | <a href='https://www.google.fr/search?q=linux+ls'>ls</a> |  |
-| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> |  _make directory_ |
-| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> |  déplacement/renommage |
+| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |
+| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage |
 | <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant |
 | <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde |
-| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> |  suppression fichier |
-| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> |  supression dossier |
+| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier |
+| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier |
 
 ## 12 - catégorie: Gestion des process
 <a name='cat12'></a>
@@ -227,4 +229,4 @@ Total: 110 commandes
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
 
 
-_MAJ: 2025-03-26T14:31:58+0100_
+_MAJ: 2025-03-26T14:56:32+0100_

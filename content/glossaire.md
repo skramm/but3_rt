@@ -59,13 +59,13 @@
 
 | Sigle |       |
 |-------|-------|
-| CNIL  | Commission Nationale de l'Informatique et des Libertés |
-| ANSSI | Agence Nationale de la Sécurité des Systèmes d'Information |
-| IETF  | Internet Engineering Task Force |
-| UIT   | Union Internationale des Télécommunications |
-| ICANN | Internet Corporation for Assigned Names and Numbers |
-| IANA  | Internet Assigned Numbers Authority |
-| ISO   | International Organization for Standardization |
+| [ANSSI](https://fr.wikipedia.org/wiki/Agence_nationale_de_la_s%C3%A9curit%C3%A9_des_syst%C3%A8mes_d%27information) | Agence Nationale de la Sécurité des Systèmes d'Information |
+| [CNIL](https://fr.wikipedia.org/wiki/Commission_nationale_de_l%27informatique_et_des_libert%C3%A9s)                | Commission Nationale de l'Informatique et des Libertés |
+| [IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)        | Internet Engineering Task Force |
+| [UIT](https://en.wikipedia.org/wiki/International_Telecommunication_Union)   | Union Internationale des Télécommunications |
+| [ICANN](https://en.wikipedia.org/wiki/ICANN)                                 | Internet Corporation for Assigned Names and Numbers |
+| [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority)    | Internet Assigned Numbers Authority |
+| [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)  | International Organization for Standardization |
 | NSA   | National Security Agency |
 
 
@@ -76,17 +76,17 @@
 | CA    | Certificate Authority |
 | CRL   | Certificate Revocation List|
 | CSR   | Certificate Signing Request |
-| DH    | Diffie & Hellman |
-| PKI   | Public Key Infrastructure |
+| EE    | End Entity (Détenteur d’un certificat) |
+| DH    | [Diffie & Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) |
 | RA    | Registration Authority |
 | VA    | Validation Authority |
 | VPN   | Virtual Private Network |
-| IPsec | Internet Protocol Security |
+| [PKI](https://en.wikipedia.org/wiki/Public_key_infrastructure) | Public Key Infrastructure |
+| [IPsec](https://en.wikipedia.org/wiki/IPsec) | Internet Protocol Security |
 | DER   | Distinguished Encoding Rules |
 | PEM   | Privacy-Enhanced Mail |
-| OSCP  | Online Certificate Status Protocol |
-| EE    | End Entity (Détenteur d’un certificat) |
-| RSA   | Rivest–Shamir–Adleman (algo de chiffrement **asymétrique**) |
-| AES   | Advanced Encryption Standard (algo de chiffrement **symétrique**) |
+| [OCSP](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol)  | Online Certificate Status Protocol |
+| [RSA](https://en.wikipedia.org/wiki/RSA_cryptosystem)   | Rivest–Shamir–Adleman (algo de chiffrement **asymétrique**) |
+| [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)   | Advanced Encryption Standard (algo de chiffrement **symétrique**) |
 
 
