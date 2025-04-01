@@ -41,6 +41,6 @@ Voir dossier [ressources_TP](ressources_TP/)
 - TP "graphes": [Icone "routeur](ressources_TP/graphes/icon_router.png)
 - [TP BUT3 Linux - ACL](ressources_TP/TP_ACL_SUID/)
 - [Fichiers de test ](ressources_TP/regex/) pour le TP sur les regex (BUT3)
-- [Fichiers pour TP Flask/Python](ressources_TP/TP_Flask_1)
-- [_Cheatsheet_ Redis](ressources/redis_cheatsheet)
+- [Fichiers pour TP Flask/Python](ressources_TP/TP_Flask_1/)
+- [_Cheatsheet_ Redis](ressources/redis/)
 
