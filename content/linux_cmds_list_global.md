@@ -179,6 +179,7 @@
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | dig |
 
@@ -244,6 +245,7 @@
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 
 ## U
@@ -305,4 +307,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-03-26T16:23:49+0100_
+_MAJ: 2025-04-01T17:18:38+0200_

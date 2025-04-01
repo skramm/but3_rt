@@ -18,7 +18,7 @@ Catégories:
 * 11 - [Divers](#cat7)
 * 12 - [Gestion des process](#cat12)
 
-Total: 113 commandes
+Total: 115 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -77,7 +77,7 @@ Total: 113 commandes
 ## 4 - catégorie: Réseau
 <a name='cat3'></a>
 
-14 commandes - <a href='#top'>Haut de page</a>
+15 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -87,6 +87,7 @@ Total: 113 commandes
 | <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat |
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP |
+| <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. |
 | <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau |
 | <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  |
@@ -196,7 +197,7 @@ Total: 113 commandes
 ## 11 - catégorie: Divers
 <a name='cat7'></a>
 
-15 commandes - <a href='#top'>Haut de page</a>
+16 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -210,6 +211,7 @@ Total: 113 commandes
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |
+| <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |
 | <a href='https://www.google.fr/search?q=linux+watch'>watch</a> |  |
@@ -230,4 +232,4 @@ Total: 113 commandes
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
 
 
-_MAJ: 2025-03-26T16:23:49+0100_
+_MAJ: 2025-04-01T17:18:38+0200_
