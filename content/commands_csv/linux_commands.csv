@@ -135,3 +135,5 @@ groups;9;Affiche les groupes existants
 which;7;localisation (chemin) d'un programme
 type;7;indique si une commande est interne (_builtin_) ou externe
 tty;7;indique le terminal courant (`/dev/pts/XX`)
+seq;7;_print a sequence of numbers_
+
