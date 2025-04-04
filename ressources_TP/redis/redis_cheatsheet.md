@@ -1,5 +1,9 @@
-# redis client cheatsheet
+# Redis client cheatsheet (A COMPLETER!)
 
+Référernces:
+- https://en.wikipedia.org/wiki/Redis
+- https://redis.io/
+  
 ## 1 - Commandes généralistes
 
 | Commande |   |
@@ -45,10 +49,10 @@
 |----|-----|
 | HLEN | Nb d'éléments |
 | HGET | Accès à une valeur |
-|    | Incrémentation valeur numérique |
+|    | Incrémentation valeur numérique par sa clé |
 |  | Ajout paire clé/valeur |
 |  | Renvoie la liste des clés |
-|  | Renvoie une des valeurs |
+|  | Renvoie une des valeurs par sa clé |
 |  |  |
 |  |  |
 
