@@ -127,6 +127,7 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 
 ## K
 <a name='k'></a>
@@ -235,6 +236,7 @@
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 
 ## T
 <a name='t'></a>
@@ -314,4 +316,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-04-07T12:04:31+0200_
+_MAJ: 2025-04-07T12:17:38+0200_

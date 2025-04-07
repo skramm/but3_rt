@@ -16,6 +16,8 @@ top;1;_dashboard_ système général;htop
 htop;1;top en mieux;top
 shutdown;1;;reboot
 reboot;1;;shutdown
+systemctl;1;gestion des services
+journalctl;1;outil d'accès aux logs systemd
 
 ps;12;snapshot des process;top
 pidof;12; donne le PID d'un process;ps

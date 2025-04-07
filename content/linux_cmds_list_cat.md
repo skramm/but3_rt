@@ -19,7 +19,7 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 122 commandes
+Total: 124 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -123,11 +123,12 @@ Total: 122 commandes
 ## 6 - catégorie: Système
 <a name='cat1'></a>
 
-14 commandes - <a href='#top'>Haut de page</a>
+16 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
+| <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |
 | <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ |
@@ -140,6 +141,7 @@ Total: 122 commandes
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin |
+| <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services |
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système général |
 
 ## 7 - catégorie: Dev
@@ -248,4 +250,4 @@ Total: 122 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-04-07T12:04:31+0200_
+_MAJ: 2025-04-07T12:17:38+0200_
