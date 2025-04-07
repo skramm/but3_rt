@@ -137,3 +137,11 @@ type;7;indique si une commande est interne (_builtin_) ou externe
 tty;7;indique le terminal courant (`/dev/pts/XX`)
 seq;7;_print a sequence of numbers_
 
+
+depmod;13;_generates modules.dep and map files_
+insmod;13;_insert a module into the kernel_
+lsmod;13;_show the status of modules in the kernel_
+modinfo;13;_show information about a module_
+modprobe;13;_add and remove modules from the kernel_
+rmmod;13;_remove a module from the kernel_
+

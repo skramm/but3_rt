@@ -17,8 +17,9 @@ Catégories:
 * 10 - [Installation logiciels](#cat10)
 * 11 - [Divers](#cat7)
 * 12 - [Gestion des process](#cat12)
+* 13 - [Gestion Kernel](#cat13)
 
-Total: 115 commandes
+Total: 122 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -197,7 +198,7 @@ Total: 115 commandes
 ## 11 - catégorie: Divers
 <a name='cat7'></a>
 
-16 commandes - <a href='#top'>Haut de page</a>
+17 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -209,6 +210,7 @@ Total: 115 commandes
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
+| <a href='https://www.google.fr/search?q=linux+seq'>seq</a> | _print a sequence of numbers_ |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) |
@@ -231,5 +233,19 @@ Total: 115 commandes
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
 
+## 13 - catégorie: Gestion Kernel
+<a name='cat13'></a>
 
-_MAJ: 2025-04-01T17:18:38+0200_
+6 commandes - <a href='#top'>Haut de page</a>
+
+| Nom | Description|
+|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ |
+| <a href='https://www.google.fr/search?q=linux+insmod'>insmod</a> | _insert a module into the kernel_ |
+| <a href='https://www.google.fr/search?q=linux+lsmod'>lsmod</a> | _show the status of modules in the kernel_ |
+| <a href='https://www.google.fr/search?q=linux+modinfo'>modinfo</a> | _show information about a module_ |
+| <a href='https://www.google.fr/search?q=linux+modprobe'>modprobe</a> | _add and remove modules from the kernel_ |
+| <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
+
+
+_MAJ: 2025-04-07T12:04:31+0200_
