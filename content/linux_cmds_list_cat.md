@@ -19,7 +19,7 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 124 commandes
+Total: 131 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -78,7 +78,7 @@ Total: 124 commandes
 ## 4 - catégorie: Réseau
 <a name='cat3'></a>
 
-15 commandes - <a href='#top'>Haut de page</a>
+19 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -90,9 +90,13 @@ Total: 124 commandes
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP |
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. |
 | <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau |
+| <a href='https://www.google.fr/search?q=linux+nmcli'>nmcli</a> | pilote CLI des connexions réseau |
 | <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ssh-add'>ssh-add</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ssh-copy-id'>ssh-copy-id</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ssh-keygen'>ssh-keygen</a> |  |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  |
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http |
@@ -187,26 +191,29 @@ Total: 124 commandes
 ## 10 - catégorie: Installation logiciels
 <a name='cat10'></a>
 
-5 commandes - <a href='#top'>Haut de page</a>
+7 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+apt'>apt</a> | Gestion paquets Debian |
 | <a href='https://www.google.fr/search?q=linux+apt-get'>apt-get</a> | Gestion paquets Debian (bas niveau) |
 | <a href='https://www.google.fr/search?q=linux+dpkg'>dpkg</a> | Utilitaire paquets .deb |
+| <a href='https://www.google.fr/search?q=linux+pip'>pip</a> | gestionnaire de paquets Python (2 ou 3) |
+| <a href='https://www.google.fr/search?q=linux+pip3'>pip3</a> | gestionnaire de paquets Python3 |
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | Gestion paquets Fedora |
 | <a href='https://www.google.fr/search?q=linux+yum'>yum</a> | Gestion paquets RedHat |
 
 ## 11 - catégorie: Divers
 <a name='cat7'></a>
 
-17 commandes - <a href='#top'>Haut de page</a>
+18 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | Effacement terminal |
 | <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image |
 | <a href='https://www.google.fr/search?q=linux+env'>env</a> | liste var. environnement |
+| <a href='https://www.google.fr/search?q=linux+eval'>eval</a> | exécute la commande passée en argument |
 | <a href='https://www.google.fr/search?q=linux+fc-list'>fc-list</a> | _list available fonts_ |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter |
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
@@ -250,4 +257,4 @@ Total: 124 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-04-07T12:17:38+0200_
+_MAJ: 2025-04-22T15:26:56+0200_

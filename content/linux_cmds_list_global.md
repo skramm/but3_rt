@@ -69,6 +69,7 @@
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+env'>env</a> | liste var. environnement | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+eval'>eval</a> | exécute la commande passée en argument | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 
 ## F
 <a name='f'></a>
@@ -187,6 +188,7 @@
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+nmcli'>nmcli</a> | pilote CLI des connexions réseau | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | dig |
 
 ## P
@@ -201,6 +203,8 @@
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> | ps |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+pip'>pip</a> | gestionnaire de paquets Python (2 ou 3) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
+| <a href='https://www.google.fr/search?q=linux+pip3'>pip3</a> | gestionnaire de paquets Python3 | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> | kill |
 | <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | popd |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> | top |
@@ -233,6 +237,9 @@
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ssh-add'>ssh-add</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ssh-copy-id'>ssh-copy-id</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ssh-keygen'>ssh-keygen</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
@@ -316,4 +323,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-04-07T12:17:38+0200_
+_MAJ: 2025-04-22T15:26:56+0200_

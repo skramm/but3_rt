@@ -68,9 +68,9 @@ Vous pouvez vérifier dans l'interface web de GH que le runner est actif, en vou
 https://github.com/USER/NOM-DEPOT/settings/actions/runners/
 
 Les états possibles seront:  
-- Idle: The runner is connected to GitHub and is ready to execute jobs.
-- Active: The runner is currently executing a job.
-- Offline: The runner is not connected to GitHub.
+- _Idle_: The runner is connected to GitHub and is ready to execute jobs.
+- _Active_: The runner is currently executing a job.
+- _Offline:_ The runner is not connected to GitHub.
 
 
 On peut maintenant faire un "push" sur le dépot et observer l'exécution du workflow sur l'interface web de GH

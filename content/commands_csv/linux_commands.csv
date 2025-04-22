@@ -84,6 +84,7 @@ chown;5;chgt propriétaire fichier
 chgrp;5;chgt groupe propriétaire fichier
 umask;5;permissions par défaut;chmod
 
+eval;7;exécute la commande passée en argument
 time;7;chronométrage de tâche
 jobs;7;
 watch;7;
@@ -98,12 +99,16 @@ dig;3;requete DNS
 netcat;3;utilitaire TCP/UDP
 nc;3;alias pour netcat
 ssh;3;
+ssh-keygen;3;
+ssh-add;3;
+ssh-copy-id;3;
 ufw;3; pilote CLI de Firewall 
 nmap;3;exploration réseau
 whois;3;infos/domaine
 nslookup (_deprecated_);3;outil DNS;dig
 traceroute;3;
 netstat;3;infos/reseau, routage, etc.
+nmcli;3;pilote CLI des connexions réseau
 
 echo;4;affichage de texte/variable
 alias;4;composition de commandes
@@ -113,6 +118,9 @@ apt-get;10;Gestion paquets Debian (bas niveau)
 yum;10;Gestion paquets RedHat
 rpm;10;Gestion paquets Fedora
 dpkg;10;Utilitaire paquets .deb
+pip3;10;gestionnaire de paquets Python3
+pip;10;gestionnaire de paquets Python (2 ou 3)
+npm;10;gestionnaire de paquets Javascript
 
 nano;7;éditeur "console"
 xargs;7;
