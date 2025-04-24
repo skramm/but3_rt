@@ -12,6 +12,8 @@ Ce fichier texte permettra d'une part d'avoir un dépot non-vide et surtout de d
 
 Github permet de cloner un dépot avec deux protocoles, HTTPS ou un protocole "git", s'appuyant sur le protocole SSH, et impliquant donc une authentification via une paire de clés.
 
+![gh](gh2_400.png)
+
 Le clonage via HTTPS est le plus simple, mais a un gros inconvénient:
 Pour pouvoir pousser sur le dépot, il faudra **à chaque fois** fournir un "token", qui doit préalablement être généré sur votre compte Github.
 Ca peut se faire, mais à l'usage ça devient très pénible assez rapidement.
