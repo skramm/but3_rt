@@ -105,6 +105,7 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | tail |
+| <a href='https://www.google.fr/search?q=linux+hey'>hey</a> | _HTTP load generator_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux | <a href='linux_cmds_list_cat.md#cat1'>Système</a> | top |
@@ -189,6 +190,7 @@
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nmcli'>nmcli</a> | pilote CLI des connexions réseau | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+npm'>npm</a> | gestionnaire de paquets Javascript | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | dig |
 
 ## P
@@ -311,6 +313,7 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+yum'>yum</a> | Gestion paquets RedHat | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 
 ## Z
@@ -323,4 +326,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-04-22T15:26:56+0200_
+_MAJ: 2025-06-05T19:35:53+0200_

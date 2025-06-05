@@ -155,3 +155,6 @@ modinfo;13;_show information about a module_
 modprobe;13;_add and remove modules from the kernel_
 rmmod;13;_remove a module from the kernel_
 
+yes;7;_output a string repeatedly until killed_
+hey;7;_HTTP load generator_
+

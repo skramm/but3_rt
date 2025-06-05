@@ -19,7 +19,7 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 131 commandes
+Total: 134 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -191,13 +191,14 @@ Total: 131 commandes
 ## 10 - catégorie: Installation logiciels
 <a name='cat10'></a>
 
-7 commandes - <a href='#top'>Haut de page</a>
+8 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+apt'>apt</a> | Gestion paquets Debian |
 | <a href='https://www.google.fr/search?q=linux+apt-get'>apt-get</a> | Gestion paquets Debian (bas niveau) |
 | <a href='https://www.google.fr/search?q=linux+dpkg'>dpkg</a> | Utilitaire paquets .deb |
+| <a href='https://www.google.fr/search?q=linux+npm'>npm</a> | gestionnaire de paquets Javascript |
 | <a href='https://www.google.fr/search?q=linux+pip'>pip</a> | gestionnaire de paquets Python (2 ou 3) |
 | <a href='https://www.google.fr/search?q=linux+pip3'>pip3</a> | gestionnaire de paquets Python3 |
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | Gestion paquets Fedora |
@@ -206,7 +207,7 @@ Total: 131 commandes
 ## 11 - catégorie: Divers
 <a name='cat7'></a>
 
-18 commandes - <a href='#top'>Haut de page</a>
+20 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -216,6 +217,7 @@ Total: 131 commandes
 | <a href='https://www.google.fr/search?q=linux+eval'>eval</a> | exécute la commande passée en argument |
 | <a href='https://www.google.fr/search?q=linux+fc-list'>fc-list</a> | _list available fonts_ |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter |
+| <a href='https://www.google.fr/search?q=linux+hey'>hey</a> | _HTTP load generator_ |
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
@@ -228,6 +230,7 @@ Total: 131 commandes
 | <a href='https://www.google.fr/search?q=linux+watch'>watch</a> |  |
 | <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme |
 | <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |
+| <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ |
 
 ## 12 - catégorie: Gestion des process
 <a name='cat12'></a>
@@ -257,4 +260,4 @@ Total: 131 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-04-22T15:26:56+0200_
+_MAJ: 2025-06-05T19:35:53+0200_
