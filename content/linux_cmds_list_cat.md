@@ -19,12 +19,12 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 134 commandes
+Total: 135 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
 
-17 commandes - <a href='#top'>Haut de page</a>
+16 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -32,7 +32,6 @@ Total: 134 commandes
 | <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux |
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable |
-| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |
 | <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système |
@@ -151,24 +150,26 @@ Total: 134 commandes
 ## 7 - catégorie: Dev
 <a name='cat6'></a>
 
-4 commandes - <a href='#top'>Haut de page</a>
+5 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+g++'>g++</a> | compilation C++ |
 | <a href='https://www.google.fr/search?q=linux+gcc'>gcc</a> | compilation C |
-| <a href='https://www.google.fr/search?q=linux+git'>git</a> |  |
+| <a href='https://www.google.fr/search?q=linux+git'>git</a> | **LE** gestionnaire de versions de fichiers source |
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation |
+| <a href='https://www.google.fr/search?q=linux+strings'>strings</a> | extraction de chaines dans des binaires |
 
 ## 8 - catégorie: Traitement données texte
 <a name='cat8'></a>
 
-6 commandes - <a href='#top'>Haut de page</a>
+7 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+awk'>awk</a> | _pattern scanning and processing language_ |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes |
+| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  |
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers |
 | <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _Stream EDitor_ |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ |
@@ -260,4 +261,4 @@ Total: 134 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-06-05T19:35:53+0200_
+_MAJ: 2025-06-17T15:24:14+0200_

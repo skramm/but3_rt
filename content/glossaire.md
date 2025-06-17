@@ -45,14 +45,16 @@
 | CI/CD | Continuous Integration/Continuous Deployment |
 
 
-### 1.3 - ASCII [table](https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.svg)
+### 1.3 - ASCII ([table](https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.svg))
 
 | Sigle | Valeur Hexa | dec. | Nom |
 |-------|-------------|------|-----|
-| CR    | 0x0d  | 13 | Carriage Return (retour chariot) | 
-| LF    | 0x0a  | 10 | Line Feed  (saut de ligne) |
+| EOT   | 0x04  | 4 | _End Of Transmission_ (CTRL-D dans un shell) |
+| BEL   | 0x07  | 7 | "ding" |
+| LF    | 0x0a  | 10 | _Line Feed_  (saut de ligne) |
+| CR    | 0x0d  | 13 | _Carriage Return_ (retour chariot) | 
+| ESC   | 0x1B  | 27 | _Escape_ |
 | SPC   | 0x20  | 32 | Space (espace) |
-| ESC   | 0x1B  | 27 | Escape |
  
  
 ## 2 - Organisations

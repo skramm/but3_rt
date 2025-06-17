@@ -93,8 +93,8 @@
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+g++'>g++</a> | compilation C++ | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+gcc'>gcc</a> | compilation C | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
-| <a href='https://www.google.fr/search?q=linux+git'>git</a> |  | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
-| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
+| <a href='https://www.google.fr/search?q=linux+git'>git</a> | **LE** gestionnaire de versions de fichiers source | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
+| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | Affiche les groupes existants | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 
 ## H
@@ -243,6 +243,7 @@
 | <a href='https://www.google.fr/search?q=linux+ssh-copy-id'>ssh-copy-id</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ssh-keygen'>ssh-keygen</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
+| <a href='https://www.google.fr/search?q=linux+strings'>strings</a> | extraction de chaines dans des binaires | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
@@ -326,4 +327,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-06-05T19:35:53+0200_
+_MAJ: 2025-06-17T15:24:14+0200_
