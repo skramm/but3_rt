@@ -24,6 +24,7 @@ pidof;12; donne le PID d'un process;ps
 kill;12;stoppe un process par PID;pkill
 pkill;12;stoppe un process par nom;kill
 killall;12;stoppe tous les process par nom
+trap;12;interception de signal
 
 fmt;7;text formatter
 
