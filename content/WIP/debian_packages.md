@@ -36,7 +36,9 @@ $ sudo dpkg -c fichier.deb
 ```
 
 
-## 3 - `apt` et `apt-xxx`
+## 3 - `apt`
+
+(Advanced Package Tool)
 
 ### Différence entre les deux outils
 
@@ -72,11 +74,26 @@ $ sudo apt purge <nom-du-prog>
 
 Cette dernière commande va également supprimer tous les fichiers de configuration associés.
 
+## 4 - Différence entre `apt` et `dpkg`
+
+source: https://www.geeksforgeeks.org/linux-unix/difference-between-apt-and-dpkg-in-ubuntu/
+
+| Feature | apt | dpkg |
+|-----|---|----|
+| Purpose | High-level package management tool | Low-level package management tool |
+| Functionality | Can manage package installation, upgrades, dependency resolution, and repository management | Installs, uninstalls, and manages individual Debian packages |
+| Dependency Handling | Automatically resolves and installs package dependencies | Does not handle dependencies; requires manual installation of dependencies |
+| Source | Fetches packages from online repositories (via the internet) | Installs packages from local .deb files |
+| Repository Management | Can manage multiple repositories, add/remove repositories easily | No repository management; operates on local .deb packages only |
+| Cache Management | Maintains a local cache of available packages from repositories (apt-cache) | No cache management for package listings |
+| Ease of Use | User-friendly, with simplified syntax and higher abstraction for managing packages  | Requires more manual intervention, particularly for dependencies |
+| Automatic Updates | Supports automatic updates and upgrades with simple commands (apt upgrade)  | No built-in support for automatic updates  |
+| Interaction Level | Typically used by end-users for package management | Typically used by system administrators or for specific package operations  |
+| Log Files | | /var/log/apt/ | /var/log/dpkg.log  |
+| Uninstalling Packages | Automatically handles dependency removal (apt autoremove) | Does not manage dependencies during uninstallation |
 
 
-
-
-## 4 - Autres systèmes de gestion de paquets
+## 5 - Autres systèmes de gestion de paquets
 <a name="autres"></a>
 
 Au niveau OS:
