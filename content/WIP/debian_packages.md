@@ -17,6 +17,8 @@ A debian package is a Unix ar archive that includes two tar archives: one contai
 
 ## 2 - `dpkg`
 
+Outil de gestion des paquets de *bas* niveau.
+
 Cet outil sert à manipuler des fichiers "package" Debian, d'extension `.deb`.
 Ces fichiers, au contenu très normalisés, contiennent tout le nécessaire pour installer un logiciel.
 
@@ -38,7 +40,9 @@ $ sudo dpkg -c fichier.deb
 
 ## 3 - `apt`
 
-(Advanced Package Tool)
+__Advanced Package Tool__, outil de gestion des paquets de **haut niveau**.
+
+
 
 ### Différence entre les deux outils
 
@@ -99,6 +103,11 @@ source: https://www.geeksforgeeks.org/linux-unix/difference-between-apt-and-dpkg
 Au niveau OS:
 * snap
 * flatpak
+* AppImage
+
+Pour des comparatifs, voir:
+
+
 
 Au niveau environnement de dev:
 * Python gère l'installation de paquets via l'outil
