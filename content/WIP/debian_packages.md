@@ -11,15 +11,38 @@ D'autres distributions utilisent d'autres systèmes: Fedora => rpm, RedHat => yu
 Beaucoup de détails ici:
 https://www.debian.org/doc/manuals/debian-faq/pkgtools.fr.html
 
-## `dpkg`
+## 1 - Paquet Debian
+
+A debian package is a Unix ar archive that includes two tar archives: one containing the control information and another with the program data to be installed.
+
+## 2 - `dpkg`
+
+Cet outil sert à manipuler des fichiers "package" Debian, d'extension `.deb`.
+Ces fichiers, au contenu très normalisés, contiennent tout le nécessaire pour installer un logiciel.
+
+Installer une application à partir de son fichier .deb: 
+```
+$ sudo dpkg -i fichier.deb
+```
+
+Lister les paquets installés sur la machine:
+```
+$ dpkg -l
+```
+
+Lister le contenu d'un fichier .deb, ce qui affiche aussi l'emplacement cible de chaque fichier: 
+```
+$ sudo dpkg -c fichier.deb
+```
 
 
-## `apt` et `apt-xxx`
+## 3 - `apt` et `apt-xxx`
+
+### Différence entre les deux outils
 
 Historiquement, il existait plusieurs programmes dédiés à la gestion des paquets, qui commencaient tous par `apt-...`.
 
-Depuis, le binaire `apt` regroupe toutes les fonctionnalités.
-
+Depuis, le binaire `apt` regroupe toutes les fonctionnalités, c'est une _surcouche_ aux différents binaires `apt-...`.
 
 Parfois le nom du paquet est différent du nom du programme que l'on cherche à installer, et un paquet peut contenir plusieurs programmes.
 On peut faire une recherche avec:
@@ -27,11 +50,33 @@ On peut faire une recherche avec:
 $ apt search <nom-du-prog>
 ```
 
+Installer une application à partir de son nom:
+```
+$ sudo apt install <nom-du-prog>
+```
+
+Obtenir des détails sur un paquet (qu'il soit installé ou pas):
+```
+$ apt show <nom-paquet>
+```
+
+
+Supprimer une application à partir de son nom:
+```
+$ sudo apt remove <nom-du-prog>
+```
+ou
+```
+$ sudo apt purge <nom-du-prog>
+```
+
+Cette dernière commande va également supprimer tous les fichiers de configuration associés.
 
 
 
 
-## Autres systèmes de gestion de paquets
+
+## 4 - Autres systèmes de gestion de paquets
 <a name="autres"></a>
 
 Au niveau OS:
