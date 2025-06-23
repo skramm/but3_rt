@@ -17,7 +17,7 @@ A debian package is a Unix ar archive that includes two tar archives: one contai
 
 ## 2 - `dpkg`
 
-Outil de gestion des paquets de *bas* niveau.
+Outil de gestion des paquets de **bas niveau**.
 
 Cet outil sert à manipuler des fichiers "package" Debian, d'extension `.deb`.
 Ces fichiers, au contenu très normalisés, contiennent tout le nécessaire pour installer un logiciel.
@@ -40,7 +40,7 @@ $ sudo dpkg -c fichier.deb
 
 ## 3 - `apt`
 
-__Advanced Package Tool__, outil de gestion des paquets de **haut niveau**.
+_Advanced Package Tool_, outil de gestion des paquets de **haut niveau**.
 
 
 
@@ -106,6 +106,11 @@ Au niveau OS:
 * AppImage
 
 Pour des comparatifs, voir:
+* en: https://www.reddit.com/r/linux/comments/1f9jmgv/which_do_you_prefer_snap_flatpak_or_appimage_and/  
+fr: https://www.reddit.com/r/linux/comments/1f9jmgv/which_do_you_prefer_snap_flatpak_or_appimage_and/?tl=fr
+* https://next.ink/5949/109059-paquets-appimage-snap-et-flatpak-quels-avantages-inconvenients-et-differences/
+* https://phoenixnap.com/kb/flatpak-vs-snap-vs-appimage
+
 
 
 
