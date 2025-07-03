@@ -9,6 +9,9 @@ lsdev;1;infos générales sur _hardware_
 lsof;1;_list open files_
 ss;1;_list sockets_
 lspci;1;_list all PCI devices_
+dmesg;1;affichage logs kernel (buffer circulaire)
+lshw;1;_list hardware_
+free;1;état RAM utilisée/libre
 lstopo;1;
 sudo;1;exécution d'une commande admin
 su;1;changement temp. d'utilisateur
@@ -19,6 +22,7 @@ reboot;1;;shutdown
 systemctl;1;gestion des services
 journalctl;1;outil d'accès aux logs systemd
 
+pstree;12;arborescence des process
 ps;12;snapshot des process;top
 pidof;12; donne le PID d'un process;ps
 kill;12;stoppe un process par PID;pkill
@@ -57,6 +61,7 @@ ls;11;
 cd;11;_Change Directory_;pushd
 pushd;11;chgt dossier courant avec sauvegarde;popd
 popd;11;récupération dossier courant;popd
+tree;11;affiche l'arborescence d'un dossier
 
 whoami;4;qui suis-je?
 who;4;qui est loggé?
@@ -139,10 +144,12 @@ uniq;8;suppression lignes identiques
 
 passwd;9;
 usermod;9;modification compte utilisateur
+userdel;9;suppression compte
 adduser;9;Création utilisateur
 useradd;9;Création utilisateur (bas niveau!);adduser
 id;9;Affiche les infos sur un utilisateur
 groups;9;Affiche les groupes existants
+groupadd;9;création groupe
 
 which;7;localisation (chemin) d'un programme
 type;7;indique si une commande est interne (_builtin_) ou externe

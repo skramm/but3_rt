@@ -19,7 +19,7 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 135 commandes
+Total: 143 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -59,7 +59,7 @@ Total: 135 commandes
 ## 3 - catégorie: Manipulation fichiers
 <a name='cat11'></a>
 
-10 commandes - <a href='#top'>Haut de page</a>
+11 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -73,6 +73,7 @@ Total: 135 commandes
 | <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde |
 | <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier |
 | <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier |
+| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier |
 
 ## 4 - catégorie: Réseau
 <a name='cat3'></a>
@@ -126,15 +127,18 @@ Total: 135 commandes
 ## 6 - catégorie: Système
 <a name='cat1'></a>
 
-16 commandes - <a href='#top'>Haut de page</a>
+19 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
+| <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) |
+| <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre |
 | <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
 | <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |
 | <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ |
+| <a href='https://www.google.fr/search?q=linux+lshw'>lshw</a> | _list hardware_ |
 | <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | _list open files_ |
 | <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ |
 | <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  |
@@ -178,15 +182,17 @@ Total: 135 commandes
 ## 9 - catégorie: Gestion utilisateurs
 <a name='cat9'></a>
 
-6 commandes - <a href='#top'>Haut de page</a>
+8 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | Création utilisateur |
+| <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe |
 | <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | Affiche les groupes existants |
 | <a href='https://www.google.fr/search?q=linux+id'>id</a> | Affiche les infos sur un utilisateur |
 | <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> |  |
 | <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | Création utilisateur (bas niveau!) |
+| <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur |
 
 ## 10 - catégorie: Installation logiciels
@@ -236,7 +242,7 @@ Total: 135 commandes
 ## 12 - catégorie: Gestion des process
 <a name='cat12'></a>
 
-5 commandes - <a href='#top'>Haut de page</a>
+7 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -245,6 +251,8 @@ Total: 135 commandes
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
+| <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |
+| <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |
 
 ## 13 - catégorie: Gestion Kernel
 <a name='cat13'></a>
@@ -261,4 +269,4 @@ Total: 135 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-06-17T15:24:14+0200_
+_MAJ: 2025-07-03T19:18:07+0200_

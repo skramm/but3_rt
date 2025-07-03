@@ -57,6 +57,7 @@
 | <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
 | <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  |
 | <a href='https://www.google.fr/search?q=linux+dig'>dig</a> | requete DNS | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+dpkg'>dpkg</a> | Utilitaire paquets .deb | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 | <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  |
 
@@ -83,6 +84,7 @@
 | <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+find'>find</a> | search for files, folders, ... | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 
 ## G
 <a name='g'></a>
@@ -95,6 +97,7 @@
 | <a href='https://www.google.fr/search?q=linux+gcc'>gcc</a> | compilation C | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+git'>git</a> | **LE** gestionnaire de versions de fichiers source | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
+| <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | Affiche les groupes existants | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 
 ## H
@@ -156,6 +159,7 @@
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lshw'>lshw</a> | _list hardware_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lsmod'>lsmod</a> | _show the status of modules in the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lsof'>lsof</a> | _list open files_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ | <a href='linux_cmds_list_cat.md#cat1'>Système</a> |  |
@@ -210,6 +214,7 @@
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> | kill |
 | <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | popd |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> | top |
+| <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> |  |
 | <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | popd |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 
@@ -264,6 +269,8 @@
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
+| <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> |  |
+| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 
@@ -281,6 +288,7 @@
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | zip |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | adduser |
+| <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 
 ## W
@@ -327,4 +335,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | unzip |
 
 
-_MAJ: 2025-06-17T15:24:14+0200_
+_MAJ: 2025-07-03T19:18:07+0200_
