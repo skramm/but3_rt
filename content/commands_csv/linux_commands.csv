@@ -37,7 +37,7 @@ fdisk;2;
 df;2;_disk free_
 du;2;_disk usage_
 
-find;5;search for files, folders, ...
+find;5;_search for files, folders,_ ...
 convert;7;conversion format d'image
 fc-list;7;_list available fonts_
 
@@ -61,7 +61,7 @@ ln;11;création de lien, symbolique ou _hardlink_
 ls;11;
 cd;11;_Change Directory_;pushd
 pushd;11;chgt dossier courant avec sauvegarde;popd
-popd;11;récupération dossier courant;popd
+popd;11;récupération dossier courant;pushd
 tree;11;affiche l'arborescence d'un dossier
 
 whoami;4;qui suis-je?
