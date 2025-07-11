@@ -1,5 +1,7 @@
 /**
-Construction d'un index de commandes Linux
+Construction d'un index de commandes Linux, à partir de deux fichiers csv:  
+- linux_cat.csv
+- linux_commands.csv
 
 Produit deux fichiers Markdown:  
 - un fichier classé par catégorie de commandes
@@ -178,7 +180,10 @@ genGlobalList(
 			<< cat->second
 			<< "</a> | ";
 		if( !cmd.seealso.empty() )
-			f << cmd.seealso;
+		{
+			auto letter = cmd.seealso.at(0);
+			f << "[" << cmd.seealso << "](#" << letter << ")";
+		}
 		f << " |\n";
 	}
 	printfooter(f);
