@@ -11,12 +11,13 @@ ss;1;_list sockets_
 lspci;1;_list all PCI devices_
 dmesg;1;affichage logs kernel (buffer circulaire)
 lshw;1;_list hardware_
+sensors;1;données capteurs (température, tension, etc.)
 free;1;état RAM utilisée/libre
 lstopo;1;
 sudo;1;exécution d'une commande admin
 su;1;changement temp. d'utilisateur
-top;1;_dashboard_ système général;htop
-htop;1;top en mieux;top
+top;12;_dashboard_ système & process;htop
+htop;12;top en mieux;top
 shutdown;1;;reboot
 reboot;1;;shutdown
 systemctl;1;gestion des services
@@ -36,7 +37,7 @@ fdisk;2;
 df;2;_disk free_
 du;2;_disk usage_
 
-find;5;search for files, folders, ...
+find;5;_search for files, folders,_ ...
 convert;7;conversion format d'image
 fc-list;7;_list available fonts_
 
@@ -60,11 +61,12 @@ ln;11;création de lien, symbolique ou _hardlink_
 ls;11;
 cd;11;_Change Directory_;pushd
 pushd;11;chgt dossier courant avec sauvegarde;popd
-popd;11;récupération dossier courant;popd
+popd;11;récupération dossier courant;pushd
 tree;11;affiche l'arborescence d'un dossier
 
 whoami;4;qui suis-je?
 who;4;qui est loggé?
+whatis;4;Que fait cette commande?
 pwd;4;_print working directory_
 locate;4;localise un programme dans le système;which
 man;4;Manuel
@@ -94,13 +96,13 @@ umask;5;permissions par défaut;chmod
 eval;7;exécute la commande passée en argument
 time;7;chronométrage de tâche
 jobs;7;
-watch;7;
+watch;7;exécution périodique d'une commande	
 env;7;liste var. environnement
 last;historique des logins & boots
 hostname;3;nom de la machine
 ip;3;
 ping;3;
-wget;3;client http;curl
+wget;3;client http CLI;curl
 curl;3;client multiprotocoles (wget en mieux)
 dig;3;requete DNS
 netcat;3;utilitaire TCP/UDP

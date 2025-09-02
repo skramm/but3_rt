@@ -10,7 +10,7 @@ Catégories:
 * 3 - [Manipulation fichiers](#cat11)
 * 4 - [Réseau](#cat3)
 * 5 - [Fichiers & permissions](#cat5)
-* 6 - [Système](#cat1)
+* 6 - [Système & _Hardware_](#cat1)
 * 7 - [Dev](#cat6)
 * 8 - [Traitement données texte](#cat8)
 * 9 - [Gestion utilisateurs](#cat9)
@@ -19,12 +19,12 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 143 commandes
+Total: 145 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
 
-16 commandes - <a href='#top'>Haut de page</a>
+17 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -42,6 +42,7 @@ Total: 143 commandes
 | <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ |
+| <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | Que fait cette commande? |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |
 
@@ -99,7 +100,7 @@ Total: 143 commandes
 | <a href='https://www.google.fr/search?q=linux+ssh-keygen'>ssh-keygen</a> |  |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  |
-| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http |
+| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI |
 | <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine |
 
 ## 5 - catégorie: Fichiers & permissions
@@ -124,16 +125,15 @@ Total: 143 commandes
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip |
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip |
 
-## 6 - catégorie: Système
+## 6 - catégorie: Système & _Hardware_
 <a name='cat1'></a>
 
-19 commandes - <a href='#top'>Haut de page</a>
+18 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) |
 | <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre |
-| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
 | <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |
@@ -144,12 +144,12 @@ Total: 143 commandes
 | <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> | liste périphs USB |
 | <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  |
+| <a href='https://www.google.fr/search?q=linux+sensors'>sensors</a> | données capteurs (température, tension, etc.) |
 | <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin |
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services |
-| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système général |
 
 ## 7 - catégorie: Dev
 <a name='cat6'></a>
@@ -234,7 +234,7 @@ Total: 143 commandes
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |
-| <a href='https://www.google.fr/search?q=linux+watch'>watch</a> |  |
+| <a href='https://www.google.fr/search?q=linux+watch'>watch</a> | exécution périodique d'une commande	 |
 | <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme |
 | <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ |
@@ -242,16 +242,18 @@ Total: 143 commandes
 ## 12 - catégorie: Gestion des process
 <a name='cat12'></a>
 
-7 commandes - <a href='#top'>Haut de page</a>
+9 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
+| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
 | <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |
+| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |
 
 ## 13 - catégorie: Gestion Kernel
@@ -269,4 +271,4 @@ Total: 143 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-07-03T19:18:07+0200_
+_MAJ: 2025-07-11T14:41:27+0200_
