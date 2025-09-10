@@ -114,7 +114,11 @@ Pour éviter ceci, il faut ajouter au groupe d'utilisateur "docker" (qui a norma
 
 4. Les assignations d'utilisateurs aux groupes ne se font que lors du "boot", il faut donc rebooter:
 
-`$ sudo /usr/sbin/shutdown -r now`
+`$ sudo /usr/sbin/shutdown -r now`  
+ou
+'''
+$ sudo reboot
+'''
 
 5. Relogger vous en "user" et vérifier que vous pouvez utiliser Docker sans être "root" avec:
 

@@ -149,6 +149,7 @@ passwd;9;Changement pwd;chage
 usermod;9;modification compte utilisateur
 userdel;9;suppression compte
 adduser;9;Création utilisateur
+addgroup;9;Création groupe d'utilisateurs;adduser
 useradd;9;Création utilisateur (bas niveau!);adduser
 id;9;Affiche les infos sur un utilisateur
 groups;9;Affiche les groupes existants
