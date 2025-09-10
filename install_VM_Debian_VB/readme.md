@@ -116,9 +116,9 @@ Pour éviter ceci, il faut ajouter au groupe d'utilisateur "docker" (qui a norma
 
 `$ sudo /usr/sbin/shutdown -r now`  
 ou
-'''
+```
 $ sudo reboot
-'''
+```
 
 5. Relogger vous en "user" et vérifier que vous pouvez utiliser Docker sans être "root" avec:
 
