@@ -91,6 +91,7 @@ sort;5;tri de texte
 chmod;5;chgt permissions fichier
 chown;5;chgt propriétaire fichier
 chgrp;5;chgt groupe propriétaire fichier
+chage;5;_change user password expiry information_;passwd
 umask;5;permissions par défaut;chmod
 
 eval;7;exécute la commande passée en argument
@@ -144,7 +145,7 @@ cut;8;suppression de texte dans des lignes
 paste;8;fusion de lignes de texte de plusieurs fichiers
 uniq;8;suppression lignes identiques
 
-passwd;9;
+passwd;9;Changement pwd;chage
 usermod;9;modification compte utilisateur
 userdel;9;suppression compte
 adduser;9;Création utilisateur
