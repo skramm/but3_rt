@@ -230,11 +230,11 @@ Total: 149 commandes
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
-| <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | tmux |
+| <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | multiplexeur de terminal |
 | <a href='https://www.google.fr/search?q=linux+seq'>seq</a> | _print a sequence of numbers_ |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |
-| <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | screen |
+| <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | multiplexeur de terminal |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |
@@ -275,4 +275,4 @@ Total: 149 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-10-03T14:15:23+0200_
+_MAJ: 2025-10-03T14:18:40+0200_

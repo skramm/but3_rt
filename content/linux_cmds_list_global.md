@@ -240,7 +240,7 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | tmux | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | multiplexeur de terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> | [tmux](#t) |
 | <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _Stream EDitor_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+sensors'>sensors</a> | données capteurs (température, tension, etc.) | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  |
 | <a href='https://www.google.fr/search?q=linux+seq'>seq</a> | _print a sequence of numbers_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
@@ -269,7 +269,7 @@
 | <a href='https://www.google.fr/search?q=linux+tar'>tar</a> | utilitaire archivage | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | screen | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | multiplexeur de terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> | [screen](#s) |
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> | [htop](#h) |
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
@@ -341,4 +341,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) |
 
 
-_MAJ: 2025-10-03T14:15:23+0200_
+_MAJ: 2025-10-03T14:18:40+0200_

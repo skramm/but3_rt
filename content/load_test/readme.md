@@ -161,7 +161,7 @@ Pour le logger, il faut "grepper" sur celui qui est pertinent (car cette command
 Il faut donc d'abord **identifier** le "device" correspondant à la partition qui nous intéresse.
 Ceci peut se faire avec la commande `df -h`, qui montre l'espace libre et occupé sur les différentes partitions, réelles ou virtuelles.
 
-Par exemple:
+Par exemple:  
 ![exemple_df](exemple_df.png)
 
 Ici, ce sont les partitions `nvme0XXX` qui correspondent à des "vraies" partitions disques.

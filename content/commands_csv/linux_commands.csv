@@ -171,5 +171,5 @@ rmmod;13;_remove a module from the kernel_
 yes;7;_output a string repeatedly until killed_
 hey;7;_HTTP load generator_
 
-tmux;7:multiplexeur de terminal;screen
-screen;7:multiplexeur de terminal;tmux
+tmux;7;multiplexeur de terminal;screen
+screen;7;multiplexeur de terminal;tmux
