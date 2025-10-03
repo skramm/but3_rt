@@ -51,14 +51,20 @@ Fonctionne en mode console, donc accessible même si le serveur n'a pas de burea
 
 [![htop](htop_800.jpg)](https://fr.wikipedia.org/wiki/Htop)
 
+Un équivalent un peu plus moderne (mais toujours en mode console); `btop`  
+voir ici une présentation:  
+https://korben.info/btop-alternative-htop-monitoring-systeme-gpu.html
+
+
+Les deux s'installent facilement avec `sudo apt install ...`
 
 ### 2.2 - Etat de la RAM
 
 Pour la RAM uniquement:
 - la commande `free` montre la quantité de RAM libre et utilisée sur une machine, de façon ponctuelle  
 (à utiliser avec l'option `-h` pour avoir des unités "humaines").  
-- la commande `watch` permet d'exécuter une commande de façon périodique, en mettant à jour sur la même console.
-- On peut associer les deux pour visualiser en temps réel l'état de la RAM sur la machine concernée avec:
+- La commande `watch` permet d'exécuter une commande de façon périodique, en mettant à jour sur la même console.
+On peut associer les deux pour visualiser en temps réel l'état de la RAM sur la machine concernée avec:
 ```
 $ watch free -h
 ```
@@ -152,6 +158,14 @@ voir https://www.tecmint.com/linux-cpu-load-stress-test-with-stress-ng-tool/
 
 La commande `df` (avec éventuellement l'option `-h`) montre pour les différents systèmes de fichiers qui sont montés l'espace utilisé et disponible.
 Pour le logger, il faut "grepper" sur celui qui est pertinent (car cette commande montre aussi les systèmes de fichiers virtuels).
+Il faut donc d'abord **identifier** le "device" correspondant à la partition qui nous intéresse.
+Ceci peut se faire avec la commande `df -h`, qui montre l'espace libre et occupé sur les différentes partitions, réelles ou virtuelles.
+
+Par exemple:
+![exemple_df](exemple_df.png)
+
+Ici, ce sont les partitions `nvme0XXX` qui correspondent à des "vraies" partitions disques.
+On peut maintenant grepper sur celle qui nous intéresse.
 Par exemple:
 ```
 $ df | grep /dev/nvme0n1p3 >> fichier log

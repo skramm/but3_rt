@@ -19,7 +19,7 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 145 commandes
+Total: 149 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -106,15 +106,16 @@ Total: 145 commandes
 ## 5 - catégorie: Fichiers & permissions
 <a name='cat5'></a>
 
-14 commandes - <a href='#top'>Haut de page</a>
+15 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
+| <a href='https://www.google.fr/search?q=linux+chage'>chage</a> | _change user password expiry information_ |
 | <a href='https://www.google.fr/search?q=linux+chgrp'>chgrp</a> | chgt groupe propriétaire fichier |
 | <a href='https://www.google.fr/search?q=linux+chmod'>chmod</a> | chgt permissions fichier |
 | <a href='https://www.google.fr/search?q=linux+chown'>chown</a> | chgt propriétaire fichier |
 | <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |
-| <a href='https://www.google.fr/search?q=linux+find'>find</a> | search for files, folders, ... |
+| <a href='https://www.google.fr/search?q=linux+find'>find</a> | _search for files, folders,_ ... |
 | <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte |
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> |  |
@@ -149,7 +150,7 @@ Total: 145 commandes
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin |
-| <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services |
+| <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |
 
 ## 7 - catégorie: Dev
 <a name='cat6'></a>
@@ -182,15 +183,16 @@ Total: 145 commandes
 ## 9 - catégorie: Gestion utilisateurs
 <a name='cat9'></a>
 
-8 commandes - <a href='#top'>Haut de page</a>
+9 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
+| <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | Création groupe d'utilisateurs |
 | <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | Création utilisateur |
 | <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe |
 | <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | Affiche les groupes existants |
 | <a href='https://www.google.fr/search?q=linux+id'>id</a> | Affiche les infos sur un utilisateur |
-| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> |  |
+| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | Changement pwd |
 | <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | Création utilisateur (bas niveau!) |
 | <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur |
@@ -214,7 +216,7 @@ Total: 145 commandes
 ## 11 - catégorie: Divers
 <a name='cat7'></a>
 
-20 commandes - <a href='#top'>Haut de page</a>
+22 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -228,9 +230,11 @@ Total: 145 commandes
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
+| <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | tmux |
 | <a href='https://www.google.fr/search?q=linux+seq'>seq</a> | _print a sequence of numbers_ |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |
+| <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | screen |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |
@@ -271,4 +275,4 @@ Total: 145 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-07-11T14:41:27+0200_
+_MAJ: 2025-10-03T14:15:23+0200_
