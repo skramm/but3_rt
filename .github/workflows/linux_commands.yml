@@ -1,4 +1,6 @@
-# plantuml gantt demo
+# automatisation de la création de l'index de commandes Linux
+
+# utilisation de https://github.com/stefanzweifel/git-auto-commit-action
 
 name: linux commands index generation
 
@@ -21,6 +23,8 @@ jobs:
         with:
           name: linux_cds
           path: content/linux_*.md
+      - name: auto commit
+        uses: stefanzweifel/git-auto-commit-action@v6
 
 
 
