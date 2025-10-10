@@ -14,13 +14,13 @@ lshw;1;_list hardware_
 sensors;1;données capteurs (température, tension, etc.)
 free;1;état RAM utilisée/libre
 lstopo;1;
-sudo;1;exécution d'une commande admin
-su;1;changement temp. d'utilisateur
+sudo;1;exécution d'une commande admin;su
+su;1;changement temp. d'utilisateur;sudo
 top;12;_dashboard_ système & process;htop
 htop;12;top en mieux;top
 shutdown;1;;reboot
 reboot;1;;shutdown
-systemctl;1;gestion des services
+systemctl;1;gestion des services (CLI/systemd)
 journalctl;1;outil d'accès aux logs systemd
 
 pstree;12;arborescence des process
@@ -93,6 +93,7 @@ sort;5;tri de texte
 chmod;5;chgt permissions fichier
 chown;5;chgt propriétaire fichier
 chgrp;5;chgt groupe propriétaire fichier
+chage;5;_change user password expiry information_;passwd
 umask;5;permissions par défaut;chmod
 
 eval;7;exécute la commande passée en argument
@@ -146,10 +147,11 @@ cut;8;suppression de texte dans des lignes
 paste;8;fusion de lignes de texte de plusieurs fichiers
 uniq;8;suppression lignes identiques
 
-passwd;9;
+passwd;9;Changement pwd;chage
 usermod;9;modification compte utilisateur
 userdel;9;suppression compte
 adduser;9;Création utilisateur
+addgroup;9;Création groupe d'utilisateurs;adduser
 useradd;9;Création utilisateur (bas niveau!);adduser
 id;9;Affiche les infos sur un utilisateur
 groups;9;Affiche les groupes existants
@@ -171,3 +173,5 @@ rmmod;13;_remove a module from the kernel_
 yes;7;_output a string repeatedly until killed_
 hey;7;_HTTP load generator_
 
+tmux;7;multiplexeur de terminal;screen
+screen;7;multiplexeur de terminal;tmux

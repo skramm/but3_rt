@@ -58,11 +58,13 @@ $ ssh-add ~/.ssh/id_ALGO
 
 5. Ouvrir le fichier contenant la clé **publique** en tapant:
 ```
-$ pluma ~/.ssh/id_ALGO.pub
+$ mousepad ~/.ssh/id_ALGO.pub
 ```
-__Note__: si pluma n'est pas installé sur votre machine, essayer mousepad ou tout autre éditeur GUI installé sur la machine. Possible aussi de faire un "`cat`", mais il faudra alors copier la clé depuis la console.
+__Note__: `mousepad` est l'éditeur par défaut dans xfce4.
+S'il n'est pas installé sur votre machine, vous pouvez essayer un autre éditeur GUI sans problème (pluma ou autre).
+Possible aussi de faire un "`cat`", mais il faudra alors copier la clé depuis la console.
 
-6. Sélectionner tout le contenu (CTRL-A), le copier (CTRL-C), aller sur son profil Github (en haut à droite) et sélectionner "__Settings__".  
+6. Sélectionner tout le contenu (CTRL-A), le copier (CTRL-C), aller sur votre profil Github en haut à droite (PAS le "settings" du projet!) et sélectionner "__Settings__".  
 Dans le panneau qui s'ouvre à gauche, sélectionner "__SSH and GPG keys__", puis cliquer sur le bouton vert "__New SSH key__" et copier la clé dans la zone de texte "__Key__" avec CTRL-V.
 
 7. Ajouter un identifiant à cette clé dans le champ "__Title__", pour pouvoir reconnaitre plus tard la machine sur laquelle vous l'avez crée.
