@@ -1,6 +1,6 @@
 # plantuml gantt demo
 
-name: plantuml_gantt_demo
+name: demo gantt (plantuml)
 
 on:
   push:
