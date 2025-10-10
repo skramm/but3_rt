@@ -1,4 +1,10 @@
 # but3_rt
+
+
+[![badge1](https://github.com/skramm/but3_rt/actions/workflows/linux_commands.yml/badge.svg)](https://github.com/skramm/but3_rt/actions)
+-
+[![badge2](https://github.com/skramm/but3_rt/actions/workflows/plantuml1.yml/badge.svg)](https://github.com/skramm/but3_rt/actions)
+
 dépot public
 
 Sebastien Kramm - IUT RT Rouen

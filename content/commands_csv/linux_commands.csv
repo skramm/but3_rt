@@ -70,7 +70,9 @@ whatis;4;Que fait cette commande?
 pwd;4;_print working directory_
 locate;4;localise un programme dans le système;which
 man;4;Manuel
-grep;8;
+grep;8;recherche de chaîne;ripgrep
+ripgrep;8;(rg) grep récursif;grep
+
 wc;4;_word count_
 cat;4;affiche et/ou concatene un/des fichiers
 tac;4;affiche ordre inversé;cat
@@ -84,7 +86,7 @@ zip;5;compression zip;unzip
 unzip;5;décompression zip;zip
 tar;5;utilitaire archivage
 
-stat;5;
+stat;5;détails complets sur un fichier
 head;5;premières lignes texte;tail
 tail;5;dernières lignes texte;head
 sort;5;tri de texte
@@ -153,7 +155,7 @@ id;9;Affiche les infos sur un utilisateur
 groups;9;Affiche les groupes existants
 groupadd;9;création groupe
 
-which;7;localisation (chemin) d'un programme
+which;7;localisation (chemin) d'un programme;locate
 type;7;indique si une commande est interne (_builtin_) ou externe
 tty;7;indique le terminal courant (`/dev/pts/XX`)
 seq;7;_print a sequence of numbers_

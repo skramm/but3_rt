@@ -86,6 +86,7 @@ readCSV_cat( std::string filename )
 }
 
 //--------------------------------------------------
+/// Contenu d'une commande: nom, commentaire, catégorie, "voir aussi"
 struct Command
 {
 	int cat;
