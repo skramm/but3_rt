@@ -94,34 +94,8 @@ $ source ~/.bashrc
 (ou `$ source .bashrc` si vous êtes déjà dans le dossier personnel de `user`).
 
 
-## Procédure pour install Docker (si demandé)
+## Utilisation de Docker ##
 
-Se logger en "user", puis:
-
-1. Installer Docker avec le gestionnaire de paquet de l'OS:
-
-`$ sudo apt install docker docker.io`
-
-
-2. Vérifier la version installée et la noter:
-
-`$ sudo docker version`
-
-3. En l'état, l'utilisation du client CLI Docker implique les droits "admin" et donc l'usage de "sudo" pour chaque commande, ce qui est un peu ennuyeux.  
-Pour éviter ceci, il faut ajouter au groupe d'utilisateur "docker" (qui a normalement été crée lors de l'install de docker) le "user" actuel:
-
-`$ sudo usermod -aG docker $USER`
-
-4. Les assignations d'utilisateurs aux groupes ne se font que lors du "boot", il faut donc rebooter:
-
-`$ sudo /usr/sbin/shutdown -r now`  
-ou  
-`$ sudo reboot`
-
-5. Relogger vous en "user" et vérifier que vous pouvez utiliser Docker sans être "root" avec:
-
-`$ docker run hello-world`
-
-Vous pouvez aussi voir avec la commande `$ id` que vous êtes bien dans le groupe "docker".
+Si vous souhaiter utiliser Docker dans cette VM, [voir ici pour son installation](../docker_install/)
 
 
