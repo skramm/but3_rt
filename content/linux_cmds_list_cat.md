@@ -19,7 +19,7 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 149 commandes
+Total: 150 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -118,7 +118,7 @@ Total: 149 commandes
 | <a href='https://www.google.fr/search?q=linux+find'>find</a> | _search for files, folders,_ ... |
 | <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte |
-| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> |  |
+| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |
 | <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+tar'>tar</a> | utilitaire archivage |
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |
@@ -168,14 +168,15 @@ Total: 149 commandes
 ## 8 - catégorie: Traitement données texte
 <a name='cat8'></a>
 
-7 commandes - <a href='#top'>Haut de page</a>
+8 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+awk'>awk</a> | _pattern scanning and processing language_ |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes |
-| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  |
+| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> | recherche de chaîne |
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers |
+| <a href='https://www.google.fr/search?q=linux+ripgrep'>ripgrep</a> | (rg) grep récursif |
 | <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _Stream EDitor_ |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ |
 | <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques |
@@ -275,4 +276,4 @@ Total: 149 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-10-03T14:18:40+0200_
+_MAJ: 2025-10-15T12:01:31+0000_

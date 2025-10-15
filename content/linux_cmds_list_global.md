@@ -98,7 +98,7 @@
 | <a href='https://www.google.fr/search?q=linux+g++'>g++</a> | compilation C++ | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+gcc'>gcc</a> | compilation C | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+git'>git</a> | **LE** gestionnaire de versions de fichiers source | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
-| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
+| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> | recherche de chaîne | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [ripgrep](#r) |
 | <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | Affiche les groupes existants | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 
@@ -228,6 +228,7 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [shutdown](#s) |
+| <a href='https://www.google.fr/search?q=linux+ripgrep'>ripgrep</a> | (rg) grep récursif | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [grep](#g) |
 | <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rmdir](#r) |
 | <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rm](#r) |
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
@@ -251,7 +252,7 @@
 | <a href='https://www.google.fr/search?q=linux+ssh-add'>ssh-add</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ssh-copy-id'>ssh-copy-id</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ssh-keygen'>ssh-keygen</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
-| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> |  | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
+| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+strings'>strings</a> | extraction de chaines dans des binaires | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [sudo](#s) |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [su](#s) |
@@ -307,7 +308,7 @@
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | [curl](#c) |
 | <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | Que fait cette commande? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
-| <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> | [locate](#l) |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
@@ -341,4 +342,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) |
 
 
-_MAJ: 2025-10-03T14:18:40+0200_
+_MAJ: 2025-10-15T12:01:31+0000_
