@@ -1,6 +1,7 @@
 # automatisation de la création de l'index de commandes Linux
 
 # utilisation de https://github.com/stefanzweifel/git-auto-commit-action
+#voir aussi https://github.com/orgs/community/discussions/25640
 
 name: linux commands index generation
 
@@ -25,6 +26,13 @@ jobs:
           path: content/linux_*.md
       - name: auto commit
         uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: Automated Change
+          branch: main
+          commit_options: '--no-verify --signoff'
+          commit_author: Author <actions@github.com>
+          status_options: '--untracked-files=no'
+          skip_dirty_check: true
 
 
 
