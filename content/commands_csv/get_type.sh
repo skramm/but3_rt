@@ -1,19 +1,20 @@
+# Determine if given command is builtin, a program, or not available
+
 set +x
 out=out.csv
 if [ -f $out ]; then rm $out; fi
-
 
 while IFS=";" read -a line
 do
 #	echo -n "line=$line"
 	if [ ${#line} != 0 ]
 	then
-		echo -n "${line[0]};${line[1]};${line[2]};" >> $out
+		echo -n "${line[0]};${line[1]};${line[2]};${line[3]};" >> $out
 		type ${line[0]} 1>/tmp/commandtype 2>/dev/null
 		ret=$?
 		if [ $ret != 0 ]
 		then
-			echo "NA" >> $out
+			echo "NI" >> $out
 		else
 			grep builtin /tmp/commandtype 1>/dev/null
 			if [ $? = 0 ]
@@ -26,5 +27,5 @@ do
 	fi
 	
 done < linux_commands.csv
-#done < test.csv
+
 

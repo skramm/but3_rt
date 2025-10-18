@@ -104,9 +104,9 @@ bg;12;passage d'un _job_ en arrière plan (_BackGround_)
 
 eval;7;exécute la commande passée en argument
 time;7;chronométrage de tâche
-watch;7;exécution périodique d'une commande	
+watch;7;exécution périodique d'une commande
 env;7;liste var. environnement
-last;historique des logins & boots
+last;7;historique des logins & boots
 hostname;3;nom de la machine
 ip;3;
 ping;3;

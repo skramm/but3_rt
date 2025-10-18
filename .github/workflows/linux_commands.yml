@@ -17,12 +17,13 @@ jobs:
       - name: Show GCC version
         run: g++ --version
 
+      - name: Determination type
+        run: cd content/commands_csv; ./get_type.sh
+
       - name: Compilation
         run: cd content/commands_csv; g++ linux_gen.cpp
       - name: Exécution
-        run: cd content/commands_csv; ./a.out
-
-      - run: echo "pwd:";pwd; echo "ls -R"; ls -R content
+        run: cd content/commands_csv; ./a.out out.csv
 
       - name: auto commit
         uses: stefanzweifel/git-auto-commit-action@v6
