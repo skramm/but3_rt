@@ -88,7 +88,7 @@ touch;14;création ou MAJ date d'un fichier
 
 zip;5;compression zip;unzip
 unzip;5;décompression zip;zip
-tar;5;utilitaire archivage
+tar;5;utilitaire archivage;zip
 
 sort;5;tri de texte
 chmod;5;chgt permissions fichier
@@ -99,8 +99,8 @@ umask;5;permissions par défaut;chmod
 
 
 jobs;12;affichage des _jobs_ lancés
-fg;12;passage d'un _job_ au premier plan (_ForeGround_)
-bg;12;passage d'un _job_ en arrière plan (_BackGround_)
+fg;12;passage d'un _job_ au premier plan (_ForeGround_);bg
+bg;12;passage d'un _job_ en arrière plan (_BackGround_);fg
 
 eval;7;exécute la commande passée en argument
 time;7;chronométrage de tâche
@@ -159,8 +159,8 @@ adduser;9;création utilisateur
 addgroup;9;création groupe d'utilisateurs;adduser
 useradd;9;création utilisateur (bas niveau!);adduser
 id;9;affiche les infos sur un utilisateur
-groups;9;affiche les groupes existants
-groupadd;9;création groupe
+groups;9;affiche les groupes existants;id
+groupadd;9;création groupe (bas niveau!);addgroup
 
 which;7;localisation (chemin) d'un programme;locate
 type;7;indique si une commande est interne (_builtin_) ou externe

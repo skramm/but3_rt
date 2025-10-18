@@ -90,7 +90,7 @@ readCSV_cat( std::string filename )
 /// Contenu d'une commande: nom, commentaire, catégorie, "voir aussi"
 struct Command
 {
-	int cat;
+	int         _cat;
 	std::string _name;
 	std::string _comment;
 	std::string _seealso;
@@ -99,15 +99,13 @@ struct Command
 	Command( const std::vector<std::string>& vin )
 	{
 //		std::cout << "#=" << vin.size() << "\n";
-		assert( vin.size() >= 3 ); //|| vin.size() == 4 );
+		assert( vin.size() == 5 ); //|| vin.size() == 4 );
 //		std::cout << "0:" << vin[0] << " 1:" << vin[1]<< " 2:" << vin[2] << " 3:" << vin[3] << " 4:" << vin[4]  << '\n';
-		_name = vin[0];
-		cat = stoi( vin[1] );
+		_name    = vin[0];
+		_cat     = stoi( vin[1] );
 		_comment = vin[2];
-//		if( vin.size() == 4 )
-			_seealso = vin[3];
-//		if( vin.size() == 5 )
-			_type = vin[4];
+		_seealso = vin[3];
+		_type    = vin[4];
 	}
 	bool operator < ( const Command& other )
 	{
@@ -176,13 +174,13 @@ genGlobalList(
 		auto cat = std::find_if(
 			cats.begin(),
 			cats.end(), 
-			[cmd](const auto& elem){ return elem.first == cmd.cat; }
+			[cmd](const auto& elem){ return elem.first == cmd._cat; }
 		);
 		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd._name << "'>" 
 			<< cmd._name << "</a> | " << cmd._comment 
 			<< " | <a href='linux_cmds_list_cat.md#cat"
-			<< cmd.cat << "'>"
+			<< cmd._cat << "'>"
 			<< cat->second
 			<< "</a> | ";
 		if( !cmd._seealso.empty() )
@@ -200,7 +198,7 @@ int countCateg( int cat, const std::vector<Command>& vcmd )
 {
 	int c=0;
 	for( const auto& cmd: vcmd )
-		if( cmd.cat == cat )
+		if( cmd._cat == cat )
 			c++;
 	return c;
 }
@@ -219,12 +217,12 @@ genCat(
 	f << "\n## " << idx << " - catégorie: " << pcat.second
 		<< "\n<a name='cat" << cat << "'></a>\n\n" 
 		<< nbc << " commandes - <a href='#top'>Haut de page</a>\n\n"
-		<< "| Nom | Description | Status |"
+		<< "| Nom | Description | Statut |"
 		<< "\n|-----|-----|-----|\n";
 
 	std::vector<Command> newvec;
 	for( const auto& cmd: vcmd )
-		if( cmd.cat == cat )
+		if( cmd._cat == cat )
 			newvec.push_back( cmd );
 	std::sort( newvec.begin(), newvec.end() );
 	
@@ -258,9 +256,9 @@ genCatList(
 		tot += nb;
 	}
 	f << "\nTotal: " << tot << " commandes\n\n"
-		<< "**Status**: \n- _builtin_: commande intégrée au Shell\n"
+		<< "**Statut**: \n- _builtin_: commande intégrée au Shell\n"
 		<< "- _installed_: programme installé et disponible dans l'OS local (VM Github)\n"
-		<< "- NA (_Not Available_): programme non installé\n\n";
+		<< "- NI (_Not Installed_): programme non installé\n\n";
 	
 	for(int idx=1; idx<vcats.size(); idx++ )
 		genCat( f, idx, vcats[idx], cmds );
