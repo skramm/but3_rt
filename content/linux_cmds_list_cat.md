@@ -19,7 +19,7 @@ Catégories:
 * 12 - [Gestion des process](#cat12)
 * 13 - [Gestion Kernel](#cat13)
 
-Total: 150 commandes
+Total: 151 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -188,13 +188,13 @@ Total: 150 commandes
 
 | Nom | Description|
 |-----|-----|
-| <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | Création groupe d'utilisateurs |
-| <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | Création utilisateur |
+| <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | création groupe d'utilisateurs |
+| <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | création utilisateur |
 | <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe |
-| <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | Affiche les groupes existants |
-| <a href='https://www.google.fr/search?q=linux+id'>id</a> | Affiche les infos sur un utilisateur |
-| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | Changement pwd |
-| <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | Création utilisateur (bas niveau!) |
+| <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | affiche les groupes existants |
+| <a href='https://www.google.fr/search?q=linux+id'>id</a> | affiche les infos sur un utilisateur |
+| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | changement pwd |
+| <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | création utilisateur (bas niveau!) |
 | <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur |
 
@@ -264,16 +264,17 @@ Total: 150 commandes
 ## 13 - catégorie: Gestion Kernel
 <a name='cat13'></a>
 
-6 commandes - <a href='#top'>Haut de page</a>
+7 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ |
 | <a href='https://www.google.fr/search?q=linux+insmod'>insmod</a> | _insert a module into the kernel_ |
+| <a href='https://www.google.fr/search?q=linux+logger'>logger</a> | écriture dans un log système |
 | <a href='https://www.google.fr/search?q=linux+lsmod'>lsmod</a> | _show the status of modules in the kernel_ |
 | <a href='https://www.google.fr/search?q=linux+modinfo'>modinfo</a> | _show information about a module_ |
 | <a href='https://www.google.fr/search?q=linux+modprobe'>modprobe</a> | _add and remove modules from the kernel_ |
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-10-15T12:01:31+0000_
+_MAJ: 2025-10-18T07:23:21+0000_

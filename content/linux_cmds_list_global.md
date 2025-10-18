@@ -14,8 +14,8 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | Création groupe d'utilisateurs | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [adduser](#a) |
-| <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | Création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
+| <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | création groupe d'utilisateurs | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [adduser](#a) |
+| <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+apt'>apt</a> | Gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 | <a href='https://www.google.fr/search?q=linux+apt-get'>apt-get</a> | Gestion paquets Debian (bas niveau) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
@@ -100,7 +100,7 @@
 | <a href='https://www.google.fr/search?q=linux+git'>git</a> | **LE** gestionnaire de versions de fichiers source | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
 | <a href='https://www.google.fr/search?q=linux+grep'>grep</a> | recherche de chaîne | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [ripgrep](#r) |
 | <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
-| <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | Affiche les groupes existants | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
+| <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | affiche les groupes existants | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 
 ## H
 <a name='h'></a>
@@ -122,7 +122,7 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+id'>id</a> | Affiche les infos sur un utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
+| <a href='https://www.google.fr/search?q=linux+id'>id</a> | affiche les infos sur un utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+insmod'>insmod</a> | _insert a module into the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 
@@ -156,6 +156,7 @@
 | <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [more](#m) |
 | <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [which](#w) |
+| <a href='https://www.google.fr/search?q=linux+logger'>logger</a> | écriture dans un log système | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
 | <a href='https://www.google.fr/search?q=linux+ls'>ls</a> |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distrib. | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [uname](#u) |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  |
@@ -207,7 +208,7 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | Changement pwd | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [chage](#c) |
+| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | changement pwd | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [chage](#c) |
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des process</a> | [ps](#p) |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
@@ -293,7 +294,7 @@
 | <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [zip](#z) |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | Création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [adduser](#a) |
+| <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | création utilisateur (bas niveau!) | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [adduser](#a) |
 | <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 
@@ -342,4 +343,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) |
 
 
-_MAJ: 2025-10-15T12:01:31+0000_
+_MAJ: 2025-10-18T07:23:21+0000_
