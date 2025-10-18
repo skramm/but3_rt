@@ -6,47 +6,72 @@
 
 Catégories:  
 * 1 - [Général](#cat4)
-* 2 - [Disque & stockage](#cat2)
-* 3 - [Manipulation fichiers](#cat11)
-* 4 - [Réseau](#cat3)
-* 5 - [Fichiers & permissions](#cat5)
-* 6 - [Système & _Hardware_](#cat1)
-* 7 - [Dev](#cat6)
-* 8 - [Traitement données texte](#cat8)
-* 9 - [Gestion utilisateurs](#cat9)
-* 10 - [Installation logiciels](#cat10)
-* 11 - [Divers](#cat7)
-* 12 - [Gestion des process](#cat12)
-* 13 - [Gestion Kernel](#cat13)
+* 2 - [édition/visualisation fichier](#cat12)
+* 3 - [Disque & stockage](#cat2)
+* 4 - [Manipulation fichiers](#cat11)
+* 5 - [Réseau](#cat3)
+* 6 - [Fichiers & permissions](#cat5)
+* 7 - [Système & _Hardware_](#cat1)
+* 8 - [Dev](#cat6)
+* 9 - [Traitement données texte](#cat8)
+* 10 - [Gestion utilisateurs](#cat9)
+* 11 - [Installation logiciels](#cat10)
+* 12 - [Divers](#cat7)
+* 13 - [Gestion des process](#cat12)
+* 14 - [Gestion Kernel](#cat13)
 
-Total: 151 commandes
+Total: 153 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
 
-17 commandes - <a href='#top'>Haut de page</a>
+12 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes |
-| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux |
-| <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |
-| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système |
 | <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distrib. |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> | Manuel |
-| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |
-| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ |
 | <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | Que fait cette commande? |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |
 
-## 2 - catégorie: Disque & stockage
+## 2 - catégorie: édition/visualisation fichier
+<a name='cat12'></a>
+
+21 commandes - <a href='#top'>Haut de page</a>
+
+| Nom | Description|
+|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux |
+| <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |
+| <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |
+| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte |
+| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
+| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID |
+| <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |
+| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
+| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage |
+| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |
+| <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process |
+| <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
+| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
+| <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |
+| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |
+| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé |
+| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte |
+| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process |
+| <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |
+| <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |
+| <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa ou octal |
+
+## 3 - catégorie: Disque & stockage
 <a name='cat2'></a>
 
 3 commandes - <a href='#top'>Haut de page</a>
@@ -57,7 +82,7 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ |
 | <a href='https://www.google.fr/search?q=linux+fdisk'>fdisk</a> |  |
 
-## 3 - catégorie: Manipulation fichiers
+## 4 - catégorie: Manipulation fichiers
 <a name='cat11'></a>
 
 11 commandes - <a href='#top'>Haut de page</a>
@@ -76,7 +101,7 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier |
 | <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier |
 
-## 4 - catégorie: Réseau
+## 5 - catégorie: Réseau
 <a name='cat3'></a>
 
 19 commandes - <a href='#top'>Haut de page</a>
@@ -103,10 +128,10 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI |
 | <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine |
 
-## 5 - catégorie: Fichiers & permissions
+## 6 - catégorie: Fichiers & permissions
 <a name='cat5'></a>
 
-15 commandes - <a href='#top'>Haut de page</a>
+10 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -114,19 +139,14 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+chgrp'>chgrp</a> | chgt groupe propriétaire fichier |
 | <a href='https://www.google.fr/search?q=linux+chmod'>chmod</a> | chgt permissions fichier |
 | <a href='https://www.google.fr/search?q=linux+chown'>chown</a> | chgt propriétaire fichier |
-| <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |
 | <a href='https://www.google.fr/search?q=linux+find'>find</a> | _search for files, folders,_ ... |
-| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte |
-| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |
-| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+tar'>tar</a> | utilitaire archivage |
-| <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |
 | <a href='https://www.google.fr/search?q=linux+umask'>umask</a> | permissions par défaut |
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip |
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip |
 
-## 6 - catégorie: Système & _Hardware_
+## 7 - catégorie: Système & _Hardware_
 <a name='cat1'></a>
 
 18 commandes - <a href='#top'>Haut de page</a>
@@ -152,7 +172,7 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin |
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |
 
-## 7 - catégorie: Dev
+## 8 - catégorie: Dev
 <a name='cat6'></a>
 
 5 commandes - <a href='#top'>Haut de page</a>
@@ -165,7 +185,7 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation |
 | <a href='https://www.google.fr/search?q=linux+strings'>strings</a> | extraction de chaines dans des binaires |
 
-## 8 - catégorie: Traitement données texte
+## 9 - catégorie: Traitement données texte
 <a name='cat8'></a>
 
 8 commandes - <a href='#top'>Haut de page</a>
@@ -181,7 +201,7 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ |
 | <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques |
 
-## 9 - catégorie: Gestion utilisateurs
+## 10 - catégorie: Gestion utilisateurs
 <a name='cat9'></a>
 
 9 commandes - <a href='#top'>Haut de page</a>
@@ -198,7 +218,7 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur |
 
-## 10 - catégorie: Installation logiciels
+## 11 - catégorie: Installation logiciels
 <a name='cat10'></a>
 
 8 commandes - <a href='#top'>Haut de page</a>
@@ -214,7 +234,7 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | Gestion paquets Fedora |
 | <a href='https://www.google.fr/search?q=linux+yum'>yum</a> | Gestion paquets RedHat |
 
-## 11 - catégorie: Divers
+## 12 - catégorie: Divers
 <a name='cat7'></a>
 
 22 commandes - <a href='#top'>Haut de page</a>
@@ -244,24 +264,36 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ |
 
-## 12 - catégorie: Gestion des process
+## 13 - catégorie: Gestion des process
 <a name='cat12'></a>
 
-9 commandes - <a href='#top'>Haut de page</a>
+21 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
+| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux |
+| <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |
+| <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |
+| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
 | <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |
+| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
+| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage |
+| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |
+| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |
+| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé |
+| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process |
+| <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |
+| <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa ou octal |
 
-## 13 - catégorie: Gestion Kernel
+## 14 - catégorie: Gestion Kernel
 <a name='cat13'></a>
 
 7 commandes - <a href='#top'>Haut de page</a>
@@ -277,4 +309,4 @@ Total: 151 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-10-18T07:23:21+0000_
+_MAJ: 2025-10-18T07:35:31+0000_
