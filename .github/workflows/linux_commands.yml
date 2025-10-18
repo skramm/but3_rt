@@ -25,7 +25,7 @@ jobs:
       - name: Exécution
         run: cd content/commands_csv; ./a.out out.csv
 
-        run: rm content/commands_csv/out.csv
+      - run: rm content/commands_csv/out.csv
 
       - name: auto commit
         uses: stefanzweifel/git-auto-commit-action@v6
