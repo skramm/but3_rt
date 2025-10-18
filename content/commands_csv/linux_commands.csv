@@ -29,6 +29,7 @@ killall;12;stoppe tous les process par nom
 trap;12;interception de signal
 
 fmt;7;text formatter
+md5sum;7;calcul de hash MD5
 
 fdisk;2;
 df;2;_disk free_
