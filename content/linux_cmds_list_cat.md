@@ -17,10 +17,10 @@ Catégories:
 * 10 - [Gestion utilisateurs](#cat9)
 * 11 - [Installation logiciels](#cat10)
 * 12 - [Divers](#cat7)
-* 13 - [Gestion des process](#cat12)
+* 13 - [Gestion des jobs & process](#cat12)
 * 14 - [Gestion Kernel](#cat13)
 
-Total: 153 commandes
+Total: 155 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -140,13 +140,11 @@ Total: 153 commandes
 ## 7 - catégorie: Système & _Hardware_
 <a name='cat1'></a>
 
-18 commandes - <a href='#top'>Haut de page</a>
+15 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
-| <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) |
 | <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre |
-| <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |
 | <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ |
@@ -161,7 +159,6 @@ Total: 153 commandes
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin |
-| <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |
 
 ## 8 - catégorie: Dev
 <a name='cat6'></a>
@@ -228,7 +225,7 @@ Total: 153 commandes
 ## 12 - catégorie: Divers
 <a name='cat7'></a>
 
-22 commandes - <a href='#top'>Haut de page</a>
+21 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -239,7 +236,6 @@ Total: 153 commandes
 | <a href='https://www.google.fr/search?q=linux+fc-list'>fc-list</a> | _list available fonts_ |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter |
 | <a href='https://www.google.fr/search?q=linux+hey'>hey</a> | _HTTP load generator_ |
-| <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
 | <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | multiplexeur de terminal |
@@ -255,14 +251,17 @@ Total: 153 commandes
 | <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ |
 
-## 13 - catégorie: Gestion des process
+## 13 - catégorie: Gestion des jobs & process
 <a name='cat12'></a>
 
-9 commandes - <a href='#top'>Haut de page</a>
+12 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
+| <a href='https://www.google.fr/search?q=linux+bg'>bg</a> | passage d'un _job_ en arrière plan (_BackGround_) |
+| <a href='https://www.google.fr/search?q=linux+fg'>fg</a> | passage d'un _job_ au premier plan (_ForeGround_) |
 | <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
+| <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> | affichage des _jobs_ lancés |
 | <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process |
@@ -275,17 +274,20 @@ Total: 153 commandes
 ## 14 - catégorie: Gestion Kernel
 <a name='cat13'></a>
 
-7 commandes - <a href='#top'>Haut de page</a>
+10 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
 | <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ |
+| <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) |
 | <a href='https://www.google.fr/search?q=linux+insmod'>insmod</a> | _insert a module into the kernel_ |
+| <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd |
 | <a href='https://www.google.fr/search?q=linux+logger'>logger</a> | écriture dans un log système |
 | <a href='https://www.google.fr/search?q=linux+lsmod'>lsmod</a> | _show the status of modules in the kernel_ |
 | <a href='https://www.google.fr/search?q=linux+modinfo'>modinfo</a> | _show information about a module_ |
 | <a href='https://www.google.fr/search?q=linux+modprobe'>modprobe</a> | _add and remove modules from the kernel_ |
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
+| <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |
 
 
-_MAJ: 2025-10-18T07:37:30+0000_
+_MAJ: 2025-10-18T08:29:01+0000_
