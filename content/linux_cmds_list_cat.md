@@ -6,7 +6,7 @@
 
 Catégories:  
 * 1 - [Général](#cat4)
-* 2 - [édition/visualisation fichier](#cat14)
+* 2 - [Édition/visualisation fichiers](#cat14)
 * 3 - [Disque & stockage](#cat2)
 * 4 - [Manipulation fichiers](#cat11)
 * 5 - [Réseau](#cat3)
@@ -22,10 +22,10 @@ Catégories:
 
 Total: 157 commandes
 
-**Status**: 
+**Statut**: 
 - _builtin_: commande intégrée au Shell
 - _installed_: programme installé et disponible dans l'OS local (VM Github)
-- NA (_Not Available_): programme non installé
+- NI (_Not Installed_): programme non installé
 
 
 ## 1 - catégorie: Général
@@ -33,7 +33,7 @@ Total: 157 commandes
 
 12 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | _builtin_ |
@@ -48,12 +48,12 @@ Total: 157 commandes
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? | _installed_ |
 
-## 2 - catégorie: édition/visualisation fichier
+## 2 - catégorie: Édition/visualisation fichiers
 <a name='cat14'></a>
 
 12 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux | NI |
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers | _installed_ |
@@ -73,7 +73,7 @@ Total: 157 commandes
 
 3 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ | _installed_ |
@@ -84,7 +84,7 @@ Total: 157 commandes
 
 11 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | _installed_ |
@@ -103,7 +103,7 @@ Total: 157 commandes
 
 19 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+dig'>dig</a> | requete DNS | _installed_ |
@@ -130,7 +130,7 @@ Total: 157 commandes
 
 10 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+chage'>chage</a> | _change user password expiry information_ | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chgrp'>chgrp</a> | chgt groupe propriétaire fichier | _installed_ |
@@ -148,7 +148,7 @@ Total: 157 commandes
 
 15 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" | _installed_ |
@@ -171,7 +171,7 @@ Total: 157 commandes
 
 5 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+g++'>g++</a> | compilation C++ | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+gcc'>gcc</a> | compilation C | _installed_ |
@@ -184,7 +184,7 @@ Total: 157 commandes
 
 8 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+awk'>awk</a> | _pattern scanning and processing language_ | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes | _installed_ |
@@ -200,11 +200,11 @@ Total: 157 commandes
 
 9 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | création groupe d'utilisateurs | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | création utilisateur | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe (bas niveau!) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | affiche les groupes existants | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+id'>id</a> | affiche les infos sur un utilisateur | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | changement pwd | _installed_ |
@@ -217,7 +217,7 @@ Total: 157 commandes
 
 8 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+apt'>apt</a> | Gestion paquets Debian | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+apt-get'>apt-get</a> | Gestion paquets Debian (bas niveau) | _installed_ |
@@ -233,7 +233,7 @@ Total: 157 commandes
 
 23 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | Effacement terminal | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image | NI |
@@ -264,7 +264,7 @@ Total: 157 commandes
 
 12 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+bg'>bg</a> | passage d'un _job_ en arrière plan (_BackGround_) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+fg'>fg</a> | passage d'un _job_ au premier plan (_ForeGround_) | _builtin_ |
@@ -284,7 +284,7 @@ Total: 157 commandes
 
 10 commandes - <a href='#top'>Haut de page</a>
 
-| Nom | Description | Status |
+| Nom | Description | Statut |
 |-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) | _installed_ |
@@ -298,4 +298,4 @@ Total: 157 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) | _installed_ |
 
 
-_MAJ: 2025-10-18T16:19:35+0000_
+_MAJ: 2025-10-18T16:30:05+0000_
