@@ -147,14 +147,14 @@ cut;8;suppression de texte dans des lignes
 paste;8;fusion de lignes de texte de plusieurs fichiers
 uniq;8;suppression lignes identiques
 
-passwd;9;Changement pwd;chage
+passwd;9;changement pwd;chage
 usermod;9;modification compte utilisateur
 userdel;9;suppression compte
-adduser;9;Création utilisateur
-addgroup;9;Création groupe d'utilisateurs;adduser
-useradd;9;Création utilisateur (bas niveau!);adduser
-id;9;Affiche les infos sur un utilisateur
-groups;9;Affiche les groupes existants
+adduser;9;création utilisateur
+addgroup;9;création groupe d'utilisateurs;adduser
+useradd;9;création utilisateur (bas niveau!);adduser
+id;9;affiche les infos sur un utilisateur
+groups;9;affiche les groupes existants
 groupadd;9;création groupe
 
 which;7;localisation (chemin) d'un programme;locate
@@ -169,6 +169,7 @@ lsmod;13;_show the status of modules in the kernel_
 modinfo;13;_show information about a module_
 modprobe;13;_add and remove modules from the kernel_
 rmmod;13;_remove a module from the kernel_
+logger;13;écriture dans un log système
 
 yes;7;_output a string repeatedly until killed_
 hey;7;_HTTP load generator_
