@@ -75,18 +75,18 @@ ripgrep;8;(rg) grep récursif;grep
 
 wc;4;_word count_
 
-more;12;filtre d'affichage;less
-less;12;filtre d'affichage;more
-bat;12;cat en mieux;cat,tail
-stat;12;détails complets sur un fichier
-head;12;premières lignes texte;tail
-tail;12;dernières lignes texte;head
-cat;12;affiche et/ou concatene un/des fichiers
-tac;12;affiche ordre inversé;cat
-xxd;12;visualisation en hexa ou octal
-nano;12;éditeur console basique
-file;12;nature d'un fichier
-touch;12;création ou MAJ date d'un fichier
+more;14;filtre d'affichage;less
+less;14;filtre d'affichage;more
+bat;14;cat en mieux;cat,tail
+stat;14;détails complets sur un fichier
+head;14;premières lignes texte;tail
+tail;14;dernières lignes texte;head
+cat;14;affiche et/ou concatene un/des fichiers
+tac;14;affiche ordre inversé;cat
+xxd;14;visualisation en hexa ou octal
+nano;14;éditeur console basique
+file;14;nature d'un fichier
+touch;14;création ou MAJ date d'un fichier
 
 zip;5;compression zip;unzip
 unzip;5;décompression zip;zip
