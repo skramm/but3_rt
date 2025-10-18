@@ -104,9 +104,9 @@ struct Command
 		_name = vin[0];
 		cat = stoi( vin[1] );
 		_comment = vin[2];
-		if( vin.size() == 4 )
+//		if( vin.size() == 4 )
 			_seealso = vin[3];
-		if( vin.size() == 5 )
+//		if( vin.size() == 5 )
 			_type = vin[4];
 	}
 	bool operator < ( const Command& other )
