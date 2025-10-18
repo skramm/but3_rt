@@ -20,7 +20,7 @@ Catégories:
 * 13 - [Gestion des jobs & process](#cat12)
 * 14 - [Gestion Kernel](#cat13)
 
-Total: 155 commandes
+Total: 156 commandes
 
 ## 1 - catégorie: Général
 <a name='cat4'></a>
@@ -225,7 +225,7 @@ Total: 155 commandes
 ## 12 - catégorie: Divers
 <a name='cat7'></a>
 
-21 commandes - <a href='#top'>Haut de page</a>
+22 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -236,6 +236,7 @@ Total: 155 commandes
 | <a href='https://www.google.fr/search?q=linux+fc-list'>fc-list</a> | _list available fonts_ |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter |
 | <a href='https://www.google.fr/search?q=linux+hey'>hey</a> | _HTTP load generator_ |
+| <a href='https://www.google.fr/search?q=linux+md5sum'>md5sum</a> | calcul de hash MD5 |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |
 | <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | multiplexeur de terminal |
@@ -290,4 +291,4 @@ Total: 155 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |
 
 
-_MAJ: 2025-10-18T08:29:01+0000_
+_MAJ: 2025-10-18T14:57:27+0000_
