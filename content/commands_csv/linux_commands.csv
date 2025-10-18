@@ -74,21 +74,24 @@ grep;8;recherche de chaîne;ripgrep
 ripgrep;8;(rg) grep récursif;grep
 
 wc;4;_word count_
-cat;4;affiche et/ou concatene un/des fichiers
-tac;4;affiche ordre inversé;cat
-more;4;filtre d'affichage;less
-less;4;filtre d'affichage;more
-bat;4;cat en mieux;cat,tail
 
-file;5;nature d'un fichier
-touch;5;création ou MAJ date d'un fichier
+more;12;filtre d'affichage;less
+less;12;filtre d'affichage;more
+bat;12;cat en mieux;cat,tail
+stat;12;détails complets sur un fichier
+head;12;premières lignes texte;tail
+tail;12;dernières lignes texte;head
+cat;12;affiche et/ou concatene un/des fichiers
+tac;12;affiche ordre inversé;cat
+xxd;12;visualisation en hexa ou octal
+nano;12;éditeur console basique
+file;12;nature d'un fichier
+touch;12;création ou MAJ date d'un fichier
+
 zip;5;compression zip;unzip
 unzip;5;décompression zip;zip
 tar;5;utilitaire archivage
 
-stat;5;détails complets sur un fichier
-head;5;premières lignes texte;tail
-tail;5;dernières lignes texte;head
 sort;5;tri de texte
 chmod;5;chgt permissions fichier
 chown;5;chgt propriétaire fichier
