@@ -9,7 +9,6 @@ lsdev;1;infos générales sur _hardware_
 lsof;1;_list open files_
 ss;1;_list sockets_
 lspci;1;_list all PCI devices_
-dmesg;1;affichage logs kernel (buffer circulaire)
 lshw;1;_list hardware_
 sensors;1;données capteurs (température, tension, etc.)
 free;1;état RAM utilisée/libre
@@ -20,8 +19,6 @@ top;12;_dashboard_ système & process;htop
 htop;12;top en mieux;top
 shutdown;1;;reboot
 reboot;1;;shutdown
-systemctl;1;gestion des services (CLI/systemd)
-journalctl;1;outil d'accès aux logs systemd
 
 pstree;12;arborescence des process
 ps;12;snapshot des process;top
@@ -99,9 +96,13 @@ chgrp;5;chgt groupe propriétaire fichier
 chage;5;_change user password expiry information_;passwd
 umask;5;permissions par défaut;chmod
 
+
+jobs;12;affichage des _jobs_ lancés
+fg;12;passage d'un _job_ au premier plan (_ForeGround_)
+bg;12;passage d'un _job_ en arrière plan (_BackGround_)
+
 eval;7;exécute la commande passée en argument
 time;7;chronométrage de tâche
-jobs;7;
 watch;7;exécution périodique d'une commande	
 env;7;liste var. environnement
 last;historique des logins & boots
@@ -173,6 +174,9 @@ modinfo;13;_show information about a module_
 modprobe;13;_add and remove modules from the kernel_
 rmmod;13;_remove a module from the kernel_
 logger;13;écriture dans un log système
+systemctl;13;gestion des services (CLI/systemd)
+journalctl;13;outil d'accès aux logs systemd
+dmesg;13;affichage logs kernel (buffer circulaire)
 
 yes;7;_output a string repeatedly until killed_
 hey;7;_HTTP load generator_
