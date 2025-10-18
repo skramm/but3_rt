@@ -6,7 +6,7 @@
 
 Catégories:  
 * 1 - [Général](#cat4)
-* 2 - [édition/visualisation fichier](#cat12)
+* 2 - [édition/visualisation fichier](#cat14)
 * 3 - [Disque & stockage](#cat2)
 * 4 - [Manipulation fichiers](#cat11)
 * 5 - [Réseau](#cat3)
@@ -43,9 +43,9 @@ Total: 153 commandes
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |
 
 ## 2 - catégorie: édition/visualisation fichier
-<a name='cat12'></a>
+<a name='cat14'></a>
 
-21 commandes - <a href='#top'>Haut de page</a>
+12 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
@@ -53,22 +53,13 @@ Total: 153 commandes
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |
 | <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |
 | <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte |
-| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
-| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID |
-| <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |
 | <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |
-| <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process |
-| <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
-| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
-| <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |
 | <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé |
 | <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte |
-| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process |
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |
-| <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |
 | <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa ou octal |
 
 ## 3 - catégorie: Disque & stockage
@@ -267,31 +258,19 @@ Total: 153 commandes
 ## 13 - catégorie: Gestion des process
 <a name='cat12'></a>
 
-21 commandes - <a href='#top'>Haut de page</a>
+9 commandes - <a href='#top'>Haut de page</a>
 
 | Nom | Description|
 |-----|-----|
-| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux |
-| <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |
-| <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |
-| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux |
 | <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |
-| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage |
-| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage |
-| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |
-| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |
-| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé |
-| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte |
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process |
-| <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |
-| <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa ou octal |
 
 ## 14 - catégorie: Gestion Kernel
 <a name='cat13'></a>
@@ -309,4 +288,4 @@ Total: 153 commandes
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ |
 
 
-_MAJ: 2025-10-18T07:35:31+0000_
+_MAJ: 2025-10-18T07:37:30+0000_
