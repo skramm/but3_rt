@@ -1,7 +1,7 @@
 # automatisation de la création de l'index de commandes Linux
 
 # utilisation de https://github.com/stefanzweifel/git-auto-commit-action
-#voir aussi https://github.com/orgs/community/discussions/25640
+# voir aussi https://github.com/orgs/community/discussions/25640
 
 name: linux commands index generation
 
@@ -25,6 +25,8 @@ jobs:
       - name: Exécution
         run: cd content/commands_csv; ./a.out out.csv
 
+        run: rm content/commands_csv/out.csv
+
       - name: auto commit
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
@@ -34,14 +36,5 @@ jobs:
           commit_author: Author <actions@github.com>
           status_options: '--untracked-files=no'
           skip_dirty_check: true
-
-#      - name: Run script
-#        run: cd content/commands_csv;./build.sh
-
-#      - name: upload artifact
-#        uses: actions/upload-artifact@v4
-#        with:
-#          name: linux_cds
-#          path: content/linux_*.md
 
 
