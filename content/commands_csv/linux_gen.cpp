@@ -219,8 +219,8 @@ genCat(
 		<< "\n<a name='cat" << cat << "'></a>\n\n" 
 		<< nbc << " commandes - <a href='#top'>Haut de page</a>"
 		<< "- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>\n\n"
-		<< "| Nom | Description | Statut |"
-		<< "\n|-----|-----|-----|\n";
+		<< "| Nom | Description | Voir aussi | Statut |"
+		<< "\n|-----|-----|-----|-----|\n";
 
 	std::vector<Command> newvec;
 	for( const auto& cmd: vcmd )
@@ -231,7 +231,10 @@ genCat(
 	for( const auto& cmd: newvec )
 		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd._name << "'>" 
-			<< cmd._name << "</a> | " << cmd._comment << " | " << cmd._type <<  " |\n";
+			<< cmd._name << "</a> | "
+			<< cmd._comment << " | "
+			<< cmd._seealso << " | "
+			<< cmd._type <<  " |\n";
 }
 
 //--------------------------------------------------

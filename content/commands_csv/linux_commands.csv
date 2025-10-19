@@ -34,7 +34,7 @@ md5sum;7;calcul de hash MD5
 fdisk;2;
 df;2;_disk free_
 du;2;_disk usage_
-dd;2;Utilitaire de copie bas niveau
+dd;2;utilitaire de copie bas niveau
 
 find;5;_search for files, folders,_ ...
 convert;7;conversion format d'image
@@ -48,7 +48,7 @@ strings;6;extraction de chaines dans des binaires
 
 pango-view;7;_convert text to image_
 history;4;historique des commandes
-lsb_release;4;version distrib.;uname
+lsb_release;4;version distribution;uname
 uname;4;version noyau;lsb_release
 
 cp;11;copie fichier(s);mv
@@ -57,7 +57,7 @@ mkdir;11;_make directory_
 rm;11;suppression fichier;rmdir
 rmdir;11;supression dossier;rm
 ln;11;création de lien, symbolique ou _hardlink_
-ls;11;
+ls;11;_list directory content_
 cd;11;_Change Directory_;pushd
 pushd;11;chgt dossier courant avec sauvegarde;popd
 popd;11;récupération dossier courant;pushd
@@ -65,10 +65,10 @@ tree;11;affiche l'arborescence d'un dossier
 
 whoami;4;qui suis-je?
 who;4;qui est loggé?
-whatis;4;Que fait cette commande?
+whatis;4;que fait cette commande?
 pwd;4;_print working directory_
 locate;4;localise un programme dans le système;which
-man;4;Manuel
+man;4;manuel
 grep;8;recherche de chaîne;ripgrep
 ripgrep;8;(rg) grep récursif;grep
 
@@ -131,11 +131,11 @@ nmcli;3;pilote CLI des connexions réseau
 echo;4;affichage de texte/variable
 alias;4;composition de commandes
 
-apt;10;Gestion paquets Debian
-apt-get;10;Gestion paquets Debian (bas niveau)
-yum;10;Gestion paquets RedHat
-rpm;10;Gestion paquets Fedora
-dpkg;10;Utilitaire paquets .deb
+apt;10;gestion paquets Debian
+apt-get;10;gestion paquets Debian (bas niveau)
+yum;10;gestion paquets RedHat
+rpm;10;gestion paquets Fedora
+dpkg;10;utilitaire paquets Debian (.deb)
 pip3;10;gestionnaire de paquets Python3
 pip;10;gestionnaire de paquets Python (2 ou 3)
 npm;10;gestionnaire de paquets Javascript
@@ -143,7 +143,7 @@ npm;10;gestionnaire de paquets Javascript
 nano;7;éditeur "console"
 xargs;7;
 tee;7;
-clear;7;Effacement terminal
+clear;7;effacement terminal
 uptime;7;durée fonctionnement système
 
 awk;8;_pattern scanning and processing language_
