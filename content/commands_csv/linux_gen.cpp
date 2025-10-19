@@ -237,7 +237,7 @@ genCat(
 		if( !cmd._seealso.empty() )
 		{
 			auto letter = cmd._seealso.at(0);
-			f << "[" << cmd._seealso << "](#" << letter << ")";
+			f << "[" << cmd._seealso << "](linux_cmds_list_alpha.md#" << letter << ")";
 		}
 		f << " | " << cmd._type << " |\n";
 	}
