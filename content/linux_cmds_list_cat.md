@@ -38,11 +38,11 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | [which](#w) | NI |
-| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | [uname](#u) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | [which](linux_cmds_list_alpha.md#w) | NI |
+| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | [uname](linux_cmds_list_alpha.md#u) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | [lsb_release](#l) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | [lsb_release](linux_cmds_list_alpha.md#l) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | que fait cette commande? |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? |  | _installed_ |
@@ -55,16 +55,16 @@ Total: 158 commandes
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux | [cat,tail](#c) | NI |
+| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux | [cat,tail](linux_cmds_list_alpha.md#c) | NI |
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte | [tail](#t) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | [more](#m) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | [less](#l) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte | [tail](linux_cmds_list_alpha.md#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | [more](linux_cmds_list_alpha.md#m) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | [less](linux_cmds_list_alpha.md#l) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé | [cat](#c) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte | [head](#h) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé | [cat](linux_cmds_list_alpha.md#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte | [head](linux_cmds_list_alpha.md#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa ou octal |  | _installed_ |
 
@@ -87,16 +87,16 @@ Total: 158 commandes
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | [pushd](#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | [mv](#m) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | [mv](linux_cmds_list_alpha.md#m) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage | [cp](#c) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | [pushd](#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | [popd](#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | [rmdir](#r) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | [rm](#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage | [cp](linux_cmds_list_alpha.md#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | [popd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | [rmdir](linux_cmds_list_alpha.md#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | [rm](linux_cmds_list_alpha.md#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier |  | _installed_ |
 
 ## 5 - catégorie: Réseau
@@ -115,7 +115,7 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau |  | NI |
 | <a href='https://www.google.fr/search?q=linux+nmcli'>nmcli</a> | pilote CLI des connexions réseau |  | NI |
-| <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS | [dig](#d) | NI |
+| <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS | [dig](linux_cmds_list_alpha.md#d) | NI |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh-add'>ssh-add</a> |  |  | _installed_ |
@@ -123,7 +123,7 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+ssh-keygen'>ssh-keygen</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  |  | NI |
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | [curl](#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | [curl](linux_cmds_list_alpha.md#c) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine |  | NI |
 
 ## 6 - catégorie: Fichiers & permissions
@@ -133,16 +133,16 @@ Total: 158 commandes
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+chage'>chage</a> | _change user password expiry information_ | [passwd](#p) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+chage'>chage</a> | _change user password expiry information_ | [passwd](linux_cmds_list_alpha.md#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chgrp'>chgrp</a> | chgt groupe propriétaire fichier |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chmod'>chmod</a> | chgt permissions fichier |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chown'>chown</a> | chgt propriétaire fichier |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+find'>find</a> | _search for files, folders,_ ... |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tar'>tar</a> | utilitaire archivage | [zip](#z) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+umask'>umask</a> | permissions par défaut | [chmod](#c) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | [zip](#z) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | [unzip](#u) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tar'>tar</a> | utilitaire archivage | [zip](linux_cmds_list_alpha.md#z) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+umask'>umask</a> | permissions par défaut | [chmod](linux_cmds_list_alpha.md#c) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | [zip](linux_cmds_list_alpha.md#z) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | [unzip](linux_cmds_list_alpha.md#u) | _installed_ |
 
 ## 7 - catégorie: Système & _Hardware_
 <a name='cat1'></a>
@@ -160,12 +160,12 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  |  | NI |
 | <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> | liste périphs USB |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | [shutdown](#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | [shutdown](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sensors'>sensors</a> | données capteurs (température, tension, etc.) |  | NI |
-| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | [reboot](#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | [reboot](linux_cmds_list_alpha.md#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | [sudo](#s) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | [su](#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | [sudo](linux_cmds_list_alpha.md#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | [su](linux_cmds_list_alpha.md#s) | _installed_ |
 
 ## 8 - catégorie: Dev
 <a name='cat6'></a>
@@ -189,9 +189,9 @@ Total: 158 commandes
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+awk'>awk</a> | _pattern scanning and processing language_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> | recherche de chaîne | [ripgrep](#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+grep'>grep</a> | recherche de chaîne | [ripgrep](linux_cmds_list_alpha.md#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+paste'>paste</a> | fusion de lignes de texte de plusieurs fichiers |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+ripgrep'>ripgrep</a> | (rg) grep récursif | [grep](#g) | NI |
+| <a href='https://www.google.fr/search?q=linux+ripgrep'>ripgrep</a> | (rg) grep récursif | [grep](linux_cmds_list_alpha.md#g) | NI |
 | <a href='https://www.google.fr/search?q=linux+sed'>sed</a> |  _Stream EDitor_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques |  | _installed_ |
@@ -203,13 +203,13 @@ Total: 158 commandes
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | création groupe d'utilisateurs | [adduser](#a) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | création groupe d'utilisateurs | [adduser](linux_cmds_list_alpha.md#a) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | création utilisateur |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe (bas niveau!) | [addgroup](#a) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | affiche les groupes existants | [id](#i) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+groupadd'>groupadd</a> | création groupe (bas niveau!) | [addgroup](linux_cmds_list_alpha.md#a) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+groups'>groups</a> | affiche les groupes existants | [id](linux_cmds_list_alpha.md#i) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+id'>id</a> | affiche les infos sur un utilisateur |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | changement pwd | [chage](#c) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | création utilisateur (bas niveau!) | [adduser](#a) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+passwd'>passwd</a> | changement pwd | [chage](linux_cmds_list_alpha.md#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+useradd'>useradd</a> | création utilisateur (bas niveau!) | [adduser](linux_cmds_list_alpha.md#a) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur |  | _installed_ |
 
@@ -247,16 +247,16 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+md5sum'>md5sum</a> | calcul de hash MD5 |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |  | NI |
-| <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | multiplexeur de terminal | [tmux](#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | multiplexeur de terminal | [tmux](linux_cmds_list_alpha.md#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+seq'>seq</a> | _print a sequence of numbers_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | multiplexeur de terminal | [screen](#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | multiplexeur de terminal | [screen](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+uptime'>uptime</a> | durée fonctionnement système |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+watch'>watch</a> | exécution périodique d'une commande |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | [locate](#l) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | [locate](linux_cmds_list_alpha.md#l) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ |  | _installed_ |
 
@@ -267,17 +267,17 @@ Total: 158 commandes
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+bg'>bg</a> | passage d'un _job_ en arrière plan (_BackGround_) | [fg](#f) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+fg'>fg</a> | passage d'un _job_ au premier plan (_ForeGround_) | [bg](#b) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux | [top](#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+bg'>bg</a> | passage d'un _job_ en arrière plan (_BackGround_) | [fg](linux_cmds_list_alpha.md#f) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+fg'>fg</a> | passage d'un _job_ au premier plan (_ForeGround_) | [bg](linux_cmds_list_alpha.md#b) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux | [top](linux_cmds_list_alpha.md#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> | affichage des _jobs_ lancés |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID | [pkill](#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID | [pkill](linux_cmds_list_alpha.md#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process | [ps](#p) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | [kill](#k) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | [top](#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process | [ps](linux_cmds_list_alpha.md#p) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | [kill](linux_cmds_list_alpha.md#k) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | [top](linux_cmds_list_alpha.md#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process | [htop](#h) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process | [htop](linux_cmds_list_alpha.md#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |  | _builtin_ |
 
 ## 14 - catégorie: Gestion Kernel
@@ -299,4 +299,4 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-19T18:01:40+0000_
+_MAJ: 2025-10-19T18:04:23+0000_
