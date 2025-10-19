@@ -34,6 +34,7 @@ md5sum;7;calcul de hash MD5
 fdisk;2;
 df;2;_disk free_
 du;2;_disk usage_
+dd;2;Utilitaire de copie bas niveau
 
 find;5;_search for files, folders,_ ...
 convert;7;conversion format d'image
