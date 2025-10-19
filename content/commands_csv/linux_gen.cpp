@@ -229,12 +229,18 @@ genCat(
 	std::sort( newvec.begin(), newvec.end() );
 	
 	for( const auto& cmd: newvec )
+	{
 		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd._name << "'>" 
 			<< cmd._name << "</a> | "
-			<< cmd._comment << " | "
-			<< cmd._seealso << " | "
-			<< cmd._type <<  " |\n";
+			<< cmd._comment << " | ";
+		if( !cmd._seealso.empty() )
+		{
+			auto letter = cmd._seealso.at(0);
+			f << "[" << cmd._seealso << "](#" << letter << ")";
+		}
+		f << " | " << cmd._type << " |\n";
+	}
 }
 
 //--------------------------------------------------
