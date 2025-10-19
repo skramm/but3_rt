@@ -166,7 +166,7 @@ genListAlpha(
 			f << "\n## " << (char)std::toupper(first)
 				<< "\n<a name='" << first << "'></a>\n\n"
 				<< "<a href='#top'>Haut de page</a>"
-				<< " - <a href='linux_cmds_cat.md'>Liste par catégorie</a>\n\n"
+				<< " - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n"
 				<< "| Nom | Description | Catégorie | Voir aussi |\n"
 				<< "|-----|-----|-----|-----|\n";
 			first_letter = first;
@@ -175,7 +175,7 @@ genListAlpha(
 		auto cat = std::find_if(
 			cats.begin(),
 			cats.end(), 
-			[cmd](const auto& elem){ return elem.first == cmd._cat; }
+			[cmd](const auto& elem){ return elem.first == cmd._cat; } // lambda
 		);
 		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd._name << "'>" 
@@ -218,7 +218,7 @@ genCat(
 	f << "\n## " << idx << " - catégorie: " << pcat.second
 		<< "\n<a name='cat" << cat << "'></a>\n\n" 
 		<< nbc << " commandes - <a href='#top'>Haut de page</a>"
-		<< "- <a href='linux_cmds_alpha.md'>Liste alphabétique</a>\n\n"
+		<< "- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>\n\n"
 		<< "| Nom | Description | Statut |"
 		<< "\n|-----|-----|-----|\n";
 
