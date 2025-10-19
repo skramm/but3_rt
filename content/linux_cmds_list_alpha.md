@@ -17,8 +17,8 @@
 | <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | création groupe d'utilisateurs | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [adduser](#a) |
 | <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  |
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
-| <a href='https://www.google.fr/search?q=linux+apt'>apt</a> | Gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
-| <a href='https://www.google.fr/search?q=linux+apt-get'>apt-get</a> | Gestion paquets Debian (bas niveau) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
+| <a href='https://www.google.fr/search?q=linux+apt'>apt</a> | gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
+| <a href='https://www.google.fr/search?q=linux+apt-get'>apt-get</a> | gestion paquets Debian (bas niveau) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 | <a href='https://www.google.fr/search?q=linux+awk'>awk</a> | _pattern scanning and processing language_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  |
 
 ## B
@@ -44,7 +44,7 @@
 | <a href='https://www.google.fr/search?q=linux+chgrp'>chgrp</a> | chgt groupe propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+chmod'>chmod</a> | chgt permissions fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+chown'>chown</a> | chgt propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
-| <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | Effacement terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | effacement terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [mv](#m) |
 | <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
@@ -57,12 +57,12 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+dd'>dd</a> | Utilitaire de copie bas niveau | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  |
+| <a href='https://www.google.fr/search?q=linux+dd'>dd</a> | utilitaire de copie bas niveau | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  |
 | <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
 | <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  |
 | <a href='https://www.google.fr/search?q=linux+dig'>dig</a> | requete DNS | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
-| <a href='https://www.google.fr/search?q=linux+dpkg'>dpkg</a> | Utilitaire paquets .deb | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
+| <a href='https://www.google.fr/search?q=linux+dpkg'>dpkg</a> | utilitaire paquets Debian (.deb) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 | <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  |
 
 ## E
@@ -161,8 +161,8 @@
 | <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [which](#w) |
 | <a href='https://www.google.fr/search?q=linux+logger'>logger</a> | écriture dans un log système | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
-| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> |  | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distrib. | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [uname](#u) |
+| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [uname](#u) |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  |
 | <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  |
@@ -181,7 +181,7 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  |
-| <a href='https://www.google.fr/search?q=linux+man'>man</a> | Manuel | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
+| <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+md5sum'>md5sum</a> | calcul de hash MD5 | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+modinfo'>modinfo</a> | _show information about a module_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
@@ -239,7 +239,7 @@
 | <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rmdir](#r) |
 | <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rm](#r) |
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
-| <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | Gestion paquets Fedora | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
+| <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | gestion paquets Fedora | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 
 ## S
 <a name='s'></a>
@@ -314,7 +314,7 @@
 | <a href='https://www.google.fr/search?q=linux+watch'>watch</a> | exécution périodique d'une commande | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | [curl](#c) |
-| <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | Que fait cette commande? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
+| <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | que fait cette commande? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> | [locate](#l) |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  |
@@ -338,7 +338,7 @@
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
-| <a href='https://www.google.fr/search?q=linux+yum'>yum</a> | Gestion paquets RedHat | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
+| <a href='https://www.google.fr/search?q=linux+yum'>yum</a> | gestion paquets RedHat | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
 
 ## Z
 <a name='z'></a>
@@ -350,4 +350,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) |
 
 
-_MAJ: 2025-10-19T17:45:12+0000_
+_MAJ: 2025-10-19T17:55:34+0000_
