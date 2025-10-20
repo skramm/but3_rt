@@ -131,8 +131,8 @@ nmcli;3;pilote CLI des connexions réseau
 ftp;3;transfert de fichiers
 rsync;3;transfert de fichier (bas niveau)
 
-echo;4;affichage de texte/variable
-printf;4;affichage de texte/variable formatté
+echo;4;affichage de texte/variable;printf
+printf;4;affichage de texte/variable formatté;echo
 alias;4;composition de commandes;unalias
 unalias;4;suppression d'un alias;alias
 apt;10;gestion paquets Debian
