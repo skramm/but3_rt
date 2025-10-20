@@ -29,7 +29,7 @@ jobs:
 
       - name: Ajout version OS
         run: |
-          source /etc/os-release;
+          source /etc/os-release
           echo "_OS: $NAME - $VERSION_">> content/linux_cmds_list_alpha.md
           echo "_OS: $NAME - $VERSION_">> content/linux_cmds_list_cat.md
         
