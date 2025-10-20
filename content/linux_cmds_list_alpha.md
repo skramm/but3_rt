@@ -90,6 +90,7 @@
 | <a href='https://www.google.fr/search?q=linux+find'>find</a> | _search for files, folders,_ ... | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  |
+| <a href='https://www.google.fr/search?q=linux+ftp'>ftp</a> | transfert de fichiers | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 
 ## G
 <a name='g'></a>
@@ -196,8 +197,8 @@
 
 | Nom | Description | Catégorie | Voir aussi |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  |
+| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
@@ -240,6 +241,7 @@
 | <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rm](#r) |
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  |
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | gestion paquets Fedora | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  |
+| <a href='https://www.google.fr/search?q=linux+rsync'>rsync</a> | transfert de fichier (bas niveau) | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  |
 
 ## S
 <a name='s'></a>
@@ -350,4 +352,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) |
 
 
-_MAJ: 2025-10-19T18:04:23+0000_
+_MAJ: 2025-10-20T06:19:49+0000_

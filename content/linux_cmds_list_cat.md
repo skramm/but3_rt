@@ -20,7 +20,7 @@ Catégories:
 * 13 - [Gestion des jobs & process](#cat12)
 * 14 - [Gestion Kernel](#cat13)
 
-Total: 158 commandes
+Total: 160 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -102,12 +102,13 @@ Total: 158 commandes
 ## 5 - catégorie: Réseau
 <a name='cat3'></a>
 
-19 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+21 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+dig'>dig</a> | requete DNS |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+ftp'>ftp</a> | transfert de fichiers |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat |  | _installed_ |
@@ -117,6 +118,7 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+nmcli'>nmcli</a> | pilote CLI des connexions réseau |  | NI |
 | <a href='https://www.google.fr/search?q=linux+nslookup (_deprecated_)'>nslookup (_deprecated_)</a> | outil DNS | [dig](linux_cmds_list_alpha.md#d) | NI |
 | <a href='https://www.google.fr/search?q=linux+ping'>ping</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+rsync'>rsync</a> | transfert de fichier (bas niveau) |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh-add'>ssh-add</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh-copy-id'>ssh-copy-id</a> |  |  | _installed_ |
@@ -299,4 +301,4 @@ Total: 158 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-19T18:04:23+0000_
+_MAJ: 2025-10-20T06:19:49+0000_
