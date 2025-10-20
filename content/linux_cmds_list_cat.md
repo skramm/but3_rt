@@ -36,12 +36,12 @@ Total: 165 commandes
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | [unalias](linux_cmds_list_alpha.md#u) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | [printf](linux_cmds_list_alpha.md#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | [which](linux_cmds_list_alpha.md#w) | NI |
 | <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | [uname](linux_cmds_list_alpha.md#u) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | [echo](linux_cmds_list_alpha.md#e) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+unalias'>unalias</a> | suppression d'un alias | [alias](linux_cmds_list_alpha.md#a) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | [lsb_release](linux_cmds_list_alpha.md#l) | _installed_ |
@@ -306,5 +306,5 @@ Total: 165 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-20T15:33:51+0000_,
+_MAJ: 2025-10-20T15:45:56+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_

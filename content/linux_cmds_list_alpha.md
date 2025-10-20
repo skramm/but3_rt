@@ -77,7 +77,7 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [printf](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+env'>env</a> | liste var. environnement | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+eval'>eval</a> | exécute la commande passée en argument | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
 
@@ -237,7 +237,7 @@
 | <a href='https://www.google.fr/search?q=linux+pip3'>pip3</a> | gestionnaire de paquets Python3 | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [kill](#k) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [pushd](#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [echo](#e) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [top](#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [ps](#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [popd](#p) | _builtin_ |
@@ -370,5 +370,5 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-20T15:33:51+0000_,
+_MAJ: 2025-10-20T15:45:56+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
