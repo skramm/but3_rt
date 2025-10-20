@@ -139,6 +139,15 @@ printfooter( std::ofstream& f )
 
 //--------------------------------------------------
 void
+printHeader( std::ofstream& f )
+{
+	f << "**Statut**: \n- _builtin_: commande intégrée au Shell\n"
+		<< "- _installed_: programme installé et disponible dans l'OS local (VM Github)\n"
+		<< "- NI (_Not Installed_): programme non installé\n\n";
+}
+
+//--------------------------------------------------
+void
 genListAlpha(
 	std::string                                    fn,
 	std::vector<Command>                           cmds,
@@ -154,7 +163,8 @@ genListAlpha(
 	for( uint8_t i=0;i<26;i++ )
 		f << "[" << (char)(i+'A') << "](#" << (char)(i+'a') << ")-";
 	f << "\n\n";
-	
+	printHeader( f );	
+
 	std::sort( cmds.begin(), cmds.end() );
 	auto first_letter = cmds[0]._name.at(0);
 	bool start = true;
@@ -266,10 +276,8 @@ genListCat(
 		f << "* " << idx << " - [" << vcats[idx].second << "](#cat" << vcats[idx].first << ")\n";
 		tot += nb;
 	}
-	f << "\nTotal: " << tot << " commandes\n\n"
-		<< "**Statut**: \n- _builtin_: commande intégrée au Shell\n"
-		<< "- _installed_: programme installé et disponible dans l'OS local (VM Github)\n"
-		<< "- NI (_Not Installed_): programme non installé\n\n";
+	f << "\nTotal: " << tot << " commandes\n\n";
+	printHeader( f );
 	
 	for(int idx=1; idx<vcats.size(); idx++ )
 		genCat( f, idx, vcats[idx], cmds );
