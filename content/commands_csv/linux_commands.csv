@@ -126,6 +126,8 @@ nslookup (_deprecated_);3;outil DNS;dig
 traceroute;3;
 netstat;3;infos/reseau, routage, etc.
 nmcli;3;pilote CLI des connexions réseau
+ftp;3;transfert de fichiers
+rsync;3;transfert de fichier (bas niveau)
 
 echo;4;affichage de texte/variable
 alias;4;composition de commandes
