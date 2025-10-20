@@ -144,9 +144,11 @@ npm;10;gestionnaire de paquets Javascript
 
 nano;7;éditeur "console"
 xargs;7;
+sleep;7;attente
 tee;7;
 clear;7;effacement terminal
 uptime;7;durée fonctionnement système
+set;7;paramétrage du shell
 
 awk;8;_pattern scanning and processing language_
 tr;8;_translate or delete characters_

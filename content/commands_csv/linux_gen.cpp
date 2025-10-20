@@ -167,8 +167,8 @@ genListAlpha(
 				<< "\n<a name='" << first << "'></a>\n\n"
 				<< "<a href='#top'>Haut de page</a>"
 				<< " - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n"
-				<< "| Nom | Description | Catégorie | Voir aussi |\n"
-				<< "|-----|-----|-----|-----|\n";
+				<< "| Nom | Description | Catégorie | Voir aussi | Statut |\n"
+				<< "|-----|-----|-----|-----|-----|\n";
 			first_letter = first;
 			start = false;
 		}
@@ -189,7 +189,7 @@ genListAlpha(
 			auto letter = cmd._seealso.at(0);
 			f << "[" << cmd._seealso << "](#" << letter << ")";
 		}
-		f << " |\n";
+		f << " | " << cmd._type << " |\n";		
 	}
 	printfooter(f);
 }
