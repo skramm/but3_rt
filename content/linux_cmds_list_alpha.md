@@ -6,6 +6,11 @@
 
 [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
+**Statut**: 
+- _builtin_: commande intégrée au Shell
+- _installed_: programme installé et disponible dans l'OS local (VM Github)
+- NI (_Not Installed_): programme non installé
+
 
 ## A
 <a name='a'></a>
@@ -354,4 +359,4 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-20T08:31:52+0000_
+_MAJ: 2025-10-20T08:55:05+0000_
