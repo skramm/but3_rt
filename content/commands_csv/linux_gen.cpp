@@ -139,7 +139,7 @@ printfooter( std::ofstream& f )
 
 //--------------------------------------------------
 void
-genGlobalList(
+genListAlpha(
 	std::string                                    fn,
 	std::vector<Command>                           cmds,
 	const std::vector<std::pair<int,std::string>>& cats
@@ -165,7 +165,8 @@ genGlobalList(
 		{
 			f << "\n## " << (char)std::toupper(first)
 				<< "\n<a name='" << first << "'></a>\n\n"
-				<< "<a href='#top'>Haut de page</a>\n\n"
+				<< "<a href='#top'>Haut de page</a>"
+				<< " - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n"
 				<< "| Nom | Description | Catégorie | Voir aussi |\n"
 				<< "|-----|-----|-----|-----|\n";
 			first_letter = first;
@@ -174,7 +175,7 @@ genGlobalList(
 		auto cat = std::find_if(
 			cats.begin(),
 			cats.end(), 
-			[cmd](const auto& elem){ return elem.first == cmd._cat; }
+			[cmd](const auto& elem){ return elem.first == cmd._cat; } // lambda
 		);
 		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd._name << "'>" 
@@ -216,9 +217,10 @@ genCat(
 
 	f << "\n## " << idx << " - catégorie: " << pcat.second
 		<< "\n<a name='cat" << cat << "'></a>\n\n" 
-		<< nbc << " commandes - <a href='#top'>Haut de page</a>\n\n"
-		<< "| Nom | Description | Statut |"
-		<< "\n|-----|-----|-----|\n";
+		<< nbc << " commandes - <a href='#top'>Haut de page</a>"
+		<< "- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>\n\n"
+		<< "| Nom | Description | Voir aussi | Statut |"
+		<< "\n|-----|-----|-----|-----|\n";
 
 	std::vector<Command> newvec;
 	for( const auto& cmd: vcmd )
@@ -227,14 +229,23 @@ genCat(
 	std::sort( newvec.begin(), newvec.end() );
 	
 	for( const auto& cmd: newvec )
+	{
 		f << "| <a href='https://www.google.fr/search?q=linux+"
 			<< cmd._name << "'>" 
-			<< cmd._name << "</a> | " << cmd._comment << " | " << cmd._type <<  " |\n";
+			<< cmd._name << "</a> | "
+			<< cmd._comment << " | ";
+		if( !cmd._seealso.empty() )
+		{
+			auto letter = cmd._seealso.at(0);
+			f << "[" << cmd._seealso << "](linux_cmds_list_alpha.md#" << letter << ")";
+		}
+		f << " | " << cmd._type << " |\n";
+	}
 }
 
 //--------------------------------------------------
 void
-genCatList(
+genListCat(
 	std::string                                    fn,
 	const std::vector<Command>&                    cmds,
 	const std::vector<std::pair<int,std::string>>& vcats
@@ -243,7 +254,7 @@ genCatList(
 	std::ofstream f( fn );
 	assert( f.is_open() );
 	f << "# Linux Shell: liste de commandes par catégorie\n\n"
-		<< "<a href='linux_cmds_list_global.md'>Liste alphabétique</a>\n\n"
+		<< "<a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>\n\n"
 		<< "<a name='top'></a>\n\n"
 		<< "Catégories:  \n";
 
@@ -271,7 +282,7 @@ int main( int argc, const char* argv[] )
 {
 	auto cat = readCSV_cat( "linux_cat.csv" );
 	auto cmds = readCSV_cmd( std::string(argv[1]) );
-	genGlobalList( "../linux_cmds_list_global.md", cmds, cat );
-	genCatList( "../linux_cmds_list_cat.md", cmds, cat );
+	genListAlpha( "../linux_cmds_list_alpha.md", cmds, cat );
+	genListCat( "../linux_cmds_list_cat.md", cmds, cat );
 }
 

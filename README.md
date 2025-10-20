@@ -13,7 +13,7 @@ Diverses ressources (datasets, code, tutos) pour mes étudiants BUT2 et/ou BUT3 
 A voir aussi:  
 * [Glossaire de sigles usuels](content/glossaire.md)
 * Linux: liste de commandes courantes:
-[liste alphabétique](content/linux_cmds_list_global.md) - 
+[liste alphabétique](content/linux_cmds_list_alpha.md) - 
 [par catégorie](content/linux_cmds_list_cat.md)  
 (voir [aussi ici](https://www.google.com/search?q=linux+cheat+sheet))
 
