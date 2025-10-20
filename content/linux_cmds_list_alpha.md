@@ -21,7 +21,7 @@
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+addgroup'>addgroup</a> | création groupe d'utilisateurs | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> | [adduser](#a) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+adduser'>adduser</a> | création utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [unalias](#u) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+apt'>apt</a> | gestion paquets Debian | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+apt-get'>apt-get</a> | gestion paquets Debian (bas niveau) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+awk'>awk</a> | _pattern scanning and processing language_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
@@ -202,8 +202,8 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
@@ -305,6 +305,7 @@
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+umask'>umask</a> | permissions par défaut | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [chmod](#c) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+unalias'>unalias</a> | suppression d'un alias | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [alias](#a) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [lsb_release](#l) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [zip](#z) | _installed_ |
@@ -359,4 +360,6 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-20T08:55:05+0000_
+_MAJ: 2025-10-20T09:13:08+0000_
+
+OS: Ubuntu - 24.04.3 LTS (Noble Numbat)

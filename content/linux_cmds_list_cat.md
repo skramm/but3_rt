@@ -20,7 +20,7 @@ Catégories:
 * 13 - [Gestion des jobs & process](#cat12)
 * 14 - [Gestion Kernel](#cat13)
 
-Total: 162 commandes
+Total: 163 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -31,17 +31,18 @@ Total: 162 commandes
 ## 1 - catégorie: Général
 <a name='cat4'></a>
 
-12 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+13 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | [unalias](linux_cmds_list_alpha.md#u) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | [which](linux_cmds_list_alpha.md#w) | NI |
 | <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | [uname](linux_cmds_list_alpha.md#u) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+unalias'>unalias</a> | suppression d'un alias | [alias](linux_cmds_list_alpha.md#a) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | [lsb_release](linux_cmds_list_alpha.md#l) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+wc'>wc</a> | _word count_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | que fait cette commande? |  | _installed_ |
@@ -303,4 +304,6 @@ Total: 162 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-20T08:55:05+0000_
+_MAJ: 2025-10-20T09:13:08+0000_
+
+OS: Ubuntu - 24.04.3 LTS (Noble Numbat)
