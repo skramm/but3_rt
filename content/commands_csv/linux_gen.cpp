@@ -134,7 +134,7 @@ void
 printfooter( std::ofstream& f )
 {
 	auto t = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
-	f << "\n\n_MAJ: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << "_\n";
+	f << "\n\n_MAJ: " << std::put_time( std::localtime( &t ), "%FT%T%z" ) << "_\n\n";
 }
 
 //--------------------------------------------------

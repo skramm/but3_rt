@@ -131,8 +131,8 @@ ftp;3;transfert de fichiers
 rsync;3;transfert de fichier (bas niveau)
 
 echo;4;affichage de texte/variable
-alias;4;composition de commandes
-
+alias;4;composition de commandes;unalias
+unalias;4;suppression d'un alias;alias
 apt;10;gestion paquets Debian
 apt-get;10;gestion paquets Debian (bas niveau)
 yum;10;gestion paquets RedHat
