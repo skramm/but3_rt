@@ -45,6 +45,7 @@ make;6;compilation
 gcc;6;compilation C
 g++;6;compilation C++
 strings;6;extraction de chaines dans des binaires
+gdb;6;déboggage pas à pas
 
 pango-view;7;_convert text to image_
 history;4;historique des commandes
@@ -82,7 +83,8 @@ head;14;premières lignes texte;tail
 tail;14;dernières lignes texte;head
 cat;14;affiche et/ou concatene un/des fichiers
 tac;14;affiche ordre inversé;cat
-xxd;14;visualisation en hexa ou octal
+xxd;14;visualisation en hexa ou octal;od
+od;14;visualisation en octal ou hexa;xxd
 nano;14;éditeur console basique
 file;14;nature d'un fichier
 touch;14;création ou MAJ date d'un fichier
