@@ -20,7 +20,7 @@ Catégories:
 * 13 - [Gestion des jobs & process](#cat12)
 * 14 - [Gestion Kernel](#cat13)
 
-Total: 163 commandes
+Total: 165 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -31,16 +31,17 @@ Total: 163 commandes
 ## 1 - catégorie: Général
 <a name='cat4'></a>
 
-13 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+14 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | [unalias](linux_cmds_list_alpha.md#u) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | [printf](linux_cmds_list_alpha.md#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | [which](linux_cmds_list_alpha.md#w) | NI |
 | <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | [uname](linux_cmds_list_alpha.md#u) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | [echo](linux_cmds_list_alpha.md#e) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+unalias'>unalias</a> | suppression d'un alias | [alias](linux_cmds_list_alpha.md#a) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | [lsb_release](linux_cmds_list_alpha.md#l) | _installed_ |
@@ -52,7 +53,7 @@ Total: 163 commandes
 ## 2 - catégorie: Édition/visualisation fichiers
 <a name='cat14'></a>
 
-12 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+13 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
@@ -63,11 +64,12 @@ Total: 163 commandes
 | <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | [more](linux_cmds_list_alpha.md#m) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | [less](linux_cmds_list_alpha.md#l) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+od'>od</a> | visualisation en hexa ou octal | [xxd](linux_cmds_list_alpha.md#x) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé | [cat](linux_cmds_list_alpha.md#c) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte | [head](linux_cmds_list_alpha.md#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa ou octal |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa | [od](linux_cmds_list_alpha.md#o) | _installed_ |
 
 ## 3 - catégorie: Disque & stockage
 <a name='cat2'></a>
@@ -281,9 +283,9 @@ Total: 163 commandes
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process | [ps](linux_cmds_list_alpha.md#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | [kill](linux_cmds_list_alpha.md#k) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | [top](linux_cmds_list_alpha.md#t) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process | [ps](linux_cmds_list_alpha.md#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process | [htop](linux_cmds_list_alpha.md#h) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal POSIX |  | _builtin_ |
 
 ## 14 - catégorie: Gestion Kernel
 <a name='cat13'></a>
@@ -295,7 +297,7 @@ Total: 163 commandes
 | <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+dmesg'>dmesg</a> | affichage logs kernel (buffer circulaire) |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+insmod'>insmod</a> | _insert a module into the kernel_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd | [systemctl](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+logger'>logger</a> | écriture dans un log système |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lsmod'>lsmod</a> | _show the status of modules in the kernel_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+modinfo'>modinfo</a> | _show information about a module_ |  | _installed_ |
@@ -304,5 +306,5 @@ Total: 163 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-20T09:18:29+0000_,
-_OS: Ubuntu - 
+_MAJ: 2025-10-20T15:45:56+0000_,
+_OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_

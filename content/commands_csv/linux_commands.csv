@@ -20,13 +20,13 @@ htop;12;top en mieux;top
 shutdown;1;;reboot
 reboot;1;;shutdown
 
-pstree;12;arborescence des process
+pstree;12;arborescence des process;ps
 ps;12;snapshot des process;top
 pidof;12; donne le PID d'un process;ps
 kill;12;stoppe un process par PID;pkill
 pkill;12;stoppe un process par nom;kill
 killall;12;stoppe tous les process par nom
-trap;12;interception de signal
+trap;12;interception de signal POSIX
 
 fmt;7;text formatter
 md5sum;7;calcul de hash MD5
@@ -83,8 +83,11 @@ head;14;premières lignes texte;tail
 tail;14;dernières lignes texte;head
 cat;14;affiche et/ou concatene un/des fichiers
 tac;14;affiche ordre inversé;cat
-xxd;14;visualisation en hexa ou octal;od
-od;14;visualisation en octal ou hexa;xxd
+
+xxd;14;visualisation en hexa;od
+od;14;visualisation en hexa ou octal;xxd
+
+
 nano;14;éditeur console basique
 file;14;nature d'un fichier
 touch;14;création ou MAJ date d'un fichier
@@ -132,7 +135,8 @@ nmcli;3;pilote CLI des connexions réseau
 ftp;3;transfert de fichiers
 rsync;3;transfert de fichier (bas niveau)
 
-echo;4;affichage de texte/variable
+echo;4;affichage de texte/variable;printf
+printf;4;affichage de texte/variable formatté;echo
 alias;4;composition de commandes;unalias
 unalias;4;suppression d'un alias;alias
 apt;10;gestion paquets Debian
@@ -183,7 +187,7 @@ modprobe;13;_add and remove modules from the kernel_
 rmmod;13;_remove a module from the kernel_
 logger;13;écriture dans un log système
 systemctl;13;gestion des services (CLI/systemd)
-journalctl;13;outil d'accès aux logs systemd
+journalctl;13;outil d'accès aux logs systemd;systemctl
 dmesg;13;affichage logs kernel (buffer circulaire)
 
 yes;7;_output a string repeatedly until killed_
