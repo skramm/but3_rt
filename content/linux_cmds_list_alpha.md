@@ -44,14 +44,15 @@
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [pushd](#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> | [pushd](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+chage'>chage</a> | _change user password expiry information_ | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [passwd](#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chgrp'>chgrp</a> | chgt groupe propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chmod'>chmod</a> | chgt permissions fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chown'>chown</a> | chgt propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | effacement terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+cmp'>cmp</a> | comparaison de fichiers | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | NI |
-| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [mv](#m) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> | [mv](#m) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 
@@ -165,10 +166,10 @@
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+last'>last</a> | historique des logins & boots | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> | [more](#m) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [which](#w) | NI |
 | <a href='https://www.google.fr/search?q=linux+logger'>logger</a> | écriture dans un log système | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [uname](#u) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  | _installed_ |
@@ -190,11 +191,11 @@
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+md5sum'>md5sum</a> | calcul de hash MD5 | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+modinfo'>modinfo</a> | _show information about a module_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+modprobe'>modprobe</a> | _add and remove modules from the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> | [less](#l) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [cp](#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> | [cp](#c) | _installed_ |
 
 ## N
 <a name='n'></a>
@@ -237,11 +238,11 @@
 | <a href='https://www.google.fr/search?q=linux+pip'>pip</a> | gestionnaire de paquets Python (2 ou 3) | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pip3'>pip3</a> | gestionnaire de paquets Python3 | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [kill](#k) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [pushd](#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> | [pushd](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [echo](#e) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [top](#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [ps](#p) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [popd](#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> | [popd](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _builtin_ |
 
 ## R
@@ -253,8 +254,8 @@
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [shutdown](#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ripgrep'>ripgrep</a> | (rg) grep récursif | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [grep](#g) | NI |
-| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rmdir](#r) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rm](#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> | [rmdir](#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> | [rm](#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+rmmod'>rmmod</a> | _remove a module from the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | gestion paquets Fedora | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+rsync'>rsync</a> | transfert de fichier (bas niveau) | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
@@ -303,7 +304,7 @@
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | NI |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal POSIX | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers & dossiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
 
@@ -371,5 +372,5 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-21T15:13:44+0000_,
+_MAJ: 2025-10-23T08:24:23+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_

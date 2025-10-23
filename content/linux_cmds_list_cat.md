@@ -8,7 +8,7 @@ Catégories:
 * 1 - [Général](#cat4)
 * 2 - [Édition/visualisation fichiers](#cat14)
 * 3 - [Disque & stockage](#cat2)
-* 4 - [Manipulation fichiers](#cat11)
+* 4 - [Manipulation fichiers & dossiers](#cat11)
 * 5 - [Réseau](#cat3)
 * 6 - [Fichiers & permissions](#cat5)
 * 7 - [Système & _Hardware_](#cat1)
@@ -20,7 +20,7 @@ Catégories:
 * 13 - [Gestion des jobs & process](#cat12)
 * 14 - [Gestion Kernel](#cat13)
 
-Total: 166 commandes
+Total: 167 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -83,14 +83,15 @@ Total: 166 commandes
 | <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+fdisk'>fdisk</a> |  |  | _installed_ |
 
-## 4 - catégorie: Manipulation fichiers
+## 4 - catégorie: Manipulation fichiers & dossiers
 <a name='cat11'></a>
 
-11 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+12 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+cmp'>cmp</a> | comparaison de fichiers |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | [mv](linux_cmds_list_alpha.md#m) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ |  | _installed_ |
@@ -307,5 +308,5 @@ Total: 166 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-21T15:13:44+0000_,
+_MAJ: 2025-10-23T08:24:23+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
