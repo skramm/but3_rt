@@ -6,21 +6,22 @@
 
 Catégories:  
 * 1 - [Général](#cat4)
-* 2 - [Édition/visualisation fichiers](#cat14)
+* 2 - [Édition/visualisation fichiers](#cat15)
 * 3 - [Disque & stockage](#cat2)
-* 4 - [Manipulation fichiers & dossiers](#cat11)
-* 5 - [Réseau](#cat3)
-* 6 - [Fichiers & permissions](#cat5)
-* 7 - [Système & _Hardware_](#cat1)
-* 8 - [Dev](#cat6)
-* 9 - [Traitement données texte](#cat8)
-* 10 - [Gestion utilisateurs](#cat9)
-* 11 - [Installation logiciels](#cat10)
-* 12 - [Divers](#cat7)
-* 13 - [Gestion des jobs & process](#cat12)
-* 14 - [Gestion Kernel](#cat13)
+* 4 - [Manipulation fichiers](#cat11)
+* 5 - [Manipulation dossiers](#cat14)
+* 6 - [Réseau](#cat3)
+* 7 - [Fichiers & permissions](#cat5)
+* 8 - [Système & _Hardware_](#cat1)
+* 9 - [Dev](#cat6)
+* 10 - [Traitement données texte](#cat8)
+* 11 - [Gestion utilisateurs](#cat9)
+* 12 - [Installation logiciels](#cat10)
+* 13 - [Divers](#cat7)
+* 14 - [Gestion des jobs & process](#cat12)
+* 15 - [Gestion Kernel](#cat13)
 
-Total: 167 commandes
+Total: 168 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -51,6 +52,47 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |  | _installed_ |
 
 ## 2 - catégorie: Édition/visualisation fichiers
+<a name='cat15'></a>
+
+7 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+
+| Nom | Description | Voir aussi | Statut |
+|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | [popd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | [rm](linux_cmds_list_alpha.md#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier |  | _installed_ |
+
+## 3 - catégorie: Disque & stockage
+<a name='cat2'></a>
+
+4 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+
+| Nom | Description | Voir aussi | Statut |
+|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+dd'>dd</a> | utilitaire de copie bas niveau |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+fdisk'>fdisk</a> |  |  | _installed_ |
+
+## 4 - catégorie: Manipulation fichiers
+<a name='cat11'></a>
+
+6 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+
+| Nom | Description | Voir aussi | Statut |
+|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+cmp'>cmp</a> | comparaison de fichiers | [diff](linux_cmds_list_alpha.md#d) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | [mv](linux_cmds_list_alpha.md#m) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+diff'>diff</a> | différences entre 2 fichiers, ligne par ligne | [cmp](linux_cmds_list_alpha.md#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage | [cp](linux_cmds_list_alpha.md#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | [rmdir](linux_cmds_list_alpha.md#r) | _installed_ |
+
+## 5 - catégorie: Manipulation dossiers
 <a name='cat14'></a>
 
 13 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -71,39 +113,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa | [od](linux_cmds_list_alpha.md#o) | _installed_ |
 
-## 3 - catégorie: Disque & stockage
-<a name='cat2'></a>
-
-4 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
-
-| Nom | Description | Voir aussi | Statut |
-|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+dd'>dd</a> | utilitaire de copie bas niveau |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+du'>du</a> | _disk usage_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+fdisk'>fdisk</a> |  |  | _installed_ |
-
-## 4 - catégorie: Manipulation fichiers & dossiers
-<a name='cat11'></a>
-
-12 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
-
-| Nom | Description | Voir aussi | Statut |
-|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+cmp'>cmp</a> | comparaison de fichiers |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | [mv](linux_cmds_list_alpha.md#m) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+ln'>ln</a> | création de lien, symbolique ou _hardlink_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+mv'>mv</a> | déplacement/renommage | [cp](linux_cmds_list_alpha.md#c) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | [popd](linux_cmds_list_alpha.md#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | [rmdir](linux_cmds_list_alpha.md#r) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | [rm](linux_cmds_list_alpha.md#r) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier |  | _installed_ |
-
-## 5 - catégorie: Réseau
+## 6 - catégorie: Réseau
 <a name='cat3'></a>
 
 21 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -132,7 +142,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | [curl](linux_cmds_list_alpha.md#c) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine |  | NI |
 
-## 6 - catégorie: Fichiers & permissions
+## 7 - catégorie: Fichiers & permissions
 <a name='cat5'></a>
 
 10 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -150,7 +160,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+unzip'>unzip</a> | décompression zip | [zip](linux_cmds_list_alpha.md#z) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | [unzip](linux_cmds_list_alpha.md#u) | _installed_ |
 
-## 7 - catégorie: Système & _Hardware_
+## 8 - catégorie: Système & _Hardware_
 <a name='cat1'></a>
 
 15 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -173,7 +183,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | [sudo](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | [su](linux_cmds_list_alpha.md#s) | _installed_ |
 
-## 8 - catégorie: Dev
+## 9 - catégorie: Dev
 <a name='cat6'></a>
 
 6 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -187,7 +197,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+strings'>strings</a> | extraction de chaines dans des binaires |  | _installed_ |
 
-## 9 - catégorie: Traitement données texte
+## 10 - catégorie: Traitement données texte
 <a name='cat8'></a>
 
 8 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -203,7 +213,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+uniq'>uniq</a> | suppression lignes identiques |  | _installed_ |
 
-## 10 - catégorie: Gestion utilisateurs
+## 11 - catégorie: Gestion utilisateurs
 <a name='cat9'></a>
 
 9 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -220,7 +230,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur |  | _installed_ |
 
-## 11 - catégorie: Installation logiciels
+## 12 - catégorie: Installation logiciels
 <a name='cat10'></a>
 
 8 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -236,7 +246,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+rpm'>rpm</a> | gestion paquets Fedora |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+yum'>yum</a> | gestion paquets RedHat |  | NI |
 
-## 12 - catégorie: Divers
+## 13 - catégorie: Divers
 <a name='cat7'></a>
 
 25 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -269,7 +279,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+xargs'>xargs</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+yes'>yes</a> | _output a string repeatedly until killed_ |  | _installed_ |
 
-## 13 - catégorie: Gestion des jobs & process
+## 14 - catégorie: Gestion des jobs & process
 <a name='cat12'></a>
 
 12 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -289,7 +299,7 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process | [htop](linux_cmds_list_alpha.md#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal POSIX |  | _builtin_ |
 
-## 14 - catégorie: Gestion Kernel
+## 15 - catégorie: Gestion Kernel
 <a name='cat13'></a>
 
 10 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -308,5 +318,5 @@ Total: 167 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-23T08:24:23+0000_,
+_MAJ: 2025-10-23T08:44:14+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
