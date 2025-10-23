@@ -6,10 +6,10 @@
 
 Catégories:  
 * 1 - [Général](#cat4)
-* 2 - [Édition/visualisation fichiers](#cat15)
+* 2 - [Édition/visualisation fichiers](#cat14)
 * 3 - [Disque & stockage](#cat2)
 * 4 - [Manipulation fichiers](#cat11)
-* 5 - [Manipulation dossiers](#cat14)
+* 5 - [Manipulation dossiers](#cat15)
 * 6 - [Réseau](#cat3)
 * 7 - [Fichiers & permissions](#cat5)
 * 8 - [Système & _Hardware_](#cat1)
@@ -52,19 +52,25 @@ Total: 168 commandes
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? |  | _installed_ |
 
 ## 2 - catégorie: Édition/visualisation fichiers
-<a name='cat15'></a>
+<a name='cat14'></a>
 
-7 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+13 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | [popd](linux_cmds_list_alpha.md#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | [rm](linux_cmds_list_alpha.md#r) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux | [cat,tail](linux_cmds_list_alpha.md#c) | NI |
+| <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte | [tail](linux_cmds_list_alpha.md#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | [more](linux_cmds_list_alpha.md#m) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | [less](linux_cmds_list_alpha.md#l) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+od'>od</a> | visualisation en hexa ou octal | [xxd](linux_cmds_list_alpha.md#x) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé | [cat](linux_cmds_list_alpha.md#c) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte | [head](linux_cmds_list_alpha.md#h) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa | [od](linux_cmds_list_alpha.md#o) | _installed_ |
 
 ## 3 - catégorie: Disque & stockage
 <a name='cat2'></a>
@@ -93,25 +99,19 @@ Total: 168 commandes
 | <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | [rmdir](linux_cmds_list_alpha.md#r) | _installed_ |
 
 ## 5 - catégorie: Manipulation dossiers
-<a name='cat14'></a>
+<a name='cat15'></a>
 
-13 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+7 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+bat'>bat</a> | cat en mieux | [cat,tail](linux_cmds_list_alpha.md#c) | NI |
-| <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte | [tail](linux_cmds_list_alpha.md#t) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+less'>less</a> | filtre d'affichage | [more](linux_cmds_list_alpha.md#m) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+more'>more</a> | filtre d'affichage | [less](linux_cmds_list_alpha.md#l) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+od'>od</a> | visualisation en hexa ou octal | [xxd](linux_cmds_list_alpha.md#x) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+stat'>stat</a> | détails complets sur un fichier |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tac'>tac</a> | affiche ordre inversé | [cat](linux_cmds_list_alpha.md#c) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+tail'>tail</a> | dernières lignes texte | [head](linux_cmds_list_alpha.md#h) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+xxd'>xxd</a> | visualisation en hexa | [od](linux_cmds_list_alpha.md#o) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+ls'>ls</a> | _list directory content_ |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | [pushd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | [popd](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | [rm](linux_cmds_list_alpha.md#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier |  | _installed_ |
 
 ## 6 - catégorie: Réseau
 <a name='cat3'></a>
@@ -318,5 +318,5 @@ Total: 168 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-23T08:44:14+0000_,
+_MAJ: 2025-10-23T08:56:59+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
