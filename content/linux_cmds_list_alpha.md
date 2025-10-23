@@ -4,8 +4,6 @@
 
 <a name='#top'></a>
 
-[A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
-
 **Statut**: 
 - _builtin_: commande intégrée au Shell
 - _installed_: programme installé et disponible dans l'OS local (VM Github)
@@ -15,7 +13,7 @@
 ## A
 <a name='a'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -29,7 +27,7 @@
 ## B
 <a name='b'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -39,7 +37,7 @@
 ## C
 <a name='c'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -50,19 +48,22 @@
 | <a href='https://www.google.fr/search?q=linux+chmod'>chmod</a> | chgt permissions fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+chown'>chown</a> | chgt propriétaire fichier | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+clear'>clear</a> | effacement terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+cloc'>cloc</a> | _Count Lines Of Code_ | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> | [wc](#w) | NI |
 | <a href='https://www.google.fr/search?q=linux+cmp'>cmp</a> | comparaison de fichiers | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [diff](#d) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+convert'>convert</a> | conversion format d'image | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | NI |
 | <a href='https://www.google.fr/search?q=linux+cp'>cp</a> | copie fichier(s) | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [mv](#m) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+cron'>cron</a> | planification de tâches | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+curl'>curl</a> | client multiprotocoles (wget en mieux) | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cut'>cut</a> | suppression de texte dans des lignes | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 
 ## D
 <a name='d'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+date'>date</a> | affiche date & heure | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+dd'>dd</a> | utilitaire de copie bas niveau | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+depmod'>depmod</a> | _generates modules.dep and map files_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+df'>df</a> | _disk free_ | <a href='linux_cmds_list_cat.md#cat2'>Disque & stockage</a> |  | _installed_ |
@@ -75,7 +76,7 @@
 ## E
 <a name='e'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -86,7 +87,7 @@
 ## F
 <a name='f'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -102,7 +103,7 @@
 ## G
 <a name='g'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -117,7 +118,7 @@
 ## H
 <a name='h'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -130,7 +131,7 @@
 ## I
 <a name='i'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -141,17 +142,18 @@
 ## J
 <a name='j'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> | affichage des _jobs_ lancés | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> | [systemctl](#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+jq'>jq</a> | traitement de chaines JSON | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 
 ## K
 <a name='k'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -161,7 +163,7 @@
 ## L
 <a name='l'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -185,7 +187,7 @@
 ## M
 <a name='m'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -201,12 +203,12 @@
 ## N
 <a name='n'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur console basique | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
@@ -218,7 +220,7 @@
 ## O
 <a name='o'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -227,7 +229,7 @@
 ## P
 <a name='p'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -249,10 +251,11 @@
 ## R
 <a name='r'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+read'>read</a> | saisie ligne (clavier ou fichier) | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [shutdown](#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ripgrep'>ripgrep</a> | (rg) grep récursif | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [grep](#g) | NI |
 | <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rmdir](#r) | _installed_ |
@@ -264,7 +267,7 @@
 ## S
 <a name='s'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -276,6 +279,7 @@
 | <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [reboot](#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sleep'>sleep</a> | attente | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+split'>split</a> |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh-add'>ssh-add</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
@@ -290,7 +294,7 @@
 ## T
 <a name='t'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -305,14 +309,14 @@
 | <a href='https://www.google.fr/search?q=linux+tr'>tr</a> | _translate or delete characters_ | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | NI |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal POSIX | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tree'>tree</a> | affiche l'arborescence d'un dossier | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> | [ls](#l) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
 
 ## U
 <a name='u'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -330,7 +334,7 @@
 ## W
 <a name='w'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -346,7 +350,7 @@
 ## X
 <a name='x'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -356,7 +360,7 @@
 ## Y
 <a name='y'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
@@ -366,12 +370,12 @@
 ## Z
 <a name='z'></a>
 
-<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - [A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-23T08:56:59+0000_,
+_MAJ: 2025-10-23T09:17:34+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
