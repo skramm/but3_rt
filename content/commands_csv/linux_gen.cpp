@@ -148,6 +148,15 @@ printHeader( std::ofstream& f )
 
 //--------------------------------------------------
 void
+printAlpha( std::ofstream& f )
+{
+	for( uint8_t i=0;i<26;i++ )
+		f << "[" << (char)(i+'A') << "](#" << (char)(i+'a') << ")-";
+	f << "\n\n";
+}
+
+//--------------------------------------------------
+void
 genListAlpha(
 	std::string                                    fn,
 	std::vector<Command>                           cmds,
@@ -159,11 +168,8 @@ genListAlpha(
 	f << "# Linux Shell: liste alphabétique de commandes\n\n"
 		<< "<a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n"
 		<< "<a name='#top'></a>\n\n";
-		
-	for( uint8_t i=0;i<26;i++ )
-		f << "[" << (char)(i+'A') << "](#" << (char)(i+'a') << ")-";
-	f << "\n\n";
-	printHeader( f );	
+
+	printHeader( f );
 
 	std::sort( cmds.begin(), cmds.end() );
 	auto first_letter = cmds[0]._name.at(0);
@@ -176,8 +182,10 @@ genListAlpha(
 			f << "\n## " << (char)std::toupper(first)
 				<< "\n<a name='" << first << "'></a>\n\n"
 				<< "<a href='#top'>Haut de page</a>"
-				<< " - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>\n\n"
-				<< "| Nom | Description | Catégorie | Voir aussi | Statut |\n"
+				<< " - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a> - ";
+			printAlpha( f );
+				
+			f << "| Nom | Description | Catégorie | Voir aussi | Statut |\n"
 				<< "|-----|-----|-----|-----|-----|\n";
 			first_letter = first;
 			start = false;

@@ -39,6 +39,7 @@ dd;2;utilitaire de copie bas niveau
 find;5;_search for files, folders,_ ...
 convert;7;conversion format d'image
 fc-list;7;_list available fonts_
+cron;7;planification de tâches
 
 git;6;**LE** gestionnaire de versions de fichiers source
 make;6;compilation
@@ -46,6 +47,7 @@ gcc;6;compilation C
 g++;6;compilation C++
 strings;6;extraction de chaines dans des binaires
 gdb;6;déboggage pas à pas
+cloc;6;_Count Lines Of Code_;wc
 
 pango-view;7;_convert text to image_
 history;4;historique des commandes
@@ -59,7 +61,7 @@ ln;11;création de lien, symbolique ou _hardlink_
 cmp;11;comparaison de fichiers;diff
 diff;11;différences entre 2 fichiers, ligne par ligne;cmp
 
-tree;15;affiche l'arborescence d'un dossier
+tree;15;affiche l'arborescence d'un dossier;ls
 rmdir;15;supression dossier;rm
 mkdir;15;_make directory_
 ls;15;_list directory content_
@@ -111,11 +113,13 @@ jobs;12;affichage des _jobs_ lancés
 fg;12;passage d'un _job_ au premier plan (_ForeGround_);bg
 bg;12;passage d'un _job_ en arrière plan (_BackGround_);fg
 
+read;7;saisie ligne (clavier ou fichier)
 eval;7;exécute la commande passée en argument
 time;7;chronométrage de tâche
 watch;7;exécution périodique d'une commande
 env;7;liste var. environnement
 last;7;historique des logins & boots
+
 hostname;3;nom de la machine
 ip;3;
 ping;3;
@@ -165,6 +169,8 @@ sed;8; _Stream EDitor_
 cut;8;suppression de texte dans des lignes
 paste;8;fusion de lignes de texte de plusieurs fichiers
 uniq;8;suppression lignes identiques
+jq;8;traitement de chaines JSON
+split;8;
 
 passwd;9;changement pwd;chage
 usermod;9;modification compte utilisateur
@@ -198,3 +204,4 @@ hey;7;_HTTP load generator_
 
 tmux;7;multiplexeur de terminal;screen
 screen;7;multiplexeur de terminal;tmux
+date;7;affiche date & heure
