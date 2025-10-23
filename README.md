@@ -1,8 +1,9 @@
 # but3_rt
 
 
-[![badge1](https://github.com/skramm/but3_rt/actions/workflows/linux_commands.yml/badge.svg)](https://github.com/skramm/but3_rt/actions/linux_commands.yml) -
+[![badge1](https://github.com/skramm/but3_rt/actions/workflows/linux_commands.yml/badge.svg)](https://github.com/skramm/but3_rt/actions/linux_commands.yml)
 [![badge2](https://github.com/skramm/but3_rt/actions/workflows/plantuml1.yml/badge.svg)](https://github.com/skramm/but3_rt/actions/plantuml1.yml)
+[![badge3](https://github.com/skramm/but3_rt/actions/workflows/collision_md5.yml/badge.svg)](https://github.com/skramm/but3_rt/actions/collision_md5.yml)
 
 dépot public
 

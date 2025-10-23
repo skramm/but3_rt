@@ -9,8 +9,17 @@
 str1='TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak'
 str2='TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak'
 
-echo $str1
-echo $str2
+echo "chaine1=$str1"
+echo "chaine2=$str2"
+
+if [ "$str1" != "$str2" ]
+then
+	echo "Chaines différentes"
+else
+	echo "Chaines identiques"
+fi
+printf '\n'
+
 
 # note: -n: no newline. Needed, else the newline is part of the string
 hash1=$(echo -n $str1 | md5sum)
@@ -18,8 +27,9 @@ hash2=$(echo -n $str2 | md5sum)
 
 echo "hash1=$hash1"
 echo "hash2=$hash2"
+printf '\n'
 
-if [ $hash1 = $hash2 ]
+if [ "$hash1" = "$hash2" ]
 then
 	echo "hash identiques ! => collision"
 	exit 0

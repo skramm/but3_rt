@@ -54,16 +54,18 @@ uname;4;version noyau;lsb_release
 
 cp;11;copie fichier(s);mv
 mv;11;déplacement/renommage;cp
-mkdir;11;_make directory_
 rm;11;suppression fichier;rmdir
-rmdir;11;supression dossier;rm
 ln;11;création de lien, symbolique ou _hardlink_
-ls;11;_list directory content_
-cd;11;_Change Directory_;pushd
-pushd;11;chgt dossier courant avec sauvegarde;popd
-popd;11;récupération dossier courant;pushd
-tree;11;affiche l'arborescence d'un dossier
-cmp;11;comparaison de fichiers
+cmp;11;comparaison de fichiers;diff
+diff;11;différences entre 2 fichiers, ligne par ligne;cmp
+
+tree;15;affiche l'arborescence d'un dossier
+rmdir;15;supression dossier;rm
+mkdir;15;_make directory_
+ls;15;_list directory content_
+cd;15;_Change Directory_;pushd
+pushd;15;chgt dossier courant avec sauvegarde;popd
+popd;15;récupération dossier courant;pushd
 
 whoami;4;qui suis-je?
 who;4;qui est loggé?

@@ -16,7 +16,8 @@ jobs:
       - uses: actions/checkout@v3
       - name: Show GCC version
         run: g++ --version
-
+      - run: echo "shell=$SHELL"
+      
       - name: Determination type
         run: cd content/commands_csv; ./get_type.sh
 
