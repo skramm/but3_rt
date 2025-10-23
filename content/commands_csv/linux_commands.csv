@@ -63,6 +63,7 @@ cd;11;_Change Directory_;pushd
 pushd;11;chgt dossier courant avec sauvegarde;popd
 popd;11;récupération dossier courant;pushd
 tree;11;affiche l'arborescence d'un dossier
+cmp;11;comparaison de fichiers
 
 whoami;4;qui suis-je?
 who;4;qui est loggé?

@@ -1,0 +1,19 @@
+# demo collision md5
+# voir https://github.com/skramm/but3_rt/blob/main/content/collision_md5/demo_md5.sh
+
+
+name: collision MD5!
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  collision:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run script
+        run: content/collision_md5/demo_md5.sh
+

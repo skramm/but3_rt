@@ -12,8 +12,19 @@ str2='TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak'
 echo $str1
 echo $str2
 
-echo -n $str1 | md5sum
-echo -n $str2 | md5sum
-
-
 # note: -n: no newline. Needed, else the newline is part of the string
+hash1=$(echo -n $str1 | md5sum)
+hash2=$(echo -n $str2 | md5sum)
+
+echo "hash1=$hash1"
+echo "hash2=$hash2"
+
+if [ $hash1 = $hash2 ]
+then
+	echo "hash identiques ! => collision"
+	exit 0
+else
+	exit 1
+fi
+
+
