@@ -17,7 +17,7 @@ A voir aussi:
 [liste alphabétique](content/linux_cmds_list_alpha.md) - 
 [par catégorie](content/linux_cmds_list_cat.md)  
 (voir [aussi ici](https://www.google.com/search?q=linux+cheat+sheet))
-
+* [Applicatifs RT](content/applicatifs)
 
 **Remarque**: la majorité des outils et tutos évoqués ici présupposent un environnement Linux (Debian/Ubuntu/Mint/...).
 

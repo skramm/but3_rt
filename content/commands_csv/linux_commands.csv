@@ -23,7 +23,7 @@ reboot;1;;shutdown
 pstree;12;arborescence des process;ps
 ps;12;snapshot des process;top
 pidof;12; donne le PID d'un process;ps
-kill;12;stoppe un process par PID;pkill
+kill;12;stoppe un process par PID (envoi d'un signal POSIX);pkill
 pkill;12;stoppe un process par nom;kill
 killall;12;stoppe tous les process par nom
 trap;12;interception de signal POSIX
