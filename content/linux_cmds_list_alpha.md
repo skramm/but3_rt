@@ -179,7 +179,7 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [pkill](#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID (envoi d'un signal POSIX) | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [pkill](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> |  | _installed_ |
 
 ## L
@@ -425,5 +425,5 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-23T09:50:15+0000_,
+_MAJ: 2025-10-25T10:23:45+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_

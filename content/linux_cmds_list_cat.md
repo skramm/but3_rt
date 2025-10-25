@@ -296,7 +296,7 @@ Total: 174 commandes
 | <a href='https://www.google.fr/search?q=linux+fg'>fg</a> | passage d'un _job_ au premier plan (_ForeGround_) | [bg](linux_cmds_list_alpha.md#b) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+htop'>htop</a> | top en mieux | [top](linux_cmds_list_alpha.md#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> | affichage des _jobs_ lancés |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID | [pkill](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+kill'>kill</a> | stoppe un process par PID (envoi d'un signal POSIX) | [pkill](linux_cmds_list_alpha.md#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process | [ps](linux_cmds_list_alpha.md#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | [kill](linux_cmds_list_alpha.md#k) | _installed_ |
@@ -324,5 +324,5 @@ Total: 174 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-23T09:50:15+0000_,
+_MAJ: 2025-10-25T10:23:45+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
