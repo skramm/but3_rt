@@ -324,5 +324,5 @@ Total: 174 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-23T09:17:34+0000_,
+_MAJ: 2025-10-23T09:50:15+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
