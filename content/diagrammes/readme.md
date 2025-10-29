@@ -13,7 +13,9 @@ La meilleur logiciel pour produire du SVG en local est [**Inkscape**](https://fr
 Très performant mais peut paraitre intimidant au début, du à ses très nombreuses fonctionnalités.
 
 Mais dans un contexte "IaC" (ou volonté de faire + vite), il peut être pertinent d'utiliser un outil permettant de "scripter" son diagramme, c'est à dire avoir via un outil la génération d'un fichier image à partir d'une description textuelle.
-Différents outils sont disponibles, certains dédiés à un type de diagramme, d'autres généralistes.
+On appelle la syntaxe de cette description un "DSL" (_Domain Specific Language_).
+
+Différents outils sont disponibles, certains dédiés à un type de diagramme (graphes, UML, ...), d'autres plus généralistes.
 
 Il existe aussi une multitude d'applis "web" permettant d'avoir rapidement quelque chode de satisfaisant.
 On peut citer (parmi d'autres):  
@@ -22,7 +24,7 @@ On peut citer (parmi d'autres):
 
 ## 2 - Outils de production via description textuelle
 
-Ces outils permettent la génération de graphiques via une description textuelle, avec une syntaxe bien documentée.
+Ces outils permettent la génération de graphiques via une description textuelle, avec une syntaxe bien documentée (DSL).
 Le gros intéret est qu'on peut alors versionner cette description, et la regénérer via une chaine "CI/CD".
 
 ### 2.1 - PlantUML
@@ -100,6 +102,15 @@ https://kroki.io/
 Outil assez généraliste, disposant à la fois d'une appli web mais installable en local également.
 Son intéret principal réside dans le fait qu'il peut servir de "front-end" pour appeler derrière d'autre outils (et en particulier PlantUML, Excalidraw, Grahpviz).
 
+### 2.4 - D2
+
+https://d2lang.com/
+
+Assez similaire à Graphviz dans le type de graphique généré, voir les exemples ici:
+https://d2lang.com/examples/overview/
+
+
+On peut le tester en ligne via https://play.d2lang.com/
 
 
 ## 3 - Ascii-Art

@@ -169,7 +169,8 @@ sed;8; _Stream EDitor_
 cut;8;suppression de texte dans des lignes
 paste;8;fusion de lignes de texte de plusieurs fichiers
 uniq;8;suppression lignes identiques
-jq;8;traitement de chaines JSON
+jq;8;traitement de chaines JSON;jo
+jo;8;génération de JSON;jq
 split;8;
 
 passwd;9;changement pwd;chage

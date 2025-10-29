@@ -9,11 +9,11 @@ Cette liste est en constante évolution.
   - Article:
 https://www.helpnetsecurity.com/2025/02/19/kunai-open-source-threat-hunting-tool-for-linux/
 
-* netlab: a Virtual Networking Labbing Tool  
+* netlab: a Virtual Networking Labbing Tool
   * https://netlab.tools/
   
-* NuShell  
-https://www.nushell.sh/
+* NuShell: un shell orienté data
+  * https://www.nushell.sh/
 
 * Suricata
   * https://suricata.io/
