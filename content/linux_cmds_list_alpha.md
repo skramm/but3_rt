@@ -166,9 +166,10 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+jo'>jo</a> | génération de JSON | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [jq](#j) | NI |
 | <a href='https://www.google.fr/search?q=linux+jobs'>jobs</a> | affichage des _jobs_ lancés | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+journalctl'>journalctl</a> | outil d'accès aux logs systemd | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> | [systemctl](#s) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+jq'>jq</a> | traitement de chaines JSON | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+jq'>jq</a> | traitement de chaines JSON | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [jo](#j) | _installed_ |
 
 ## K
 <a name='k'></a>
@@ -425,5 +426,5 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-25T10:23:45+0000_,
+_MAJ: 2025-10-29T09:06:00+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
