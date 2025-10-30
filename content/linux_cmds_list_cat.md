@@ -21,7 +21,7 @@ Catégories:
 * 14 - [Gestion des jobs & process](#cat12)
 * 15 - [Gestion Kernel](#cat13)
 
-Total: 175 commandes
+Total: 176 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -116,7 +116,7 @@ Total: 175 commandes
 ## 6 - catégorie: Réseau
 <a name='cat3'></a>
 
-21 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+22 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
@@ -125,8 +125,8 @@ Total: 175 commandes
 | <a href='https://www.google.fr/search?q=linux+ftp'>ftp</a> | transfert de fichiers |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+nc'>nc</a> | alias pour netcat | [netcat](linux_cmds_list_alpha.md#n) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+netcat'>netcat</a> | utilitaire TCP/UDP | [nc](linux_cmds_list_alpha.md#n) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+netstat'>netstat</a> | infos/reseau, routage, etc. |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nmap'>nmap</a> | exploration réseau |  | NI |
 | <a href='https://www.google.fr/search?q=linux+nmcli'>nmcli</a> | pilote CLI des connexions réseau |  | NI |
@@ -137,6 +137,7 @@ Total: 175 commandes
 | <a href='https://www.google.fr/search?q=linux+ssh-add'>ssh-add</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh-copy-id'>ssh-copy-id</a> |  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh-keygen'>ssh-keygen</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+tcpdump'>tcpdump</a> | capture trames réseau (Wireshark en CLI) |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+traceroute'>traceroute</a> |  |  | NI |
 | <a href='https://www.google.fr/search?q=linux+ufw'>ufw</a> |  pilote CLI de Firewall  |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | [curl](linux_cmds_list_alpha.md#c) | _installed_ |
@@ -325,5 +326,5 @@ Total: 175 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-29T09:06:00+0000_,
+_MAJ: 2025-10-30T17:17:03+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
