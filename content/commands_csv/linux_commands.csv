@@ -126,8 +126,9 @@ ping;3;
 wget;3;client http CLI;curl
 curl;3;client multiprotocoles (wget en mieux)
 dig;3;requete DNS
-netcat;3;utilitaire TCP/UDP
-nc;3;alias pour netcat
+netcat;3;utilitaire TCP/UDP;nc
+tcpdump;3;capture trames réseau (Wireshark en CLI)
+nc;3;alias pour netcat;netcat
 ssh;3;
 ssh-keygen;3;
 ssh-add;3;
