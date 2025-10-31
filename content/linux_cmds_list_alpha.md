@@ -47,6 +47,7 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+case'>case</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> | [pushd](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+chage'>chage</a> | _change user password expiry information_ | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [passwd](#p) | _installed_ |
@@ -90,9 +91,10 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [printf](#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> | [printf](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+env'>env</a> | liste var. environnement | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+eval'>eval</a> | exécute la commande passée en argument | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+exit'>exit</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 
 ## F
 <a name='f'></a>
@@ -109,8 +111,10 @@
 | <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+find'>find</a> | _search for files, folders,_ ... | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+for'>for</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [vmstat](#v) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ftp'>ftp</a> | transfert de fichiers | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+function'>function</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
 
 ## G
 <a name='g'></a>
@@ -138,7 +142,9 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+halt'>halt</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [shutdown,reboot](#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+head'>head</a> | premières lignes texte | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> | [tail](#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+help'>help</a> | liste commandes "_builtin_" et aide | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [man](#m) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+hey'>hey</a> | _HTTP load generator_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | NI |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+hostname'>hostname</a> | nom de la machine | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
@@ -154,6 +160,7 @@
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+id'>id</a> | affiche les infos sur un utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+if'>if</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+insmod'>insmod</a> | _insert a module into the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 
@@ -219,7 +226,7 @@
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+make'>make</a> | compilation | <a href='linux_cmds_list_cat.md#cat6'>Dev</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [help](#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+md5sum'>md5sum</a> | calcul de hash MD5 | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+mkdir'>mkdir</a> | _make directory_ | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+modinfo'>modinfo</a> | _show information about a module_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
@@ -275,8 +282,8 @@
 | <a href='https://www.google.fr/search?q=linux+pip3'>pip3</a> | gestionnaire de paquets Python3 | <a href='linux_cmds_list_cat.md#cat10'>Installation logiciels</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [kill](#k) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+popd'>popd</a> | récupération dossier courant | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> | [pushd](#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | <a href='linux_cmds_list_cat.md#cat4'>Général</a> | [echo](#e) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [top](#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> | [echo](#e) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [top,pstree](#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [ps](#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pushd'>pushd</a> | chgt dossier courant avec sauvegarde | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> | [popd](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _builtin_ |
@@ -290,8 +297,9 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+read'>read</a> | saisie ligne (clavier ou fichier) | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [shutdown](#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+read'>read</a> | saisie ligne (clavier ou fichier) | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [shutdown,halt](#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+return'>return</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+ripgrep'>ripgrep</a> | (rg) grep récursif | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> | [grep](#g) | NI |
 | <a href='https://www.google.fr/search?q=linux+rm'>rm</a> | suppression fichier | <a href='linux_cmds_list_cat.md#cat11'>Manipulation fichiers</a> | [rmdir](#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+rmdir'>rmdir</a> | supression dossier | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> | [rm](#r) | _installed_ |
@@ -313,9 +321,10 @@
 | <a href='https://www.google.fr/search?q=linux+sensors'>sensors</a> | données capteurs (température, tension, etc.) | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  | NI |
 | <a href='https://www.google.fr/search?q=linux+seq'>seq</a> | _print a sequence of numbers_ | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+set'>set</a> | paramétrage du shell | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [reboot](#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [reboot,halt](#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sleep'>sleep</a> | attente | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sort'>sort</a> | tri de texte | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+source'>source</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+split'>split</a> |  | <a href='linux_cmds_list_cat.md#cat8'>Traitement données texte</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ssh'>ssh</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
@@ -373,6 +382,17 @@
 | <a href='https://www.google.fr/search?q=linux+userdel'>userdel</a> | suppression compte | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+usermod'>usermod</a> | modification compte utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  | _installed_ |
 
+## V
+<a name='v'></a>
+
+<a href='#top'>Haut de page</a> - <a href='linux_cmds_list_cat.md'>Liste par catégorie</a>
+
+[A](#a)-[B](#b)-[C](#c)-[D](#d)-[E](#e)-[F](#f)-[G](#g)-[H](#h)-[I](#i)-[J](#j)-[K](#k)-[L](#l)-[M](#m)-[N](#n)-[O](#o)-[P](#p)-[Q](#q)-[R](#r)-[S](#s)-[T](#t)-[U](#u)-[V](#v)-[W](#w)-[X](#x)-[Y](#y)-[Z](#z)-
+
+| Nom | Description | Catégorie | Voir aussi | Statut |
+|-----|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+vmstat'>vmstat</a> | état mémoire virtualle | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [free](#f) | _installed_ |
+
 ## W
 <a name='w'></a>
 
@@ -387,6 +407,7 @@
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | [curl](#c) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | que fait cette commande? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> | [locate](#l) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+while'>while</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | NI |
@@ -427,5 +448,5 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-30T17:17:03+0000_,
+_MAJ: 2025-10-31T19:09:59+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_

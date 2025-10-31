@@ -19,9 +19,10 @@ Catégories:
 * 12 - [Installation logiciels](#cat10)
 * 13 - [Divers](#cat7)
 * 14 - [Gestion des jobs & process](#cat12)
-* 15 - [Gestion Kernel](#cat13)
+* 15 - [controle des scripts](#cat16)
+* 16 - [Gestion Kernel](#cat13)
 
-Total: 176 commandes
+Total: 187 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -32,17 +33,16 @@ Total: 176 commandes
 ## 1 - catégorie: Général
 <a name='cat4'></a>
 
-14 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+13 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+alias'>alias</a> | composition de commandes | [unalias](linux_cmds_list_alpha.md#u) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | [printf](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+help'>help</a> | liste commandes "_builtin_" et aide | [man](linux_cmds_list_alpha.md#m) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+history'>history</a> | historique des commandes |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+locate'>locate</a> | localise un programme dans le système | [which](linux_cmds_list_alpha.md#w) | NI |
 | <a href='https://www.google.fr/search?q=linux+lsb_release'>lsb_release</a> | version distribution | [uname](linux_cmds_list_alpha.md#u) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | [echo](linux_cmds_list_alpha.md#e) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+man'>man</a> | manuel | [help](linux_cmds_list_alpha.md#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pwd'>pwd</a> | _print working directory_ |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+unalias'>unalias</a> | suppression d'un alias | [alias](linux_cmds_list_alpha.md#a) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+uname'>uname</a> | version noyau | [lsb_release](linux_cmds_list_alpha.md#l) | _installed_ |
@@ -164,11 +164,12 @@ Total: 176 commandes
 ## 8 - catégorie: Système & _Hardware_
 <a name='cat1'></a>
 
-15 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+17 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre | [vmstat](linux_cmds_list_alpha.md#v) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+halt'>halt</a> |  | [shutdown,reboot](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lsblk'>lsblk</a> | liste périphs stockage "bloc" |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lscpu'>lscpu</a> | détails sur archi CPU |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lsdev'>lsdev</a> | infos générales sur _hardware_ |  | NI |
@@ -177,12 +178,13 @@ Total: 176 commandes
 | <a href='https://www.google.fr/search?q=linux+lspci'>lspci</a> | _list all PCI devices_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+lstopo'>lstopo</a> |  |  | NI |
 | <a href='https://www.google.fr/search?q=linux+lsusb'>lsusb</a> | liste périphs USB |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | [shutdown](linux_cmds_list_alpha.md#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+reboot'>reboot</a> |  | [shutdown,halt](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sensors'>sensors</a> | données capteurs (température, tension, etc.) |  | NI |
-| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | [reboot](linux_cmds_list_alpha.md#r) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+shutdown'>shutdown</a> |  | [reboot,halt](linux_cmds_list_alpha.md#r) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ss'>ss</a> | _list sockets_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+su'>su</a> | changement temp. d'utilisateur | [sudo](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+sudo'>sudo</a> | exécution d'une commande admin | [su](linux_cmds_list_alpha.md#s) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+vmstat'>vmstat</a> | état mémoire virtualle | [free](linux_cmds_list_alpha.md#f) | _installed_ |
 
 ## 9 - catégorie: Dev
 <a name='cat6'></a>
@@ -254,7 +256,7 @@ Total: 176 commandes
 ## 13 - catégorie: Divers
 <a name='cat7'></a>
 
-28 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+27 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
@@ -271,7 +273,6 @@ Total: 176 commandes
 | <a href='https://www.google.fr/search?q=linux+md5sum'>md5sum</a> | calcul de hash MD5 |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+nano'>nano</a> | éditeur "console" |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pango-view'>pango-view</a> | _convert text to image_ |  | NI |
-| <a href='https://www.google.fr/search?q=linux+read'>read</a> | saisie ligne (clavier ou fichier) |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+screen'>screen</a> | multiplexeur de terminal | [tmux](linux_cmds_list_alpha.md#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+seq'>seq</a> | _print a sequence of numbers_ |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+set'>set</a> | paramétrage du shell |  | _builtin_ |
@@ -302,12 +303,31 @@ Total: 176 commandes
 | <a href='https://www.google.fr/search?q=linux+killall'>killall</a> | stoppe tous les process par nom |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pidof'>pidof</a> |  donne le PID d'un process | [ps](linux_cmds_list_alpha.md#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pkill'>pkill</a> | stoppe un process par nom | [kill](linux_cmds_list_alpha.md#k) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | [top](linux_cmds_list_alpha.md#t) | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+ps'>ps</a> | snapshot des process | [top,pstree](linux_cmds_list_alpha.md#t) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+pstree'>pstree</a> | arborescence des process | [ps](linux_cmds_list_alpha.md#p) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process | [htop](linux_cmds_list_alpha.md#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+trap'>trap</a> | interception de signal POSIX |  | _builtin_ |
 
-## 15 - catégorie: Gestion Kernel
+## 15 - catégorie: controle des scripts
+<a name='cat16'></a>
+
+11 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+
+| Nom | Description | Voir aussi | Statut |
+|-----|-----|-----|-----|
+| <a href='https://www.google.fr/search?q=linux+case'>case</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | [printf](linux_cmds_list_alpha.md#p) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+exit'>exit</a> |  |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+for'>for</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+function'>function</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+if'>if</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | [echo](linux_cmds_list_alpha.md#e) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+read'>read</a> | saisie ligne (clavier ou fichier) |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+return'>return</a> |  |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+source'>source</a> |  |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+while'>while</a> |  |  | _installed_ |
+
+## 16 - catégorie: Gestion Kernel
 <a name='cat13'></a>
 
 10 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
@@ -326,5 +346,5 @@ Total: 176 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-30T17:17:03+0000_,
+_MAJ: 2025-10-31T19:09:59+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
