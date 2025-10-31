@@ -47,7 +47,7 @@
 
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+case'>case</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+case'>case</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+cat'>cat</a> | affiche et/ou concatene un/des fichiers | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+cd'>cd</a> | _Change Directory_ | <a href='linux_cmds_list_cat.md#cat15'>Manipulation dossiers</a> | [pushd](#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+chage'>chage</a> | _change user password expiry information_ | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [passwd](#p) | _installed_ |
@@ -111,10 +111,10 @@
 | <a href='https://www.google.fr/search?q=linux+file'>file</a> | nature d'un fichier | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+find'>find</a> | _search for files, folders,_ ... | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+fmt'>fmt</a> | text formatter | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+for'>for</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+for'>for</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+free'>free</a> | état RAM utilisée/libre | <a href='linux_cmds_list_cat.md#cat1'>Système & _Hardware_</a> | [vmstat](#v) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ftp'>ftp</a> | transfert de fichiers | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+function'>function</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+function'>function</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 
 ## G
 <a name='g'></a>
@@ -160,7 +160,7 @@
 | Nom | Description | Catégorie | Voir aussi | Statut |
 |-----|-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+id'>id</a> | affiche les infos sur un utilisateur | <a href='linux_cmds_list_cat.md#cat9'>Gestion utilisateurs</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+if'>if</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+if'>if</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+insmod'>insmod</a> | _insert a module into the kernel_ | <a href='linux_cmds_list_cat.md#cat13'>Gestion Kernel</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+ip'>ip</a> |  | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 
@@ -351,7 +351,7 @@
 | <a href='https://www.google.fr/search?q=linux+tar'>tar</a> | utilitaire archivage | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [zip](#z) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tcpdump'>tcpdump</a> | capture trames réseau (Wireshark en CLI) | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | multiplexeur de terminal | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> | [screen](#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+top'>top</a> | _dashboard_ système & process | <a href='linux_cmds_list_cat.md#cat12'>Gestion des jobs & process</a> | [htop](#h) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+touch'>touch</a> | création ou MAJ date d'un fichier | <a href='linux_cmds_list_cat.md#cat14'>Édition/visualisation fichiers</a> |  | _installed_ |
@@ -407,7 +407,7 @@
 | <a href='https://www.google.fr/search?q=linux+wget'>wget</a> | client http CLI | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> | [curl](#c) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whatis'>whatis</a> | que fait cette commande? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+which'>which</a> | localisation (chemin) d'un programme | <a href='linux_cmds_list_cat.md#cat7'>Divers</a> | [locate](#l) | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+while'>while</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+while'>while</a> |  | <a href='linux_cmds_list_cat.md#cat16'>controle des scripts</a> |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+who'>who</a> | qui est loggé? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whoami'>whoami</a> | qui suis-je? | <a href='linux_cmds_list_cat.md#cat4'>Général</a> |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+whois'>whois</a> | infos/domaine | <a href='linux_cmds_list_cat.md#cat3'>Réseau</a> |  | NI |
@@ -448,5 +448,5 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-10-31T19:09:59+0000_,
+_MAJ: 2025-10-31T19:21:22+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_

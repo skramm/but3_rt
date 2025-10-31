@@ -278,7 +278,7 @@ Total: 187 commandes
 | <a href='https://www.google.fr/search?q=linux+set'>set</a> | paramétrage du shell |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+sleep'>sleep</a> | attente |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tee'>tee</a> |  |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+time'>time</a> | chronométrage de tâche |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+tmux'>tmux</a> | multiplexeur de terminal | [screen](linux_cmds_list_alpha.md#s) | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+tty'>tty</a> | indique le terminal courant (`/dev/pts/XX`) |  | _installed_ |
 | <a href='https://www.google.fr/search?q=linux+type'>type</a> | indique si une commande est interne (_builtin_) ou externe |  | _builtin_ |
@@ -315,17 +315,17 @@ Total: 187 commandes
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
-| <a href='https://www.google.fr/search?q=linux+case'>case</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+case'>case</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | [printf](linux_cmds_list_alpha.md#p) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+exit'>exit</a> |  |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+for'>for</a> |  |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+function'>function</a> |  |  | _installed_ |
-| <a href='https://www.google.fr/search?q=linux+if'>if</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+for'>for</a> |  |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+function'>function</a> |  |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+if'>if</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | [echo](linux_cmds_list_alpha.md#e) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+read'>read</a> | saisie ligne (clavier ou fichier) |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+return'>return</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+source'>source</a> |  |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+while'>while</a> |  |  | _installed_ |
+| <a href='https://www.google.fr/search?q=linux+while'>while</a> |  |  | _builtin_ |
 
 ## 16 - catégorie: Gestion Kernel
 <a name='cat13'></a>
@@ -346,5 +346,5 @@ Total: 187 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-31T19:09:59+0000_,
+_MAJ: 2025-10-31T19:21:22+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
