@@ -16,7 +16,7 @@ do
 		then
 			echo "NI" >> $out
 		else
-			grep builtin /tmp/commandtype 1>/dev/null
+			grep shell /tmp/commandtype 1>/dev/null
 			if [ $? = 0 ]
 			then
 				echo "_builtin_" >> $out
