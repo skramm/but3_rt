@@ -11,17 +11,20 @@ ss;1;_list sockets_
 lspci;1;_list all PCI devices_
 lshw;1;_list hardware_
 sensors;1;données capteurs (température, tension, etc.)
-free;1;état RAM utilisée/libre
+free;1;état RAM utilisée/libre;vmstat
+vmstat;1;état mémoire virtualle;free
+
 lstopo;1;
 sudo;1;exécution d'une commande admin;su
 su;1;changement temp. d'utilisateur;sudo
 top;12;_dashboard_ système & process;htop
 htop;12;top en mieux;top
-shutdown;1;;reboot
-reboot;1;;shutdown
+shutdown;1;;reboot,halt
+reboot;1;;shutdown,halt
+halt;1;;shutdown,reboot
 
 pstree;12;arborescence des process;ps
-ps;12;snapshot des process;top
+ps;12;snapshot des process;top,pstree
 pidof;12; donne le PID d'un process;ps
 kill;12;stoppe un process par PID (envoi d'un signal POSIX);pkill
 pkill;12;stoppe un process par nom;kill
@@ -74,7 +77,8 @@ who;4;qui est loggé?
 whatis;4;que fait cette commande?
 pwd;4;_print working directory_
 locate;4;localise un programme dans le système;which
-man;4;manuel
+man;4;manuel;help
+help;4;liste commandes "_builtin_" et aide;man
 grep;8;recherche de chaîne;ripgrep
 ripgrep;8;(rg) grep récursif;grep
 
@@ -113,7 +117,7 @@ jobs;12;affichage des _jobs_ lancés
 fg;12;passage d'un _job_ au premier plan (_ForeGround_);bg
 bg;12;passage d'un _job_ en arrière plan (_BackGround_);fg
 
-read;7;saisie ligne (clavier ou fichier)
+read;16;saisie ligne (clavier ou fichier)
 eval;7;exécute la commande passée en argument
 time;7;chronométrage de tâche
 watch;7;exécution périodique d'une commande
@@ -143,8 +147,8 @@ nmcli;3;pilote CLI des connexions réseau
 ftp;3;transfert de fichiers
 rsync;3;transfert de fichier (bas niveau)
 
-echo;4;affichage de texte/variable;printf
-printf;4;affichage de texte/variable formatté;echo
+echo;16;affichage de texte/variable;printf
+printf;16;affichage de texte/variable formatté;echo
 alias;4;composition de commandes;unalias
 unalias;4;suppression d'un alias;alias
 apt;10;gestion paquets Debian
@@ -207,3 +211,12 @@ hey;7;_HTTP load generator_
 tmux;7;multiplexeur de terminal;screen
 screen;7;multiplexeur de terminal;tmux
 date;7;affiche date & heure
+
+if;16;
+while;16;
+for;16;
+exit;16;
+source;16;
+return;16;
+function;16;
+case;16;
