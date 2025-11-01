@@ -24,7 +24,11 @@ https://www.helpnetsecurity.com/2025/02/19/kunai-open-source-threat-hunting-tool
   * https://ebpf.io/
   * article: https://ebpf.io/what-is-ebpf/
   * tags: kernel,sandbox,secinfo
-  
+
+- Kubernetes
+  - https://en.wikipedia.org/wiki/Kubernetes
+  - https://kubernetes.io/
+  - https://github.com/kubernetes/kubernetes
 
 
 ## Gestion de conteneur et de VM
@@ -71,8 +75,55 @@ Voir https://blog.stephane-robert.info/docs/observer/logs/
   - https://grafana.com/
   - produits liés:
     - Loki: https://grafana.com/oss/loki/
-  
+    - Alloy (collecte de logs): https://grafana.com/docs/alloy/
+    
 - Prometheus 
   - https://en.wikipedia.org/wiki/Prometheus_(software)
   - https://prometheus.io/
-  
+
+- Zabbix
+  - https://en.wikipedia.org/wiki/Zabbix
+  - https://www.zabbix.com/
+
+- Nagios
+  - https://en.wikipedia.org/wiki/Nagios
+  - https://www.nagios.org/
+
+- Cacti
+  - https://en.wikipedia.org/wiki/Cacti_(software)
+  - https://www.cacti.net/
+
+## Traitement de données CSV
+
+- xan
+  - https://github.com/medialab/xan
+
+- miller
+  - https://github.com/johnkerl/miller
+  - https://miller.readthedocs.io/
+
+Liste assez complète ici:
+https://github.com/secretGeek/AwesomeCSV
+
+## Automatisation d'infrastructure
+
+- Ansible
+  - https://en.wikipedia.org/wiki/Ansible_(software)
+  - https://www.ansible.com/
+
+- Terraform
+  - https://en.wikipedia.org/wiki/Terraform_(software)
+  - https://www.terraform.io/
+  - https://github.com/hashicorp/terraform
+
+## ERP/CRM (sous licence libre)
+
+- Dolibarr
+  - https://en.wikipedia.org/wiki/Dolibarr
+  - http://dolibarr.org/
+
+- Odoo
+  - https://en.wikipedia.org/wiki/Odoo
+  - https://www.odoo.com/
+
+
