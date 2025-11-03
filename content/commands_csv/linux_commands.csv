@@ -215,8 +215,10 @@ date;7;affiche date & heure
 if;16;
 while;16;
 for;16;
-exit;16;
+exit;16;;return
 source;16;
-return;16;
+return;16;;exit
 function;16;
 case;16;
+shift;16;décalage paramètres positionnels ($1, $2, ...)
+
