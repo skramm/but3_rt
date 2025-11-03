@@ -126,4 +126,9 @@ https://github.com/secretGeek/AwesomeCSV
   - https://en.wikipedia.org/wiki/Odoo
   - https://www.odoo.com/
 
+## Gestion d'adresses
+
+Logiciels IPAM (_IP address management_):
+voir https://blog.stephane-robert.info/docs/services/gestion/ipam/
+
 
