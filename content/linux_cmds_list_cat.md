@@ -22,7 +22,7 @@ Catégories:
 * 15 - [controle des scripts](#cat16)
 * 16 - [Gestion Kernel](#cat13)
 
-Total: 187 commandes
+Total: 188 commandes
 
 **Statut**: 
 - _builtin_: commande intégrée au Shell
@@ -311,19 +311,20 @@ Total: 187 commandes
 ## 15 - catégorie: controle des scripts
 <a name='cat16'></a>
 
-11 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
+12 commandes - <a href='#top'>Haut de page</a>- <a href='linux_cmds_list_alpha.md'>Liste alphabétique</a>
 
 | Nom | Description | Voir aussi | Statut |
 |-----|-----|-----|-----|
 | <a href='https://www.google.fr/search?q=linux+case'>case</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+echo'>echo</a> | affichage de texte/variable | [printf](linux_cmds_list_alpha.md#p) | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+exit'>exit</a> |  |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+exit'>exit</a> |  | [return](linux_cmds_list_alpha.md#r) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+for'>for</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+function'>function</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+if'>if</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+printf'>printf</a> | affichage de texte/variable formatté | [echo](linux_cmds_list_alpha.md#e) | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+read'>read</a> | saisie ligne (clavier ou fichier) |  | _builtin_ |
-| <a href='https://www.google.fr/search?q=linux+return'>return</a> |  |  | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+return'>return</a> |  | [exit](linux_cmds_list_alpha.md#e) | _builtin_ |
+| <a href='https://www.google.fr/search?q=linux+shift'>shift</a> | décalage paramètres positionnels ($1, $2, ...) |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+source'>source</a> |  |  | _builtin_ |
 | <a href='https://www.google.fr/search?q=linux+while'>while</a> |  |  | _builtin_ |
 
@@ -346,5 +347,5 @@ Total: 187 commandes
 | <a href='https://www.google.fr/search?q=linux+systemctl'>systemctl</a> | gestion des services (CLI/systemd) |  | _installed_ |
 
 
-_MAJ: 2025-10-31T19:21:22+0000_,
+_MAJ: 2025-11-03T10:10:50+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
