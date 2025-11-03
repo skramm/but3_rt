@@ -449,5 +449,5 @@
 | <a href='https://www.google.fr/search?q=linux+zip'>zip</a> | compression zip | <a href='linux_cmds_list_cat.md#cat5'>Fichiers & permissions</a> | [unzip](#u) | _installed_ |
 
 
-_MAJ: 2025-11-03T10:10:50+0000_,
+_MAJ: 2025-11-03T17:37:24+0000_,
 _OS: Ubuntu - 24.04.3 LTS (Noble Numbat)_
