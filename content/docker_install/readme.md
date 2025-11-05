@@ -15,8 +15,12 @@ La procédure décrite ici est prévue pour une Debian 11 ou 12 et a été test�
 `$ sudo docker version`
 
 3. En l'état, l'utilisation du client CLI Docker implique les droits "admin" et donc l'usage de "sudo" pour chaque commande, ce qui est un ennuyeux.  
-Pour éviter ceci, il **faut** ajouter au groupe d'utilisateur "docker" (qui a normalement été crée lors de l'install de docker) le "user" actuel:
+Pour éviter ceci, il **faut** ajouter au groupe d'utilisateur "docker" (qui a normalement été crée lors de l'install de docker) le "user" actuel.
 
+Vérifier d'abord que le groupe `docker` existe dans la liste des groupes d'utilisateurs:  
+`$ cat /etc/group | grep docker`
+
+Puis ajouter l'utilisateur à ce groupe:  
 `$ sudo usermod -aG docker $USER`
 
 4. Les assignations d'utilisateurs aux groupes ne se font que lors du "boot", il faut donc rebooter:
@@ -29,6 +33,6 @@ ou
 
 `$ docker run hello-world`
 
-Vous pouvez aussi voir avec la commande `$ id` que vous êtes bien dans le groupe "docker".
+Vous pouvez aussi vérifier avec la commande `$ id` que vous êtes bien dans le groupe "docker".
 
 

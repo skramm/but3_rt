@@ -29,7 +29,7 @@ A voir aussi:
 | [demo Jinja](content/demo_jinja/)            | Une démo de Jinja (sans Flask) |
 | [docker Install](content/docker_install)     | Installation de Docker |
 | [docker compose](content/docker_compose)     | Note sur l'utilisation de docker-compose |
-| [install_VM_Debian_VB](content/install_VM_Debian_VB) | Note sur l'installation de VM Debian (et la config Docker) |
+| [install_VM_Debian_VB](content/install_VM_Debian_VB) | Note sur l'installation d'une VM Debian sous VirtualBox |
 | [plantuml_gantt](content/plantuml_gantt/)    | demo de l'utilisation de plantuml pour de<br>la génération de diagrammes de Gantt |
 | [docker_BDD](content/docker_BDD/)       | démo du lancement d'un serveur de BDD dans un conteneur docker |
 | [génération clés SSH](content/SSH_keys) | génération de clés SSH pour clonage dépot Git |
