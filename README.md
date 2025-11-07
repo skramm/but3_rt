@@ -1,7 +1,6 @@
 # but3_rt
 
 
-[![badge1](https://github.com/skramm/but3_rt/actions/workflows/linux_commands.yml/badge.svg)](https://github.com/skramm/but3_rt/actions/workflows/linux_commands.yml)
 [![badge2](https://github.com/skramm/but3_rt/actions/workflows/plantuml1.yml/badge.svg)](https://github.com/skramm/but3_rt/actions/workflows/plantuml1.yml)
 [![badge3](https://github.com/skramm/but3_rt/actions/workflows/collision_md5.yml/badge.svg)](https://github.com/skramm/but3_rt/actions/workflows/collision_md5.yml)
 
@@ -13,9 +12,10 @@ Diverses ressources (datasets, code, tutos) pour mes étudiants BUT2 et/ou BUT3 
 
 A voir aussi:  
 * [Glossaire de sigles usuels](content/glossaire.md)
-* Linux: liste de commandes courantes:
-[liste alphabétique](content/linux_cmds_list_alpha.md) - 
-[par catégorie](content/linux_cmds_list_cat.md)  
+
+* Linux: [liste de commandes courantes](https://github.com/skramm/linux_shell/)  
+[liste alphabétique](https://github.com/skramm/linux_shell/blob/main/linux_cmds_list_alpha.md) - 
+[par catégorie](https://github.com/skramm/linux_shell/blob/main/linux_cmds_list_cat.md)  
 (voir [aussi ici](https://www.google.com/search?q=linux+cheat+sheet))
 * [Applicatifs RT](content/applicatifs)
 
