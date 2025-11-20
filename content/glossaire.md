@@ -21,6 +21,8 @@
 | HTML  | Hypertext Markup Language              |  |
 | CSS   | Cascading Style Sheets                 |  |
 | RPC   | Remote procedure call                  | [WP](https://en.wikipedia.org/wiki/Remote_procedure_call) |
+| CIDR  | Classless Inter-Domain Routing         | (WP](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) |
+
 
 ### 1.2 - Divers
 
