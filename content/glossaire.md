@@ -4,47 +4,49 @@
 
 ### 1.1 - Protocoles & Standards
 
-| Sigle |       |   |
-|-------|-------|---|
-| SSL   | Secure Socket Layer (remplacé par TLS) |  |
-| TLS   | Transport Layer Security               |  |
-| UDP   | User Datagram Protocol                 |  |
-| TCP   | Transmission Control Protocol          |  |
-| HTTP  | HyperText Transfer Protocol            |  |
-| FTP   | File Transfer Protocol                 |  |
-| SFTP  | Secure File Transfer Protocol          |  |
-| SMTP  | Simple Mail Transfer Protocol          |  |
-| ICMP  | Internet Control Message Protocol      | [WP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) |
-| MIME  | Multipurpose Internet Mail Extensions  |  |
-| POP   | Post Office Protocol                   |  |
-| IMAP  | Internet Message Access Protocol       |  |
-| HTML  | Hypertext Markup Language              |  |
-| CSS   | Cascading Style Sheets                 |  |
-| RPC   | Remote procedure call                  | [WP](https://en.wikipedia.org/wiki/Remote_procedure_call) |
-| CIDR  | Classless Inter-Domain Routing         | (WP](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) |
+| Sigle |       |
+|-------|-------|
+| CSS                                                                      | Cascading Style Sheets                 |
+| [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)     | Classless Inter-Domain Routing         |
+| FTP                                                                      | File Transfer Protocol                 |
+| HTML                                                                     | Hypertext Markup Language              |
+| HTTP                                                                     | HyperText Transfer Protocol            |
+| [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)  | Internet Control Message Protocol      |
+| IMAP                                                                     | Internet Message Access Protocol       |
+| MIME                                                                     | Multipurpose Internet Mail Extensions  |
+| POP                                                                      | Post Office Protocol                   |
+| [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)               | Remote procedure call                  | 
+| SFTP                                                                     | Secure File Transfer Protocol          |
+| [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)      | Simple Mail Transfer Protocol          |
+| [SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol) | Simple Network Management Protocol     |
+| SSL                                                                      | Secure Socket Layer (remplacé par TLS) |
+| TCP                                                                      | Transmission Control Protocol          |
+| TLS                                                                      | Transport Layer Security               |
+| UDP                                                                      | User Datagram Protocol                 |
 
 
 ### 1.2 - Divers
 
 | Sigle |       |
 |-------|-------|
-| SSH   | Secure SHell |
-| TLD   | Top Level Domain |
-| FQDN  | Fully qualified domain name |
-| RFC   | Request for Comments |
 | API   | Application Programming Interface |
-| IPC   | Inter-Process Communication |
 | BSD   | Berkeley Software Distribution |
-| RPC   | Remote Procedure Call |
+| CI/CD | Continuous Integration/Continuous Deployment |
+| CMS   | Content Management System |
+| FQDN  | Fully Qualified Domain Name |
+| GNU   | GNU's Not Unix! |
+| GPL   | GNU General Public License |
+| IPC   | Inter-Process Communication |
 | OS    | Operating System |
 | PCRE  | Perl-Compatible Regular Expressions |
 | POSIX | Portable Operating System Interface |
-| GNU   | GNU's Not Unix! |
-| GPL   | GNU General Public License |
-| URL   | Uniform Resource Locator |
+| RFC   | Request for Comments |
+| RPC   | Remote Procedure Call |
+| SSH   | Secure SHell |
+| TLD   | Top Level Domain |
 | URI   | Uniform Resource Identifier |
+| URL   | Uniform Resource Locator |
 | VM    | Virtual Machine |
-| CI/CD | Continuous Integration/Continuous Deployment |
 
 
 ### 1.3 - ASCII ([table](https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.svg))
@@ -69,8 +71,8 @@
 | [UIT](https://en.wikipedia.org/wiki/International_Telecommunication_Union)   | Union Internationale des Télécommunications |
 | [ICANN](https://en.wikipedia.org/wiki/ICANN)                                 | Internet Corporation for Assigned Names and Numbers |
 | [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority)    | Internet Assigned Numbers Authority |
-| [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)  | International Organization for Standardization |
-| NSA   | National Security Agency |
+| [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization) | International Organization for Standardization |
+| [NSA](https://en.wikipedia.org/wiki/National_Security_Agency)                | National Security Agency |
 
 
 ## 3 - Contexte Cryptographie/VPN
