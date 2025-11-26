@@ -138,9 +138,9 @@ a63 Paul
 b56 Joe
 f87 Bill
 ```
-L'option `-r` va placer les différents champs dans les élements d'un tableau, qu'on peut ensuite récupérer par leur indice:
+L'option `-a` (_array_) va placer les différents champs dans les élements d'un tableau, qu'on peut ensuite récupérer par leur indice:
 ```
-while read -r VAR
+while read -a VAR
 do
 	echo "${VAR[1]}">f2.txt # on récupère le 2è champ de texte
 done<f1.txt
@@ -157,6 +157,11 @@ Dans certain cas, on a besoin de savoir **combien** de champs ont été lus
 On accède à cette information avec:
 ```
 nbelem=${#VAR[@]}
+```
+
+Pour avoir l'intégralité des éléments du tableau:
+```
+$ echo "${VAR[@]}"
 ```
 
 Il est possible de spécifier un autre séparateur de champ que celui par défaut (SPC) en le précisant dans la variable d'environnement `IFS`
