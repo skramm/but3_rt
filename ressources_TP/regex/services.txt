@@ -157,6 +157,7 @@ pop3s		995/tcp				# POP-3 over SSL
 #
 azerty		1012/udp
 dummy1		1022/udp
+dummy2		1029/udp
 socks		1080/tcp			# socks proxy server
 proofd		1093/tcp
 rootd		1094/tcp
