@@ -1,6 +1,7 @@
 # Installation de paquets logiciels
 
-Sous Debian est distributions dérivées, les applicatifs peuvent s'installer via des "paquets", sous deux formes
+## 1 - Introduction
+Sous Debian et distributions dérivées (Ubuntu, Mint, ...), les applicatifs peuvent s'installer via des "paquets" au format ".deb", sous deux formes:
 - soit via un "dépot" distant, que ce soit le/les dépots de la distribution, ou via des dépots tiers, dont il faut alors ajouter la localisation dans l'OS.
 - soit via le téléchargement du paquet depuis le site de l'éditeur.
 
@@ -17,17 +18,17 @@ L'outil  `dpkg` reste cependant utile dans quelque situations, notamment lorsqu'
 
 A noter qu'on trouve des sources évoquant l'outil `aptitude`, qui est une surcouche en mode "graphique/terminal", qui n'est pas présenté ici mais dont l'usase n'est plus recommandé sous Debian.
 
-## Utilisation des commandes `apt` et `apt-get`
+## 2 - Utilisation des commandes `apt` et `apt-get`
 
 Certaines des commandes présentées ici implique des droits "admin", ceci sera indiquée par la présence de la commande `sudo`.
 S'il est absent, c'est que ce n'est pas nécessaire.
 
-### Différences entre ces deux familles de commandes
+### 2.1 - Différences entre ces deux familles de commandes
 
 L'outil originel est `apt-get`, la commande `apt` est une surcouche apportant quelque fonctionnalités supplémentaires utiles dans le cadre d'une utilisation en direct dans un terminal. 
 Mais dans le cadre d'un contexte "IaC" (automatisation), cette commande ne doit pas être utilisée, on lui préfèrera les commandes `apt-get`, `apt-cache`, etc., plus stables et plus fiables.
 
-### Particularités communes
+### 2.2 - Particularités communes
 
 La plupart des commandes admettent plusieurs noms de paquets comme argument.
 Par exemple, si on souhaite installer les paquets `aaa`, `bbb` et `ccc`, on pourra faire ceci via une unique commande:
@@ -36,19 +37,19 @@ Par exemple, si on souhaite installer les paquets `aaa`, `bbb` et `ccc`, on pour
 ou
 `sudo apt install aaa bbb ccc`
 
-## Manipulation courantes
+## 3 - Manipulation courantes
 
-### Mise à jour des sources de paquets  
+### 3.1 - Mise à jour des sources de paquets  
 `sudo apt-get update`
 ou
 `sudo apt update`
 
-### Mise à jour des paquets installés sur la machine  
+### 3.2 - Mise à jour des paquets installés sur la machine  
 `sudo apt-get upgrade`
 ou
 `sudo apt upgrade`
 
-### Recherche de paquets, parmi tous ceux référencés
+### 3.3 - Recherche de paquets, parmi tous ceux référencés
 
 `apt-cache search <XXX>`
 ou
@@ -66,7 +67,7 @@ Et leur nombre sera donné par:
 `apt-cache search . | wc -l`  
 (typiquement >100000)
 
-### Installation d'un paquet
+### 3.4 - Installation d'un paquet
 
 `sudo apt-get install <XXX>`
 ou
@@ -77,7 +78,7 @@ A noter qu'on peut ajouter l'option `--reinstall` si on souhaite réinstaller le
 Pour certains (gros) paquets, ces commande peuvent générer un "prompt" demandant confirmation.
 Dans un contexte d'automatisation, il faut ajouter l'option `-y` pour ne pas avoir ce prompt.
 
-### Description d'un paquet
+### 3.5 - Description d'un paquet
 
 `apt-cache show <XXX>`  
 ou  
@@ -85,7 +86,7 @@ ou
 
 Ceci fonctionne que le paquet soit installé sur la machine ou pas.
 
-### Suppression de paquets
+### 3.6 - Suppression de paquets
 
 `sudo apt remove <XXX>`
 ou
@@ -100,12 +101,12 @@ ou
 ou
 `sudo apt-get remove --purge <XXX>`
 
-### Contenu d'un paquet
+### 3.7 - Contenu d'un paquet
 On peut avoir la liste des fichiers contenu dans un paquet avec:
 
 `apt-file list <XXX>`
 
-### Nettoyage du cache
+### 3.8 - Nettoyage du cache
 
 Les paquets téléchargés sont stockés dans le dossier
 `/var/cache/apt/`  
@@ -117,7 +118,7 @@ On peut vider ce cache avec:
 `sudo apt clean` ou `sudo apt-get clean`  
 `sudo apt autoremove` ou `sudo apt-get autoremove`
 
-### Liste des paquets installés:
+### 3.9 - Liste des paquets installés:
 
 `apt list --installed`
 
@@ -134,7 +135,7 @@ Les deux commandes devraient aboutir au même nombre de paquets:
 (à essayer)
 
 
-### Ajout de sources de paquets
+### 3.10 - Ajout de sources de paquets
 
 Le fichier
 `/etc/apt/sources.list`
@@ -146,9 +147,9 @@ voir aussi le dossier:
 On gère les dépots tiers (ajout ou suppression) avec la commande:  
 `add-apt-repository`
 
-## ANNEXES
+## 4 - ANNEXES
 
-### Indications données par `dpkg -l`:
+### 4.1 - Indications données par `dpkg -l`:
 
 First letter → desired package state ("selection state"):
 
@@ -173,7 +174,7 @@ Second letter → current package state:
 (d'après https://askubuntu.com/a/18807)
 
 
-## Sources
+## 5 - Sources
 
 - https://www.geeksforgeeks.org/linux-unix/apt-get-command-in-linux-with-examples/
 - https://help.ubuntu.com/community/SoftwareManagement
