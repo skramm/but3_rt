@@ -140,6 +140,11 @@ Le fichier
 `/etc/apt/sources.list`
 contient la liste des dépot référencés.
 
+voir aussi le dossier:  
+`/etc/apt/sources.list.d/`
+
+On gère les dépots tiers (ajout ou suppression) avec la commande:  
+`add-apt-repository`
 
 ## ANNEXES
 
@@ -169,5 +174,10 @@ Second letter → current package state:
 
 
 ## Sources
-https://www.geeksforgeeks.org/linux-unix/apt-get-command-in-linux-with-examples/
+
+- https://www.geeksforgeeks.org/linux-unix/apt-get-command-in-linux-with-examples/
+- https://help.ubuntu.com/community/SoftwareManagement
+- https://www.debian.org/doc/manuals/debian-handbook/sect.apt-get.en.html
+- https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html
+
 
