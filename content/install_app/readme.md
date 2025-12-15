@@ -14,9 +14,10 @@ Il existe entre ces deux catégories d'outils des différences fondamentales, qu
 - les applicatifs installés via `dpkg` ne gèrent pas les **dépendances** liées aux paquets.
 - Avec les outils `apt-get` (ou `apt`), vous aurez la garantie que vous installez un paquet adapté à votre version de kernel, de distribution, et d'architecture matérielle.
 
-L'outil  `dpkg` reste cependant utile dans quelque situations, notamment lorsqu'on souhaite installer un paquet téléchargé depuis un site.
+L'outil  `dpkg` reste cependant utile dans certaines situations, notamment lorsqu'on souhaite installer un paquet téléchargé depuis un site.
 
 A noter qu'on trouve des sources évoquant l'outil `aptitude`, qui est une surcouche en mode "graphique/terminal", qui n'est pas présenté ici mais dont l'usase n'est plus recommandé sous Debian.
+
 
 ## 2 - Utilisation des commandes `apt` et `apt-get`
 
@@ -104,7 +105,9 @@ ou
 ### 3.7 - Contenu d'un paquet
 On peut avoir la liste des fichiers contenu dans un paquet avec:
 
-`apt-file list <XXX>`
+`apt-file list <XXX>`  
+ou  
+`dpkg -L <XXX>` (uniquement si le paquet est installé)
 
 ### 3.8 - Nettoyage du cache
 
