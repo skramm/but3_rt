@@ -11,8 +11,9 @@ Prérequis:
 * une machine (VM) Debian ou équivalent (Ubuntu, ...)
 * une install Docker fonctionnelle (testé avec 24.0.5), utilisable sans "sudo"
 
-Pour faire tourner les démos:
+Pour faire tourner les démos, cloner ce dépot (ou faire un `git pull` si vous l'avez dejà cloné), puis:
 ```
+$ cd but3_rt/content/demo_jinja
 $ ./build.sh # crée une image Docker
 $ ./run.sh  # lance le Docker et démarre un shell (sh, pas de bash dans l'image Alpine) avec tout déjà installé
 ```
