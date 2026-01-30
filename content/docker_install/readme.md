@@ -7,6 +7,8 @@ La procédure décrite ici est prévue pour une Debian 11 ou 12 et a été test�
 
 1. Installer Docker avec le gestionnaire de paquet de l'OS:
 
+`$ sudo apt update`
+
 `$ sudo apt install docker docker.io`
 
 
