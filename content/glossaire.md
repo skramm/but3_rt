@@ -75,6 +75,18 @@
 | [NSA](https://en.wikipedia.org/wiki/National_Security_Agency)                | National Security Agency |
 
 
+### Fonctions dans les organisations
+
+| Sigle |       |
+|-------|-------|
+| CISO  |  _Chief Information Security Officer_ |
+| CTO   | _Chief Technical Officer_ |
+| CEO   | _Chief executive officer_ |
+| RSSI  | Responsable Sécurité des Systèmes d'information |
+[ DPO   | _Data protection officer_ (délégué à la protection des données) |
+
+
+
 ## 3 - Contexte Cryptographie/VPN
 
 | Sigle |       |
