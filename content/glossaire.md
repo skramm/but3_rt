@@ -39,6 +39,7 @@
 | IPC   | Inter-Process Communication |
 | OS    | Operating System |
 | PCRE  | Perl-Compatible Regular Expressions |
+| POC   | Proof Of Concept (démonstrateur) |
 | POSIX | Portable Operating System Interface |
 | RFC   | Request for Comments |
 | RPC   | Remote Procedure Call |
@@ -75,7 +76,7 @@
 | [NSA](https://en.wikipedia.org/wiki/National_Security_Agency)                | National Security Agency |
 
 
-### Fonctions dans les organisations
+### Fonctions et missions dans les organisations
 
 | Langue | Sigle |   |
 |----|-------|-------|
@@ -84,6 +85,7 @@
 | en | CEO   | _Chief Executive Officer_ (DG ou PDG) |
 | en | CTO   | _Chief Technical Officer_ |
 | en | DPO   | _Data Protection Officer_ (délégué à la protection des données) |
+| fr | MCO   | Maintien en Conditions Opérationnelles |
 | fr | RSSI  | Responsable Sécurité des Systèmes d'information |
 
 
