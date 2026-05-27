@@ -77,14 +77,14 @@
 
 ### Fonctions dans les organisations
 
-| Sigle |       |
-|-------|-------|
-| CISO  |  _Chief Information Security Officer_ |
-| CTO   | _Chief Technical Officer_ |
-| CEO   | _Chief executive officer_ |
-| RSSI  | Responsable Sécurité des Systèmes d'information |
-[ DPO   | _Data protection officer_ (délégué à la protection des données) |
-
+| Langue | Sigle |   |
+|----|-------|-------|
+| en | BDFL  | _Benevolent Dictator For Life_ |
+| en | CISO  |  _Chief Information Security Officer_ |
+| en | CEO   | _Chief Executive Officer_ (DG ou PDG) |
+| en | CTO   | _Chief Technical Officer_ |
+| en | DPO   | _Data Protection Officer_ (délégué à la protection des données) |
+| fr | RSSI  | Responsable Sécurité des Systèmes d'information |
 
 
 ## 3 - Contexte Cryptographie/VPN
